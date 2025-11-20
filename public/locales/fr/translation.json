@@ -1,0 +1,124 @@
+{
+  "home": "Accueil",
+  "about": "À propos de moi",
+  "services": "Services",
+  "contact": "Contact",
+  "common": {
+    "swornTranslator": "Traductrice Assermentée",
+    "certified": "Certifiée",
+    "allRightsReserved": "Tous droits réservés",
+    "privacyPolicy": "Politique de confidentialité",
+    "quickLinks": "Liens rapides",
+    "certifications": "Certifications",
+    "sendEmail": "Envoyer un e-mail",
+    "openWhatsApp": "Ouvrir WhatsApp",
+    "contactNow": "Contacter maintenant",
+    "badges": {
+      "professionalServices": "Services Professionnels",
+      "professionalProfile": "Profil Professionnel",
+      "whyChooseMe": "Pourquoi me choisir?",
+      "mainService": "Service Principal",
+      "additionalServices": "Services Supplémentaires",
+      "guarantees": "Garanties"
+    }
+  },
+  "hero": {
+    "headline": "Traductions Assermentées et Spécialisées | Fiabilité et Rapidité",
+    "subheadline": "Experte en textes juridiques complexes, j'offre des solutions linguistiques précises et rapides pour les particuliers, les cabinets d'avocats et les entreprises.",
+    "contactButton": "Contacter Maintenant",
+    "servicesButton": "Voir les Services",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "Certification Officielle",
+        "description": "Traductrice assermentée habilitée en Espagne et en Allemagne"
+      },
+      "fastDelivery": {
+        "title": "Livraison Rapide",
+        "description": "Solutions efficaces sans compromettre la qualité"
+      },
+      "legalSpecialization": {
+        "title": "Spécialisation Juridique",
+        "description": "Expérience en textes juridiques complexes"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Nos Services de Traduction",
+    "generalTranslation": {
+      "heading": "Traductions Générales et Spécialisées",
+      "description": "J'offre des services de traduction de haute qualité pour une large gamme de documents, des textes commerciaux aux textes techniques, avec un accent particulier sur le domaine juridique."
+    },
+    "languagePairs": {
+      "germanSpanish": "Allemand ⟷ Espagnol",
+      "frenchGerman": "Français → Allemand",
+      "englishGerman": "Anglais → Allemand",
+      "englishSpanish": "Anglais → Espagnol",
+      "galicianGerman": "Galicien ⟷ Allemand",
+      "description": "Traduction professionnelle dans cette combinaison linguistique."
+    },
+    "swornTranslation": {
+      "heading": "Traduction Assermentée Officielle",
+      "description": "Nécessaire pour les documents qui doivent être présentés à des organismes officiels ou des institutions étrangères. Mes traductions assermentées ont une validité légale.",
+      "spain": {
+        "title": "Traductrice Assermentée en Espagne",
+        "description": "Agréée par le Ministère des Affaires Étrangères, de l'Union Européenne et de la Coopération d'Espagne.",
+        "linkText": "Voir la liste des traducteurs assermentés du MAEC"
+      },
+      "germany": {
+        "title": "Traductrice Assermentée en Allemagne",
+        "description": "Agréée par l'Oberlandesgericht Köln (Cour d'Appel de Cologne) en Allemagne.",
+        "linkText": "Rechercher dans le registre des traducteurs de justiz-dolmetscher.de"
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "À propos de moi",
+    "introduction": "Je suis une traductrice assermentée avec des années d'expérience dans le domaine juridique et technique. Ma passion pour les langues et la rigueur légale m'ont conduite à me spécialiser dans la traduction de documents complexes, garantissant toujours la plus grande précision et confidentialité.",
+    "paragraph1": "Mon parcours professionnel s'est concentré sur l'offre de solutions linguistiques fiables aux particuliers, aux entreprises, aux cabinets d'avocats et aux organismes officiels. Je comprends l'importance de chaque mot dans un contexte juridique, c'est pourquoi chaque traduction est réalisée avec la minutie qu'exige la matière.",
+    "paragraph2": "Outre ma spécialisation juridique, j'ai également de l'expérience en traductions techniques, ce qui me permet d'aborder une grande variété de textes avec la terminologie appropriée. Mon objectif est de dépasser les attentes de mes clients, en fournissant un service rapide, efficace et fiable.",
+    "conclusion": "Je m'adapte aux besoins spécifiques de chaque projet, offrant un traitement personnalisé et une communication fluide. Si vous recherchez un service de traduction professionnel alliant précision, rapidité et une connaissance approfondie du secteur, n'hésitez pas à me contacter.",
+    "sections": {
+      "presentation": "Présentation",
+      "experience": "Expérience",
+      "capabilities": "Compétences",
+      "commitment": "Engagement"
+    },
+    "credentials": {
+      "officialSeal": "Sceau officiel de traductrice assermentée",
+      "certification": "Certification",
+      "spainAndGermany": "Espagne & Allemagne",
+      "specialization": "Spécialisation",
+      "legalAndTechnical": "Juridique & Technique"
+    }
+  },
+  "contactPage": {
+    "title": "Contact",
+    "introduction": "J'adorerais avoir de vos nouvelles. N'hésitez pas à me contacter pour toute question concernant les traductions assermentées, techniques ou juridiques. Je vous répondrai dans les plus brefs délais.",
+    "email": {
+      "heading": "Courriel",
+      "description": "Envoyer un e-mail directement"
+    },
+    "whatsapp": {
+      "heading": "WhatsApp",
+      "description": "Envoyer un message instantané"
+    },
+    "guarantees": {
+      "title": "Réponse Rapide Garantie",
+      "description": "Je m'engage à répondre à toutes les demandes dans un délai maximum de 24 heures. Votre projet est ma priorité.",
+      "responseTime": "Temps de réponse",
+      "confidentiality": "Confidentialité",
+      "professionalService": "Service professionnel"
+    }
+  },
+  "footer": {
+    "description": "Traductions assermentées et spécialisées de haute qualité. Certifiée en Espagne et en Allemagne.",
+    "spain": {
+      "country": "Espagne",
+      "authority": "Ministère des Affaires Étrangères"
+    },
+    "germany": {
+      "country": "Allemagne",
+      "authority": "Oberlandesgericht Köln"
+    }
+  }
+}

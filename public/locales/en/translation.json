@@ -1,0 +1,124 @@
+{
+  "home": "Home",
+  "about": "About Me",
+  "services": "Services",
+  "contact": "Contact",
+  "common": {
+    "swornTranslator": "Sworn Translator",
+    "certified": "Certified",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "quickLinks": "Quick Links",
+    "certifications": "Certifications",
+    "sendEmail": "Send email",
+    "openWhatsApp": "Open WhatsApp",
+    "contactNow": "Contact Now",
+    "badges": {
+      "professionalServices": "Professional Services",
+      "professionalProfile": "Professional Profile",
+      "whyChooseMe": "Why Choose Me?",
+      "mainService": "Main Service",
+      "additionalServices": "Additional Services",
+      "guarantees": "Guarantees"
+    }
+  },
+  "hero": {
+    "headline": "Sworn and Specialized Translations | Reliability and Speed",
+    "subheadline": "Expert in complex legal texts, I offer precise and fast linguistic solutions for individuals, law firms, and companies.",
+    "contactButton": "Contact Now",
+    "servicesButton": "View Services",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "Official Certification",
+        "description": "Sworn translator certified in Spain and Germany"
+      },
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "description": "Efficient solutions without compromising quality"
+      },
+      "legalSpecialization": {
+        "title": "Legal Specialization",
+        "description": "Experience in complex legal texts"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Our Translation Services",
+    "generalTranslation": {
+      "heading": "General and Specialized Translations",
+      "description": "I offer high-quality translation services for a wide range of documents, from commercial to technical texts, with a particular focus on the legal field."
+    },
+    "languagePairs": {
+      "germanSpanish": "German ⟷ Spanish",
+      "frenchGerman": "French → German",
+      "englishGerman": "English → German",
+      "englishSpanish": "English → Spanish",
+      "galicianGerman": "Galician ⟷ German",
+      "description": "Professional translation in this language combination."
+    },
+    "swornTranslation": {
+      "heading": "Official Sworn Translation",
+      "description": "Required for documents that must be presented to official bodies or foreign institutions. My sworn translations have legal validity.",
+      "spain": {
+        "title": "Sworn Translator in Spain",
+        "description": "Authorized by the Ministry of Foreign Affairs, European Union and Cooperation of Spain.",
+        "linkText": "View MAEC list of sworn translators"
+      },
+      "germany": {
+        "title": "Sworn Translator in Germany",
+        "description": "Authorized by the Oberlandesgericht Köln (Higher Regional Court of Cologne) in Germany.",
+        "linkText": "Search in the directory of judicial interpreters and translators"
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "About Me",
+    "introduction": "I am a sworn translator with years of experience in the legal and technical fields. My passion for languages and legal precision has led me to specialize in the translation of complex documents, always ensuring maximum accuracy and confidentiality.",
+    "paragraph1": "My professional career has focused on offering reliable linguistic solutions to individuals, companies, law firms, and official bodies. I understand the importance of every word in a legal context, which is why each translation is carried out with the meticulousness required by the subject matter.",
+    "paragraph2": "In addition to my legal specialization, I also have experience in technical translations, which allows me to address a wide variety of texts with appropriate terminology. My goal is to exceed my clients' expectations by providing a fast, efficient, and trustworthy service.",
+    "conclusion": "I adapt to the specific needs of each project, offering personalized attention and fluid communication. If you are looking for a professional translation service that combines precision, speed, and in-depth knowledge of the sector, do not hesitate to contact me.",
+    "sections": {
+      "presentation": "Presentation",
+      "experience": "Experience",
+      "capabilities": "Capabilities",
+      "commitment": "Commitment"
+    },
+    "credentials": {
+      "officialSeal": "Official Sworn Translator Seal",
+      "certification": "Certification",
+      "spainAndGermany": "Spain & Germany",
+      "specialization": "Specialization",
+      "legalAndTechnical": "Legal & Technical"
+    }
+  },
+  "contactPage": {
+    "title": "Contact",
+    "introduction": "I'd love to hear from you. Feel free to contact me with any inquiries about sworn, technical, or legal translations. I will respond as soon as possible.",
+    "email": {
+      "heading": "Email",
+      "description": "Send an email directly"
+    },
+    "whatsapp": {
+      "heading": "WhatsApp",
+      "description": "Send an instant message"
+    },
+    "guarantees": {
+      "title": "Fast Response Guaranteed",
+      "description": "I am committed to responding to all inquiries within a maximum of 24 hours. Your project is my priority.",
+      "responseTime": "Response time",
+      "confidentiality": "Confidentiality",
+      "professionalService": "Professional service"
+    }
+  },
+  "footer": {
+    "description": "High-quality sworn and specialized translations. Certified in Spain and Germany.",
+    "spain": {
+      "country": "Spain",
+      "authority": "Ministry of Foreign Affairs"
+    },
+    "germany": {
+      "country": "Germany",
+      "authority": "Oberlandesgericht Köln"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "home": "Startseite",
+  "about": "Über mich",
+  "services": "Dienstleistungen",
+  "contact": "Kontakt",
+  "common": {
+    "swornTranslator": "Beeidigte Übersetzerin",
+    "certified": "Zertifiziert",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "privacyPolicy": "Datenschutzerklärung",
+    "quickLinks": "Schnellzugriff",
+    "certifications": "Zertifizierungen",
+    "sendEmail": "E-Mail senden",
+    "openWhatsApp": "WhatsApp öffnen",
+    "contactNow": "Jetzt Kontakt aufnehmen",
+    "badges": {
+      "professionalServices": "Professionelle Dienstleistungen",
+      "professionalProfile": "Berufsprofil",
+      "whyChooseMe": "Warum mich wählen?",
+      "mainService": "Hauptservice",
+      "additionalServices": "Zusätzliche Dienstleistungen",
+      "guarantees": "Garantien"
+    }
+  },
+  "hero": {
+    "headline": "Beeidigte und Fachübersetzungen | Zuverlässigkeit und Schnelligkeit",
+    "subheadline": "Als Expertin für komplexe Rechtstexte biete ich präzise und schnelle Sprachlösungen für Privatpersonen, Kanzleien und Unternehmen.",
+    "contactButton": "Jetzt Kontakt aufnehmen",
+    "servicesButton": "Dienstleistungen ansehen",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "Offizielle Zertifizierung",
+        "description": "Beeidigte Übersetzerin in Spanien und Deutschland"
+      },
+      "fastDelivery": {
+        "title": "Schnelle Lieferung",
+        "description": "Effiziente Lösungen ohne Qualitätseinbußen"
+      },
+      "legalSpecialization": {
+        "title": "Rechtsspezialisierung",
+        "description": "Erfahrung mit komplexen Rechtstexten"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Unsere Übersetzungsdienstleistungen",
+    "generalTranslation": {
+      "heading": "Allgemeine und Fachübersetzungen",
+      "description": "Ich biete hochwertige Übersetzungsdienste für eine breite Palette von Dokumenten, von Geschäftstexten bis hin zu technischen Texten, mit einem besonderen Schwerpunkt auf dem juristischen Bereich."
+    },
+    "languagePairs": {
+      "germanSpanish": "Deutsch ⟷ Spanisch",
+      "frenchGerman": "Französisch → Deutsch",
+      "englishGerman": "Englisch → Deutsch",
+      "englishSpanish": "Englisch → Spanisch",
+      "galicianGerman": "Galicisch ⟷ Deutsch",
+      "description": "Professionelle Übersetzung in dieser Sprachkombination."
+    },
+    "swornTranslation": {
+      "heading": "Amtlich beglaubigte Übersetzung",
+      "description": "Erforderlich für Dokumente, die offiziellen Stellen oder ausländischen Institutionen vorgelegt werden müssen. Meine beglaubigten Übersetzungen sind rechtsgültig.",
+      "spain": {
+        "title": "Beeidigte Übersetzerin in Spanien",
+        "description": "Zugelassen vom spanischen Außenministerium, der Europäischen Union und für Zusammenarbeit (MAEC).",
+        "linkText": "Liste der beeidigten Übersetzer des MAEC anzeigen"
+      },
+      "germany": {
+        "title": "Beeidigte Übersetzerin in Deutschland",
+        "description": "Zugelassen vom Oberlandesgericht Köln in Deutschland.",
+        "linkText": "Im Verzeichnis der Justizdolmetscher suchen"
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "Über mich",
+    "introduction": "Ich bin eine vereidigte Übersetzerin mit langjähriger Erfahrung im juristischen und technischen Bereich. Meine Leidenschaft für Sprachen und rechtliche Präzision hat mich dazu bewogen, mich auf die Übersetzung komplexer Dokumente zu spezialisieren, wobei ich stets höchste Genauigkeit und Vertraulichkeit gewährleiste.",
+    "paragraph1": "Meine berufliche Laufbahn konzentrierte sich darauf, zuverlässige Sprachlösungen für Privatpersonen, Unternehmen, Anwaltskanzleien und Behörden anzubieten. Ich verstehe die Bedeutung jedes Wortes im rechtlichen Kontext, weshalb jede Übersetzung mit der erforderlichen Sorgfalt angefertigt wird.",
+    "paragraph2": "Neben meiner juristischen Spezialisierung verfüge ich auch über Erfahrung in technischen Übersetzungen, was es mir ermöglicht, eine breite Palette von Texten mit der passenden Terminologie zu bearbeiten. Mein Ziel ist es, die Erwartungen meiner Kunden zu übertreffen, indem ich einen schnellen, effizienten und vertrauenswürdigen Service biete.",
+    "conclusion": "Ich passe mich den spezifischen Bedürfnissen jedes Projekts an und biete eine persönliche Betreuung und reibungslose Kommunikation. Wenn Sie einen professionellen Übersetzungsdienst suchen, der Präzision, Schnelligkeit und tiefgreifendes Branchenwissen vereint, zögern Sie nicht, mich zu kontaktieren.",
+    "sections": {
+      "presentation": "Vorstellung",
+      "experience": "Erfahrung",
+      "capabilities": "Fähigkeiten",
+      "commitment": "Engagement"
+    },
+    "credentials": {
+      "officialSeal": "Offizielles Siegel der beeidigten Übersetzerin",
+      "certification": "Zertifizierung",
+      "spainAndGermany": "Spanien & Deutschland",
+      "specialization": "Spezialisierung",
+      "legalAndTechnical": "Recht & Technik"
+    }
+  },
+  "contactPage": {
+    "title": "Kontakt",
+    "introduction": "Ich freue mich darauf, von Ihnen zu hören. Kontaktieren Sie mich bei Fragen zu beglaubigten, technischen oder juristischen Übersetzungen. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+    "email": {
+      "heading": "E-Mail",
+      "description": "Direkt eine E-Mail senden"
+    },
+    "whatsapp": {
+      "heading": "WhatsApp",
+      "description": "Sofort eine Nachricht senden"
+    },
+    "guarantees": {
+      "title": "Schnelle Antwort garantiert",
+      "description": "Ich verpflichte mich, alle Anfragen innerhalb von maximal 24 Stunden zu beantworten. Ihr Projekt hat Priorität.",
+      "responseTime": "Antwortzeit",
+      "confidentiality": "Vertraulichkeit",
+      "professionalService": "Professioneller Service"
+    }
+  },
+  "footer": {
+    "description": "Hochwertige beeidigte und Fachübersetzungen. Zertifiziert in Spanien und Deutschland.",
+    "spain": {
+      "country": "Spanien",
+      "authority": "Ministerium für auswärtige Angelegenheiten"
+    },
+    "germany": {
+      "country": "Deutschland",
+      "authority": "Oberlandesgericht Köln"
+    }
+  }
+}

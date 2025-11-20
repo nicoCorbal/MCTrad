@@ -1,0 +1,124 @@
+{
+  "home": "Inicio",
+  "about": "Sobre Mí",
+  "services": "Servicios",
+  "contact": "Contacto",
+  "common": {
+    "swornTranslator": "Traductora Jurada",
+    "certified": "Certificada",
+    "allRightsReserved": "Todos los derechos reservados",
+    "privacyPolicy": "Política de Privacidad",
+    "quickLinks": "Enlaces Rápidos",
+    "certifications": "Certificaciones",
+    "sendEmail": "Enviar correo",
+    "openWhatsApp": "Abrir WhatsApp",
+    "contactNow": "Contactar Ahora",
+    "badges": {
+      "professionalServices": "Servicios Profesionales",
+      "professionalProfile": "Perfil Profesional",
+      "whyChooseMe": "¿Por qué elegirme?",
+      "mainService": "Servicio Principal",
+      "additionalServices": "Servicios Adicionales",
+      "guarantees": "Garantías"
+    }
+  },
+  "hero": {
+    "headline": "Traducciones Juradas y Especializadas | Fiabilidad y Rapidez",
+    "subheadline": "Experta en textos legales complejos, ofrezco soluciones lingüísticas precisas y rápidas para particulares, bufetes y empresas.",
+    "contactButton": "Contactar Ahora",
+    "servicesButton": "Ver Servicios",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "Certificación Oficial",
+        "description": "Traductora jurada habilitada en España y Alemania"
+      },
+      "fastDelivery": {
+        "title": "Entrega Rápida",
+        "description": "Soluciones eficientes sin comprometer la calidad"
+      },
+      "legalSpecialization": {
+        "title": "Especialización Legal",
+        "description": "Experiencia en textos jurídicos complejos"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Nuestros Servicios de Traducción",
+    "generalTranslation": {
+      "heading": "Traducciones Generales y Especializadas",
+      "description": "Ofrezco servicios de traducción de alta calidad para una amplia gama de documentos, desde textos comerciales hasta técnicos, con un enfoque particular en el ámbito jurídico."
+    },
+    "languagePairs": {
+      "germanSpanish": "Alemán ⟷ Español",
+      "frenchGerman": "Francés → Alemán",
+      "englishGerman": "Inglés → Alemán",
+      "englishSpanish": "Inglés → Español",
+      "galicianGerman": "Gallego ⟷ Alemán",
+      "description": "Traducción profesional en esta combinación de idiomas."
+    },
+    "swornTranslation": {
+      "heading": "Traducción Jurada Oficial",
+      "description": "Necesaria para documentos que deben presentarse ante organismos oficiales o instituciones extranjeras. Mis traducciones juradas tienen validez legal.",
+      "spain": {
+        "title": "Traductora Jurada en España",
+        "description": "Habilitada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación de España.",
+        "linkText": "Ver lista de traductores jurados del MAEC"
+      },
+      "germany": {
+        "title": "Traductora Jurada en Alemania",
+        "description": "Habilitada por el Oberlandesgericht Köln (Tribunal Regional Superior de Colonia) en Alemania.",
+        "linkText": "Buscar en el registro de traductores de justiz-dolmetscher.de"
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "Sobre mí",
+    "introduction": "Soy una traductora jurada con años de experiencia en el ámbito jurídico y técnico. Mi pasión por los idiomas y el rigor legal me han llevado a especializarme en la traducción de documentos complejos, garantizando siempre la máxima precisión y confidencialidad.",
+    "paragraph1": "Mi trayectoria profesional se ha centrado en ofrecer soluciones lingüísticas fiables a particulares, empresas, bufetes de abogados y organismos oficiales. Comprendo la importancia de cada palabra en un contexto legal, por lo que cada traducción se realiza con la meticulosidad que exige la materia.",
+    "paragraph2": "Además de mi especialización jurídica, también cuento con experiencia en traducciones técnicas, lo que me permite abordar una amplia variedad de textos con la terminología adecuada. Mi objetivo es superar las expectativas de mis clientes, proporcionando un servicio rápido, eficiente y de confianza.",
+    "conclusion": "Me adapto a las necesidades específicas de cada proyecto, ofreciendo un trato personalizado y una comunicación fluida. Si buscas un servicio de traducción profesional que combine precisión, rapidez y un profundo conocimiento del sector, no dudes en contactarme.",
+    "sections": {
+      "presentation": "Presentación",
+      "experience": "Experiencia",
+      "capabilities": "Capacidades",
+      "commitment": "Compromiso"
+    },
+    "credentials": {
+      "officialSeal": "Sello Oficial de Traductora Jurada",
+      "certification": "Certificación",
+      "spainAndGermany": "España & Alemania",
+      "specialization": "Especialización",
+      "legalAndTechnical": "Legal & Técnica"
+    }
+  },
+  "contactPage": {
+    "title": "Contacto",
+    "introduction": "Me encantaría saber de ti. Ponte en contacto conmigo para cualquier consulta sobre traducción jurada, técnica o jurídica. Responderé a la mayor brevedad posible.",
+    "email": {
+      "heading": "Correo Electrónico",
+      "description": "Envía un email directamente"
+    },
+    "whatsapp": {
+      "heading": "WhatsApp",
+      "description": "Envía un mensaje instantáneo"
+    },
+    "guarantees": {
+      "title": "Respuesta Rápida Garantizada",
+      "description": "Me comprometo a responder todas las consultas en un plazo máximo de 24 horas. Tu proyecto es mi prioridad.",
+      "responseTime": "Tiempo de respuesta",
+      "confidentiality": "Confidencialidad",
+      "professionalService": "Servicio profesional"
+    }
+  },
+  "footer": {
+    "description": "Traducciones juradas y especializadas de alta calidad. Certificada en España y Alemania.",
+    "spain": {
+      "country": "España",
+      "authority": "Ministerio de Asuntos Exteriores"
+    },
+    "germany": {
+      "country": "Alemania",
+      "authority": "Oberlandesgericht Köln"
+    }
+  }
+}
