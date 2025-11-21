@@ -7,37 +7,36 @@ const Footer = () => {
   const current_year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-b from-navy-600 via-navy-700 to-navy-800 text-white mt-auto">
-      {/* Separator wave */}
-      <div className="h-px bg-gradient-to-r from-transparent via-gold-400/50 to-transparent"></div>
+    <footer className="bg-stone-100 border-t border-zinc-200">
 
       {/* Main Footer Content */}
-      <div className="border-b border-navy-500/30">
-        <div className="container mx-auto px-4 lg:px-8 py-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+      <div className="container mx-auto px-6 lg:px-12 py-12 md:py-16">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+
             {/* Brand Section */}
-            <div className="animate-fadeIn">
-              <h3 className="font-serif text-2xl font-bold mb-2 text-white hover:text-gold-300 transition-colors duration-300">
+            <div>
+              <h3 className="font-sans text-sm tracking-widest uppercase text-zinc-800 font-medium mb-2">
                 María Ángeles Capas
               </h3>
-              <p className="text-xs uppercase tracking-[0.15em] text-gold-300 mb-3 font-semibold">
+              <p className="text-xs uppercase tracking-wider text-zinc-500 mb-4">
                 {t('common.swornTranslator')}
               </p>
-              <p className="text-sm text-gray-300 leading-relaxed">
+              <p className="text-sm text-zinc-500 leading-relaxed">
                 {t('footer.description')}
               </p>
             </div>
 
             {/* Quick Links */}
-            <div className="animate-fadeIn animation-delay-200">
-              <h4 className="font-bold uppercase tracking-[0.15em] text-xs mb-4 text-gold-300">
+            <div>
+              <h4 className="text-xs uppercase tracking-widest text-zinc-400 mb-4 font-medium">
                 {t('common.quickLinks')}
               </h4>
               <ul className="space-y-2">
                 <li>
                   <Link
                     to="/"
-                    className="text-sm text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 animated-underline after:bg-gold-400"
+                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
                   >
                     {t('home')}
                   </Link>
@@ -45,7 +44,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/servicios"
-                    className="text-sm text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 animated-underline after:bg-gold-400"
+                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
                   >
                     {t('services')}
                   </Link>
@@ -53,7 +52,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/sobre-mi"
-                    className="text-sm text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 animated-underline after:bg-gold-400"
+                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
                   >
                     {t('about')}
                   </Link>
@@ -61,7 +60,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/contacto"
-                    className="text-sm text-gray-300 hover:text-white hover:translate-x-1 inline-block transition-all duration-300 animated-underline after:bg-gold-400"
+                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
                   >
                     {t('contact')}
                   </Link>
@@ -70,47 +69,51 @@ const Footer = () => {
             </div>
 
             {/* Certifications */}
-            <div className="animate-fadeIn animation-delay-400">
-              <h4 className="font-bold uppercase tracking-[0.15em] text-xs mb-4 text-gold-300">
+            <div>
+              <h4 className="text-xs uppercase tracking-widest text-zinc-400 mb-4 font-medium">
                 {t('common.certifications')}
               </h4>
               <div className="space-y-3">
-                <div className="group hover:bg-white/5 p-2 -ml-2 rounded transition-all duration-300">
-                  <p className="font-bold text-white mb-1 text-base group-hover:text-gold-300 transition-colors">{t('footer.spain.country')}</p>
-                  <p className="text-xs text-gray-300 leading-relaxed">{t('footer.spain.authority')}</p>
+                <div>
+                  <p className="text-sm font-medium text-zinc-800 mb-1">{t('footer.spain.country')}</p>
+                  <p className="text-sm text-zinc-500 leading-relaxed">{t('footer.spain.authority')}</p>
                 </div>
-                <div className="group hover:bg-white/5 p-2 -ml-2 rounded transition-all duration-300">
-                  <p className="font-bold text-white mb-1 text-base group-hover:text-gold-300 transition-colors">{t('footer.germany.country')}</p>
-                  <p className="text-xs text-gray-300 leading-relaxed">{t('footer.germany.authority')}</p>
+                <div>
+                  <p className="text-sm font-medium text-zinc-800 mb-1">{t('footer.germany.country')}</p>
+                  <p className="text-sm text-zinc-500 leading-relaxed">{t('footer.germany.authority')}</p>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
 
       {/* Bottom Bar */}
-      <div className="container mx-auto px-4 lg:px-8 py-5">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-gray-300">
-          <p className="animate-fadeIn animation-delay-600 text-xs">
-            &copy; {current_year} María Ángeles Capas. {t('common.allRightsReserved')}.
-          </p>
-          <div className="flex items-center gap-6 animate-fadeIn animation-delay-800">
-            <Link
-              to="/politica-de-privacidad"
-              className="hover:text-white transition-all duration-300 animated-underline after:bg-gold-400 font-medium text-xs"
-            >
-              {t('common.privacyPolicy')}
-            </Link>
-            <a
-              href="mailto:tu_email@example.com"
-              className="hover:text-white transition-all duration-300 animated-underline after:bg-gold-400 font-medium text-xs"
-            >
-              {t('contact')}
-            </a>
+      <div className="border-t border-zinc-200 bg-stone-50">
+        <div className="container mx-auto px-6 lg:px-12 py-4 md:py-6">
+          <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 md:gap-4 text-xs md:text-sm text-zinc-500">
+            <p>
+              &copy; {current_year} María Ángeles Capas
+            </p>
+            <div className="flex items-center gap-6">
+              <Link
+                to="/politica-de-privacidad"
+                className="hover:text-blue-900 transition-colors"
+              >
+                {t('common.privacyPolicy')}
+              </Link>
+              <a
+                href="mailto:capaslopez@gmail.com"
+                className="hover:text-blue-900 transition-colors"
+              >
+                {t('contact')}
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
     </footer>
   );
 };

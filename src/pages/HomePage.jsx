@@ -6,100 +6,166 @@ function HomePage() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Hero Section - Modern Two-Column Layout */}
-      <section className="relative bg-gradient-to-br from-navy-50 via-white to-gold-50/30 py-12 sm:py-16 md:py-20 lg:py-28 overflow-hidden">
-        {/* Decorative elements */}
-        <div className="absolute top-20 right-10 w-72 h-72 bg-gold-400/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 left-10 w-96 h-96 bg-navy-500/5 rounded-full blur-3xl"></div>
+    <div className="min-h-screen bg-stone-50">
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center max-w-7xl mx-auto">
+      {/* Hero Section */}
+      <section className="container mx-auto px-6 lg:px-12 pt-32 pb-24 md:pt-40 md:pb-32">
+        <div className="max-w-5xl">
+          <h1 className="font-serif font-light text-5xl md:text-7xl lg:text-8xl text-zinc-800 mb-4 leading-[0.95] animate-fade-in">
+            {t('homePage.heroTitle1')}
+            <br />
+            <span className="text-blue-900">{t('homePage.heroTitle2')}</span>
+          </h1>
 
-            {/* Left Column - Content */}
-            <div className="text-center lg:text-left order-2 lg:order-1">
-              {/* Subtitle badge */}
-              <div className="inline-flex items-center gap-2 px-3 py-2 sm:px-4 bg-navy-500/10 border border-navy-500/20 mb-4 sm:mb-6 animate-fadeIn">
-                <div className="w-2 h-2 bg-gold-400 rounded-full animate-pulse"></div>
-                <span className="text-xs sm:text-sm font-semibold uppercase tracking-[0.15em] text-navy-600">
-                  {t('common.swornTranslator')}
-                </span>
+          <h2 className="font-serif font-light text-3xl md:text-4xl lg:text-5xl text-zinc-600 mb-8 animate-fade-in animation-delay-100">
+            {t('homePage.heroSubtitle')}
+          </h2>
+
+          <p className="text-zinc-500 text-base md:text-lg mt-8 max-w-xl leading-relaxed animate-fade-in animation-delay-200">
+            {t('homePage.heroDescription')}
+          </p>
+
+          <Link
+            to="/contacto"
+            className="inline-block mt-10 text-blue-900 border-b-2 border-blue-900 pb-1 hover:text-blue-700 hover:border-blue-700 transition-colors font-medium animate-fade-in animation-delay-300"
+          >
+            {t('homePage.requestQuote')} →
+          </Link>
+        </div>
+      </section>
+
+      {/* Trust Badge */}
+      <section className="border-t border-b border-zinc-200 bg-blue-900/5">
+        <div className="container mx-auto px-6 lg:px-12 py-8">
+          <p className="text-center text-sm tracking-widest uppercase text-blue-900/70">
+            {t('homePage.trustBadge')}
+          </p>
+        </div>
+      </section>
+
+      {/* Services Grid */}
+      <section className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
+        <div className="max-w-5xl mx-auto">
+          <h3 className="text-sm tracking-widest uppercase text-blue-900 mb-10 md:mb-16">{t('homePage.servicesTitle')}</h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
+
+            {/* Service 1 */}
+            <div className="group bg-white p-6 md:p-8 border border-zinc-200 hover:border-blue-900 hover:shadow-lg transition-all duration-300">
+              <div className="mb-5">
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-900 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-6 h-6 md:w-7 md:h-7 text-white stroke-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                  </svg>
+                </div>
               </div>
-
-              {/* Main Headline */}
-              <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-navy-500 mb-4 sm:mb-6 leading-[1.1] tracking-tight animate-fadeIn animation-delay-200">
-                {t('hero.headline')}
-              </h1>
-
-              {/* Subheadline */}
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 mb-6 sm:mb-8 leading-relaxed animate-fadeIn animation-delay-400">
-                {t('hero.subheadline')}
+              <h4 className="font-serif text-xl md:text-2xl text-zinc-800 mb-3 group-hover:text-blue-900 transition-colors">
+                {t('homePage.service1Title')}
+              </h4>
+              <p className="text-sm md:text-base text-zinc-500 leading-relaxed">
+                {t('homePage.service1Desc')}
               </p>
-
-              {/* Key stats */}
-              <div className="flex flex-wrap justify-center lg:justify-start gap-6 sm:gap-8 mb-8 sm:mb-10 animate-fadeIn animation-delay-500">
-                <div className="text-center lg:text-left">
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-navy-500 font-serif">2</div>
-                  <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wide">Países</div>
-                </div>
-                <div className="text-center lg:text-left">
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-navy-500 font-serif">4</div>
-                  <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wide">Idiomas</div>
-                </div>
-                <div className="text-center lg:text-left">
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-navy-500 font-serif">24h</div>
-                  <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wide">Entrega</div>
-                </div>
-              </div>
-
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4 animate-fadeIn animation-delay-600">
-                <Link
-                  to="/contacto"
-                  className="group px-6 sm:px-8 py-3 sm:py-4 bg-navy-500 text-white font-semibold text-sm sm:text-base uppercase tracking-[0.1em] hover:bg-navy-600 transition-all duration-300 hover-lift relative overflow-hidden text-center"
-                >
-                  <span className="relative z-10">{t('hero.contactButton')}</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-navy-600 to-navy-700 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-                </Link>
-                <Link
-                  to="/servicios"
-                  className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-navy-500 text-navy-500 font-semibold text-sm sm:text-base uppercase tracking-[0.1em] hover:bg-navy-500 hover:text-white transition-all duration-300 hover-lift text-center"
-                >
-                  {t('hero.servicesButton')}
-                </Link>
-              </div>
             </div>
 
-            {/* Right Column - Photo & Decoration */}
-            <div className="order-1 lg:order-2 flex justify-center lg:justify-end animate-scaleIn">
-              <div className="relative">
-                {/* Decorative frame */}
-                <div className="absolute -inset-3 sm:-inset-4 border-2 border-gold-400/30 -rotate-3 animate-float"></div>
-                <div className="absolute -inset-3 sm:-inset-4 border-2 border-navy-500/20 rotate-3"></div>
-
-                {/* Photo container */}
-                <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-gray-200 shadow-2xl hover-lift">
-                  <img
-                    src="/placeholder-profile.jpg"
-                    alt="María Ángeles Capas - Traductora Jurada"
-                    className="object-cover w-full h-full"
-                    onError={(e) => {
-                      e.target.style.display = 'none';
-                    }}
-                  />
-
-                  {/* Gold accent corner */}
-                  <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 bg-gold-400 -z-10"></div>
+            {/* Service 2 */}
+            <div className="group bg-white p-6 md:p-8 border border-zinc-200 hover:border-blue-900 hover:shadow-lg transition-all duration-300">
+              <div className="mb-5">
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-900 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-6 h-6 md:w-7 md:h-7 text-white stroke-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l9-5-9-5-9 5 9 5z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  </svg>
                 </div>
+              </div>
+              <h4 className="font-serif text-xl md:text-2xl text-zinc-800 mb-3 group-hover:text-blue-900 transition-colors">
+                {t('homePage.service2Title')}
+              </h4>
+              <p className="text-sm md:text-base text-zinc-500 leading-relaxed">
+                {t('homePage.service2Desc')}
+              </p>
+            </div>
 
-                {/* Floating badge */}
-                <div className="absolute -bottom-3 -left-3 sm:-bottom-4 sm:-left-4 bg-white px-4 py-2.5 sm:px-6 sm:py-4 shadow-xl border-l-4 border-gold-400 animate-slideInLeft animation-delay-800">
-                  <div className="text-xs uppercase tracking-wider text-gray-600 mb-1">Certificada en</div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-lg sm:text-xl">🇪🇸</span>
-                    <span className="text-lg sm:text-xl">🇩🇪</span>
-                    <span className="font-bold text-sm sm:text-base text-navy-500">ES · DE</span>
+            {/* Service 3 */}
+            <div className="group bg-white p-6 md:p-8 border border-zinc-200 hover:border-blue-900 hover:shadow-lg transition-all duration-300">
+              <div className="mb-5">
+                <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-900 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <svg className="w-6 h-6 md:w-7 md:h-7 text-white stroke-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+              </div>
+              <h4 className="font-serif text-xl md:text-2xl text-zinc-800 mb-3 group-hover:text-blue-900 transition-colors">
+                {t('homePage.service3Title')}
+              </h4>
+              <p className="text-sm md:text-base text-zinc-500 leading-relaxed">
+                {t('homePage.service3Desc')}
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Language Pairs */}
+      <section className="border-t border-zinc-200 bg-blue-900">
+        <div className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
+          <div className="max-w-5xl mx-auto">
+            <h3 className="text-sm tracking-widest uppercase text-blue-200 mb-10 md:mb-16">{t('homePage.languagePairsTitle')}</h3>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
+              {/* Español - Alemán */}
+              <div className="bg-white/10 backdrop-blur-sm p-5 md:p-6 group hover:bg-white/20 transition-all duration-300">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3 md:gap-4">
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.spanish')}</span>
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"/>
+                    </svg>
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.german')}</span>
                   </div>
+                  <span className="text-xs md:text-sm text-blue-300 font-medium hidden sm:block">{t('homePage.bidirectional')}</span>
+                </div>
+              </div>
+
+              {/* Francés - Alemán */}
+              <div className="bg-white/10 backdrop-blur-sm p-5 md:p-6 group hover:bg-white/20 transition-all duration-300">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3 md:gap-4">
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.french')}</span>
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                    </svg>
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.german')}</span>
+                  </div>
+                  <span className="text-xs md:text-sm text-blue-300/70 hidden sm:block">{t('homePage.unidirectional')}</span>
+                </div>
+              </div>
+
+              {/* Inglés - Alemán */}
+              <div className="bg-white/10 backdrop-blur-sm p-5 md:p-6 group hover:bg-white/20 transition-all duration-300">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3 md:gap-4">
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.english')}</span>
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                    </svg>
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.german')}</span>
+                  </div>
+                  <span className="text-xs md:text-sm text-blue-300/70 hidden sm:block">{t('homePage.unidirectional')}</span>
+                </div>
+              </div>
+
+              {/* Inglés - Español */}
+              <div className="bg-white/10 backdrop-blur-sm p-5 md:p-6 group hover:bg-white/20 transition-all duration-300">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3 md:gap-4">
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.english')}</span>
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-300" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                    </svg>
+                    <span className="font-serif text-lg md:text-xl text-white">{t('homePage.spanish')}</span>
+                  </div>
+                  <span className="text-xs md:text-sm text-blue-300/70 hidden sm:block">{t('homePage.unidirectional')}</span>
                 </div>
               </div>
             </div>
@@ -107,111 +173,124 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Trust Indicators - Modern Cards */}
-      <section className="py-10 sm:py-12 md:py-16 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10 animate-fadeIn">
-            <div className="inline-flex items-center gap-2 px-3 py-2 sm:px-4 bg-gold-400/10 border border-gold-400/30 mb-3 sm:mb-4">
-              <span className="text-xs sm:text-sm font-bold uppercase tracking-[0.15em] text-gold-600">{t('common.badges.whyChooseMe')}</span>
+      {/* Credentials */}
+      <section className="bg-stone-50">
+        <div className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
+          <div className="max-w-5xl mx-auto">
+            <h3 className="text-sm tracking-widest uppercase text-blue-900 mb-10 md:mb-16">{t('homePage.credentialsTitle')}</h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+
+              {/* Spain */}
+              <div className="bg-white border-l-4 border-blue-900 p-6 md:p-10 hover:shadow-lg transition-shadow duration-300">
+                <div className="text-4xl md:text-6xl mb-4 md:mb-6">🇪🇸</div>
+                <h4 className="font-serif text-xl md:text-2xl text-zinc-800 mb-3 md:mb-4">{t('homePage.spainTitle')}</h4>
+                <p className="text-sm md:text-base text-zinc-500 leading-relaxed mb-4 md:mb-6">
+                  {t('homePage.spainDesc')}
+                </p>
+                <a
+                  href="https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/TraductoresInt%C3%A9rpretes.aspx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-blue-900 border-b border-blue-900 hover:text-blue-700 hover:border-blue-700 transition-colors font-medium"
+                >
+                  <span>{t('homePage.verifyCredential')}</span>
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </a>
+              </div>
+
+              {/* Germany */}
+              <div className="bg-white border-l-4 border-blue-900 p-6 md:p-10 hover:shadow-lg transition-shadow duration-300">
+                <div className="text-4xl md:text-6xl mb-4 md:mb-6">🇩🇪</div>
+                <h4 className="font-serif text-xl md:text-2xl text-zinc-800 mb-3 md:mb-4">{t('homePage.germanyTitle')}</h4>
+                <p className="text-sm md:text-base text-zinc-500 leading-relaxed mb-4 md:mb-6">
+                  {t('homePage.germanyDesc')}
+                </p>
+                <a
+                  href="https://www.justiz-dolmetscher.de/Recherche/de/Suchen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-blue-900 border-b border-blue-900 hover:text-blue-700 hover:border-blue-700 transition-colors font-medium"
+                >
+                  <span>{t('homePage.verifyCredential')}</span>
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </a>
+              </div>
+
             </div>
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-navy-500 mb-3 sm:mb-4 px-4">
-              Traducciones con garantía oficial
+          </div>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="container mx-auto px-6 lg:px-12 py-16 md:py-24 border-t border-zinc-200">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12">
+            <div className="text-center group">
+              <div className="text-3xl md:text-5xl font-serif font-light text-blue-900 mb-1 md:mb-2 group-hover:scale-110 transition-transform duration-300 inline-block">2</div>
+              <div className="text-xs md:text-sm text-zinc-500">{t('homePage.statCountries')}</div>
+            </div>
+            <div className="text-center group">
+              <div className="text-3xl md:text-5xl font-serif font-light text-blue-900 mb-1 md:mb-2 group-hover:scale-110 transition-transform duration-300 inline-block">5</div>
+              <div className="text-xs md:text-sm text-zinc-500">{t('homePage.statLanguages')}</div>
+            </div>
+            <div className="text-center group">
+              <div className="text-3xl md:text-5xl font-serif font-light text-blue-900 mb-1 md:mb-2 group-hover:scale-110 transition-transform duration-300 inline-block">24h</div>
+              <div className="text-xs md:text-sm text-zinc-500">{t('homePage.statDelivery')}</div>
+            </div>
+            <div className="text-center group">
+              <div className="text-3xl md:text-5xl font-serif font-light text-blue-900 mb-1 md:mb-2 group-hover:scale-110 transition-transform duration-300 inline-block">100%</div>
+              <div className="text-xs md:text-sm text-zinc-500">{t('homePage.statConfidential')}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="bg-blue-900">
+        <div className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="font-serif font-light text-3xl md:text-4xl lg:text-5xl text-white mb-4 md:mb-6">
+              {t('homePage.ctaTitle')}
             </h2>
-            <p className="text-base sm:text-lg text-gray-600 px-4">
-              Profesionalidad, rapidez y validez legal en cada documento
+            <p className="text-blue-200 mb-8 md:mb-12 text-base md:text-lg">
+              {t('homePage.ctaSubtitle')}
             </p>
-          </div>
 
-          <div className="max-w-7xl mx-auto">
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
-              {/* Card 1 */}
-              <div className="group relative bg-white p-6 sm:p-8 border-2 border-gray-200 hover:border-gold-400 transition-all duration-300 hover-lift animate-slideUp">
-                {/* Accent bar */}
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-navy-500 to-gold-400 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+            <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center">
+              <Link
+                to="/contacto"
+                className="text-white border-b-2 border-white pb-1 hover:text-blue-200 hover:border-blue-200 transition-colors font-medium"
+              >
+                {t('homePage.ctaContact')} →
+              </Link>
+              <span className="text-blue-700 hidden sm:block">|</span>
+              <Link
+                to="/sobre-mi"
+                className="text-blue-300 border-b border-blue-400 pb-1 hover:text-white hover:border-white transition-colors"
+              >
+                {t('homePage.ctaLearnMore')}
+              </Link>
+            </div>
 
-                {/* Icon */}
-                <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-navy-50 flex items-center justify-center text-navy-500 transition-all duration-300 group-hover:bg-gold-400 group-hover:text-white group-hover:rotate-6 group-hover:scale-110">
-                    <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                    </svg>
-                  </div>
+            {/* Contact Info */}
+            <div className="mt-12 md:mt-20 pt-8 md:pt-12 border-t border-blue-800">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 text-sm md:text-base">
+                <div>
+                  <p className="text-xs md:text-sm text-blue-400 mb-2 tracking-wider uppercase">Email</p>
+                  <a href="mailto:capaslopez@gmail.com" className="text-blue-200 hover:text-white transition-colors break-all">
+                    capaslopez@gmail.com
+                  </a>
                 </div>
-
-                <h3 className="font-serif text-xl sm:text-2xl font-bold text-navy-500 mb-3 sm:mb-4 group-hover:text-navy-600 transition-colors">
-                  {t('hero.trustIndicators.officialCertification.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-4">
-                  {t('hero.trustIndicators.officialCertification.description')}
-                </p>
-
-                {/* Arrow indicator */}
-                <div className="flex items-center text-gold-500 font-semibold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="mr-2">Ver más</span>
-                  <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </div>
-
-              {/* Card 2 */}
-              <div className="group relative bg-white p-6 sm:p-8 border-2 border-gray-200 hover:border-gold-400 transition-all duration-300 hover-lift animate-slideUp animation-delay-200">
-                {/* Accent bar */}
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-navy-500 to-gold-400 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
-
-                {/* Icon */}
-                <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-navy-50 flex items-center justify-center text-navy-500 transition-all duration-300 group-hover:bg-gold-400 group-hover:text-white group-hover:rotate-6 group-hover:scale-110">
-                    <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                  </div>
-                </div>
-
-                <h3 className="font-serif text-xl sm:text-2xl font-bold text-navy-500 mb-3 sm:mb-4 group-hover:text-navy-600 transition-colors">
-                  {t('hero.trustIndicators.fastDelivery.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-4">
-                  {t('hero.trustIndicators.fastDelivery.description')}
-                </p>
-
-                {/* Arrow indicator */}
-                <div className="flex items-center text-gold-500 font-semibold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="mr-2">Ver más</span>
-                  <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </div>
-
-              {/* Card 3 */}
-              <div className="group relative bg-white p-6 sm:p-8 border-2 border-gray-200 hover:border-gold-400 transition-all duration-300 hover-lift animate-slideUp animation-delay-400 sm:col-span-2 md:col-span-1">
-                {/* Accent bar */}
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-navy-500 to-gold-400 transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
-
-                {/* Icon */}
-                <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-navy-50 flex items-center justify-center text-navy-500 transition-all duration-300 group-hover:bg-gold-400 group-hover:text-white group-hover:rotate-6 group-hover:scale-110">
-                    <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                    </svg>
-                  </div>
-                </div>
-
-                <h3 className="font-serif text-xl sm:text-2xl font-bold text-navy-500 mb-3 sm:mb-4 group-hover:text-navy-600 transition-colors">
-                  {t('hero.trustIndicators.legalSpecialization.title')}
-                </h3>
-                <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-4">
-                  {t('hero.trustIndicators.legalSpecialization.description')}
-                </p>
-
-                {/* Arrow indicator */}
-                <div className="flex items-center text-gold-500 font-semibold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="mr-2">Ver más</span>
-                  <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+                <div>
+                  <p className="text-xs md:text-sm text-blue-400 mb-2 tracking-wider uppercase">{t('contactPage.whatsapp.heading')}</p>
+                  <a href="tel:+34600757000" className="text-blue-200 hover:text-white transition-colors">
+                    +34 600 75 70 00
+                  </a>
                 </div>
               </div>
             </div>
@@ -219,147 +298,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Credentials Banner - Enhanced */}
-      <section className="relative py-12 md:py-16 bg-navy-500 text-white overflow-hidden">
-        {/* Animated background pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-1/4 w-64 h-64 bg-gold-400 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gold-400 rounded-full blur-3xl animate-pulse animation-delay-500"></div>
-        </div>
-
-        {/* Decorative lines */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white to-transparent"></div>
-          <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white to-transparent"></div>
-        </div>
-
-        <div className="container mx-auto px-4 lg:px-8 relative z-10">
-          <div className="max-w-6xl mx-auto">
-
-            {/* Header */}
-            <div className="text-center mb-8 animate-fadeIn">
-              <div className="inline-flex items-center gap-2 px-5 py-2 bg-gold-400/20 border-2 border-gold-400/40 mb-6">
-                <svg className="w-5 h-5 text-gold-300" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                <span className="text-sm font-bold uppercase tracking-[0.2em] text-gold-200">
-                  {t('common.certified')}
-                </span>
-              </div>
-              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                Doble Certificación Oficial
-              </h2>
-              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-                Traductora jurada habilitada oficialmente en España y Alemania
-              </p>
-            </div>
-
-            {/* Certification Cards */}
-            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-
-              {/* Spain Card */}
-              <div className="group relative bg-white/10 backdrop-blur-sm border-2 border-white/20 p-8 hover:bg-white/15 hover:border-gold-400/50 transition-all duration-500 animate-slideInLeft animation-delay-300">
-                {/* Corner accent */}
-                <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-gold-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-gold-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <div className="relative">
-                  {/* Flag & Badge */}
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="w-16 h-16 bg-white/10 border-2 border-white/30 flex items-center justify-center group-hover:border-gold-400/50 transition-all duration-300 group-hover:scale-110">
-                      <span className="text-4xl">🇪🇸</span>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-serif text-2xl font-bold mb-1 group-hover:text-gold-300 transition-colors">España</h3>
-                      <div className="inline-block px-3 py-1 bg-gold-400/20 border border-gold-400/40 text-xs font-semibold uppercase tracking-wider text-gold-200">
-                        Nº oficial
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Details */}
-                  <div className="space-y-3">
-                    <div className="flex items-start gap-3">
-                      <svg className="w-5 h-5 text-gold-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      <div>
-                        <p className="font-semibold text-white">Ministerio de Asuntos Exteriores</p>
-                        <p className="text-sm text-gray-300">Unión Europea y Cooperación</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <svg className="w-5 h-5 text-gold-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
-                      </svg>
-                      <div>
-                        <p className="text-sm text-gray-300">Válido en todo el territorio español</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Germany Card */}
-              <div className="group relative bg-white/10 backdrop-blur-sm border-2 border-white/20 p-8 hover:bg-white/15 hover:border-gold-400/50 transition-all duration-500 animate-slideInRight animation-delay-300">
-                {/* Corner accent */}
-                <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-gold-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-gold-400 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                <div className="relative">
-                  {/* Flag & Badge */}
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="w-16 h-16 bg-white/10 border-2 border-white/30 flex items-center justify-center group-hover:border-gold-400/50 transition-all duration-300 group-hover:scale-110">
-                      <span className="text-4xl">🇩🇪</span>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="font-serif text-2xl font-bold mb-1 group-hover:text-gold-300 transition-colors">Alemania</h3>
-                      <div className="inline-block px-3 py-1 bg-gold-400/20 border border-gold-400/40 text-xs font-semibold uppercase tracking-wider text-gold-200">
-                        Beglaubigt
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Details */}
-                  <div className="space-y-3">
-                    <div className="flex items-start gap-3">
-                      <svg className="w-5 h-5 text-gold-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      <div>
-                        <p className="font-semibold text-white">Oberlandesgericht Köln</p>
-                        <p className="text-sm text-gray-300">Tribunal Superior de Colonia</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <svg className="w-5 h-5 text-gold-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
-                      </svg>
-                      <div>
-                        <p className="text-sm text-gray-300">Válido en toda Alemania</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            {/* Bottom note */}
-            <div className="text-center mt-12 animate-fadeIn animation-delay-600">
-              <p className="text-gray-300 text-sm">
-                <span className="inline-flex items-center gap-2">
-                  <svg className="w-4 h-4 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                  </svg>
-                  Las traducciones juradas tienen validez legal oficial en ambos países
-                </span>
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
