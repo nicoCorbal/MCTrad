@@ -11,6 +11,18 @@ export default {
         sans: ['Montserrat', 'system-ui', 'sans-serif'],
       },
       colors: {
+        primary: {
+          50: '#EBF1FF',
+          100: '#D6E4FF',
+          200: '#ADC8FF',
+          300: '#85ADFF',
+          400: '#5C91FF',
+          500: '#407BFF', // Primary blue from SVG
+          600: '#3362CC',
+          700: '#264A99',
+          800: '#1A3166',
+          900: '#0D1933',
+        },
         navy: {
           50: '#E8EDF5',
           100: '#D1DBE8',

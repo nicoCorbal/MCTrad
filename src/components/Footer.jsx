@@ -36,7 +36,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/"
-                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
+                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
                   >
                     {t('home')}
                   </Link>
@@ -44,7 +44,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/servicios"
-                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
+                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
                   >
                     {t('services')}
                   </Link>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/sobre-mi"
-                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
+                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
                   >
                     {t('about')}
                   </Link>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/contacto"
-                    className="text-sm text-zinc-600 hover:text-blue-900 transition-colors"
+                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
                   >
                     {t('contact')}
                   </Link>
@@ -99,13 +99,13 @@ const Footer = () => {
             <div className="flex items-center gap-6">
               <Link
                 to="/politica-de-privacidad"
-                className="hover:text-blue-900 transition-colors"
+                className="hover:text-blue-500 transition-colors"
               >
                 {t('common.privacyPolicy')}
               </Link>
               <a
                 href="mailto:capaslopez@gmail.com"
-                className="hover:text-blue-900 transition-colors"
+                className="hover:text-blue-500 transition-colors"
               >
                 {t('contact')}
               </a>

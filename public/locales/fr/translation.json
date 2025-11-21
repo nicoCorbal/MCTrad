@@ -30,7 +30,7 @@
     "statLanguages": "Langues",
     "statDelivery": "Livraison standard",
     "statConfidential": "Confidentiel",
-    "ctaTitle": "Besoin d'une traduction officielle?",
+    "ctaTitle": "Besoin d'une traduction officielle ?",
     "ctaSubtitle": "Demandez un devis sans engagement",
     "ctaContact": "Contacter maintenant",
     "ctaLearnMore": "En savoir plus",
@@ -52,7 +52,7 @@
     "badges": {
       "professionalServices": "Services Professionnels",
       "professionalProfile": "Profil Professionnel",
-      "whyChooseMe": "Pourquoi me choisir?",
+      "whyChooseMe": "Pourquoi me choisir ?",
       "mainService": "Service Principal",
       "additionalServices": "Services Supplémentaires",
       "guarantees": "Garanties"
@@ -129,7 +129,7 @@
   },
   "contactPage": {
     "title": "Contact",
-    "introduction": "J'adorerais avoir de vos nouvelles. N'hésitez pas à me contacter pour toute question concernant les traductions assermentées, techniques ou juridiques. Je vous répondrai dans les plus brefs délais.",
+    "introduction": "Je serais ravie de vous aider. N'hésitez pas à me contacter pour toute question concernant les traductions assermentées, techniques ou juridiques. Je vous répondrai dans les plus brefs délais.",
     "email": {
       "heading": "Courriel",
       "description": "Envoyer un e-mail directement"

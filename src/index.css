@@ -7,6 +7,11 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Base typography - slightly heavier weight */
+body {
+  font-weight: 500;
+}
+
 /* Keyframe Animations */
 @keyframes fadeIn {
   from {

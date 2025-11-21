@@ -9,15 +9,26 @@ function AboutPage() {
     <div className="min-h-screen bg-stone-50">
 
       {/* Hero Section */}
-      <section className="bg-blue-900">
-        <div className="container mx-auto px-6 lg:px-12 pt-32 pb-24 md:pt-40 md:pb-32">
-          <div className="max-w-5xl">
-            <h1 className="font-serif font-light text-5xl md:text-7xl lg:text-8xl text-white mb-4 leading-[0.95]">
-              {t('aboutPage.title')}
-            </h1>
-            <p className="text-blue-200 text-sm tracking-widest uppercase mt-8">
-              {t('common.badges.professionalProfile')}
-            </p>
+      <section className="bg-blue-600">
+        <div className="container mx-auto px-6 lg:px-12 pt-28 pb-12 md:pt-32 md:pb-16">
+          <div className="flex items-center gap-12 lg:gap-16">
+            <div className="flex-1">
+              <h1 className="font-serif font-light text-5xl md:text-6xl lg:text-7xl text-white leading-tight">
+                {t('aboutPage.title')}
+              </h1>
+              <p className="text-blue-200 text-sm tracking-widest uppercase mt-6">
+                {t('common.badges.professionalProfile')}
+              </p>
+            </div>
+
+            {/* Hero Illustration */}
+            <div className="hidden lg:flex flex-shrink-0">
+              <img
+                src="/ilu4.svg"
+                alt="Professional illustration"
+                className="w-72 xl:w-80 h-auto object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -46,7 +57,7 @@ function AboutPage() {
 
               {/* Credentials */}
               <div className="space-y-4">
-                <div className="bg-white border-l-4 border-blue-900 p-5 md:p-6">
+                <div className="bg-white border-l-4 border-blue-500 p-5 md:p-6">
                   <p className="text-xs md:text-sm uppercase tracking-wider text-zinc-500 mb-2">
                     {t('aboutPage.credentials.certification')}
                   </p>
@@ -55,7 +66,7 @@ function AboutPage() {
                   </p>
                 </div>
 
-                <div className="bg-white border-l-4 border-blue-900 p-5 md:p-6">
+                <div className="bg-white border-l-4 border-blue-500 p-5 md:p-6">
                   <p className="text-xs md:text-sm uppercase tracking-wider text-zinc-500 mb-2">
                     {t('aboutPage.credentials.specialization')}
                   </p>
@@ -108,7 +119,7 @@ function AboutPage() {
       </section>
 
       {/* Commitment CTA */}
-      <section className="bg-blue-900">
+      <section className="bg-blue-600">
         <div className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif font-light text-3xl md:text-4xl lg:text-5xl text-white mb-4 md:mb-6">

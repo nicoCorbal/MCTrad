@@ -35,10 +35,10 @@ const Header = () => {
             className="flex flex-col group"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            <span className="font-sans text-xs tracking-widest uppercase text-zinc-800 font-medium transition-colors group-hover:text-blue-900">
+            <span className="font-sans text-xs tracking-widest uppercase text-zinc-800 font-semibold transition-colors group-hover:text-blue-500">
               María Ángeles Capas
             </span>
-            <span className="text-[10px] text-zinc-500 uppercase tracking-wider mt-0.5">
+            <span className="text-[10px] text-zinc-500 uppercase tracking-wider mt-0.5 font-medium">
               {t('common.swornTranslator')}
             </span>
           </NavLink>
@@ -51,9 +51,9 @@ const Header = () => {
                 to={link.to}
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 className={({ isActive }) =>
-                  `text-xs uppercase tracking-wider transition-colors ${
+                  `text-xs uppercase tracking-wider transition-colors font-semibold ${
                     isActive
-                      ? 'text-blue-900 font-medium'
+                      ? 'text-blue-500'
                       : 'text-zinc-500 hover:text-zinc-800'
                   }`
                 }
@@ -70,7 +70,7 @@ const Header = () => {
               <select
                 onChange={(e) => change_language(e.target.value)}
                 value={i18n.language}
-                className="appearance-none bg-transparent border-b border-zinc-300 px-2 py-1 text-xs font-medium text-zinc-700 hover:border-blue-900 focus:outline-none focus:border-blue-900 transition-colors cursor-pointer uppercase tracking-wider"
+                className="appearance-none bg-transparent border-b border-zinc-300 px-2 py-1 text-xs font-semibold text-zinc-700 hover:border-blue-500 focus:outline-none focus:border-blue-500 transition-colors cursor-pointer uppercase tracking-wider"
               >
                 {languages.map((lang) => (
                   <option key={lang.code} value={lang.code}>
@@ -83,7 +83,7 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={() => set_mobile_menu_open(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-zinc-700 hover:text-blue-900 transition-colors"
+              className="lg:hidden p-2 text-zinc-700 hover:text-blue-500 transition-colors"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (
@@ -115,9 +115,9 @@ const Header = () => {
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
                 className={({ isActive }) =>
-                  `text-xs uppercase tracking-wider transition-colors ${
+                  `text-xs uppercase tracking-wider transition-colors font-semibold ${
                     isActive
-                      ? 'text-blue-900 font-medium'
+                      ? 'text-blue-500'
                       : 'text-zinc-500 hover:text-zinc-800'
                   }`
                 }

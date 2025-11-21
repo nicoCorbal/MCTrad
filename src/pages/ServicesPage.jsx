@@ -8,15 +8,26 @@ function ServicesPage() {
     <div className="min-h-screen bg-stone-50">
 
       {/* Hero Section */}
-      <section className="bg-blue-900">
-        <div className="container mx-auto px-6 lg:px-12 pt-32 pb-24 md:pt-40 md:pb-32">
-          <div className="max-w-5xl">
-            <h1 className="font-serif font-light text-5xl md:text-7xl lg:text-8xl text-white mb-4 leading-[0.95]">
-              {t('servicesPage.title')}
-            </h1>
-            <p className="text-blue-200 text-sm tracking-widest uppercase mt-8">
-              Servicios Certificados • España & Alemania
-            </p>
+      <section className="bg-blue-600">
+        <div className="container mx-auto px-6 lg:px-12 pt-28 pb-12 md:pt-32 md:pb-16">
+          <div className="flex items-center gap-12 lg:gap-16">
+            <div className="flex-1">
+              <h1 className="font-serif font-light text-5xl md:text-6xl lg:text-7xl text-white leading-tight">
+                {t('servicesPage.title')}
+              </h1>
+              <p className="text-blue-200 text-sm tracking-widest uppercase mt-6">
+                Servicios Certificados • España & Alemania
+              </p>
+            </div>
+
+            {/* Hero Illustration */}
+            <div className="hidden lg:flex flex-shrink-0">
+              <img
+                src="/ilu2.svg"
+                alt="Services illustration"
+                className="w-72 xl:w-80 h-auto object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -24,7 +35,7 @@ function ServicesPage() {
       {/* Sworn Translation - Main Service */}
       <section className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
         <div className="max-w-5xl mx-auto">
-          <h3 className="text-sm tracking-widest uppercase text-blue-900 mb-10 md:mb-16">
+          <h3 className="text-sm tracking-widest uppercase text-blue-500 mb-10 md:mb-16">
             {t('common.badges.mainService')}
           </h3>
 
@@ -52,7 +63,7 @@ function ServicesPage() {
                 href="https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/TraductoresInt%C3%A9rpretes.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm text-blue-900 border-b border-blue-900 hover:text-blue-700 hover:border-blue-700 transition-colors font-medium"
+                className="inline-flex items-center gap-2 text-sm text-blue-500 border-b border-blue-500 hover:text-blue-600 hover:border-blue-600 transition-colors font-medium"
               >
                 <span>{t('servicesPage.swornTranslation.spain.linkText')}</span>
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -74,7 +85,7 @@ function ServicesPage() {
                 href="https://www.justiz-dolmetscher.de/Recherche/de/Suchen"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm text-blue-900 border-b border-blue-900 hover:text-blue-700 hover:border-blue-700 transition-colors font-medium"
+                className="inline-flex items-center gap-2 text-sm text-blue-500 border-b border-blue-500 hover:text-blue-600 hover:border-blue-600 transition-colors font-medium"
               >
                 <span>{t('servicesPage.swornTranslation.germany.linkText')}</span>
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,7 +102,7 @@ function ServicesPage() {
       <section className="border-t border-zinc-200 bg-white">
         <div className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
           <div className="max-w-5xl mx-auto">
-            <h3 className="text-sm tracking-widest uppercase text-blue-900 mb-10 md:mb-16">
+            <h3 className="text-sm tracking-widest uppercase text-blue-500 mb-10 md:mb-16">
               {t('common.badges.additionalServices')}
             </h3>
 
@@ -113,7 +124,7 @@ function ServicesPage() {
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
                       {t('servicesPage.languagePairs.germanSpanish').split(/\s*[⟷→↔>]\s*/)[0]}
                     </span>
-                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-900" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"/>
                     </svg>
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
@@ -131,7 +142,7 @@ function ServicesPage() {
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
                       {t('servicesPage.languagePairs.frenchGerman').split(/\s*[⟷→↔>]\s*/)[0]}
                     </span>
-                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-900" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
                     </svg>
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
@@ -149,7 +160,7 @@ function ServicesPage() {
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
                       {t('servicesPage.languagePairs.englishGerman').split(/\s*[⟷→↔>]\s*/)[0]}
                     </span>
-                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-900" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
                     </svg>
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
@@ -167,7 +178,7 @@ function ServicesPage() {
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
                       {t('servicesPage.languagePairs.englishSpanish').split(/\s*[⟷→↔>]\s*/)[0]}
                     </span>
-                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-900" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
                     </svg>
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
@@ -185,7 +196,7 @@ function ServicesPage() {
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
                       {t('servicesPage.languagePairs.galicianGerman').split(/\s*[⟷→↔>]\s*/)[0]}
                     </span>
-                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-900" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 md:w-6 md:h-6 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"/>
                     </svg>
                     <span className="font-serif text-lg md:text-2xl text-zinc-800">
