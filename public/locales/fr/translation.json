@@ -30,6 +30,7 @@
     "statLanguages": "Langues",
     "statDelivery": "Livraison standard",
     "statConfidential": "Confidentiel",
+    "officialBadge": "Traductrice Assermentée",
     "ctaTitle": "Besoin d'une traduction officielle ?",
     "ctaSubtitle": "Demandez un devis sans engagement",
     "ctaContact": "Contacter maintenant",
@@ -37,7 +38,32 @@
     "spanish": "Espagnol",
     "german": "Allemand",
     "french": "Français",
-    "english": "Anglais"
+    "english": "Anglais",
+    "process": {
+      "title": "Comment ça fonctionne",
+      "subtitle": "Un processus simple et transparent pour obtenir votre traduction assermentée",
+      "step1Title": "Envoi",
+      "step1Desc": "Envoyez votre document par e-mail ou WhatsApp",
+      "step2Title": "Devis",
+      "step2Desc": "Vous recevez un devis en moins de 24h",
+      "step3Title": "Traduction",
+      "step3Desc": "Je réalise la traduction assermentée officielle",
+      "step4Title": "Livraison",
+      "step4Desc": "Vous recevez le document certifié"
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "q1": "Qu'est-ce qu'une traduction assermentée ?",
+      "a1": "Une traduction assermentée est une traduction officielle réalisée par un traducteur habilité par l'État. Elle comprend signature, cachet et certification qui lui confèrent une validité légale devant les organismes officiels.",
+      "q2": "Combien de temps prend une traduction assermentée ?",
+      "a2": "Le délai dépend de la longueur du document. Généralement, un document standard est livré en 24-48 heures. Pour les projets urgents, veuillez consulter la disponibilité.",
+      "q3": "Quels documents peuvent être traduits de manière assermentée ?",
+      "a3": "Tous les documents officiels : actes de naissance, diplômes, contrats, jugements, actes notariés, procurations, casiers judiciaires, etc.",
+      "q4": "La traduction assermentée a-t-elle une validité internationale ?",
+      "a4": "Oui, les traductions assermentées réalisées en Espagne et en Allemagne sont valables dans les deux pays et sont reconnues internationalement selon les conventions en vigueur.",
+      "q5": "Comment la traduction est-elle livrée ?",
+      "a5": "La traduction peut être livrée en format numérique (PDF signé) et/ou sur papier avec signature et cachet original, selon les besoins du client."
+    }
   },
   "common": {
     "swornTranslator": "Traductrice Assermentée",
@@ -130,17 +156,19 @@
   "contactPage": {
     "title": "Contact",
     "introduction": "Je serais ravie de vous aider. N'hésitez pas à me contacter pour toute question concernant les traductions assermentées, techniques ou juridiques. Je vous répondrai dans les plus brefs délais.",
-    "email": {
-      "heading": "Courriel",
-      "description": "Envoyer un e-mail directement"
-    },
-    "whatsapp": {
-      "heading": "WhatsApp",
-      "description": "Envoyer un message instantané"
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "subject": "Objet",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "successTitle": "Message envoyé",
+      "successMessage": "Merci de m'avoir contactée. Je vous répondrai dans les 24 heures.",
+      "sendAnother": "Envoyer un autre message",
+      "error": "Une erreur s'est produite lors de l'envoi. Veuillez réessayer."
     },
     "guarantees": {
-      "title": "Réponse Rapide Garantie",
-      "description": "Je m'engage à répondre à toutes les demandes dans un délai maximum de 24 heures. Votre projet est ma priorité.",
       "responseTime": "Temps de réponse",
       "confidentiality": "Confidentialité",
       "professionalService": "Service professionnel"

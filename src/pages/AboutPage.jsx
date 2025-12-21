@@ -6,111 +6,89 @@ function AboutPage() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-stone-50">
+    <div className="min-h-screen bg-white">
 
-      {/* Hero Section */}
-      <section className="bg-blue-600">
-        <div className="container mx-auto px-6 lg:px-12 pt-28 pb-12 md:pt-32 md:pb-16">
-          <div className="flex items-center gap-12 lg:gap-16">
-            <div className="flex-1">
-              <h1 className="font-serif font-light text-5xl md:text-6xl lg:text-7xl text-white leading-tight">
-                {t('aboutPage.title')}
-              </h1>
-              <p className="text-blue-200 text-sm tracking-widest uppercase mt-6">
-                {t('common.badges.professionalProfile')}
-              </p>
-            </div>
-
-            {/* Hero Illustration */}
-            <div className="hidden lg:flex flex-shrink-0">
-              <img
-                src="/ilu4.svg"
-                alt="Professional illustration"
-                className="w-72 xl:w-80 h-auto object-contain"
-              />
-            </div>
+      {/* Hero */}
+      <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-2xl">
+            <h1 className="font-serif text-4xl md:text-5xl font-semibold text-gray-900 mb-4">
+              {t('aboutPage.title')}
+            </h1>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              {t('aboutPage.introduction')}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Main Content */}
-      <section className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:gap-16">
+      {/* Content */}
+      <section className="py-20 md:py-28">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="grid lg:grid-cols-3 gap-12">
 
-            {/* Left Sidebar - Credentials */}
-            <div className="lg:col-span-1 order-2 lg:order-1">
-
-              {/* Professional Identity */}
-              <div className="bg-white border border-stone-200 p-6 md:p-8 mb-6 md:mb-8">
-                <div className="aspect-square bg-stone-100 flex items-center justify-center mb-4 md:mb-6">
-                  <div className="text-center px-4">
-                    <div className="font-serif text-2xl md:text-3xl font-light text-zinc-800 mb-2">
-                      María Ángeles Capas
-                    </div>
-                    <div className="text-xs md:text-sm text-zinc-500 uppercase tracking-wider">
-                      {t('common.swornTranslator')}
-                    </div>
+            {/* Sidebar */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-28 space-y-6">
+                <div className="p-8 bg-gray-50 rounded-xl text-center">
+                  <div className="w-20 h-20 bg-blue-600 text-white font-serif text-2xl rounded-full flex items-center justify-center mx-auto mb-4">
+                    MA
                   </div>
+                  <h3 className="font-serif text-xl font-semibold text-gray-900">
+                    María Ángeles Capas
+                  </h3>
+                  <p className="text-sm text-gray-500 mt-1">
+                    {t('common.swornTranslator')}
+                  </p>
                 </div>
-              </div>
 
-              {/* Credentials */}
-              <div className="space-y-4">
-                <div className="bg-white border-l-4 border-blue-500 p-5 md:p-6">
-                  <p className="text-xs md:text-sm uppercase tracking-wider text-zinc-500 mb-2">
+                <div className="p-6 border border-gray-200 rounded-xl">
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">
                     {t('aboutPage.credentials.certification')}
                   </p>
-                  <p className="font-serif text-lg md:text-xl text-zinc-800">
+                  <p className="font-medium text-gray-900">
                     {t('aboutPage.credentials.spainAndGermany')}
                   </p>
                 </div>
 
-                <div className="bg-white border-l-4 border-blue-500 p-5 md:p-6">
-                  <p className="text-xs md:text-sm uppercase tracking-wider text-zinc-500 mb-2">
+                <div className="p-6 border border-gray-200 rounded-xl">
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">
                     {t('aboutPage.credentials.specialization')}
                   </p>
-                  <p className="font-serif text-lg md:text-xl text-zinc-800">
+                  <p className="font-medium text-gray-900">
                     {t('aboutPage.credentials.legalAndTechnical')}
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Right Content - About Text */}
-            <div className="lg:col-span-2 order-1 lg:order-2">
-              <div className="space-y-10 md:space-y-16">
+            {/* Main Content */}
+            <div className="lg:col-span-2 space-y-12">
+              <div>
+                <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
+                  {t('aboutPage.sections.experience')}
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  {t('aboutPage.paragraph1')}
+                </p>
+              </div>
 
-                {/* Presentation */}
-                <div>
-                  <h2 className="font-serif text-2xl md:text-3xl text-zinc-800 mb-4 md:mb-6 border-b border-zinc-200 pb-4">
-                    {t('aboutPage.sections.presentation')}
-                  </h2>
-                  <p className="text-zinc-600 leading-relaxed text-base md:text-lg">
-                    {t('aboutPage.introduction')}
-                  </p>
-                </div>
+              <div>
+                <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
+                  {t('aboutPage.sections.capabilities')}
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  {t('aboutPage.paragraph2')}
+                </p>
+              </div>
 
-                {/* Experience */}
-                <div>
-                  <h2 className="font-serif text-2xl md:text-3xl text-zinc-800 mb-4 md:mb-6 border-b border-zinc-200 pb-4">
-                    {t('aboutPage.sections.experience')}
-                  </h2>
-                  <p className="text-zinc-600 leading-relaxed text-base md:text-lg">
-                    {t('aboutPage.paragraph1')}
-                  </p>
-                </div>
-
-                {/* Capabilities */}
-                <div>
-                  <h2 className="font-serif text-2xl md:text-3xl text-zinc-800 mb-4 md:mb-6 border-b border-zinc-200 pb-4">
-                    {t('aboutPage.sections.capabilities')}
-                  </h2>
-                  <p className="text-zinc-600 leading-relaxed text-base md:text-lg">
-                    {t('aboutPage.paragraph2')}
-                  </p>
-                </div>
-
+              <div>
+                <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
+                  {t('aboutPage.sections.commitment')}
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  {t('aboutPage.conclusion')}
+                </p>
               </div>
             </div>
 
@@ -118,24 +96,24 @@ function AboutPage() {
         </div>
       </section>
 
-      {/* Commitment CTA */}
-      <section className="bg-blue-600">
-        <div className="container mx-auto px-6 lg:px-12 py-16 md:py-32">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-serif font-light text-3xl md:text-4xl lg:text-5xl text-white mb-4 md:mb-6">
-              {t('aboutPage.sections.commitment')}
-            </h2>
-            <p className="text-blue-200 mb-8 md:mb-12 text-base md:text-lg leading-relaxed">
-              {t('aboutPage.conclusion')}
-            </p>
-
-            <Link
-              to="/contacto"
-              className="inline-block text-white border-b-2 border-white pb-1 hover:text-blue-200 hover:border-blue-200 transition-colors font-medium"
-            >
-              {t('common.contactNow')} →
-            </Link>
-          </div>
+      {/* CTA */}
+      <section className="py-20 md:py-28 bg-blue-600">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
+            {t('homePage.ctaTitle')}
+          </h2>
+          <p className="text-blue-100 mb-8 text-lg">
+            {t('homePage.ctaSubtitle')}
+          </p>
+          <Link
+            to="/contacto"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+          >
+            {t('common.contactNow')}
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
         </div>
       </section>
 

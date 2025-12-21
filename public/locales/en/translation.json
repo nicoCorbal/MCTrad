@@ -30,6 +30,7 @@
     "statLanguages": "Languages",
     "statDelivery": "Standard delivery",
     "statConfidential": "Confidential",
+    "officialBadge": "Official Sworn Translator",
     "ctaTitle": "Need an official translation?",
     "ctaSubtitle": "Request a no-obligation quote",
     "ctaContact": "Contact now",
@@ -37,7 +38,32 @@
     "spanish": "Spanish",
     "german": "German",
     "french": "French",
-    "english": "English"
+    "english": "English",
+    "process": {
+      "title": "How It Works",
+      "subtitle": "A simple and transparent process to get your sworn translation",
+      "step1Title": "Submit",
+      "step1Desc": "Send your document via email or WhatsApp",
+      "step2Title": "Quote",
+      "step2Desc": "Receive a quote within 24 hours",
+      "step3Title": "Translation",
+      "step3Desc": "I complete the official sworn translation",
+      "step4Title": "Delivery",
+      "step4Desc": "You receive the certified document"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "What is a sworn translation?",
+      "a1": "A sworn translation is an official translation made by a state-authorized translator. It includes signature, seal, and certification that give it legal validity before official bodies.",
+      "q2": "How long does a sworn translation take?",
+      "a2": "The time depends on the document's length. Generally, a standard document is delivered within 24-48 hours. For urgent projects, please inquire about availability.",
+      "q3": "What documents can be sworn translated?",
+      "a3": "Any official document: birth certificates, academic degrees, contracts, court rulings, deeds, powers of attorney, criminal records, etc.",
+      "q4": "Does the sworn translation have international validity?",
+      "a4": "Yes, sworn translations made in Spain and Germany are valid in both countries and are internationally recognized according to current agreements.",
+      "q5": "How is the translation delivered?",
+      "a5": "The translation can be delivered in digital format (signed PDF) and/or on paper with original signature and seal, according to client needs."
+    }
   },
   "common": {
     "swornTranslator": "Sworn Translator",
@@ -130,17 +156,19 @@
   "contactPage": {
     "title": "Contact",
     "introduction": "I'd love to hear from you. Feel free to contact me with any inquiries about sworn, technical, or legal translations. I will respond as soon as possible.",
-    "email": {
-      "heading": "Email",
-      "description": "Send an email directly"
-    },
-    "whatsapp": {
-      "heading": "WhatsApp",
-      "description": "Send an instant message"
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "successTitle": "Message sent",
+      "successMessage": "Thank you for contacting me. I will respond within 24 hours.",
+      "sendAnother": "Send another message",
+      "error": "There was an error sending your message. Please try again."
     },
     "guarantees": {
-      "title": "Fast Response Guaranteed",
-      "description": "I am committed to responding to all inquiries within a maximum of 24 hours. Your project is my priority.",
       "responseTime": "Response time",
       "confidentiality": "Confidentiality",
       "professionalService": "Professional service"

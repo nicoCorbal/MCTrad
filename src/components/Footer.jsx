@@ -4,116 +4,79 @@ import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
   const { t } = useTranslation();
-  const current_year = new Date().getFullYear();
+  const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-stone-100 border-t border-zinc-200">
+    <footer className="bg-gray-50 border-t border-gray-200">
+      <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="grid md:grid-cols-3 gap-12">
 
-      {/* Main Footer Content */}
-      <div className="container mx-auto px-6 lg:px-12 py-12 md:py-16">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
-
-            {/* Brand Section */}
-            <div>
-              <h3 className="font-sans text-sm tracking-widest uppercase text-zinc-800 font-medium mb-2">
-                María Ángeles Capas
-              </h3>
-              <p className="text-xs uppercase tracking-wider text-zinc-500 mb-4">
+          {/* Brand */}
+          <div>
+            <Link to="/" className="inline-block">
+              <span className="font-serif text-xl font-semibold text-gray-900">María Ángeles Capas</span>
+              <span className="block text-xs text-gray-500 uppercase tracking-wider mt-1">
                 {t('common.swornTranslator')}
-              </p>
-              <p className="text-sm text-zinc-500 leading-relaxed">
-                {t('footer.description')}
-              </p>
-            </div>
+              </span>
+            </Link>
+            <p className="text-gray-600 text-sm mt-4 leading-relaxed">
+              {t('footer.description')}
+            </p>
+          </div>
 
-            {/* Quick Links */}
-            <div>
-              <h4 className="text-xs uppercase tracking-widest text-zinc-400 mb-4 font-medium">
-                {t('common.quickLinks')}
-              </h4>
-              <ul className="space-y-2">
-                <li>
-                  <Link
-                    to="/"
-                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
-                  >
-                    {t('home')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/servicios"
-                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
-                  >
-                    {t('services')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/sobre-mi"
-                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
-                  >
-                    {t('about')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/contacto"
-                    className="text-sm text-zinc-600 hover:text-blue-500 transition-colors"
-                  >
-                    {t('contact')}
-                  </Link>
-                </li>
-              </ul>
-            </div>
+          {/* Links */}
+          <div>
+            <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
+              {t('common.quickLinks')}
+            </h4>
+            <nav className="space-y-2">
+              <Link to="/" className="block text-gray-600 hover:text-blue-600 transition-colors text-sm">
+                {t('home')}
+              </Link>
+              <Link to="/servicios" className="block text-gray-600 hover:text-blue-600 transition-colors text-sm">
+                {t('services')}
+              </Link>
+              <Link to="/sobre-mi" className="block text-gray-600 hover:text-blue-600 transition-colors text-sm">
+                {t('about')}
+              </Link>
+              <Link to="/contacto" className="block text-gray-600 hover:text-blue-600 transition-colors text-sm">
+                {t('contact')}
+              </Link>
+            </nav>
+          </div>
 
-            {/* Certifications */}
-            <div>
-              <h4 className="text-xs uppercase tracking-widest text-zinc-400 mb-4 font-medium">
-                {t('common.certifications')}
-              </h4>
-              <div className="space-y-3">
+          {/* Certifications */}
+          <div>
+            <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
+              {t('common.certifications')}
+            </h4>
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <span className="text-xl">🇪🇸</span>
                 <div>
-                  <p className="text-sm font-medium text-zinc-800 mb-1">{t('footer.spain.country')}</p>
-                  <p className="text-sm text-zinc-500 leading-relaxed">{t('footer.spain.authority')}</p>
+                  <p className="text-sm text-gray-900 font-medium">{t('footer.spain.country')}</p>
+                  <p className="text-xs text-gray-500">{t('footer.spain.authority')}</p>
                 </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-xl">🇩🇪</span>
                 <div>
-                  <p className="text-sm font-medium text-zinc-800 mb-1">{t('footer.germany.country')}</p>
-                  <p className="text-sm text-zinc-500 leading-relaxed">{t('footer.germany.authority')}</p>
+                  <p className="text-sm text-gray-900 font-medium">{t('footer.germany.country')}</p>
+                  <p className="text-xs text-gray-500">{t('footer.germany.authority')}</p>
                 </div>
               </div>
             </div>
-
           </div>
+
+        </div>
+
+        <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+          <p>© {year} María Ángeles Capas</p>
+          <Link to="/politica-de-privacidad" className="hover:text-blue-600 transition-colors">
+            {t('common.privacyPolicy')}
+          </Link>
         </div>
       </div>
-
-      {/* Bottom Bar */}
-      <div className="border-t border-zinc-200 bg-stone-50">
-        <div className="container mx-auto px-6 lg:px-12 py-4 md:py-6">
-          <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3 md:gap-4 text-xs md:text-sm text-zinc-500">
-            <p>
-              &copy; {current_year} María Ángeles Capas
-            </p>
-            <div className="flex items-center gap-6">
-              <Link
-                to="/politica-de-privacidad"
-                className="hover:text-blue-500 transition-colors"
-              >
-                {t('common.privacyPolicy')}
-              </Link>
-              <a
-                href="mailto:capaslopez@gmail.com"
-                className="hover:text-blue-500 transition-colors"
-              >
-                {t('contact')}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </footer>
   );
 };

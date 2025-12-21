@@ -1,23 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
-  const [mobileMenuOpen, set_mobile_menu_open] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-  const change_language = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const languages = [
-    { code: 'es', name: 'ES' },
-    { code: 'de', name: 'DE' },
-    { code: 'fr', name: 'FR' },
-    { code: 'en', name: 'EN' },
+    { code: 'es', label: 'ES' },
+    { code: 'de', label: 'DE' },
+    { code: 'fr', label: 'FR' },
+    { code: 'en', label: 'EN' },
   ];
 
-  const nav_links = [
+  const navLinks = [
     { to: '/', label: t('home') },
     { to: '/servicios', label: t('services') },
     { to: '/sobre-mi', label: t('about') },
@@ -25,36 +28,31 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-stone-50/95 backdrop-blur-sm border-b border-zinc-200">
-      <div className="container mx-auto px-6 lg:px-12">
-        <div className="flex justify-between items-center py-6">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled ? 'bg-white shadow-sm' : 'bg-white/80 backdrop-blur-sm'
+    }`}>
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="flex items-center justify-between h-16 md:h-20">
 
           {/* Logo */}
-          <NavLink
-            to="/"
-            className="flex flex-col group"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          >
-            <span className="font-sans text-xs tracking-widest uppercase text-zinc-800 font-semibold transition-colors group-hover:text-blue-500">
+          <NavLink to="/" className="flex flex-col">
+            <span className="font-serif text-lg md:text-xl font-semibold text-gray-900">
               María Ángeles Capas
             </span>
-            <span className="text-[10px] text-zinc-500 uppercase tracking-wider mt-0.5 font-medium">
+            <span className="text-[10px] md:text-xs text-gray-500 uppercase tracking-wider">
               {t('common.swornTranslator')}
             </span>
           </NavLink>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
-            {nav_links.map((link) => (
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-8">
+            {navLinks.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 className={({ isActive }) =>
-                  `text-xs uppercase tracking-wider transition-colors font-semibold ${
-                    isActive
-                      ? 'text-blue-500'
-                      : 'text-zinc-500 hover:text-zinc-800'
+                  `text-sm font-medium transition-colors ${
+                    isActive ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900'
                   }`
                 }
               >
@@ -63,70 +61,80 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Language Selector & Mobile Menu Button */}
+          {/* Language + Mobile */}
           <div className="flex items-center gap-4">
             {/* Language Selector */}
-            <div className="relative">
-              <select
-                onChange={(e) => change_language(e.target.value)}
-                value={i18n.language}
-                className="appearance-none bg-transparent border-b border-zinc-300 px-2 py-1 text-xs font-semibold text-zinc-700 hover:border-blue-500 focus:outline-none focus:border-blue-500 transition-colors cursor-pointer uppercase tracking-wider"
-              >
-                {languages.map((lang) => (
-                  <option key={lang.code} value={lang.code}>
-                    {lang.name}
-                  </option>
-                ))}
-              </select>
+            <div className="hidden sm:flex items-center gap-1 text-xs">
+              {languages.map((lang, i) => (
+                <React.Fragment key={lang.code}>
+                  <button
+                    onClick={() => i18n.changeLanguage(lang.code)}
+                    className={`px-1.5 py-1 font-medium transition-colors ${
+                      i18n.language === lang.code
+                        ? 'text-blue-600'
+                        : 'text-gray-400 hover:text-gray-600'
+                    }`}
+                  >
+                    {lang.label}
+                  </button>
+                  {i < languages.length - 1 && <span className="text-gray-300">|</span>}
+                </React.Fragment>
+              ))}
             </div>
 
             {/* Mobile Menu Button */}
             <button
-              onClick={() => set_mobile_menu_open(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-zinc-700 hover:text-blue-500 transition-colors"
-              aria-label="Toggle menu"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden p-2 text-gray-600"
+              aria-label="Menu"
             >
-              {mobileMenuOpen ? (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {mobileMenuOpen ? (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              ) : (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                ) : (
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              )}
+                )}
+              </svg>
             </button>
           </div>
         </div>
 
-        {/* Mobile Navigation */}
-        <div
-          className={`lg:hidden overflow-hidden transition-all duration-300 ${
-            mobileMenuOpen ? 'max-h-96 pb-6' : 'max-h-0'
-          }`}
-        >
-          <nav className="flex flex-col gap-4 border-t border-zinc-200 pt-6">
-            {nav_links.map((link) => (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                onClick={() => {
-                  set_mobile_menu_open(false);
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
-                }}
-                className={({ isActive }) =>
-                  `text-xs uppercase tracking-wider transition-colors font-semibold ${
-                    isActive
-                      ? 'text-blue-500'
-                      : 'text-zinc-500 hover:text-zinc-800'
-                  }`
-                }
-              >
-                {link.label}
-              </NavLink>
-            ))}
-          </nav>
-        </div>
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-gray-100 py-4">
+            <nav className="flex flex-col gap-2">
+              {navLinks.map((link) => (
+                <NavLink
+                  key={link.to}
+                  to={link.to}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={({ isActive }) =>
+                    `px-4 py-2 text-sm font-medium rounded-lg ${
+                      isActive ? 'bg-blue-50 text-blue-600' : 'text-gray-600'
+                    }`
+                  }
+                >
+                  {link.label}
+                </NavLink>
+              ))}
+            </nav>
+            <div className="flex items-center gap-2 mt-4 px-4">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => i18n.changeLanguage(lang.code)}
+                  className={`px-3 py-1.5 text-xs font-medium rounded ${
+                    i18n.language === lang.code
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-100 text-gray-600'
+                  }`}
+                >
+                  {lang.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );

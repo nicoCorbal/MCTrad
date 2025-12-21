@@ -30,6 +30,7 @@
     "statLanguages": "Idiomas",
     "statDelivery": "Entrega estándar",
     "statConfidential": "Confidencial",
+    "officialBadge": "Traductora Jurada Oficial",
     "ctaTitle": "¿Necesita una traducción oficial?",
     "ctaSubtitle": "Solicite presupuesto sin compromiso",
     "ctaContact": "Contactar ahora",
@@ -37,7 +38,32 @@
     "spanish": "Español",
     "german": "Alemán",
     "french": "Francés",
-    "english": "Inglés"
+    "english": "Inglés",
+    "process": {
+      "title": "Cómo Funciona",
+      "subtitle": "Un proceso sencillo y transparente para obtener tu traducción jurada",
+      "step1Title": "Envío",
+      "step1Desc": "Envía tu documento por email o WhatsApp",
+      "step2Title": "Presupuesto",
+      "step2Desc": "Recibes presupuesto en menos de 24h",
+      "step3Title": "Traducción",
+      "step3Desc": "Realizo la traducción jurada oficial",
+      "step4Title": "Entrega",
+      "step4Desc": "Recibes el documento certificado"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Qué es una traducción jurada?",
+      "a1": "Una traducción jurada es una traducción oficial realizada por un traductor habilitado por el Estado. Incluye firma, sello y certificación que le otorgan validez legal ante organismos oficiales.",
+      "q2": "¿Cuánto tiempo tarda una traducción jurada?",
+      "a2": "El tiempo depende de la extensión del documento. Generalmente, un documento estándar se entrega en 24-48 horas. Para proyectos urgentes, consulte disponibilidad.",
+      "q3": "¿Qué documentos se pueden traducir de forma jurada?",
+      "a3": "Cualquier documento oficial: certificados de nacimiento, títulos académicos, contratos, sentencias, escrituras, poderes notariales, certificados de antecedentes, etc.",
+      "q4": "¿La traducción jurada tiene validez internacional?",
+      "a4": "Sí, las traducciones juradas realizadas en España y Alemania tienen validez en ambos países y son reconocidas internacionalmente según los convenios vigentes.",
+      "q5": "¿Cómo se entrega la traducción?",
+      "a5": "La traducción se puede entregar en formato digital (PDF firmado) y/o en papel con firma y sello original, según las necesidades del cliente."
+    }
   },
   "common": {
     "swornTranslator": "Traductora Jurada",
@@ -130,17 +156,19 @@
   "contactPage": {
     "title": "Contacto",
     "introduction": "Estaré encantada de atenderle. Póngase en contacto conmigo para cualquier consulta sobre traducción jurada, técnica o jurídica. Responderé a la mayor brevedad posible.",
-    "email": {
-      "heading": "Correo Electrónico",
-      "description": "Envía un email directamente"
-    },
-    "whatsapp": {
-      "heading": "WhatsApp",
-      "description": "Envía un mensaje instantáneo"
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "successTitle": "Mensaje enviado",
+      "successMessage": "Gracias por contactar. Te responderé en menos de 24 horas.",
+      "sendAnother": "Enviar otro mensaje",
+      "error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo."
     },
     "guarantees": {
-      "title": "Respuesta Rápida Garantizada",
-      "description": "Me comprometo a responder todas las consultas en un plazo máximo de 24 horas. Tu proyecto es mi prioridad.",
       "responseTime": "Tiempo de respuesta",
       "confidentiality": "Confidencialidad",
       "professionalService": "Servicio profesional"
