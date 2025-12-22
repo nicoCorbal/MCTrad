@@ -43,7 +43,7 @@ function AboutPage() {
 
       {/* Content */}
       <motion.section
-        className="py-20 md:py-28"
+        className="py-12 md:py-20 lg:py-28"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -138,7 +138,7 @@ function AboutPage() {
 
       {/* CTA */}
       <motion.section
-        className="py-20 md:py-28 bg-blue-600"
+        className="py-12 md:py-20 lg:py-28 bg-blue-600"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}

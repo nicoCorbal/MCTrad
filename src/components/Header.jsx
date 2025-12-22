@@ -33,12 +33,13 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? 'bg-white shadow-sm' : 'bg-white/80 backdrop-blur-sm'
       }`}
+      role="banner"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
     >
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-14 md:h-20">
 
           {/* Logo */}
           <motion.div
@@ -56,7 +57,10 @@ const Header = () => {
           </motion.div>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav
+            className="hidden md:flex items-center gap-8"
+            aria-label={t('common.quickLinks')}
+          >
             {navLinks.map((link, i) => (
               <motion.div
                 key={link.to}
@@ -107,6 +111,9 @@ const Header = () => {
                         ? 'text-blue-600'
                         : 'text-gray-400 hover:text-gray-600'
                     }`}
+                    type="button"
+                    aria-label={t('common.changeLanguageTo', { lng: lang.label }) || `Cambiar idioma a ${lang.label}`}
+                    aria-pressed={i18n.language === lang.code}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                   >
@@ -120,8 +127,11 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <motion.button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 text-gray-600"
-              aria-label="Menu"
+              className="md:hidden p-3 -mr-2 text-gray-600 min-w-[44px] min-h-[44px] flex items-center justify-center"
+              type="button"
+              aria-label={mobileMenuOpen ? t('common.closeMenu') || 'Cerrar menú' : t('common.openMenu') || 'Abrir menú'}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-navigation"
               whileTap={{ scale: 0.9 }}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -161,6 +171,7 @@ const Header = () => {
         <AnimatePresence>
           {mobileMenuOpen && (
             <motion.div
+              id="mobile-navigation"
               className="md:hidden border-t border-gray-100 py-4 overflow-hidden"
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}

@@ -112,7 +112,7 @@ function HomePage() {
     <div className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
-      <section className="min-h-[100vh] flex items-center relative overflow-hidden bg-gradient-to-b from-gray-50 via-white to-white">
+      <section className="min-h-[100svh] flex items-center relative overflow-hidden bg-gradient-to-b from-gray-50 via-white to-white">
         {/* Decorative background elements - hidden on mobile for performance */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden hidden md:block">
           <motion.div
@@ -149,77 +149,80 @@ function HomePage() {
           />
         </div>
 
-        <div className="max-w-6xl mx-auto px-6 lg:px-12 py-24 lg:py-32 relative z-10">
+        {/* Mobile decorative accent */}
+        <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-50 to-transparent md:hidden" />
+
+        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-12 pt-20 pb-8 sm:py-24 lg:py-32 relative z-10 w-full">
           <div className="max-w-3xl">
-            {/* Eyebrow */}
+            {/* Eyebrow - más compacto en móvil */}
             <motion.div
-              className="flex items-center gap-4 mb-8"
-              initial={{ opacity: 0, x: -30 }}
+              className="flex items-center gap-3 sm:gap-4 mb-5 sm:mb-8"
+              initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
+              transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <motion.div
-                className="h-px w-12 bg-gradient-to-r from-blue-600 to-blue-400"
+                className="h-px w-8 sm:w-12 bg-gradient-to-r from-blue-600 to-blue-400"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
-                transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+                transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
                 style={{ originX: 0 }}
               />
-              <span className="text-xs font-medium tracking-[0.2em] uppercase text-gray-500">
+              <span className="text-[10px] sm:text-xs font-medium tracking-[0.15em] sm:tracking-[0.2em] uppercase text-gray-500">
                 {t('homePage.trustBadge')}
               </span>
             </motion.div>
 
-            {/* Headline */}
-            <h1 className="mb-8">
+            {/* Headline - escala dramática en móvil */}
+            <h1 className="mb-4 sm:mb-6 md:mb-8">
               <motion.span
-                className="block font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold text-gray-900 leading-[0.95] tracking-[-0.02em]"
-                initial={{ opacity: 0, y: 50 }}
+                className="block font-serif text-[2.75rem] leading-[1] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold text-gray-900 sm:leading-[0.95] tracking-[-0.02em]"
+                initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
+                transition={{ duration: 0.6, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
               >
                 {t('homePage.heroTitle1')}
               </motion.span>
               <motion.span
-                className="block font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold leading-[0.95] tracking-[-0.02em] mt-2"
-                initial={{ opacity: 0, y: 50 }}
+                className="block font-serif text-[2.75rem] leading-[1] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold sm:leading-[0.95] tracking-[-0.02em] mt-0.5 sm:mt-2"
+                initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
+                transition={{ duration: 0.6, delay: 0.15, ease: [0.25, 0.4, 0.25, 1] }}
               >
                 <span className="relative inline-block">
                   <span className="relative z-10 text-blue-600">{t('homePage.heroTitle2')}</span>
                   <motion.span
-                    className="absolute -bottom-1 left-0 w-full h-3 bg-blue-100 -skew-x-6"
+                    className="absolute -bottom-0.5 sm:-bottom-1 left-0 w-full h-2 sm:h-3 bg-blue-100 -skew-x-6"
                     initial={{ scaleX: 0 }}
                     animate={{ scaleX: 1 }}
-                    transition={{ duration: 0.6, delay: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
+                    transition={{ duration: 0.5, delay: 0.4, ease: [0.25, 0.4, 0.25, 1] }}
                     style={{ originX: 0 }}
                   />
                 </span>
               </motion.span>
             </h1>
 
-            {/* Description */}
+            {/* Description - texto más legible en móvil */}
             <motion.p
-              className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl"
-              initial={{ opacity: 0, y: 30 }}
+              className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 sm:mb-8 md:mb-10 leading-relaxed max-w-xl"
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+              transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
             >
               {t('homePage.heroDescription')}
             </motion.p>
 
-            {/* CTAs */}
+            {/* CTAs - stack vertical en móvil pequeño */}
             <motion.div
-              className="flex flex-wrap gap-4 mb-16"
-              initial={{ opacity: 0, y: 30 }}
+              className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12 md:mb-16"
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.4, 0.25, 1] }}
+              transition={{ duration: 0.6, delay: 0.25, ease: [0.25, 0.4, 0.25, 1] }}
             >
-              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} className="flex-1 sm:flex-initial">
                 <Link
                   to="/contacto"
-                  className="group inline-flex items-center gap-3 px-7 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300 text-base"
+                  className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 sm:px-7 py-3.5 sm:py-4 bg-blue-600 text-white font-semibold rounded-xl sm:rounded-lg hover:bg-blue-700 transition-colors duration-300 text-[15px] sm:text-base shadow-lg shadow-blue-600/25 sm:shadow-none"
                 >
                   {t('homePage.requestQuote')}
                   <motion.svg
@@ -235,51 +238,56 @@ function HomePage() {
                   </motion.svg>
                 </Link>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} className="flex-1 sm:flex-initial">
                 <Link
                   to="/servicios"
-                  className="inline-flex items-center gap-3 px-7 py-4 text-gray-700 font-semibold rounded-lg border-2 border-gray-300 hover:border-gray-400 hover:bg-white/50 transition-all duration-300 text-base"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 sm:px-7 py-3.5 sm:py-4 text-gray-700 font-semibold rounded-xl sm:rounded-lg border-2 border-gray-200 sm:border-gray-300 hover:border-gray-400 hover:bg-white/50 transition-all duration-300 text-[15px] sm:text-base"
                 >
                   {t('services')}
                 </Link>
               </motion.div>
             </motion.div>
 
-            {/* Trust indicators */}
+            {/* Trust indicators - diseño compacto para móvil */}
             <motion.div
-              className="flex flex-wrap items-center gap-6 md:gap-10"
-              initial={{ opacity: 0, y: 30 }}
+              className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-6 md:gap-10"
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+              transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
             >
+              {/* Países */}
               <motion.div
-                className="flex items-center gap-3 group"
+                className="flex flex-col sm:flex-row items-center gap-1.5 sm:gap-3 p-3 sm:p-0 bg-white/60 sm:bg-transparent rounded-xl sm:rounded-none"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.2 }}
               >
-                <div className="flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm border border-gray-100 group-hover:shadow-md transition-shadow duration-300">
-                  <span className="text-lg">🇪🇸</span>
+                <div className="flex items-center">
+                  <div className="flex items-center justify-center w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-white shadow-sm border border-gray-100">
+                    <span className="text-sm sm:text-lg">🇪🇸</span>
+                  </div>
+                  <div className="flex items-center justify-center w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-white shadow-sm border border-gray-100 -ml-2 sm:-ml-4">
+                    <span className="text-sm sm:text-lg">🇩🇪</span>
+                  </div>
                 </div>
-                <div className="flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm border border-gray-100 -ml-4 group-hover:shadow-md transition-shadow duration-300">
-                  <span className="text-lg">🇩🇪</span>
-                </div>
-                <span className="text-sm text-gray-500 ml-1">{t('homePage.statCountries')}</span>
+                <span className="text-[11px] sm:text-sm text-gray-500 text-center sm:text-left sm:ml-1">{t('homePage.statCountries')}</span>
               </motion.div>
 
-              <div className="h-8 w-px bg-gray-200 hidden md:block" />
+              <div className="h-8 w-px bg-gray-200 hidden sm:block" />
 
-              <div className="flex items-center gap-2">
-                <span className="text-2xl font-serif text-gray-900">24h</span>
-                <span className="text-sm text-gray-500">{t('homePage.statDelivery')}</span>
+              {/* 24h */}
+              <div className="flex flex-col sm:flex-row items-center gap-0.5 sm:gap-2 p-3 sm:p-0 bg-white/60 sm:bg-transparent rounded-xl sm:rounded-none">
+                <span className="text-xl sm:text-2xl font-serif text-gray-900">24h</span>
+                <span className="text-[11px] sm:text-sm text-gray-500 text-center">{t('homePage.statDelivery')}</span>
               </div>
 
-              <div className="h-8 w-px bg-gray-200 hidden md:block" />
+              <div className="h-8 w-px bg-gray-200 hidden sm:block" />
 
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {/* Confidencial */}
+              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 p-3 sm:p-0 bg-white/60 sm:bg-transparent rounded-xl sm:rounded-none">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
-                <span className="text-sm text-gray-500">{t('homePage.statConfidential')}</span>
+                <span className="text-[11px] sm:text-sm text-gray-500 text-center">{t('homePage.statConfidential')}</span>
               </div>
             </motion.div>
           </div>
@@ -287,10 +295,10 @@ function HomePage() {
 
         {/* Scroll indicator */}
         <motion.div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:block"
+          className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 hidden md:block"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
         >
           <motion.div
             className="flex flex-col items-center gap-2 text-gray-400"
@@ -305,7 +313,7 @@ function HomePage() {
 
       {/* Services */}
       <motion.section
-        className="py-20 md:py-28 bg-gray-50"
+        className="py-12 md:py-20 lg:py-28 bg-gray-50"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -362,14 +370,14 @@ function HomePage() {
 
       {/* Credentials */}
       <motion.section
-        className="py-20 md:py-28"
+        className="py-12 md:py-20 lg:py-28"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
       >
         <div className="max-w-6xl mx-auto px-6">
-          <motion.div className="text-center mb-16" variants={fadeInUp}>
+          <motion.div className="text-center mb-10 md:mb-16" variants={fadeInUp}>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
               {t('homePage.credentialsTitle')}
             </h2>
@@ -421,14 +429,14 @@ function HomePage() {
 
       {/* Process */}
       <motion.section
-        className="py-20 md:py-28 bg-blue-600"
+        className="py-12 md:py-20 lg:py-28 bg-blue-600"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
       >
         <div className="max-w-6xl mx-auto px-6">
-          <motion.div className="text-center mb-16" variants={fadeInUp}>
+          <motion.div className="text-center mb-10 md:mb-16" variants={fadeInUp}>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
               {t('homePage.process.title')}
             </h2>
@@ -482,7 +490,7 @@ function HomePage() {
 
       {/* FAQ */}
       <motion.section
-        className="py-20 md:py-28"
+        className="py-12 md:py-20 lg:py-28"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -546,7 +554,7 @@ function HomePage() {
 
       {/* CTA */}
       <motion.section
-        className="py-20 md:py-28 bg-blue-600"
+        className="py-12 md:py-20 lg:py-28 bg-blue-600"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}

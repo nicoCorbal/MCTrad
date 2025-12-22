@@ -75,6 +75,9 @@
     "sendEmail": "Send email",
     "openWhatsApp": "Open WhatsApp",
     "contactNow": "Contact Now",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "changeLanguageTo": "Change language to {{lng}}",
     "badges": {
       "professionalServices": "Professional Services",
       "professionalProfile": "Professional Profile",
