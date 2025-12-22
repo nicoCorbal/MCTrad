@@ -152,11 +152,11 @@ function HomePage() {
         {/* Mobile decorative accent */}
         <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-50 to-transparent md:hidden" />
 
-        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-12 pt-20 pb-8 sm:py-24 lg:py-32 relative z-10 w-full">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-12 pt-8 sm:pt-12 lg:pt-16 pb-8 sm:pb-16 lg:pb-20 relative z-10 w-full">
           <div className="max-w-3xl">
             {/* Eyebrow - más compacto en móvil */}
             <motion.div
-              className="flex items-center gap-3 sm:gap-4 mb-5 sm:mb-8"
+              className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-5"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
