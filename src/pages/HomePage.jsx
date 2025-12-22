@@ -285,7 +285,7 @@ function HomePage() {
           </div>
         </div>
 
-        {/* Scroll indicator - hidden on mobile */}
+        {/* Scroll indicator */}
         <motion.div
           className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:block"
           initial={{ opacity: 0, y: -20 }}
@@ -326,31 +326,35 @@ function HomePage() {
             variants={staggerContainer}
           >
             {services.map((service, i) => (
-              <motion.div
-                key={i}
-                className="p-8 bg-white border border-gray-200 rounded-xl cursor-pointer"
-                variants={staggerItem}
-                whileHover={{
-                  y: -8,
-                  boxShadow: "0 20px 40px rgba(0,0,0,0.08)",
-                  borderColor: "rgb(209 213 219)"
-                }}
-                transition={{ duration: 0.3 }}
-              >
+              <Link key={i} to="/servicios">
                 <motion.div
-                  className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-6"
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  transition={{ duration: 0.2 }}
+                  className="p-8 bg-white border border-gray-200 rounded-xl cursor-pointer h-full"
+                  variants={staggerItem}
+                  whileHover={{
+                    y: -8,
+                    boxShadow: "0 20px 40px rgba(0,0,0,0.08)",
+                    borderColor: "rgb(59 130 246)"
+                  }}
+                  transition={{ duration: 0.3 }}
                 >
-                  {service.icon}
+                  <motion.div
+                    className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-6"
+                    whileHover={{ scale: 1.1, rotate: 5 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    {service.icon}
+                  </motion.div>
+                  <h3 className="font-serif text-xl font-semibold text-gray-900 mb-3">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    {service.description}
+                  </p>
+                  <span className="text-blue-600 text-sm font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                    {t('homePage.ctaLearnMore')} →
+                  </span>
                 </motion.div>
-                <h3 className="font-serif text-xl font-semibold text-gray-900 mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {service.description}
-                </p>
-              </motion.div>
+              </Link>
             ))}
           </motion.div>
         </div>
