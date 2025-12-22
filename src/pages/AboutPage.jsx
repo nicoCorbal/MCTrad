@@ -1,121 +1,181 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import {
+  fadeInUp,
+  staggerContainer,
+  staggerItem,
+  slideInLeft,
+  slideInRight
+} from '../components/animations/MotionComponents';
 
 function AboutPage() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-gray-50 to-white">
+      <motion.section
+        className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-gray-50 to-white"
+        initial="hidden"
+        animate="visible"
+        variants={staggerContainer}
+      >
         <div className="max-w-6xl mx-auto px-6">
-          <div className="max-w-2xl">
-            <h1 className="font-serif text-4xl md:text-5xl font-semibold text-gray-900 mb-4">
+          <motion.div className="max-w-2xl" variants={staggerContainer}>
+            <motion.h1
+              className="font-serif text-4xl md:text-5xl font-semibold text-gray-900 mb-4"
+              variants={fadeInUp}
+            >
               {t('aboutPage.title')}
-            </h1>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            </motion.h1>
+            <motion.p
+              className="text-lg text-gray-600 leading-relaxed"
+              variants={fadeInUp}
+            >
               {t('aboutPage.introduction')}
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* Content */}
-      <section className="py-20 md:py-28">
+      <motion.section
+        className="py-20 md:py-28"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+      >
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid lg:grid-cols-3 gap-12">
 
             {/* Sidebar */}
-            <div className="lg:col-span-1">
+            <motion.div
+              className="lg:col-span-1"
+              variants={slideInLeft}
+            >
               <div className="sticky top-28 space-y-6">
-                <div className="p-8 bg-gray-50 rounded-xl text-center">
-                  <div className="w-20 h-20 bg-blue-600 text-white font-serif text-2xl rounded-full flex items-center justify-center mx-auto mb-4">
+                <motion.div
+                  className="p-8 bg-gray-50 rounded-xl text-center"
+                  whileHover={{ scale: 1.02, boxShadow: "0 10px 30px rgba(0,0,0,0.06)" }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <motion.div
+                    className="w-20 h-20 bg-blue-600 text-white font-serif text-2xl rounded-full flex items-center justify-center mx-auto mb-4"
+                    whileHover={{ scale: 1.1, rotate: 5 }}
+                    transition={{ duration: 0.3 }}
+                  >
                     MA
-                  </div>
+                  </motion.div>
                   <h3 className="font-serif text-xl font-semibold text-gray-900">
                     María Ángeles Capas
                   </h3>
                   <p className="text-sm text-gray-500 mt-1">
                     {t('common.swornTranslator')}
                   </p>
-                </div>
+                </motion.div>
 
-                <div className="p-6 border border-gray-200 rounded-xl">
+                <motion.div
+                  className="p-6 border border-gray-200 rounded-xl"
+                  whileHover={{ borderColor: "rgb(156 163 175)", boxShadow: "0 4px 12px rgba(0,0,0,0.04)" }}
+                  transition={{ duration: 0.2 }}
+                >
                   <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">
                     {t('aboutPage.credentials.certification')}
                   </p>
                   <p className="font-medium text-gray-900">
                     {t('aboutPage.credentials.spainAndGermany')}
                   </p>
-                </div>
+                </motion.div>
 
-                <div className="p-6 border border-gray-200 rounded-xl">
+                <motion.div
+                  className="p-6 border border-gray-200 rounded-xl"
+                  whileHover={{ borderColor: "rgb(156 163 175)", boxShadow: "0 4px 12px rgba(0,0,0,0.04)" }}
+                  transition={{ duration: 0.2 }}
+                >
                   <p className="text-xs text-gray-500 uppercase tracking-wide mb-2">
                     {t('aboutPage.credentials.specialization')}
                   </p>
                   <p className="font-medium text-gray-900">
                     {t('aboutPage.credentials.legalAndTechnical')}
                   </p>
-                </div>
+                </motion.div>
               </div>
-            </div>
+            </motion.div>
 
             {/* Main Content */}
-            <div className="lg:col-span-2 space-y-12">
-              <div>
-                <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
-                  {t('aboutPage.sections.experience')}
-                </h2>
-                <p className="text-gray-600 leading-relaxed">
-                  {t('aboutPage.paragraph1')}
-                </p>
-              </div>
-
-              <div>
-                <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
-                  {t('aboutPage.sections.capabilities')}
-                </h2>
-                <p className="text-gray-600 leading-relaxed">
-                  {t('aboutPage.paragraph2')}
-                </p>
-              </div>
-
-              <div>
-                <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
-                  {t('aboutPage.sections.commitment')}
-                </h2>
-                <p className="text-gray-600 leading-relaxed">
-                  {t('aboutPage.conclusion')}
-                </p>
-              </div>
-            </div>
+            <motion.div
+              className="lg:col-span-2 space-y-12"
+              variants={staggerContainer}
+            >
+              {[
+                { title: t('aboutPage.sections.experience'), content: t('aboutPage.paragraph1') },
+                { title: t('aboutPage.sections.capabilities'), content: t('aboutPage.paragraph2') },
+                { title: t('aboutPage.sections.commitment'), content: t('aboutPage.conclusion') }
+              ].map((section, i) => (
+                <motion.div
+                  key={i}
+                  variants={staggerItem}
+                  whileHover={{ x: 4 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
+                    {section.title}
+                  </h2>
+                  <p className="text-gray-600 leading-relaxed">
+                    {section.content}
+                  </p>
+                </motion.div>
+              ))}
+            </motion.div>
 
           </div>
         </div>
-      </section>
+      </motion.section>
 
       {/* CTA */}
-      <section className="py-20 md:py-28 bg-blue-600">
+      <motion.section
+        className="py-20 md:py-28 bg-blue-600"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={fadeInUp}
+      >
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
-            {t('homePage.ctaTitle')}
-          </h2>
-          <p className="text-blue-100 mb-8 text-lg">
-            {t('homePage.ctaSubtitle')}
-          </p>
-          <Link
-            to="/contacto"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+          <motion.h2
+            className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4"
+            variants={fadeInUp}
           >
-            {t('common.contactNow')}
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+            {t('homePage.ctaTitle')}
+          </motion.h2>
+          <motion.p
+            className="text-blue-100 mb-8 text-lg"
+            variants={fadeInUp}
+          >
+            {t('homePage.ctaSubtitle')}
+          </motion.p>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
+            <Link
+              to="/contacto"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+            >
+              {t('common.contactNow')}
+              <motion.svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                whileHover={{ x: 4 }}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </motion.svg>
+            </Link>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
     </div>
   );

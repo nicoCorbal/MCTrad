@@ -10,7 +10,7 @@
     "heroDescription": "Certificada por el Ministerio de Asuntos Exteriores de España y el Landgericht de Alemania. Especializada en derecho internacional y corporativo.",
     "requestQuote": "Solicitar Presupuesto",
     "trustBadge": "Traductora-Intérprete Jurada • Ministerio de Asuntos Exteriores de España • Landgericht Alemania",
-    "servicesTitle": "Servicios",
+    "servicesTitle": "Servicios de Traducción Jurada",
     "service1Title": "Traducción Jurada",
     "service1Desc": "Documentos oficiales con validez legal ante organismos públicos de España y Alemania. Contratos, sentencias, escrituras.",
     "service2Title": "Documentos Académicos",
@@ -20,7 +20,7 @@
     "languagePairsTitle": "Combinaciones lingüísticas",
     "bidirectional": "Bidireccional",
     "unidirectional": "Unidireccional",
-    "credentialsTitle": "Acreditaciones oficiales",
+    "credentialsTitle": "Acreditaciones Oficiales de Traductora Jurada",
     "spainTitle": "España",
     "spainDesc": "Traductora-intérprete jurada nombrada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación del Reino de España.",
     "germanyTitle": "Alemania",
@@ -105,7 +105,7 @@
     }
   },
   "servicesPage": {
-    "title": "Nuestros Servicios de Traducción",
+    "title": "Servicios de Traducción Jurada Oficial",
     "generalTranslation": {
       "heading": "Traducciones Generales y Especializadas",
       "description": "Ofrezco servicios de traducción de alta calidad para una amplia gama de documentos, desde textos comerciales hasta técnicos, con un enfoque particular en el ámbito jurídico."
@@ -134,7 +134,7 @@
     }
   },
   "aboutPage": {
-    "title": "Sobre mí",
+    "title": "María Ángeles Capas, Traductora Jurada Oficial",
     "introduction": "Soy una traductora jurada con años de experiencia en el ámbito jurídico y técnico. Mi pasión por los idiomas y el rigor legal me han llevado a especializarme en la traducción de documentos complejos, garantizando siempre la máxima precisión y confidencialidad.",
     "paragraph1": "Mi trayectoria profesional se ha centrado en ofrecer soluciones lingüísticas fiables a particulares, empresas, bufetes de abogados y organismos oficiales. Comprendo la importancia de cada palabra en un contexto legal, por lo que cada traducción se realiza con la meticulosidad que exige la materia.",
     "paragraph2": "Además de mi especialización jurídica, también cuento con experiencia en traducciones técnicas, lo que me permite abordar una amplia variedad de textos con la terminología adecuada. Mi objetivo es superar las expectativas de mis clientes, proporcionando un servicio rápido, eficiente y de confianza.",
@@ -154,7 +154,7 @@
     }
   },
   "contactPage": {
-    "title": "Contacto",
+    "title": "Contacto - Presupuesto de Traducción Jurada",
     "introduction": "Estaré encantada de atenderle. Póngase en contacto conmigo para cualquier consulta sobre traducción jurada, técnica o jurídica. Responderé a la mayor brevedad posible.",
     "form": {
       "name": "Nombre",

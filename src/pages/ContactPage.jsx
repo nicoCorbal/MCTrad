@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+  fadeInUp,
+  staggerContainer,
+  staggerItem,
+  scaleIn
+} from '../components/animations/MotionComponents';
 
 function ContactPage() {
   const { t } = useTranslation();
@@ -9,7 +16,8 @@ function ContactPage() {
     subject: '',
     message: ''
   });
-  const [status, setStatus] = useState('idle'); // idle, loading, success, error
+  const [status, setStatus] = useState('idle');
+  const [focusedField, setFocusedField] = useState(null);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -26,7 +34,7 @@ function ContactPage() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'TU_ACCESS_KEY_AQUI', // Reemplazar con tu key de web3forms.com
+          access_key: 'TU_ACCESS_KEY_AQUI',
           ...formData,
           from_name: formData.name,
         }),
@@ -45,157 +53,289 @@ function ContactPage() {
     }
   };
 
+  const inputClasses = (fieldName) => `
+    w-full px-4 py-3 border rounded-lg transition-all duration-300 outline-none
+    ${focusedField === fieldName
+      ? 'border-blue-500 ring-2 ring-blue-100'
+      : 'border-gray-300 hover:border-gray-400'
+    }
+  `;
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-gray-50 to-white">
+      <motion.section
+        className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-gray-50 to-white"
+        initial="hidden"
+        animate="visible"
+        variants={staggerContainer}
+      >
         <div className="max-w-6xl mx-auto px-6">
-          <div className="max-w-2xl">
-            <h1 className="font-serif text-4xl md:text-5xl font-semibold text-gray-900 mb-4">
+          <motion.div className="max-w-2xl" variants={staggerContainer}>
+            <motion.h1
+              className="font-serif text-4xl md:text-5xl font-semibold text-gray-900 mb-4"
+              variants={fadeInUp}
+            >
               {t('contactPage.title')}
-            </h1>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            </motion.h1>
+            <motion.p
+              className="text-lg text-gray-600 leading-relaxed"
+              variants={fadeInUp}
+            >
               {t('contactPage.introduction')}
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* Contact Form */}
-      <section className="py-20 md:py-28">
+      <motion.section
+        className="py-20 md:py-28"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+      >
         <div className="max-w-2xl mx-auto px-6">
 
-          {status === 'success' ? (
-            <div className="text-center py-16">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-2">
-                {t('contactPage.form.successTitle') || 'Mensaje enviado'}
-              </h2>
-              <p className="text-gray-600 mb-8">
-                {t('contactPage.form.successMessage') || 'Gracias por contactar. Te responderé en menos de 24 horas.'}
-              </p>
-              <button
-                onClick={() => setStatus('idle')}
-                className="text-blue-600 font-medium hover:underline"
+          <AnimatePresence mode="wait">
+            {status === 'success' ? (
+              <motion.div
+                key="success"
+                className="text-center py-16"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                transition={{ duration: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
               >
-                {t('contactPage.form.sendAnother') || 'Enviar otro mensaje'}
-              </button>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                    {t('contactPage.form.name') || 'Nombre'}
+                <motion.div
+                  className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ duration: 0.5, delay: 0.2, type: "spring" }}
+                >
+                  <motion.svg
+                    className="w-8 h-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    initial={{ pathLength: 0 }}
+                    animate={{ pathLength: 1 }}
+                    transition={{ duration: 0.5, delay: 0.4 }}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </motion.svg>
+                </motion.div>
+                <motion.h2
+                  className="font-serif text-2xl font-semibold text-gray-900 mb-2"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3 }}
+                >
+                  {t('contactPage.form.successTitle') || 'Mensaje enviado'}
+                </motion.h2>
+                <motion.p
+                  className="text-gray-600 mb-8"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.4 }}
+                >
+                  {t('contactPage.form.successMessage') || 'Gracias por contactar. Te responderé en menos de 24 horas.'}
+                </motion.p>
+                <motion.button
+                  onClick={() => setStatus('idle')}
+                  className="text-blue-600 font-medium hover:underline"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  {t('contactPage.form.sendAnother') || 'Enviar otro mensaje'}
+                </motion.button>
+              </motion.div>
+            ) : (
+              <motion.form
+                key="form"
+                onSubmit={handleSubmit}
+                className="space-y-6"
+                variants={staggerContainer}
+                initial="hidden"
+                animate="visible"
+              >
+                <motion.div
+                  className="grid md:grid-cols-2 gap-6"
+                  variants={staggerItem}
+                >
+                  <div>
+                    <motion.label
+                      htmlFor="name"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                    >
+                      {t('contactPage.form.name') || 'Nombre'}
+                    </motion.label>
+                    <motion.input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      value={formData.name}
+                      onChange={handleChange}
+                      onFocus={() => setFocusedField('name')}
+                      onBlur={() => setFocusedField(null)}
+                      className={inputClasses('name')}
+                      whileFocus={{ scale: 1.01 }}
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                      {t('contactPage.form.email') || 'Email'}
+                    </label>
+                    <motion.input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      value={formData.email}
+                      onChange={handleChange}
+                      onFocus={() => setFocusedField('email')}
+                      onBlur={() => setFocusedField(null)}
+                      className={inputClasses('email')}
+                      whileFocus={{ scale: 1.01 }}
+                    />
+                  </div>
+                </motion.div>
+
+                <motion.div variants={staggerItem}>
+                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                    {t('contactPage.form.subject') || 'Asunto'}
                   </label>
-                  <input
+                  <motion.input
                     type="text"
-                    id="name"
-                    name="name"
+                    id="subject"
+                    name="subject"
                     required
-                    value={formData.name}
+                    value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none"
+                    onFocus={() => setFocusedField('subject')}
+                    onBlur={() => setFocusedField(null)}
+                    className={inputClasses('subject')}
+                    whileFocus={{ scale: 1.01 }}
                   />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    {t('contactPage.form.email') || 'Email'}
+                </motion.div>
+
+                <motion.div variants={staggerItem}>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                    {t('contactPage.form.message') || 'Mensaje'}
                   </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
+                  <motion.textarea
+                    id="message"
+                    name="message"
+                    rows={6}
                     required
-                    value={formData.email}
+                    value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none"
+                    onFocus={() => setFocusedField('message')}
+                    onBlur={() => setFocusedField(null)}
+                    className={`${inputClasses('message')} resize-none`}
+                    whileFocus={{ scale: 1.01 }}
                   />
-                </div>
-              </div>
+                </motion.div>
 
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('contactPage.form.subject') || 'Asunto'}
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  required
-                  value={formData.subject}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none"
-                />
-              </div>
+                <AnimatePresence>
+                  {status === 'error' && (
+                    <motion.div
+                      className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-600 text-sm"
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                    >
+                      {t('contactPage.form.error') || 'Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.'}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
 
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  {t('contactPage.form.message') || 'Mensaje'}
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={6}
-                  required
-                  value={formData.message}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none resize-none"
-                />
-              </div>
-
-              {status === 'error' && (
-                <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-600 text-sm">
-                  {t('contactPage.form.error') || 'Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.'}
-                </div>
-              )}
-
-              <button
-                type="submit"
-                disabled={status === 'loading'}
-                className="w-full py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {status === 'loading'
-                  ? (t('contactPage.form.sending') || 'Enviando...')
-                  : (t('contactPage.form.submit') || 'Enviar mensaje')
-                }
-              </button>
-            </form>
-          )}
+                <motion.button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  className="w-full py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed relative overflow-hidden"
+                  variants={staggerItem}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  <AnimatePresence mode="wait">
+                    {status === 'loading' ? (
+                      <motion.span
+                        key="loading"
+                        className="flex items-center justify-center gap-2"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                      >
+                        <motion.span
+                          className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full"
+                          animate={{ rotate: 360 }}
+                          transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+                        />
+                        {t('contactPage.form.sending') || 'Enviando...'}
+                      </motion.span>
+                    ) : (
+                      <motion.span
+                        key="submit"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                      >
+                        {t('contactPage.form.submit') || 'Enviar mensaje'}
+                      </motion.span>
+                    )}
+                  </AnimatePresence>
+                </motion.button>
+              </motion.form>
+            )}
+          </AnimatePresence>
 
         </div>
-      </section>
+      </motion.section>
 
       {/* Guarantees */}
-      <section className="py-20 md:py-28 bg-blue-600">
+      <motion.section
+        className="py-20 md:py-28 bg-blue-600"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+      >
         <div className="max-w-4xl mx-auto px-6">
-          <div className="grid grid-cols-3 gap-8 text-center">
-            <div>
-              <p className="font-serif text-3xl md:text-4xl text-white mb-2">24h</p>
-              <p className="text-xs text-blue-200 uppercase tracking-wide">
-                {t('contactPage.guarantees.responseTime')}
-              </p>
-            </div>
-            <div>
-              <p className="font-serif text-3xl md:text-4xl text-white mb-2">100%</p>
-              <p className="text-xs text-blue-200 uppercase tracking-wide">
-                {t('contactPage.guarantees.confidentiality')}
-              </p>
-            </div>
-            <div>
-              <p className="font-serif text-3xl md:text-4xl text-white mb-2">5★</p>
-              <p className="text-xs text-blue-200 uppercase tracking-wide">
-                {t('contactPage.guarantees.professionalService')}
-              </p>
-            </div>
-          </div>
+          <motion.div className="grid grid-cols-3 gap-4 md:gap-8 text-center" variants={staggerContainer}>
+            {[
+              { value: '24h', label: t('contactPage.guarantees.responseTime') },
+              { value: '100%', label: t('contactPage.guarantees.confidentiality') },
+              { value: '5★', label: t('contactPage.guarantees.professionalService') }
+            ].map((item, i) => (
+              <motion.div
+                key={i}
+                variants={staggerItem}
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <motion.p
+                  className="font-serif text-2xl md:text-4xl text-white mb-1 md:mb-2"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                >
+                  {item.value}
+                </motion.p>
+                <p className="text-[10px] md:text-xs text-blue-200 uppercase tracking-wide leading-tight">
+                  {item.label}
+                </p>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
     </div>
   );

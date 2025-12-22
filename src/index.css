@@ -13,128 +13,43 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Utilities */
-@layer utilities {
-  .animate-fade-in {
-    animation: fadeIn 0.6s ease-out forwards;
-  }
-
-  .animate-fade-up {
-    animation: fadeUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  }
-
-  .animate-slide-in-right {
-    animation: slideInRight 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  }
-
-  .animate-scale-in {
-    animation: scaleIn 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  }
-
-  .animate-line-grow {
-    animation: lineGrow 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  }
-
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-
-  .animation-delay-100 { animation-delay: 100ms; }
-  .animation-delay-200 { animation-delay: 200ms; }
-  .animation-delay-300 { animation-delay: 300ms; }
-  .animation-delay-400 { animation-delay: 400ms; }
-  .animation-delay-500 { animation-delay: 500ms; }
-  .animation-delay-600 { animation-delay: 600ms; }
-  .animation-delay-700 { animation-delay: 700ms; }
-  .animation-delay-800 { animation-delay: 800ms; }
+/* Selection */
+::selection {
+  background-color: rgba(37, 99, 235, 0.15);
+  color: inherit;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid rgb(37, 99, 235);
+  outline-offset: 2px;
 }
 
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+/* Smooth page transitions */
+.page-transition {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
+/* Optimize animations for mobile */
+@media (max-width: 768px) {
+  /* Disable complex transforms on mobile for better performance */
+  .motion-reduce {
+    transform: none !important;
   }
 }
 
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
+/* Only apply hover effects on devices with hover capability */
+@media (hover: hover) and (pointer: fine) {
+  .hover-lift:hover {
+    transform: translateY(-4px);
   }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes lineGrow {
-  from {
-    transform: scaleX(0);
-  }
-  to {
-    transform: scaleX(1);
-  }
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(2deg);
-  }
-}
-
-/* Hero gradient mesh background */
-.hero-gradient {
-  background:
-    radial-gradient(ellipse 80% 50% at 20% 40%, rgba(239, 246, 255, 0.9) 0%, transparent 50%),
-    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(249, 250, 251, 0.8) 0%, transparent 40%),
-    radial-gradient(ellipse 40% 30% at 70% 70%, rgba(219, 234, 254, 0.3) 0%, transparent 40%),
-    linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
-}
-
-/* Decorative elements */
-.hero-decoration::before {
-  content: '';
-  position: absolute;
-  top: 10%;
-  right: 5%;
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.03) 0%, transparent 70%);
-  border-radius: 50%;
-  pointer-events: none;
-}
-
-.hero-decoration::after {
-  content: '';
-  position: absolute;
-  bottom: 15%;
-  left: 10%;
-  width: 200px;
-  height: 200px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.04) 0%, transparent 70%);
-  border-radius: 50%;
-  pointer-events: none;
 }

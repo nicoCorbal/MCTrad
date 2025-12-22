@@ -10,7 +10,7 @@
     "heroDescription": "Zertifiziert vom spanischen Außenministerium und dem Landgericht in Deutschland. Spezialisiert auf internationales Recht und Unternehmensrecht.",
     "requestQuote": "Angebot anfordern",
     "trustBadge": "Beeidigte Übersetzerin • Spanisches Außenministerium • Landgericht Deutschland",
-    "servicesTitle": "Dienstleistungen",
+    "servicesTitle": "Beglaubigte Übersetzungen",
     "service1Title": "Beeidigte Übersetzung",
     "service1Desc": "Offizielle Dokumente mit rechtlicher Gültigkeit vor Behörden in Spanien und Deutschland. Verträge, Urteile, Urkunden.",
     "service2Title": "Akademische Dokumente",
@@ -20,7 +20,7 @@
     "languagePairsTitle": "Sprachkombinationen",
     "bidirectional": "Bidirektional",
     "unidirectional": "Unidirektional",
-    "credentialsTitle": "Offizielle Akkreditierungen",
+    "credentialsTitle": "Offizielle Akkreditierungen als Beeidigte Übersetzerin",
     "spainTitle": "Spanien",
     "spainDesc": "Beeidigte Übersetzerin, ernannt vom Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit des Königreichs Spanien.",
     "germanyTitle": "Deutschland",
@@ -105,7 +105,7 @@
     }
   },
   "servicesPage": {
-    "title": "Unsere Übersetzungsdienstleistungen",
+    "title": "Offizielle Beglaubigte Übersetzungen",
     "generalTranslation": {
       "heading": "Allgemeine und Fachübersetzungen",
       "description": "Ich biete hochwertige Übersetzungsdienste für eine breite Palette von Dokumenten, von Geschäftstexten bis hin zu technischen Texten, mit einem besonderen Schwerpunkt auf dem juristischen Bereich."
@@ -134,7 +134,7 @@
     }
   },
   "aboutPage": {
-    "title": "Über mich",
+    "title": "María Ángeles Capas, Beeidigte Übersetzerin",
     "introduction": "Ich bin eine vereidigte Übersetzerin mit langjähriger Erfahrung im juristischen und technischen Bereich. Meine Leidenschaft für Sprachen und rechtliche Präzision hat mich dazu bewogen, mich auf die Übersetzung komplexer Dokumente zu spezialisieren, wobei ich stets höchste Genauigkeit und Vertraulichkeit gewährleiste.",
     "paragraph1": "Meine berufliche Laufbahn konzentrierte sich darauf, zuverlässige Sprachlösungen für Privatpersonen, Unternehmen, Anwaltskanzleien und Behörden anzubieten. Ich verstehe die Bedeutung jedes Wortes im rechtlichen Kontext, weshalb jede Übersetzung mit der erforderlichen Sorgfalt angefertigt wird.",
     "paragraph2": "Neben meiner juristischen Spezialisierung verfüge ich auch über Erfahrung in technischen Übersetzungen, was es mir ermöglicht, eine breite Palette von Texten mit der passenden Terminologie zu bearbeiten. Mein Ziel ist es, die Erwartungen meiner Kunden zu übertreffen, indem ich einen schnellen, effizienten und vertrauenswürdigen Service biete.",
@@ -154,7 +154,7 @@
     }
   },
   "contactPage": {
-    "title": "Kontakt",
+    "title": "Kontakt - Angebot für Beglaubigte Übersetzung",
     "introduction": "Ich freue mich darauf, von Ihnen zu hören. Kontaktieren Sie mich bei Fragen zu beglaubigten, technischen oder juristischen Übersetzungen. Ich werde mich so schnell wie möglich bei Ihnen melden.",
     "form": {
       "name": "Name",

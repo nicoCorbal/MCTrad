@@ -1,10 +1,67 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+  fadeInUp,
+  staggerContainer,
+  staggerItem,
+  cardHover,
+  buttonHover
+} from '../components/animations/MotionComponents';
 
 function HomePage() {
   const { t } = useTranslation();
   const [openFaq, setOpenFaq] = useState(null);
+
+  // Inyectar FAQPage Schema para Rich Snippets de Google
+  useEffect(() => {
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": t('homePage.faq.q1'),
+          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a1') }
+        },
+        {
+          "@type": "Question",
+          "name": t('homePage.faq.q2'),
+          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a2') }
+        },
+        {
+          "@type": "Question",
+          "name": t('homePage.faq.q3'),
+          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a3') }
+        },
+        {
+          "@type": "Question",
+          "name": t('homePage.faq.q4'),
+          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a4') }
+        },
+        {
+          "@type": "Question",
+          "name": t('homePage.faq.q5'),
+          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a5') }
+        }
+      ]
+    };
+
+    let script = document.getElementById('faq-schema');
+    if (!script) {
+      script = document.createElement('script');
+      script.id = 'faq-schema';
+      script.type = 'application/ld+json';
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(faqSchema);
+
+    return () => {
+      const existingScript = document.getElementById('faq-schema');
+      if (existingScript) existingScript.remove();
+    };
+  }, [t]);
 
   const services = [
     {
@@ -52,26 +109,39 @@ function HomePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
-      <section className="min-h-[100vh] flex items-center hero-gradient hero-decoration relative overflow-hidden">
-        {/* Decorative floating elements */}
-        <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          {/* Abstract language connection visual */}
-          <div className="absolute top-1/4 right-[8%] w-64 h-64 opacity-0 animate-scale-in animation-delay-500">
+      <section className="min-h-[100vh] flex items-center relative overflow-hidden bg-gradient-to-b from-gray-50 via-white to-white">
+        {/* Decorative background elements - hidden on mobile for performance */}
+        <div className="absolute inset-0 pointer-events-none overflow-hidden hidden md:block">
+          <motion.div
+            className="absolute top-1/4 right-[8%] w-64 h-64"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+          >
             <div className="relative w-full h-full">
-              {/* Overlapping circles representing language connection */}
-              <div className="absolute top-0 left-0 w-40 h-40 rounded-full border border-gray-200/60 animate-float" />
-              <div className="absolute top-8 left-12 w-40 h-40 rounded-full border border-blue-200/50 animate-float animation-delay-200" style={{ animationDelay: '1s' }} />
+              <motion.div
+                className="absolute top-0 left-0 w-40 h-40 rounded-full border border-gray-200/60"
+                animate={{ y: [0, -10, 0] }}
+                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+              />
+              <motion.div
+                className="absolute top-8 left-12 w-40 h-40 rounded-full border border-blue-200/50"
+                animate={{ y: [0, 10, 0] }}
+                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+              />
               <div className="absolute top-4 left-6 w-40 h-40 rounded-full bg-gradient-to-br from-blue-50/80 to-transparent" />
-              {/* Connection line */}
-              <div className="absolute top-20 left-20 w-px h-24 bg-gradient-to-b from-gray-300/50 via-blue-300/30 to-transparent origin-top animate-line-grow animation-delay-700" />
             </div>
-          </div>
+          </motion.div>
 
           {/* Subtle grid pattern */}
-          <div className="absolute bottom-0 left-0 w-full h-1/3 opacity-[0.02]"
+          <motion.div
+            className="absolute bottom-0 left-0 w-full h-1/3 opacity-[0.015]"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.015 }}
+            transition={{ duration: 2, delay: 1 }}
             style={{
               backgroundImage: 'linear-gradient(rgba(37,99,235,1) 1px, transparent 1px), linear-gradient(90deg, rgba(37,99,235,1) 1px, transparent 1px)',
               backgroundSize: '60px 60px'
@@ -81,260 +151,439 @@ function HomePage() {
 
         <div className="max-w-6xl mx-auto px-6 lg:px-12 py-24 lg:py-32 relative z-10">
           <div className="max-w-3xl">
-            {/* Eyebrow with animated line */}
-            <div className="flex items-center gap-4 mb-8 opacity-0 animate-fade-up">
-              <div className="h-px w-12 bg-gradient-to-r from-blue-600 to-blue-400 origin-left animate-line-grow animation-delay-300" />
+            {/* Eyebrow */}
+            <motion.div
+              className="flex items-center gap-4 mb-8"
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <motion.div
+                className="h-px w-12 bg-gradient-to-r from-blue-600 to-blue-400"
+                initial={{ scaleX: 0 }}
+                animate={{ scaleX: 1 }}
+                transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+                style={{ originX: 0 }}
+              />
               <span className="text-xs font-medium tracking-[0.2em] uppercase text-gray-500">
                 {t('homePage.trustBadge')}
               </span>
-            </div>
+            </motion.div>
 
-            {/* Headline with staggered animation */}
+            {/* Headline */}
             <h1 className="mb-8">
-              <span className="block font-serif text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold text-gray-900 leading-[0.95] tracking-[-0.02em] opacity-0 animate-fade-up animation-delay-100">
+              <motion.span
+                className="block font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold text-gray-900 leading-[0.95] tracking-[-0.02em]"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
+              >
                 {t('homePage.heroTitle1')}
-              </span>
-              <span className="block font-serif text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold leading-[0.95] tracking-[-0.02em] opacity-0 animate-fade-up animation-delay-200 mt-2">
+              </motion.span>
+              <motion.span
+                className="block font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold leading-[0.95] tracking-[-0.02em] mt-2"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
+              >
                 <span className="relative inline-block">
                   <span className="relative z-10 text-blue-600">{t('homePage.heroTitle2')}</span>
-                  {/* Underline accent */}
-                  <span className="absolute -bottom-1 left-0 w-full h-3 bg-blue-100 -skew-x-6 origin-left animate-line-grow animation-delay-600" />
+                  <motion.span
+                    className="absolute -bottom-1 left-0 w-full h-3 bg-blue-100 -skew-x-6"
+                    initial={{ scaleX: 0 }}
+                    animate={{ scaleX: 1 }}
+                    transition={{ duration: 0.6, delay: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
+                    style={{ originX: 0 }}
+                  />
                 </span>
-              </span>
+              </motion.span>
             </h1>
 
             {/* Description */}
-            <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl opacity-0 animate-fade-up animation-delay-300">
+            <motion.p
+              className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+            >
               {t('homePage.heroDescription')}
-            </p>
+            </motion.p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4 mb-16 opacity-0 animate-fade-up animation-delay-400">
-              <Link
-                to="/contacto"
-                className="group inline-flex items-center gap-3 px-7 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all duration-300 text-base"
-              >
-                {t('homePage.requestQuote')}
-                <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-              <Link
-                to="/servicios"
-                className="group inline-flex items-center gap-3 px-7 py-4 text-gray-700 font-semibold rounded-lg border-2 border-gray-300 hover:border-gray-400 hover:bg-white/50 transition-all duration-300 text-base"
-              >
-                {t('services')}
-              </Link>
-            </div>
+            <motion.div
+              className="flex flex-wrap gap-4 mb-16"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+                <Link
+                  to="/contacto"
+                  className="group inline-flex items-center gap-3 px-7 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300 text-base"
+                >
+                  {t('homePage.requestQuote')}
+                  <motion.svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    initial={{ x: 0 }}
+                    whileHover={{ x: 4 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </motion.svg>
+                </Link>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+                <Link
+                  to="/servicios"
+                  className="inline-flex items-center gap-3 px-7 py-4 text-gray-700 font-semibold rounded-lg border-2 border-gray-300 hover:border-gray-400 hover:bg-white/50 transition-all duration-300 text-base"
+                >
+                  {t('services')}
+                </Link>
+              </motion.div>
+            </motion.div>
 
             {/* Trust indicators */}
-            <div className="opacity-0 animate-fade-up animation-delay-500">
-              <div className="flex flex-wrap items-center gap-6 md:gap-10">
-                <div className="flex items-center gap-3 group">
-                  <div className="flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm border border-gray-100 group-hover:shadow-md transition-shadow duration-300">
-                    <span className="text-lg">🇪🇸</span>
-                  </div>
-                  <div className="flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm border border-gray-100 -ml-4 group-hover:shadow-md transition-shadow duration-300">
-                    <span className="text-lg">🇩🇪</span>
-                  </div>
-                  <span className="text-sm text-gray-500 ml-1">{t('homePage.statCountries')}</span>
+            <motion.div
+              className="flex flex-wrap items-center gap-6 md:gap-10"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <motion.div
+                className="flex items-center gap-3 group"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <div className="flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm border border-gray-100 group-hover:shadow-md transition-shadow duration-300">
+                  <span className="text-lg">🇪🇸</span>
                 </div>
-
-                <div className="h-8 w-px bg-gray-200 hidden md:block" />
-
-                <div className="flex items-center gap-2">
-                  <span className="text-2xl font-serif text-gray-900">24h</span>
-                  <span className="text-sm text-gray-500">{t('homePage.statDelivery')}</span>
+                <div className="flex items-center justify-center w-11 h-11 rounded-full bg-white shadow-sm border border-gray-100 -ml-4 group-hover:shadow-md transition-shadow duration-300">
+                  <span className="text-lg">🇩🇪</span>
                 </div>
+                <span className="text-sm text-gray-500 ml-1">{t('homePage.statCountries')}</span>
+              </motion.div>
 
-                <div className="h-8 w-px bg-gray-200 hidden md:block" />
+              <div className="h-8 w-px bg-gray-200 hidden md:block" />
 
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                  </svg>
-                  <span className="text-sm text-gray-500">{t('homePage.statConfidential')}</span>
-                </div>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl font-serif text-gray-900">24h</span>
+                <span className="text-sm text-gray-500">{t('homePage.statDelivery')}</span>
               </div>
-            </div>
+
+              <div className="h-8 w-px bg-gray-200 hidden md:block" />
+
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <span className="text-sm text-gray-500">{t('homePage.statConfidential')}</span>
+              </div>
+            </motion.div>
           </div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in animation-delay-800">
-          <div className="flex flex-col items-center gap-2 text-gray-400">
+        {/* Scroll indicator - hidden on mobile */}
+        <motion.div
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:block"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1 }}
+        >
+          <motion.div
+            className="flex flex-col items-center gap-2 text-gray-400"
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+          >
             <span className="text-[10px] uppercase tracking-[0.2em]">Scroll</span>
             <div className="w-px h-8 bg-gradient-to-b from-gray-300 to-transparent" />
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </section>
 
       {/* Services */}
-      <section className="py-20 md:py-28 bg-gray-50">
+      <motion.section
+        className="py-20 md:py-28 bg-gray-50"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+      >
         <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
+          <motion.div className="text-center mb-16" variants={fadeInUp}>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
               {t('homePage.servicesTitle')}
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               {t('homePage.heroSubtitle')}
             </p>
-          </div>
+          </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <motion.div
+            className="grid md:grid-cols-3 gap-8"
+            variants={staggerContainer}
+          >
             {services.map((service, i) => (
-              <div key={i} className="p-8 bg-white border border-gray-200 rounded-xl hover:shadow-lg hover:border-gray-300 transition-all">
-                <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+              <motion.div
+                key={i}
+                className="p-8 bg-white border border-gray-200 rounded-xl cursor-pointer"
+                variants={staggerItem}
+                whileHover={{
+                  y: -8,
+                  boxShadow: "0 20px 40px rgba(0,0,0,0.08)",
+                  borderColor: "rgb(209 213 219)"
+                }}
+                transition={{ duration: 0.3 }}
+              >
+                <motion.div
+                  className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-6"
+                  whileHover={{ scale: 1.1, rotate: 5 }}
+                  transition={{ duration: 0.2 }}
+                >
                   {service.icon}
-                </div>
+                </motion.div>
                 <h3 className="font-serif text-xl font-semibold text-gray-900 mb-3">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   {service.description}
                 </p>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* Credentials */}
-      <section className="py-20 md:py-28">
+      <motion.section
+        className="py-20 md:py-28"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+      >
         <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
+          <motion.div className="text-center mb-16" variants={fadeInUp}>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
               {t('homePage.credentialsTitle')}
             </h2>
-          </div>
+          </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="p-8 bg-gray-50 rounded-xl border border-gray-200">
-              <div className="flex items-start gap-4">
-                <span className="text-4xl">🇪🇸</span>
-                <div>
-                  <h3 className="font-serif text-xl font-semibold text-gray-900 mb-2">
-                    {t('homePage.spainTitle')}
-                  </h3>
-                  <p className="text-gray-600 mb-4">{t('homePage.spainDesc')}</p>
-                  <a
-                    href="https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/TraductoresInt%C3%A9rpretes.aspx"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-blue-600 hover:underline"
+          <motion.div className="grid md:grid-cols-2 gap-8" variants={staggerContainer}>
+            {[
+              { flag: '🇪🇸', title: t('homePage.spainTitle'), desc: t('homePage.spainDesc'), link: 'https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/TraductoresInt%C3%A9rpretes.aspx' },
+              { flag: '🇩🇪', title: t('homePage.germanyTitle'), desc: t('homePage.germanyDesc'), link: 'https://www.justiz-dolmetscher.de/Recherche/de/Suchen' }
+            ].map((cred, i) => (
+              <motion.div
+                key={i}
+                className="p-8 bg-gray-50 rounded-xl border border-gray-200"
+                variants={staggerItem}
+                whileHover={{ scale: 1.02, boxShadow: "0 10px 30px rgba(0,0,0,0.06)" }}
+                transition={{ duration: 0.3 }}
+              >
+                <div className="flex items-start gap-4">
+                  <motion.span
+                    className="text-4xl"
+                    whileHover={{ scale: 1.2, rotate: 10 }}
+                    transition={{ duration: 0.2 }}
                   >
-                    {t('homePage.verifyCredential')} →
-                  </a>
+                    {cred.flag}
+                  </motion.span>
+                  <div>
+                    <h3 className="font-serif text-xl font-semibold text-gray-900 mb-2">
+                      {cred.title}
+                    </h3>
+                    <p className="text-gray-600 mb-4">{cred.desc}</p>
+                    <motion.a
+                      href={cred.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-blue-600 hover:underline inline-flex items-center gap-1"
+                      whileHover={{ x: 4 }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      {t('homePage.verifyCredential')}
+                      <span>→</span>
+                    </motion.a>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="p-8 bg-gray-50 rounded-xl border border-gray-200">
-              <div className="flex items-start gap-4">
-                <span className="text-4xl">🇩🇪</span>
-                <div>
-                  <h3 className="font-serif text-xl font-semibold text-gray-900 mb-2">
-                    {t('homePage.germanyTitle')}
-                  </h3>
-                  <p className="text-gray-600 mb-4">{t('homePage.germanyDesc')}</p>
-                  <a
-                    href="https://www.justiz-dolmetscher.de/Recherche/de/Suchen"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-blue-600 hover:underline"
-                  >
-                    {t('homePage.verifyCredential')} →
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* Process */}
-      <section className="py-20 md:py-28 bg-blue-600">
+      <motion.section
+        className="py-20 md:py-28 bg-blue-600"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+      >
         <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-16">
+          <motion.div className="text-center mb-16" variants={fadeInUp}>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
               {t('homePage.process.title')}
             </h2>
             <p className="text-blue-100 max-w-2xl mx-auto">
               {t('homePage.process.subtitle')}
             </p>
-          </div>
+          </motion.div>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <motion.div className="grid grid-cols-1 md:grid-cols-7 gap-8 md:gap-0 items-start" variants={staggerContainer}>
             {process.map((item, i) => (
-              <div key={i} className="text-center">
-                <div className="w-14 h-14 bg-white text-blue-600 font-semibold rounded-full flex items-center justify-center mx-auto mb-4">
-                  {item.step}
-                </div>
-                <h3 className="font-semibold text-white mb-2">{item.title}</h3>
-                <p className="text-sm text-blue-100">{item.desc}</p>
-              </div>
+              <React.Fragment key={i}>
+                {/* Paso */}
+                <motion.div
+                  className="text-center"
+                  variants={staggerItem}
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <div className="w-14 h-14 md:w-16 md:h-16 bg-white text-blue-600 font-semibold rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4 shadow-lg shadow-blue-900/20">
+                    {item.step}
+                  </div>
+                  <h3 className="font-semibold text-white mb-1 md:mb-2">{item.title}</h3>
+                  <p className="text-sm text-blue-100 max-w-[200px] md:max-w-[140px] mx-auto">{item.desc}</p>
+                </motion.div>
+
+                {/* Flecha entre pasos */}
+                {i < process.length - 1 && (
+                  <motion.div
+                    className="hidden md:flex items-center justify-center h-16"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.5 + i * 0.1 }}
+                  >
+                    <svg className="w-full h-4 text-white/30" viewBox="0 0 60 16" fill="none">
+                      <path
+                        d="M0 8h50M50 8l-6-6M50 8l-6 6"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </motion.div>
+                )}
+              </React.Fragment>
             ))}
-          </div>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* FAQ */}
-      <section className="py-20 md:py-28">
+      <motion.section
+        className="py-20 md:py-28"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={staggerContainer}
+      >
         <div className="max-w-3xl mx-auto px-6">
-          <div className="text-center mb-16">
+          <motion.div className="text-center mb-16" variants={fadeInUp}>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
               {t('homePage.faq.title')}
             </h2>
-          </div>
+          </motion.div>
 
-          <div className="space-y-4">
+          <motion.div className="space-y-4" variants={staggerContainer}>
             {faqs.map((faq, i) => (
-              <div key={i} className="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
+              <motion.div
+                key={i}
+                className="bg-white rounded-xl border border-gray-200 overflow-hidden"
+                variants={staggerItem}
+                whileHover={{
+                  borderColor: "rgb(59 130 246)",
+                  boxShadow: "0 4px 12px rgba(59, 130, 246, 0.1)"
+                }}
+                transition={{ duration: 0.2 }}
+              >
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full px-6 py-4 text-left flex items-center justify-between gap-4"
+                  className="w-full px-6 py-4 text-left flex items-center justify-between gap-4 hover:bg-gray-50 transition-colors"
                 >
                   <span className="font-medium text-gray-900">{faq.q}</span>
-                  <svg
-                    className={`w-5 h-5 text-gray-500 transition-transform ${openFaq === i ? 'rotate-180' : ''}`}
+                  <motion.svg
+                    className="w-5 h-5 text-gray-500 flex-shrink-0"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
+                    animate={{ rotate: openFaq === i ? 180 : 0 }}
+                    transition={{ duration: 0.3 }}
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
+                  </motion.svg>
                 </button>
-                {openFaq === i && (
-                  <div className="px-6 pb-4 text-gray-600">
-                    {faq.a}
-                  </div>
-                )}
-              </div>
+                <AnimatePresence>
+                  {openFaq === i && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+                      className="overflow-hidden"
+                    >
+                      <div className="px-6 pb-4 text-gray-600">
+                        {faq.a}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* CTA */}
-      <section className="py-20 md:py-28 bg-blue-600">
+      <motion.section
+        className="py-20 md:py-28 bg-blue-600"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={fadeInUp}
+      >
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4">
-            {t('homePage.ctaTitle')}
-          </h2>
-          <p className="text-blue-100 mb-8 text-lg">
-            {t('homePage.ctaSubtitle')}
-          </p>
-          <Link
-            to="/contacto"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+          <motion.h2
+            className="font-serif text-3xl md:text-4xl font-semibold text-white mb-4"
+            variants={fadeInUp}
           >
-            {t('homePage.ctaContact')}
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
+            {t('homePage.ctaTitle')}
+          </motion.h2>
+          <motion.p
+            className="text-blue-100 mb-8 text-lg"
+            variants={fadeInUp}
+          >
+            {t('homePage.ctaSubtitle')}
+          </motion.p>
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.98 }}
+          >
+            <Link
+              to="/contacto"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
+            >
+              {t('homePage.ctaContact')}
+              <motion.svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                whileHover={{ x: 4 }}
+                transition={{ duration: 0.2 }}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </motion.svg>
+            </Link>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
     </div>
   );

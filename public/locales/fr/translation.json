@@ -10,7 +10,7 @@
     "heroDescription": "Certifiée par le Ministère des Affaires Étrangères d'Espagne et le Landgericht d'Allemagne. Spécialisée en droit international et des sociétés.",
     "requestQuote": "Demander un devis",
     "trustBadge": "Traductrice Assermentée • Ministère des Affaires Étrangères d'Espagne • Landgericht Allemagne",
-    "servicesTitle": "Services",
+    "servicesTitle": "Services de Traduction Assermentée",
     "service1Title": "Traduction Assermentée",
     "service1Desc": "Documents officiels avec validité légale devant les organismes publics d'Espagne et d'Allemagne. Contrats, jugements, actes.",
     "service2Title": "Documents Académiques",
@@ -20,7 +20,7 @@
     "languagePairsTitle": "Combinaisons linguistiques",
     "bidirectional": "Bidirectionnel",
     "unidirectional": "Unidirectionnel",
-    "credentialsTitle": "Accréditations officielles",
+    "credentialsTitle": "Accréditations Officielles de Traductrice Assermentée",
     "spainTitle": "Espagne",
     "spainDesc": "Traductrice assermentée nommée par le Ministère des Affaires Étrangères, de l'Union Européenne et de la Coopération du Royaume d'Espagne.",
     "germanyTitle": "Allemagne",
@@ -105,7 +105,7 @@
     }
   },
   "servicesPage": {
-    "title": "Nos Services de Traduction",
+    "title": "Services de Traduction Assermentée Officielle",
     "generalTranslation": {
       "heading": "Traductions Générales et Spécialisées",
       "description": "J'offre des services de traduction de haute qualité pour une large gamme de documents, des textes commerciaux aux textes techniques, avec un accent particulier sur le domaine juridique."
@@ -134,7 +134,7 @@
     }
   },
   "aboutPage": {
-    "title": "À propos de moi",
+    "title": "María Ángeles Capas, Traductrice Assermentée Officielle",
     "introduction": "Je suis une traductrice assermentée avec des années d'expérience dans le domaine juridique et technique. Ma passion pour les langues et la rigueur légale m'ont conduite à me spécialiser dans la traduction de documents complexes, garantissant toujours la plus grande précision et confidentialité.",
     "paragraph1": "Mon parcours professionnel s'est concentré sur l'offre de solutions linguistiques fiables aux particuliers, aux entreprises, aux cabinets d'avocats et aux organismes officiels. Je comprends l'importance de chaque mot dans un contexte juridique, c'est pourquoi chaque traduction est réalisée avec la minutie qu'exige la matière.",
     "paragraph2": "Outre ma spécialisation juridique, j'ai également de l'expérience en traductions techniques, ce qui me permet d'aborder une grande variété de textes avec la terminologie appropriée. Mon objectif est de dépasser les attentes de mes clients, en fournissant un service rapide, efficace et fiable.",
@@ -154,7 +154,7 @@
     }
   },
   "contactPage": {
-    "title": "Contact",
+    "title": "Contact - Devis de Traduction Assermentée",
     "introduction": "Je serais ravie de vous aider. N'hésitez pas à me contacter pour toute question concernant les traductions assermentées, techniques ou juridiques. Je vous répondrai dans les plus brefs délais.",
     "form": {
       "name": "Nom",
