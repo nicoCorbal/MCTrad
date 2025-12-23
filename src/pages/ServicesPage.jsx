@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { LocalizedLink } from '../components/LocalizedLink';
 import { motion } from 'framer-motion';
 import {
   fadeInUp,
@@ -197,7 +197,7 @@ function ServicesPage() {
             {t('homePage.ctaSubtitle')}
           </motion.p>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
-            <Link
+            <LocalizedLink
               to="/contacto"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
             >
@@ -211,7 +211,7 @@ function ServicesPage() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </motion.svg>
-            </Link>
+            </LocalizedLink>
           </motion.div>
         </div>
       </motion.section>

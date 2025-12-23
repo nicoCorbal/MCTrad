@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
+import { LocalizedNavLink } from './LocalizedLink';
+import { useLocalizedNavigation } from '../hooks/useLocalizedNavigation';
 
 const Header = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+  const { currentLang, changeLanguage, supportedLanguages } = useLocalizedNavigation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -22,7 +24,7 @@ const Header = () => {
   ];
 
   const navLinks = [
-    { to: '/', label: t('home') },
+    { to: '/', label: t('home'), end: true },
     { to: '/servicios', label: t('services') },
     { to: '/sobre-mi', label: t('about') },
     { to: '/contacto', label: t('contact') },
@@ -46,14 +48,14 @@ const Header = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.2 }}
           >
-            <NavLink to="/" className="flex flex-col">
+            <LocalizedNavLink to="/" className="flex flex-col">
               <span className="font-serif text-lg md:text-xl font-semibold text-gray-900">
                 María Ángeles Capas
               </span>
               <span className="text-[10px] md:text-xs text-gray-500 uppercase tracking-wider">
                 {t('common.swornTranslator')}
               </span>
-            </NavLink>
+            </LocalizedNavLink>
           </motion.div>
 
           {/* Desktop Nav */}
@@ -68,8 +70,9 @@ const Header = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
               >
-                <NavLink
+                <LocalizedNavLink
                   to={link.to}
+                  end={link.end}
                   className={({ isActive }) =>
                     `relative text-sm font-medium transition-colors ${
                       isActive ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900'
@@ -88,7 +91,7 @@ const Header = () => {
                       )}
                     </>
                   )}
-                </NavLink>
+                </LocalizedNavLink>
               </motion.div>
             ))}
           </nav>
@@ -105,15 +108,15 @@ const Header = () => {
               {languages.map((lang, i) => (
                 <React.Fragment key={lang.code}>
                   <motion.button
-                    onClick={() => i18n.changeLanguage(lang.code)}
+                    onClick={() => changeLanguage(lang.code)}
                     className={`px-1.5 py-1 font-medium transition-colors ${
-                      i18n.language === lang.code
+                      currentLang === lang.code
                         ? 'text-blue-600'
                         : 'text-gray-400 hover:text-gray-600'
                     }`}
                     type="button"
                     aria-label={t('common.changeLanguageTo', { lng: lang.label }) || `Cambiar idioma a ${lang.label}`}
-                    aria-pressed={i18n.language === lang.code}
+                    aria-pressed={currentLang === lang.code}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                   >
@@ -186,8 +189,9 @@ const Header = () => {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: i * 0.05 }}
                   >
-                    <NavLink
+                    <LocalizedNavLink
                       to={link.to}
+                      end={link.end}
                       onClick={() => setMobileMenuOpen(false)}
                       className={({ isActive }) =>
                         `block px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
@@ -196,7 +200,7 @@ const Header = () => {
                       }
                     >
                       {link.label}
-                    </NavLink>
+                    </LocalizedNavLink>
                   </motion.div>
                 ))}
               </nav>
@@ -209,9 +213,12 @@ const Header = () => {
                 {languages.map((lang) => (
                   <motion.button
                     key={lang.code}
-                    onClick={() => i18n.changeLanguage(lang.code)}
+                    onClick={() => {
+                      changeLanguage(lang.code);
+                      setMobileMenuOpen(false);
+                    }}
                     className={`px-3 py-1.5 text-xs font-medium rounded transition-colors ${
-                      i18n.language === lang.code
+                      currentLang === lang.code
                         ? 'bg-blue-600 text-white'
                         : 'bg-gray-100 text-gray-600'
                     }`}

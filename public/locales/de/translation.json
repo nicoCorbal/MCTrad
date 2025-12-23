@@ -1,114 +1,117 @@
 {
   "home": "Startseite",
   "about": "Über mich",
-  "services": "Dienstleistungen",
+  "services": "Leistungen",
   "contact": "Kontakt",
   "homePage": {
-    "heroTitle1": "Beeidigte Übersetzung",
-    "heroTitle2": "Offiziell.",
-    "heroSubtitle": "Rechtliche Präzision für kritische Dokumente.",
-    "heroDescription": "Zertifiziert vom spanischen Außenministerium und vom Oberlandesgericht Köln ermächtigt. Spezialisiert auf internationales Recht und Unternehmensrecht.",
-    "requestQuote": "Angebot anfordern",
-    "trustBadge": "Beeidigte Übersetzerin • Spanisches Außenministerium • Oberlandesgericht Köln",
-    "servicesTitle": "Beglaubigte Übersetzungen",
-    "service1Title": "Beeidigte Übersetzung",
-    "service1Desc": "Offizielle Dokumente mit rechtlicher Gültigkeit vor Behörden in Spanien und Deutschland. Verträge, Urteile, Urkunden.",
+    "heroTitle1": "Beglaubigte Übersetzungen",
+    "heroTitle2": "Rechtssicher & Offiziell.",
+    "heroSubtitle": "Präzise Fachübersetzungen für Justiz, Behörden und Wirtschaft.",
+    "heroDescription": "In Spanien vom Außenministerium ernannte und in Deutschland vom OLG Köln ermächtigte Übersetzerin. Ihre Expertin für deutsch-spanischen Rechtsverkehr.",
+    "requestQuote": "Jetzt Angebot anfordern",
+    "trustBadge": "Spanisches Außenministerium (MAEC) • OLG Köln ermächtigt",
+    "servicesTitle": "Meine Fachgebiete",
+    "service1Title": "Beglaubigte Übersetzung",
+    "service1Desc": "Offizielle Dokumente mit Rechtsgültigkeit für Behörden in Spanien, Deutschland und darüber hinaus. Urteile, Verträge, Personenstandsurkunden.",
     "service2Title": "Akademische Dokumente",
-    "service2Desc": "Universitätsabschlüsse, akademische Zeugnisse, Studienbescheinigungen für internationale Anerkennungsverfahren.",
-    "service3Title": "Unternehmensübersetzung",
-    "service3Desc": "Geschäftsdokumentation, Handelsvereinbarungen, Finanzberichte und internationale Unternehmens-Compliance.",
+    "service2Desc": "Diplome, Transkripte und Zeugnisse für Anerkennungsverfahren, Universitätsbewerbungen und berufliche Zulassungen.",
+    "service3Title": "Juristische Fachübersetzungen",
+    "service3Desc": "Handelsregisterauszüge, Notarurkunden, Zivil- und Strafrecht sowie Unternehmenskommunikation.",
     "languagePairsTitle": "Sprachkombinationen",
-    "bidirectional": "Bidirektional",
+    "bidirectional": "Bidirektional (Hin & Zurück)",
     "unidirectional": "Unidirektional",
-    "credentialsTitle": "Offizielle Akkreditierungen als Beeidigte Übersetzerin",
-    "spainTitle": "Spanien",
-    "spainDesc": "Beeidigte Übersetzerin, ernannt vom Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit des Königreichs Spanien.",
-    "germanyTitle": "Deutschland",
-    "germanyDesc": "Vom Oberlandesgericht Köln ermächtigte Übersetzerin für die französische und spanische Sprache.",
-    "verifyCredential": "Akkreditierung überprüfen",
-    "statCountries": "Zertifizierte Länder",
-    "statLanguages": "Sprachen",
-    "statDelivery": "Standardlieferung",
-    "statConfidential": "Vertraulich",
-    "officialBadge": "Beeidigte Übersetzerin",
-    "ctaTitle": "Brauchen Sie eine offizielle Übersetzung?",
-    "ctaSubtitle": "Fordern Sie ein unverbindliches Angebot an",
-    "ctaContact": "Jetzt kontaktieren",
-    "ctaLearnMore": "Mehr erfahren",
+    "credentialsTitle": "Offizielle Akkreditierungen",
+    "spainTitle": "Spanien (MAEC)",
+    "spainDesc": "Vereidigte Übersetzerin und Dolmetscherin, ernannt vom Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit.",
+    "germanyTitle": "Deutschland (OLG Köln)",
+    "germanyDesc": "Vom Oberlandesgericht Köln ermächtigte Übersetzerin für die spanische und französische Sprache.",
+    "verifyCredential": "Zulassung prüfen",
+    "statCountries": "Länder mit Gültigkeit",
+    "statLanguages": "Arbeitssprachen",
+    "statDelivery": "Regellieferzeit",
+    "statConfidential": "Diskretion",
+    "officialBadge": "Offiziell anerkannt",
+    "ctaTitle": "Benötigen Sie eine beglaubigte Übersetzung?",
+    "ctaSubtitle": "Senden Sie mir Ihre Dokumente für ein unverbindliches Festpreisangebot.",
+    "ctaContact": "Kostenloses Angebot",
+    "ctaLearnMore": "Details ansehen",
     "spanish": "Spanisch",
     "german": "Deutsch",
     "french": "Französisch",
     "english": "Englisch",
     "process": {
-      "title": "So funktioniert es",
-      "subtitle": "Ein einfacher und transparenter Prozess für Ihre beeidigte Übersetzung",
-      "step1Title": "Anfrage",
-      "step1Desc": "Senden Sie Ihr Dokument per E-Mail oder WhatsApp",
-      "step2Title": "Angebot",
-      "step2Desc": "Sie erhalten innerhalb von 24h ein Angebot",
+      "title": "Ablauf",
+      "subtitle": "In 4 Schritten zu Ihrer fertigen Übersetzung",
+      "step1Title": "Dokument senden",
+      "step1Desc": "Senden Sie einen Scan oder ein Foto per E-Mail oder WhatsApp.",
+      "step2Title": "Angebot erhalten",
+      "step2Desc": "Sie erhalten kurzfristig ein verbindliches Festpreisangebot.",
       "step3Title": "Übersetzung",
-      "step3Desc": "Ich erstelle die offizielle beeidigte Übersetzung",
+      "step3Desc": "Anfertigung der beglaubigten Übersetzung inklusive Siegel und Unterschrift.",
       "step4Title": "Lieferung",
-      "step4Desc": "Sie erhalten das zertifizierte Dokument"
+      "step4Desc": "Versand als PDF vorab und das Original per Post direkt zu Ihnen."
     },
     "faq": {
-      "title": "Häufig gestellte Fragen",
-      "q1": "Was ist eine beeidigte Übersetzung?",
-      "a1": "Eine beeidigte Übersetzung ist eine offizielle Übersetzung, die von einem staatlich zugelassenen Übersetzer angefertigt wird. Sie enthält Unterschrift, Siegel und Zertifizierung, die ihr rechtliche Gültigkeit vor Behörden verleihen.",
-      "q2": "Wie lange dauert eine beeidigte Übersetzung?",
-      "a2": "Die Dauer hängt vom Umfang des Dokuments ab. In der Regel wird ein Standarddokument innerhalb von 24-48 Stunden geliefert. Für dringende Projekte fragen Sie bitte nach Verfügbarkeit.",
-      "q3": "Welche Dokumente können beeidigt übersetzt werden?",
-      "a3": "Alle offiziellen Dokumente: Geburtsurkunden, akademische Abschlüsse, Verträge, Urteile, Urkunden, notarielle Vollmachten, Führungszeugnisse usw.",
-      "q4": "Hat die beeidigte Übersetzung internationale Gültigkeit?",
-      "a4": "Ja, in Spanien und Deutschland erstellte beeidigte Übersetzungen sind in beiden Ländern gültig und werden gemäß den geltenden Abkommen international anerkannt.",
-      "q5": "Wie wird die Übersetzung geliefert?",
-      "a5": "Die Übersetzung kann digital (signiertes PDF) und/oder auf Papier mit Original-Unterschrift und Siegel geliefert werden, je nach Kundenwunsch."
+      "title": "Häufige Fragen",
+      "q1": "Was ist der Unterschied zwischen beglaubigt und beeidigt?",
+      "a1": "Umgangssprachlich werden die Begriffe oft synonym verwendet. Korrekt handelt es sich um eine 'bestätigte' oder 'bescheinigte' Übersetzung durch einen gerichtlich ermächtigten oder beeidigten Übersetzer. Diese ist behördlich anerkannt.",
+      "q2": "Wie schnell erhalte ich die Übersetzung?",
+      "a2": "Standarddokumente (z.B. Geburtsurkunde) werden oft innerhalb von 24-48 Stunden bearbeitet. Die Postlaufzeit von Spanien nach Deutschland beträgt ca. 3-5 Werktage (Eilversand möglich).",
+      "q3": "Benötigen Sie das Originaldokument?",
+      "a3": "In den meisten Fällen reicht ein gut lesbarer Scan aus. Der Vermerk auf der Übersetzung lautet dann 'Übersetzung vom Scan'. Bitte klären Sie vorab mit Ihrer Behörde, ob dies ausreicht (in 99% der Fälle: ja).",
+      "q4": "Ist die Übersetzung in Deutschland gültig?",
+      "a4": "Ja. Als vom OLG Köln ermächtigte Übersetzerin werden meine Übersetzungen von allen deutschen Behörden und Gerichten anerkannt.",
+      "q5": "Wie erfolgt die Bezahlung?",
+      "a5": "Sie erhalten eine Rechnung mit ausgewiesener Mehrwertsteuer. Die Zahlung erfolgt bequem per Überweisung."
     }
   },
   "common": {
-    "swornTranslator": "Beeidigte Übersetzerin",
-    "certified": "Zertifiziert",
+    "swornTranslator": "Ermächtigte & Beeidigte Übersetzerin",
+    "certified": "Beglaubigt",
     "allRightsReserved": "Alle Rechte vorbehalten",
-    "privacyPolicy": "Datenschutzerklärung",
-    "quickLinks": "Schnellzugriff",
-    "certifications": "Zertifizierungen",
-    "sendEmail": "E-Mail senden",
-    "openWhatsApp": "WhatsApp öffnen",
-    "contactNow": "Jetzt Kontakt aufnehmen",
+    "privacyPolicy": "Datenschutz",
+    "quickLinks": "Menü",
+    "certifications": "Zulassungen",
+    "sendEmail": "E-Mail schreiben",
+    "openWhatsApp": "WhatsApp Nachricht",
+    "contactNow": "Anfrage senden",
+    "changeLanguageTo": "Sprache wechseln zu",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
     "badges": {
-      "professionalServices": "Professionelle Dienstleistungen",
-      "professionalProfile": "Berufsprofil",
-      "whyChooseMe": "Warum mich wählen?",
-      "mainService": "Hauptservice",
-      "additionalServices": "Zusätzliche Dienstleistungen",
-      "guarantees": "Garantien"
+      "professionalServices": "Fachübersetzungen",
+      "professionalProfile": "Über mich",
+      "whyChooseMe": "Ihre Vorteile",
+      "mainService": "Kernkompetenz",
+      "additionalServices": "Weitere Sprachen",
+      "guarantees": "Garantie"
     }
   },
   "hero": {
-    "headline": "Beeidigte und Fachübersetzungen | Zuverlässigkeit und Schnelligkeit",
-    "subheadline": "Als Expertin für komplexe Rechtstexte biete ich präzise und schnelle Sprachlösungen für Privatpersonen, Kanzleien und Unternehmen.",
-    "contactButton": "Jetzt Kontakt aufnehmen",
-    "servicesButton": "Dienstleistungen ansehen",
+    "headline": "Beglaubigte Übersetzungen | Deutsch - Spanisch - Französisch",
+    "subheadline": "Rechtssicher, schnell und direkt von der gerichtlich ermächtigten Übersetzerin. Anerkannt in Deutschland und Spanien.",
+    "contactButton": "Angebot anfordern",
+    "servicesButton": "Mehr erfahren",
     "trustIndicators": {
       "officialCertification": {
-        "title": "Offizielle Zertifizierung",
-        "description": "Beeidigte Übersetzerin in Spanien und Deutschland"
+        "title": "Doppelte Zulassung",
+        "description": "Akkreditiert in Spanien (MAEC) und Deutschland (OLG Köln)"
       },
       "fastDelivery": {
-        "title": "Schnelle Lieferung",
-        "description": "Effiziente Lösungen ohne Qualitätseinbußen"
+        "title": "Digitale Vorab-Lieferung",
+        "description": "Signiertes PDF vorab, Original per Post"
       },
       "legalSpecialization": {
-        "title": "Rechtsspezialisierung",
-        "description": "Erfahrung mit komplexen Rechtstexten"
+        "title": "Rechtsexpertise",
+        "description": "Spezialisiert auf juristische Fachtexte und Urkunden"
       }
     }
   },
   "servicesPage": {
-    "title": "Offizielle Beglaubigte Übersetzungen",
+    "title": "Dienstleistungen & Fachgebiete",
     "generalTranslation": {
-      "heading": "Allgemeine und Fachübersetzungen",
-      "description": "Ich biete hochwertige Übersetzungsdienste für eine breite Palette von Dokumenten, von Geschäftstexten bis hin zu technischen Texten, mit einem besonderen Schwerpunkt auf dem juristischen Bereich."
+      "heading": "Fachübersetzungen",
+      "description": "Hochwertige Übersetzungen für juristische, wirtschaftliche und technische Texte. Präzise Terminologie und stilistische Sicherheit für Ihre Geschäftskorrespondenz."
     },
     "languagePairs": {
       "germanSpanish": "Deutsch ⟷ Spanisch",
@@ -116,73 +119,111 @@
       "englishGerman": "Englisch → Deutsch",
       "englishSpanish": "Englisch → Spanisch",
       "galicianGerman": "Galicisch ⟷ Deutsch",
-      "description": "Professionelle Übersetzung in dieser Sprachkombination."
+      "description": "Professionelle Übersetzungen in diesen Kombinationen."
     },
     "swornTranslation": {
-      "heading": "Amtlich beglaubigte Übersetzung",
-      "description": "Erforderlich für Dokumente, die offiziellen Stellen oder ausländischen Institutionen vorgelegt werden müssen. Meine beglaubigten Übersetzungen sind rechtsgültig.",
+      "heading": "Beglaubigte Urkundenübersetzung",
+      "description": "Zwingend erforderlich für die Vorlage bei Standesämtern, Gerichten, Universitäten und Ausländerbehörden.",
       "spain": {
-        "title": "Beeidigte Übersetzerin in Spanien",
-        "description": "Zugelassen vom spanischen Außenministerium, der Europäischen Union und für Zusammenarbeit (MAEC).",
-        "linkText": "Liste der beeidigten Übersetzer des MAEC anzeigen"
+        "title": "Für Spanien (Traductora Jurada)",
+        "description": "Mit Stempel und Unterschrift gemäß den Vorgaben des spanischen Außenministeriums (MAEC).",
+        "linkText": "MAEC-Liste einsehen"
       },
       "germany": {
-        "title": "Beeidigte Übersetzerin in Deutschland",
-        "description": "Zugelassen vom Oberlandesgericht Köln in Deutschland.",
-        "linkText": "Im Verzeichnis der Justizdolmetscher suchen"
+        "title": "Für Deutschland (Ermächtigte Übersetzerin)",
+        "description": "Bestätigte Übersetzung gemäß § 142 Abs. 3 ZPO, anerkannt durch das OLG Köln.",
+        "linkText": "Justiz-Dolmetscher Verzeichnis"
       }
     }
   },
   "aboutPage": {
-    "title": "María Ángeles Capas, Beeidigte Übersetzerin",
-    "introduction": "Ich bin eine vereidigte Übersetzerin mit langjähriger Erfahrung im juristischen und technischen Bereich. Meine Leidenschaft für Sprachen und rechtliche Präzision hat mich dazu bewogen, mich auf die Übersetzung komplexer Dokumente zu spezialisieren, wobei ich stets höchste Genauigkeit und Vertraulichkeit gewährleiste.",
-    "paragraph1": "Meine berufliche Laufbahn konzentrierte sich darauf, zuverlässige Sprachlösungen für Privatpersonen, Unternehmen, Anwaltskanzleien und Behörden anzubieten. Ich verstehe die Bedeutung jedes Wortes im rechtlichen Kontext, weshalb jede Übersetzung mit der erforderlichen Sorgfalt angefertigt wird.",
-    "paragraph2": "Neben meiner juristischen Spezialisierung verfüge ich auch über Erfahrung in technischen Übersetzungen, was es mir ermöglicht, eine breite Palette von Texten mit der passenden Terminologie zu bearbeiten. Mein Ziel ist es, die Erwartungen meiner Kunden zu übertreffen, indem ich einen schnellen, effizienten und vertrauenswürdigen Service biete.",
-    "conclusion": "Ich passe mich den spezifischen Bedürfnissen jedes Projekts an und biete eine persönliche Betreuung und reibungslose Kommunikation. Wenn Sie einen professionellen Übersetzungsdienst suchen, der Präzision, Schnelligkeit und tiefgreifendes Branchenwissen vereint, zögern Sie nicht, mich zu kontaktieren.",
+    "title": "María Ángeles Capas – Ihre Übersetzerin",
+    "introduction": "Als doppelt qualifizierte Übersetzerin verbinde ich die Rechtssysteme Spaniens und Deutschlands. Meine Ermächtigung durch das OLG Köln und die Ernennung durch das spanische Außenministerium garantieren Ihnen höchste Rechtssicherheit.",
+    "paragraph1": "Seit vielen Jahren unterstütze ich Kanzleien, Notare, Unternehmen und Privatpersonen dabei, sprachliche Barrieren im bürokratischen Dschungel zu überwinden. Ich weiß, dass es bei juristischen Texten auf jedes Detail ankommt.",
+    "paragraph2": "Neben meiner juristischen Expertise biete ich auch technische Übersetzungen an. Durch meinen Standort in Spanien und meine Zulassung in Deutschland bin ich die ideale Brücke für Ihre internationalen Angelegenheiten.",
+    "conclusion": "Persönlicher Service, direkte Kommunikation und absolute Vertraulichkeit sind für mich selbstverständlich. Ich freue mich darauf, Sie bei Ihrem Anliegen zu unterstützen.",
     "sections": {
-      "presentation": "Vorstellung",
+      "presentation": "Profil",
       "experience": "Erfahrung",
-      "capabilities": "Fähigkeiten",
-      "commitment": "Engagement"
+      "capabilities": "Kompetenzen",
+      "commitment": "Qualitätsanspruch"
     },
     "credentials": {
-      "officialSeal": "Offizielles Siegel der beeidigten Übersetzerin",
-      "certification": "Zertifizierung",
-      "spainAndGermany": "Spanien & Deutschland",
-      "specialization": "Spezialisierung",
-      "legalAndTechnical": "Recht & Technik"
+      "officialSeal": "Offizielles Siegel",
+      "certification": "Akkreditierung",
+      "spainAndGermany": "DE & ES",
+      "specialization": "Fachgebiete",
+      "legalAndTechnical": "Recht & Wirtschaft",
+      "officialStamps": "Offizielle Stempel"
     }
   },
   "contactPage": {
-    "title": "Kontakt - Angebot für Beglaubigte Übersetzung",
-    "introduction": "Ich freue mich darauf, von Ihnen zu hören. Kontaktieren Sie mich bei Fragen zu beglaubigten, technischen oder juristischen Übersetzungen. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+    "title": "Kontakt & Anfrage",
+    "introduction": "Haben Sie Fragen oder benötigen Sie ein schnelles Angebot? Senden Sie mir Ihre Dokumente einfach per E-Mail oder über das Formular.",
     "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "subject": "Betreff",
-      "message": "Nachricht",
-      "submit": "Nachricht senden",
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail-Adresse",
+      "subject": "Betreff (z.B. Übersetzung Geburtsurkunde)",
+      "message": "Nachricht / Details zum Auftrag",
+      "submit": "Kostenpflichtiges Angebot anfordern",
       "sending": "Wird gesendet...",
-      "successTitle": "Nachricht gesendet",
-      "successMessage": "Vielen Dank für Ihre Nachricht. Ich werde innerhalb von 24 Stunden antworten.",
-      "sendAnother": "Weitere Nachricht senden",
-      "error": "Beim Senden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+      "successTitle": "Vielen Dank!",
+      "successMessage": "Ihre Anfrage ist eingegangen. Ich melde mich in Kürze bei Ihnen.",
+      "sendAnother": "Neue Nachricht",
+      "error": "Fehler beim Senden. Bitte versuchen Sie es per E-Mail."
     },
     "guarantees": {
-      "responseTime": "Antwortzeit",
-      "confidentiality": "Vertraulichkeit",
-      "professionalService": "Professioneller Service"
+      "responseTime": "Schnelle Antwort",
+      "confidentiality": "Verschwiegenheit",
+      "professionalService": "Direkter Kontakt"
     }
   },
   "footer": {
-    "description": "Hochwertige beeidigte und Fachübersetzungen. Zertifiziert in Spanien und Deutschland.",
+    "description": "Beglaubigte Übersetzungen für Spanien und Deutschland. Rechtssicher, schnell, kompetent.",
     "spain": {
       "country": "Spanien",
-      "authority": "Ministerium für auswärtige Angelegenheiten"
+      "authority": "Traductora Jurada (MAEC)"
     },
     "germany": {
       "country": "Deutschland",
-      "authority": "Oberlandesgericht Köln"
+      "authority": "Ermächtigte Übersetzerin (OLG Köln)"
     }
+  },
+  "legalPage": {
+    "title": "Impressum",
+    "ownerTitle": "Angaben gemäß § 5 TMG / LSSI-CE",
+    "profession": "Beeidigte & Ermächtigte Übersetzerin",
+    "activityTitle": "Berufsbezeichnung & Regelungen",
+    "activityDesc": "Freiberufliche Übersetzerin. Die Berufsbezeichnungen wurden in Spanien (Traductora Jurada) und Deutschland (Ermächtigte Übersetzerin) verliehen.",
+    "credentialsTitle": "Aufsichtsbehörden & Zulassungen",
+    "spainCredential": "Spanien: Traductora-Intérprete Jurada",
+    "spainAuthority": "Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit (MAEC), Madrid.",
+    "germanyCredential": "Deutschland: Ermächtigte Übersetzerin",
+    "germanyAuthority": "Präsident des Oberlandesgerichts Köln (Reichenspergerplatz 1, 50670 Köln).",
+    "intellectualTitle": "Urheberrecht",
+    "intellectualDesc": "Alle Inhalte (Texte, Design) sind urheberrechtlich geschützt. Eine Nutzung ohne Zustimmung ist untersagt.",
+    "liabilityTitle": "Haftungsausschluss",
+    "liabilityDesc": "Trotz sorgfältiger Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.",
+    "jurisdictionTitle": "Gerichtsstand",
+    "jurisdictionDesc": "Es gilt spanisches Recht. Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz der Übersetzerin in Spanien."
+  },
+  "privacyPage": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Stand: Dezember 2024",
+    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln der Datenschutz-Grundverordnung (DSGVO).",
+    "section1Title": "Verantwortliche Stelle",
+    "section1Content": "María Ángeles Capas López\n[Ihre Adresse in Spanien einfügen]\nE-Mail: capaslopez@gmail.com",
+    "section2Title": "Datenverarbeitung",
+    "section2Content": "Wir verarbeiten Ihre Daten (z.B. Name, Kontaktdaten, Inhalte der zu übersetzenden Dokumente) ausschließlich zur Erstellung von Angeboten und Durchführung der Übersetzungsaufträge.",
+    "section3Title": "Weitergabe an Dritte",
+    "section3Content": "Eine Weitergabe Ihrer Daten an Dritte findet nicht statt, es sei denn, dies ist zur Vertragserfüllung notwendig (z.B. Postversand) oder gesetzlich vorgeschrieben.",
+    "section4Title": "Aufbewahrung",
+    "section4Content": "Wir speichern Ihre Daten nur so lange, wie es für die Zweckerfüllung (z.B. gesetzliche Aufbewahrungsfristen für Rechnungen) erforderlich ist.",
+    "section5Title": "Ihre Rechte",
+    "section5Content": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer gespeicherten Daten.",
+    "section6Title": "Verschwiegenheitspflicht",
+    "section6Content": "Als beeidigte/ermächtigte Übersetzerin unterliege ich einer besonderen berufsrechtlichen Verschwiegenheitspflicht bezüglich aller mir anvertrauten Unterlagen.",
+    "contactTitle": "Datenschutz-Kontakt",
+    "contactText": "Wenden Sie sich bei Fragen direkt per E-Mail an mich."
   }
 }

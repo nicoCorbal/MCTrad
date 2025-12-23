@@ -1,0 +1,228 @@
+{
+  "home": "Home",
+  "about": "About Me",
+  "services": "Services",
+  "contact": "Contact",
+  "homePage": {
+    "heroTitle1": "Sworn Translation",
+    "heroTitle2": "Official.",
+    "heroSubtitle": "Legal precision for critical documents.",
+    "heroDescription": "Certified by the Spanish Ministry of Foreign Affairs and the Oberlandesgericht Köln in Germany. Specialized in international and corporate law.",
+    "requestQuote": "Request a Quote",
+    "trustBadge": "Sworn Translator • Spanish Ministry of Foreign Affairs • Oberlandesgericht Köln",
+    "servicesTitle": "Sworn Translation Services",
+    "service1Title": "Sworn Translation",
+    "service1Desc": "Official documents with legal validity before public bodies in Spain and Germany. Contracts, judgments, deeds.",
+    "service2Title": "Academic Documents",
+    "service2Desc": "University degrees, academic transcripts, study certificates for international credential recognition processes.",
+    "service3Title": "Corporate Translation",
+    "service3Desc": "Business documentation, commercial agreements, financial reports and international corporate compliance.",
+    "languagePairsTitle": "Language Combinations",
+    "bidirectional": "Bidirectional",
+    "unidirectional": "Unidirectional",
+    "credentialsTitle": "Official Sworn Translator Credentials",
+    "spainTitle": "Spain",
+    "spainDesc": "Sworn translator appointed by the Ministry of Foreign Affairs, European Union and Cooperation of the Kingdom of Spain.",
+    "germanyTitle": "Germany",
+    "germanyDesc": "Translator authorized by the Oberlandesgericht Köln (Higher Regional Court of Cologne) for French and Spanish.",
+    "verifyCredential": "Verify credential",
+    "statCountries": "Certified countries",
+    "statLanguages": "Languages",
+    "statDelivery": "Standard delivery",
+    "statConfidential": "Confidential",
+    "officialBadge": "Official Sworn Translator",
+    "ctaTitle": "Need an official translation?",
+    "ctaSubtitle": "Request a no-obligation quote",
+    "ctaContact": "Contact now",
+    "ctaLearnMore": "Learn more",
+    "spanish": "Spanish",
+    "german": "German",
+    "french": "French",
+    "english": "English",
+    "process": {
+      "title": "How It Works",
+      "subtitle": "A simple and transparent process to get your sworn translation",
+      "step1Title": "Submit",
+      "step1Desc": "Send your document via email or WhatsApp",
+      "step2Title": "Quote",
+      "step2Desc": "Receive a quote within 24 hours",
+      "step3Title": "Translation",
+      "step3Desc": "I complete the official sworn translation",
+      "step4Title": "Delivery",
+      "step4Desc": "You receive the certified document"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "What is a sworn translation?",
+      "a1": "A sworn translation is an official translation made by a state-authorized translator. It includes signature, seal, and certification that give it legal validity before official bodies.",
+      "q2": "How long does a sworn translation take?",
+      "a2": "The time depends on the document's length. Generally, a standard document is delivered within 24-48 hours. For urgent projects, please inquire about availability.",
+      "q3": "What documents can be sworn translated?",
+      "a3": "Any official document: birth certificates, academic degrees, contracts, court rulings, deeds, powers of attorney, criminal records, etc.",
+      "q4": "Does the sworn translation have international validity?",
+      "a4": "Yes, sworn translations made in Spain and Germany are valid in both countries and are internationally recognized according to current agreements.",
+      "q5": "How is the translation delivered?",
+      "a5": "The translation can be delivered in digital format (signed PDF) and/or on paper with original signature and seal, according to client needs."
+    }
+  },
+  "common": {
+    "swornTranslator": "Sworn Translator",
+    "certified": "Certified",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "quickLinks": "Quick Links",
+    "certifications": "Certifications",
+    "sendEmail": "Send email",
+    "openWhatsApp": "Open WhatsApp",
+    "contactNow": "Contact Now",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "changeLanguageTo": "Change language to {{lng}}",
+    "badges": {
+      "professionalServices": "Professional Services",
+      "professionalProfile": "Professional Profile",
+      "whyChooseMe": "Why Choose Me?",
+      "mainService": "Main Service",
+      "additionalServices": "Additional Services",
+      "guarantees": "Guarantees"
+    }
+  },
+  "hero": {
+    "headline": "Sworn and Specialized Translations | Reliability and Speed",
+    "subheadline": "Expert in complex legal texts, I offer precise and fast linguistic solutions for individuals, law firms, and companies.",
+    "contactButton": "Contact Now",
+    "servicesButton": "View Services",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "Official Certification",
+        "description": "Sworn translator certified in Spain and Germany"
+      },
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "description": "Efficient solutions without compromising quality"
+      },
+      "legalSpecialization": {
+        "title": "Legal Specialization",
+        "description": "Experience in complex legal texts"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Official Sworn Translation Services",
+    "generalTranslation": {
+      "heading": "General and Specialized Translations",
+      "description": "I offer high-quality translation services for a wide range of documents, from commercial to technical texts, with a particular focus on the legal field."
+    },
+    "languagePairs": {
+      "germanSpanish": "German ⟷ Spanish",
+      "frenchGerman": "French → German",
+      "englishGerman": "English → German",
+      "englishSpanish": "English → Spanish",
+      "galicianGerman": "Galician ⟷ German",
+      "description": "Professional translation in this language combination."
+    },
+    "swornTranslation": {
+      "heading": "Official Sworn Translation",
+      "description": "Required for documents that must be presented to official bodies or foreign institutions. My sworn translations have legal validity.",
+      "spain": {
+        "title": "Sworn Translator in Spain",
+        "description": "Authorized by the Ministry of Foreign Affairs, European Union and Cooperation of Spain.",
+        "linkText": "View MAEC list of sworn translators"
+      },
+      "germany": {
+        "title": "Sworn Translator in Germany",
+        "description": "Authorized by the Oberlandesgericht Köln (Higher Regional Court of Cologne) in Germany.",
+        "linkText": "Search in the directory of judicial interpreters and translators"
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "María Ángeles Capas, Official Sworn Translator",
+    "introduction": "I am a sworn translator with years of experience in the legal and technical fields. My passion for languages and legal precision has led me to specialize in the translation of complex documents, always ensuring maximum accuracy and confidentiality.",
+    "paragraph1": "My professional career has focused on offering reliable linguistic solutions to individuals, companies, law firms, and official bodies. I understand the importance of every word in a legal context, which is why each translation is carried out with the meticulousness required by the subject matter.",
+    "paragraph2": "In addition to my legal specialization, I also have experience in technical translations, which allows me to address a wide variety of texts with appropriate terminology. My goal is to exceed my clients' expectations by providing a fast, efficient, and trustworthy service.",
+    "conclusion": "I adapt to the specific needs of each project, offering personalized attention and fluid communication. If you are looking for a professional translation service that combines precision, speed, and in-depth knowledge of the sector, do not hesitate to contact me.",
+    "sections": {
+      "presentation": "Presentation",
+      "experience": "Experience",
+      "capabilities": "Capabilities",
+      "commitment": "Commitment"
+    },
+    "credentials": {
+      "officialSeal": "Official Sworn Translator Seal",
+      "certification": "Certification",
+      "spainAndGermany": "Spain & Germany",
+      "specialization": "Specialization",
+      "legalAndTechnical": "Legal & Technical"
+    }
+  },
+  "contactPage": {
+    "title": "Contact - Sworn Translation Quote",
+    "introduction": "I'd love to hear from you. Feel free to contact me with any inquiries about sworn, technical, or legal translations. I will respond as soon as possible.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "successTitle": "Message sent",
+      "successMessage": "Thank you for contacting me. I will respond within 24 hours.",
+      "sendAnother": "Send another message",
+      "error": "There was an error sending your message. Please try again."
+    },
+    "guarantees": {
+      "responseTime": "Response time",
+      "confidentiality": "Confidentiality",
+      "professionalService": "Professional service"
+    }
+  },
+  "footer": {
+    "description": "High-quality sworn and specialized translations. Certified in Spain and Germany.",
+    "spain": {
+      "country": "Spain",
+      "authority": "Ministry of Foreign Affairs"
+    },
+    "germany": {
+      "country": "Germany",
+      "authority": "Oberlandesgericht Köln"
+    }
+  },
+  "legalPage": {
+    "title": "Legal Notice",
+    "ownerTitle": "Website Owner",
+    "profession": "Sworn Translator",
+    "activityTitle": "Professional Activity",
+    "activityDesc": "This website offers sworn and specialized translation services. The sworn translations performed have full legal validity before official bodies in Spain and Germany.",
+    "credentialsTitle": "Official Accreditations",
+    "spainCredential": "Sworn Translator-Interpreter",
+    "spainAuthority": "Appointed by the Ministry of Foreign Affairs, European Union and Cooperation of the Kingdom of Spain",
+    "germanyCredential": "Ermächtigte Übersetzerin",
+    "germanyAuthority": "Authorized by the Oberlandesgericht Köln for French and Spanish languages",
+    "intellectualTitle": "Intellectual Property",
+    "intellectualDesc": "All contents of this website, including texts, graphic design and source code, are the property of María Ángeles Capas López or are used with appropriate authorization. Reproduction without express consent is prohibited.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityDesc": "The information provided on this website is purely informative. María Ángeles Capas López is not responsible for any damages that may arise from the use of this information. Quotes and specific conditions will be agreed individually with each client.",
+    "jurisdictionTitle": "Applicable Law",
+    "jurisdictionDesc": "The relationships established between the website owner and users shall be governed by current Spanish legislation. For any dispute, the parties shall submit to the competent courts."
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: December 2024",
+    "intro": "In compliance with the General Data Protection Regulation (GDPR), we inform you about the processing of your personal data.",
+    "section1Title": "Data Controller",
+    "section1Content": "María Ángeles Capas López\nSworn Translator\nEmail: capaslopez@gmail.com",
+    "section2Title": "Purpose of Processing",
+    "section2Content": "Your personal data will be processed for the following purposes:\n• Managing quote requests and translation orders\n• Providing the contracted sworn translation services\n• Issuing invoices and managing payment collection\n• Responding to inquiries and communications\n• Complying with applicable legal obligations",
+    "section3Title": "Legal Basis for Processing",
+    "section3Content": "The processing of your data is based on:\n• Performance of a contract or pre-contractual measures\n• Compliance with legal obligations (tax, commercial)\n• Your explicit consent when necessary",
+    "section4Title": "Data Retention",
+    "section4Content": "Personal data will be retained for the time necessary to fulfill the purpose for which it was collected and to determine any potential liabilities arising from that purpose. Translated documents and associated data will be retained in accordance with legally established timeframes.",
+    "section5Title": "Data Subject Rights",
+    "section5Content": "You can exercise your rights of access, rectification, erasure, restriction, portability, and objection by sending an email to capaslopez@gmail.com indicating which right you wish to exercise. You also have the right to lodge a complaint with the competent supervisory authority.",
+    "section6Title": "Confidentiality",
+    "section6Content": "All documents and information provided will be treated with the utmost confidentiality. As a sworn translator, I am bound by professional secrecy regarding the content of translated documents.",
+    "contactTitle": "Contact for Privacy Matters",
+    "contactText": "For any questions regarding the processing of your personal data, you can contact me at:"
+  }
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { LocalizedLink } from '../components/LocalizedLink';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   fadeInUp,
@@ -112,7 +112,7 @@ function HomePage() {
     <div className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
-      <section className="min-h-[100svh] flex items-center relative overflow-hidden bg-gradient-to-b from-gray-50 via-white to-white">
+      <section className="min-h-[calc(100vh-3.5rem)] md:min-h-[calc(100vh-5rem)] flex items-center relative overflow-hidden bg-gradient-to-b from-gray-50 via-white to-white">
         {/* Decorative background elements - hidden on mobile for performance */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden hidden md:block">
           <motion.div
@@ -149,45 +149,56 @@ function HomePage() {
           />
         </div>
 
-        {/* Mobile decorative accent */}
-        <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-50 to-transparent md:hidden" />
-
-        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-12 pt-8 sm:pt-12 lg:pt-16 pb-8 sm:pb-16 lg:pb-20 relative z-10 w-full">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-12 py-6 sm:py-16 lg:py-20 relative z-10 w-full">
           <div className="max-w-3xl">
-            {/* Eyebrow - más compacto en móvil */}
+
+            {/* Mobile: Badge simple */}
             <motion.div
-              className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-5"
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
+              className="inline-flex items-center gap-2 mb-6 md:hidden"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.4 }}
             >
-              <motion.div
-                className="h-px w-8 sm:w-12 bg-gradient-to-r from-blue-600 to-blue-400"
-                initial={{ scaleX: 0 }}
-                animate={{ scaleX: 1 }}
-                transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
-                style={{ originX: 0 }}
-              />
-              <span className="text-[10px] sm:text-xs font-medium tracking-[0.15em] sm:tracking-[0.2em] uppercase text-gray-500">
-                {t('homePage.trustBadge')}
+              <div className="w-1.5 h-1.5 rounded-full bg-blue-600" />
+              <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">
+                {t('homePage.officialBadge')}
               </span>
             </motion.div>
 
-            {/* Headline - escala dramática en móvil */}
-            <h1 className="mb-4 sm:mb-6 md:mb-8">
+            {/* Desktop: Eyebrow original */}
+            <motion.div
+              className="hidden md:flex items-center gap-4 mb-8"
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
+            >
+              <motion.div
+                className="h-px w-12 bg-gradient-to-r from-blue-600 to-blue-400"
+                initial={{ scaleX: 0 }}
+                animate={{ scaleX: 1 }}
+                transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+                style={{ originX: 0 }}
+              />
+              <span className="text-xs font-medium tracking-[0.2em] uppercase text-gray-500">
+                {t('homePage.officialBadge')}
+              </span>
+            </motion.div>
+
+            {/* Headline */}
+            <h1 className="mb-5 md:mb-7">
               <motion.span
-                className="block font-serif text-[2.75rem] leading-[1] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold text-gray-900 sm:leading-[0.95] tracking-[-0.02em]"
-                initial={{ opacity: 0, y: 40 }}
+                className="block font-serif text-[2.75rem] leading-[0.95] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold text-gray-900 tracking-[-0.02em]"
+                initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
+                transition={{ duration: 0.5, delay: 0.1 }}
               >
                 {t('homePage.heroTitle1')}
               </motion.span>
               <motion.span
-                className="block font-serif text-[2.75rem] leading-[1] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold sm:leading-[0.95] tracking-[-0.02em] mt-0.5 sm:mt-2"
-                initial={{ opacity: 0, y: 40 }}
+                className="block font-serif text-[2.75rem] leading-[0.95] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold tracking-[-0.02em] mt-1 sm:mt-2"
+                initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.15, ease: [0.25, 0.4, 0.25, 1] }}
+                transition={{ duration: 0.5, delay: 0.15 }}
               >
                 <span className="relative inline-block">
                   <span className="relative z-10 text-blue-600">{t('homePage.heroTitle2')}</span>
@@ -195,34 +206,39 @@ function HomePage() {
                     className="absolute -bottom-0.5 sm:-bottom-1 left-0 w-full h-2 sm:h-3 bg-blue-100 -skew-x-6"
                     initial={{ scaleX: 0 }}
                     animate={{ scaleX: 1 }}
-                    transition={{ duration: 0.5, delay: 0.4, ease: [0.25, 0.4, 0.25, 1] }}
+                    transition={{ duration: 0.4, delay: 0.35 }}
                     style={{ originX: 0 }}
                   />
                 </span>
               </motion.span>
             </h1>
 
-            {/* Description - texto más legible en móvil */}
+            {/* Description */}
             <motion.p
-              className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 sm:mb-8 md:mb-10 leading-relaxed max-w-xl"
+              className="text-[16px] leading-relaxed sm:text-lg md:text-xl text-gray-600 mb-7 md:mb-9 max-w-xl"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
+              transition={{ duration: 0.5, delay: 0.2 }}
             >
               {t('homePage.heroDescription')}
             </motion.p>
 
-            {/* CTAs - stack vertical en móvil pequeño */}
+            {/* CTA Principal - Prominente en móvil */}
             <motion.div
-              className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12 md:mb-16"
+              className="space-y-4 sm:space-y-0 sm:flex sm:flex-row sm:gap-4 mb-10 md:mb-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.25, ease: [0.25, 0.4, 0.25, 1] }}
+              transition={{ duration: 0.5, delay: 0.25 }}
             >
-              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} className="flex-1 sm:flex-initial">
-                <Link
+              <motion.div
+                whileHover={{ scale: 1.03, zIndex: 10 }}
+                whileTap={{ scale: 0.98 }}
+                transition={{ duration: 0.2 }}
+                className="relative"
+              >
+                <LocalizedLink
                   to="/contacto"
-                  className="group w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 sm:px-7 py-3.5 sm:py-4 bg-blue-600 text-white font-semibold rounded-xl sm:rounded-lg hover:bg-blue-700 transition-colors duration-300 text-[15px] sm:text-base shadow-lg shadow-blue-600/25 sm:shadow-none"
+                  className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 bg-blue-600 text-white font-semibold rounded-2xl sm:rounded-lg hover:bg-blue-700 transition-all duration-300 text-base shadow-lg shadow-blue-600/25 hover:shadow-xl hover:shadow-blue-600/30"
                 >
                   {t('homePage.requestQuote')}
                   <motion.svg
@@ -230,72 +246,80 @@ function HomePage() {
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
-                    initial={{ x: 0 }}
-                    whileHover={{ x: 4 }}
-                    transition={{ duration: 0.2 }}
+                    animate={{ x: [0, 4, 0] }}
+                    transition={{
+                      duration: 1.5,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </motion.svg>
-                </Link>
+                </LocalizedLink>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }} className="flex-1 sm:flex-initial">
-                <Link
+              <motion.div
+                whileHover={{ scale: 1.03, zIndex: 10 }}
+                whileTap={{ scale: 0.98 }}
+                transition={{ duration: 0.2 }}
+                className="relative"
+              >
+                <LocalizedLink
                   to="/servicios"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-6 sm:px-7 py-3.5 sm:py-4 text-gray-700 font-semibold rounded-xl sm:rounded-lg border-2 border-gray-200 sm:border-gray-300 hover:border-gray-400 hover:bg-white/50 transition-all duration-300 text-[15px] sm:text-base"
+                  className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 bg-white text-gray-900 font-semibold rounded-2xl sm:rounded-lg border border-gray-200 hover:bg-gray-50 hover:border-gray-300 transition-all duration-300 text-base shadow-md shadow-gray-900/8 hover:shadow-lg hover:shadow-gray-900/10"
                 >
                   {t('services')}
-                </Link>
+                  <motion.svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    whileHover={{ x: 3 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </motion.svg>
+                </LocalizedLink>
               </motion.div>
             </motion.div>
 
-            {/* Trust indicators - diseño compacto para móvil */}
+            {/* Trust indicators - Diseño limpio horizontal */}
             <motion.div
-              className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-6 md:gap-10"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+              className="flex items-center justify-between sm:justify-start gap-4 sm:gap-8 md:gap-10 pt-6 border-t border-gray-100 sm:border-0 sm:pt-0"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
             >
-              {/* Países */}
-              <motion.div
-                className="flex flex-col sm:flex-row items-center gap-1.5 sm:gap-3 p-3 sm:p-0 bg-white/60 sm:bg-transparent rounded-xl sm:rounded-none"
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.2 }}
-              >
-                <div className="flex items-center">
-                  <div className="flex items-center justify-center w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-white shadow-sm border border-gray-100">
-                    <span className="text-sm sm:text-lg">🇪🇸</span>
-                  </div>
-                  <div className="flex items-center justify-center w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-white shadow-sm border border-gray-100 -ml-2 sm:-ml-4">
-                    <span className="text-sm sm:text-lg">🇩🇪</span>
-                  </div>
-                </div>
-                <span className="text-[11px] sm:text-sm text-gray-500 text-center sm:text-left sm:ml-1">{t('homePage.statCountries')}</span>
-              </motion.div>
-
-              <div className="h-8 w-px bg-gray-200 hidden sm:block" />
-
-              {/* 24h */}
-              <div className="flex flex-col sm:flex-row items-center gap-0.5 sm:gap-2 p-3 sm:p-0 bg-white/60 sm:bg-transparent rounded-xl sm:rounded-none">
-                <span className="text-xl sm:text-2xl font-serif text-gray-900">24h</span>
-                <span className="text-[11px] sm:text-sm text-gray-500 text-center">{t('homePage.statDelivery')}</span>
+              {/* Certificación */}
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs sm:text-sm text-gray-600">
+                  Certificada en 🇪🇸 y 🇩🇪
+                </span>
               </div>
 
-              <div className="h-8 w-px bg-gray-200 hidden sm:block" />
+              <div className="h-5 w-px bg-gray-200 sm:h-8" />
+
+              {/* 24h */}
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <span className="text-lg sm:text-2xl font-serif font-semibold text-gray-900">24h</span>
+                <span className="text-xs sm:text-sm text-gray-500 hidden sm:inline">{t('homePage.statDelivery')}</span>
+              </div>
+
+              <div className="h-5 w-px bg-gray-200 sm:h-8" />
 
               {/* Confidencial */}
-              <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 p-3 sm:p-0 bg-white/60 sm:bg-transparent rounded-xl sm:rounded-none">
-                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
-                <span className="text-[11px] sm:text-sm text-gray-500 text-center">{t('homePage.statConfidential')}</span>
+                <span className="text-xs sm:text-sm text-gray-500">{t('homePage.statConfidential')}</span>
               </div>
             </motion.div>
           </div>
         </div>
 
-        {/* Scroll indicator */}
+        {/* Scroll indicator - Desktop only */}
         <motion.div
-          className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 hidden md:block"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:block"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.8 }}
@@ -334,7 +358,7 @@ function HomePage() {
             variants={staggerContainer}
           >
             {services.map((service, i) => (
-              <Link key={i} to="/servicios">
+              <LocalizedLink key={i} to="/servicios">
                 <motion.div
                   className="p-8 bg-white border border-gray-200 rounded-xl cursor-pointer h-full"
                   variants={staggerItem}
@@ -362,7 +386,7 @@ function HomePage() {
                     {t('homePage.ctaLearnMore')} →
                   </span>
                 </motion.div>
-              </Link>
+              </LocalizedLink>
             ))}
           </motion.div>
         </div>
@@ -577,7 +601,7 @@ function HomePage() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
           >
-            <Link
+            <LocalizedLink
               to="/contacto"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
             >
@@ -592,7 +616,7 @@ function HomePage() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </motion.svg>
-            </Link>
+            </LocalizedLink>
           </motion.div>
         </div>
       </motion.section>

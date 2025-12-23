@@ -1,114 +1,117 @@
 {
   "home": "Inicio",
-  "about": "Sobre Mí",
+  "about": "Sobre mí",
   "services": "Servicios",
   "contact": "Contacto",
   "homePage": {
-    "heroTitle1": "Traducción Jurada",
-    "heroTitle2": "Oficial.",
-    "heroSubtitle": "Precisión legal para documentos críticos.",
-    "heroDescription": "Certificada por el Ministerio de Asuntos Exteriores de España y el Oberlandesgericht Köln de Alemania. Especializada en derecho internacional y corporativo.",
-    "requestQuote": "Presupuesto Gratis en 2h",
-    "trustBadge": "Traductora-Intérprete Jurada • Ministerio de Asuntos Exteriores de España • Oberlandesgericht Köln",
-    "servicesTitle": "Servicios de Traducción Jurada",
+    "heroTitle1": "Traducciones Juradas",
+    "heroTitle2": "Oficiales y Legales.",
+    "heroSubtitle": "Precisión jurídica para trámites en España, Alemania y Francia.",
+    "heroDescription": "Traductora Jurada nombrada por el MAEC (España) y Traductora Autorizada por el OLG de Colonia (Alemania). Su experta en derecho internacional.",
+    "requestQuote": "Solicitar presupuesto",
+    "trustBadge": "Ministerio de Asuntos Exteriores (MAEC) • OLG Colonia (Alemania)",
+    "servicesTitle": "Especialidades",
     "service1Title": "Traducción Jurada",
-    "service1Desc": "Documentos oficiales con validez legal ante organismos públicos de España y Alemania. Contratos, sentencias, escrituras.",
+    "service1Desc": "Documentos oficiales con plena validez legal ante autoridades en España y Alemania. Sentencias, contratos, actas notariales.",
     "service2Title": "Documentos Académicos",
-    "service2Desc": "Títulos universitarios, expedientes académicos, certificados de estudios para procesos de homologación internacional.",
-    "service3Title": "Traducción Corporativa",
-    "service3Desc": "Documentación empresarial, acuerdos comerciales, informes financieros y compliance corporativo internacional.",
+    "service2Desc": "Títulos universitarios, expedientes y certificados de notas para homologaciones y procesos de admisión internacional.",
+    "service3Title": "Traducción Jurídica",
+    "service3Desc": "Derecho mercantil, escrituras, informes financieros y documentación corporativa para empresas internacionales.",
     "languagePairsTitle": "Combinaciones lingüísticas",
-    "bidirectional": "Bidireccional",
+    "bidirectional": "Bidireccional (Ida y vuelta)",
     "unidirectional": "Unidireccional",
-    "credentialsTitle": "Acreditaciones Oficiales de Traductora Jurada",
-    "spainTitle": "España",
-    "spainDesc": "Traductora-intérprete jurada nombrada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación del Reino de España.",
-    "germanyTitle": "Alemania",
-    "germanyDesc": "Traductora autorizada por el Oberlandesgericht Köln (Tribunal Superior Regional de Colonia) para los idiomas francés y español.",
-    "verifyCredential": "Verificar acreditación",
-    "statCountries": "Países certificada",
-    "statLanguages": "Idiomas",
+    "credentialsTitle": "Acreditaciones Oficiales",
+    "spainTitle": "España (MAEC)",
+    "spainDesc": "Traductora-Intérprete Jurada nombrada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.",
+    "germanyTitle": "Alemania (OLG Colonia)",
+    "germanyDesc": "Traductora Autorizada (Ermächtigte Übersetzerin) por el Tribunal Superior Regional de Colonia para español y francés.",
+    "verifyCredential": "Verificar credencial",
+    "statCountries": "Países de validez",
+    "statLanguages": "Idiomas de trabajo",
     "statDelivery": "Entrega estándar",
-    "statConfidential": "Confidencial",
-    "officialBadge": "Traductora Jurada Oficial",
-    "ctaTitle": "¿Tienes un documento que traducir?",
-    "ctaSubtitle": "Envíamelo ahora y recibe presupuesto gratis en menos de 2 horas",
-    "ctaContact": "Enviar documento",
-    "ctaLearnMore": "Conocer más",
+    "statConfidential": "Confidencialidad",
+    "officialBadge": "Reconocimiento Oficial",
+    "ctaTitle": "¿Necesita una traducción oficial?",
+    "ctaSubtitle": "Envíe sus documentos para recibir un presupuesto cerrado sin compromiso.",
+    "ctaContact": "Presupuesto gratuito",
+    "ctaLearnMore": "Ver detalles",
     "spanish": "Español",
     "german": "Alemán",
     "french": "Francés",
     "english": "Inglés",
     "process": {
-      "title": "Cómo Funciona",
-      "subtitle": "Un proceso sencillo y transparente para obtener tu traducción jurada",
-      "step1Title": "Envío",
-      "step1Desc": "Envía tu documento por email o WhatsApp",
-      "step2Title": "Presupuesto",
-      "step2Desc": "Recibes presupuesto en menos de 24h",
+      "title": "Proceso",
+      "subtitle": "Su traducción jurada en 4 pasos sencillos",
+      "step1Title": "Enviar documento",
+      "step1Desc": "Envíe un escaneo o foto legible por Email o WhatsApp.",
+      "step2Title": "Recibir oferta",
+      "step2Desc": "Recibirá rápidamente un presupuesto con precio cerrado.",
       "step3Title": "Traducción",
-      "step3Desc": "Realizo la traducción jurada oficial",
+      "step3Desc": "Realización de la traducción jurada con firma y sello oficial.",
       "step4Title": "Entrega",
-      "step4Desc": "Recibes el documento certificado"
+      "step4Desc": "Envío digital (PDF) anticipado y original en papel por correo postal."
     },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "q1": "¿Qué es una traducción jurada?",
-      "a1": "Una traducción jurada es una traducción oficial realizada por un traductor habilitado por el Estado. Incluye firma, sello y certificación que le otorgan validez legal ante organismos oficiales.",
-      "q2": "¿Cuánto tiempo tarda una traducción jurada?",
-      "a2": "El tiempo depende de la extensión del documento. Generalmente, un documento estándar se entrega en 24-48 horas. Para proyectos urgentes, consulte disponibilidad.",
-      "q3": "¿Qué documentos se pueden traducir de forma jurada?",
-      "a3": "Cualquier documento oficial: certificados de nacimiento, títulos académicos, contratos, sentencias, escrituras, poderes notariales, certificados de antecedentes, etc.",
-      "q4": "¿La traducción jurada tiene validez internacional?",
-      "a4": "Sí, las traducciones juradas realizadas en España y Alemania tienen validez en ambos países y son reconocidas internacionalmente según los convenios vigentes.",
-      "q5": "¿Cómo se entrega la traducción?",
-      "a5": "La traducción se puede entregar en formato digital (PDF firmado) y/o en papel con firma y sello original, según las necesidades del cliente."
+      "q1": "¿Qué diferencia hay entre traducción simple y jurada?",
+      "a1": "La traducción jurada es oficial. Está firmada y sellada por un traductor nombrado por el Ministerio (MAEC) o un tribunal alemán, otorgándole validez legal ante la administración.",
+      "q2": "¿Cuánto tarda la traducción?",
+      "a2": "Documentos estándar (ej. certificados de nacimiento) suelen estar listos en 24-48 horas. El envío postal dentro de España tarda 1-3 días; a Alemania aprox. 3-5 días.",
+      "q3": "¿Necesita el documento original?",
+      "a3": "Generalmente no. Basta con un escaneo de alta calidad. La traducción certificará que es una 'traducción del escaneo'. En el 99% de los casos es suficiente.",
+      "q4": "¿Es válida la traducción en Alemania?",
+      "a4": "Sí. Al estar autorizada por el Tribunal Superior de Colonia (OLG Köln), mis traducciones son aceptadas directamente por organismos alemanes sin trámites adicionales.",
+      "q5": "¿Cómo se realiza el pago?",
+      "a5": "Recibirá una factura oficial con IVA. El pago se realiza cómodamente por transferencia bancaria."
     }
   },
   "common": {
-    "swornTranslator": "Traductora Jurada",
+    "swornTranslator": "Traductora Jurada Oficial",
     "certified": "Certificada",
     "allRightsReserved": "Todos los derechos reservados",
-    "privacyPolicy": "Política de Privacidad",
-    "quickLinks": "Enlaces Rápidos",
-    "certifications": "Certificaciones",
-    "sendEmail": "Enviar correo",
+    "privacyPolicy": "Privacidad",
+    "quickLinks": "Menú",
+    "certifications": "Acreditaciones",
+    "sendEmail": "Enviar Email",
     "openWhatsApp": "Abrir WhatsApp",
-    "contactNow": "Contactar Ahora",
+    "contactNow": "Contactar ahora",
+    "changeLanguageTo": "Cambiar idioma a",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
     "badges": {
       "professionalServices": "Servicios Profesionales",
-      "professionalProfile": "Perfil Profesional",
-      "whyChooseMe": "¿Por qué elegirme?",
+      "professionalProfile": "Perfil",
+      "whyChooseMe": "Ventajas",
       "mainService": "Servicio Principal",
-      "additionalServices": "Servicios Adicionales",
+      "additionalServices": "Otros Idiomas",
       "guarantees": "Garantías"
     }
   },
   "hero": {
-    "headline": "Traducciones Juradas y Especializadas | Fiabilidad y Rapidez",
-    "subheadline": "Experta en textos legales complejos, ofrezco soluciones lingüísticas precisas y rápidas para particulares, bufetes y empresas.",
-    "contactButton": "Contactar Ahora",
-    "servicesButton": "Ver Servicios",
+    "headline": "Traducciones Juradas | Alemán - Español - Francés",
+    "subheadline": "Validez legal, rapidez y trato directo con la traductora jurada. Reconocida en España y Alemania.",
+    "contactButton": "Pedir presupuesto",
+    "servicesButton": "Saber más",
     "trustIndicators": {
       "officialCertification": {
-        "title": "Certificación Oficial",
-        "description": "Traductora jurada habilitada en España y Alemania"
+        "title": "Doble Titulación",
+        "description": "Acreditada en España (MAEC) y Alemania (OLG Colonia)"
       },
       "fastDelivery": {
-        "title": "Entrega Rápida",
-        "description": "Soluciones eficientes sin comprometer la calidad"
+        "title": "Entrega Digital Previa",
+        "description": "PDF firmado al instante, original por correo"
       },
       "legalSpecialization": {
-        "title": "Especialización Legal",
-        "description": "Experiencia en textos jurídicos complejos"
+        "title": "Expertise Jurídica",
+        "description": "Especializada en textos legales y procesales complejos"
       }
     }
   },
   "servicesPage": {
-    "title": "Servicios de Traducción Jurada Oficial",
+    "title": "Servicios y Especialidades",
     "generalTranslation": {
-      "heading": "Traducciones Generales y Especializadas",
-      "description": "Ofrezco servicios de traducción de alta calidad para una amplia gama de documentos, desde textos comerciales hasta técnicos, con un enfoque particular en el ámbito jurídico."
+      "heading": "Traducciones Especializadas",
+      "description": "Traducciones de alta calidad para textos jurídicos, económicos y técnicos. Terminología precisa y estilo adecuado para su comunicación corporativa."
     },
     "languagePairs": {
       "germanSpanish": "Alemán ⟷ Español",
@@ -116,73 +119,111 @@
       "englishGerman": "Inglés → Alemán",
       "englishSpanish": "Inglés → Español",
       "galicianGerman": "Gallego ⟷ Alemán",
-      "description": "Traducción profesional en esta combinación de idiomas."
+      "description": "Traducción profesional en estas combinaciones."
     },
     "swornTranslation": {
-      "heading": "Traducción Jurada Oficial",
-      "description": "Necesaria para documentos que deben presentarse ante organismos oficiales o instituciones extranjeras. Mis traducciones juradas tienen validez legal.",
+      "heading": "Traducción Jurada de Documentos",
+      "description": "Imprescindible para trámites en Registros Civiles, Juzgados, Universidades y Extranjería.",
       "spain": {
-        "title": "Traductora Jurada en España",
-        "description": "Habilitada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación de España.",
-        "linkText": "Ver lista de traductores jurados del MAEC"
+        "title": "Para España (Traductora Jurada)",
+        "description": "Con sello y firma según las normas del Ministerio de Asuntos Exteriores (MAEC).",
+        "linkText": "Ver lista del MAEC"
       },
       "germany": {
-        "title": "Traductora Jurada en Alemania",
-        "description": "Habilitada por el Oberlandesgericht Köln (Tribunal Regional Superior de Colonia) en Alemania.",
-        "linkText": "Buscar en el registro de traductores de justiz-dolmetscher.de"
+        "title": "Para Alemania (Traductora Autorizada)",
+        "description": "Traducción certificada según § 142 ZPO, reconocida por el OLG de Colonia.",
+        "linkText": "Directorio Justiz-Dolmetscher"
       }
     }
   },
   "aboutPage": {
-    "title": "María Ángeles Capas, Traductora Jurada Oficial",
-    "introduction": "Soy una traductora jurada con años de experiencia en el ámbito jurídico y técnico. Mi pasión por los idiomas y el rigor legal me han llevado a especializarme en la traducción de documentos complejos, garantizando siempre la máxima precisión y confidencialidad.",
-    "paragraph1": "Mi trayectoria profesional se ha centrado en ofrecer soluciones lingüísticas fiables a particulares, empresas, bufetes de abogados y organismos oficiales. Comprendo la importancia de cada palabra en un contexto legal, por lo que cada traducción se realiza con la meticulosidad que exige la materia.",
-    "paragraph2": "Además de mi especialización jurídica, también cuento con experiencia en traducciones técnicas, lo que me permite abordar una amplia variedad de textos con la terminología adecuada. Mi objetivo es superar las expectativas de mis clientes, proporcionando un servicio rápido, eficiente y de confianza.",
-    "conclusion": "Me adapto a las necesidades específicas de cada proyecto, ofreciendo un trato personalizado y una comunicación fluida. Si buscas un servicio de traducción profesional que combine precisión, rapidez y un profundo conocimiento del sector, no dudes en contactarme.",
+    "title": "María Ángeles Capas – Su Traductora",
+    "introduction": "Como traductora doblemente cualificada, conecto los sistemas jurídicos de España y Alemania. Mi autorización por el OLG de Colonia y mi nombramiento por el Ministerio español le garantizan la máxima seguridad jurídica.",
+    "paragraph1": "Durante años, he ayudado a bufetes, notarios, empresas y particulares a superar las barreras lingüísticas en la burocracia internacional. Sé que en los textos jurídicos cada detalle cuenta.",
+    "paragraph2": "Además de mi expertise jurídica, también ofrezco traducciones técnicas. Con mi sede en España y mi acreditación en Alemania, soy el enlace ideal para sus asuntos internacionales.",
+    "conclusion": "Servicio personalizado, comunicación directa y confidencialidad absoluta son mis estándares. Estaré encantada de ayudarle.",
     "sections": {
-      "presentation": "Presentación",
+      "presentation": "Perfil",
       "experience": "Experiencia",
-      "capabilities": "Capacidades",
+      "capabilities": "Competencias",
       "commitment": "Compromiso"
     },
     "credentials": {
-      "officialSeal": "Sello Oficial de Traductora Jurada",
-      "certification": "Certificación",
-      "spainAndGermany": "España & Alemania",
+      "officialSeal": "Sello Oficial",
+      "certification": "Acreditación",
+      "spainAndGermany": "ES & DE",
       "specialization": "Especialización",
-      "legalAndTechnical": "Legal & Técnica"
+      "legalAndTechnical": "Derecho & Técnica",
+      "officialStamps": "Sellos Oficiales"
     }
   },
   "contactPage": {
-    "title": "Contacto - Presupuesto de Traducción Jurada",
-    "introduction": "Estaré encantada de atenderle. Póngase en contacto conmigo para cualquier consulta sobre traducción jurada, técnica o jurídica. Responderé a la mayor brevedad posible.",
+    "title": "Contacto y Presupuesto",
+    "introduction": "¿Tiene preguntas o necesita un presupuesto rápido? Envíeme sus documentos por email o a través del formulario.",
     "form": {
-      "name": "Nombre",
-      "email": "Email",
-      "subject": "Asunto",
-      "message": "Mensaje",
-      "submit": "Enviar mensaje",
+      "name": "Su Nombre",
+      "email": "Su Email",
+      "subject": "Asunto (ej. Traducción Certificado Nacimiento)",
+      "message": "Mensaje / Detalles del encargo",
+      "submit": "Solicitar presupuesto",
       "sending": "Enviando...",
-      "successTitle": "Mensaje enviado",
-      "successMessage": "Gracias por contactar. Te responderé en menos de 24 horas.",
-      "sendAnother": "Enviar otro mensaje",
-      "error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo."
+      "successTitle": "¡Gracias!",
+      "successMessage": "Su solicitud ha sido recibida. Le responderé en breve.",
+      "sendAnother": "Nuevo mensaje",
+      "error": "Error al enviar. Por favor, inténtelo por email."
     },
     "guarantees": {
-      "responseTime": "Tiempo de respuesta",
+      "responseTime": "Respuesta rápida",
       "confidentiality": "Confidencialidad",
-      "professionalService": "Servicio profesional"
+      "professionalService": "Contacto directo"
     }
   },
   "footer": {
-    "description": "Traducciones juradas y especializadas de alta calidad. Certificada en España y Alemania.",
+    "description": "Traducciones juradas para España y Alemania. Validez legal, rapidez y competencia.",
     "spain": {
       "country": "España",
-      "authority": "Ministerio de Asuntos Exteriores"
+      "authority": "Traductora Jurada (MAEC)"
     },
     "germany": {
       "country": "Alemania",
-      "authority": "Oberlandesgericht Köln"
+      "authority": "Traductora Autorizada (OLG Colonia)"
     }
+  },
+  "legalPage": {
+    "title": "Aviso Legal",
+    "ownerTitle": "Información según LSSI-CE / § 5 TMG",
+    "profession": "Traductora Jurada y Autorizada",
+    "activityTitle": "Actividad Profesional",
+    "activityDesc": "Traductora autónoma. Títulos obtenidos en España (Traductora Jurada) y Alemania (Ermächtigte Übersetzerin).",
+    "credentialsTitle": "Autoridades de Control",
+    "spainCredential": "España: Traductora-Intérprete Jurada",
+    "spainAuthority": "Nombrada por el Ministerio de Asuntos Exteriores (MAEC), Madrid.",
+    "germanyCredential": "Alemania: Ermächtigte Übersetzerin",
+    "germanyAuthority": "Presidente del Tribunal Superior Regional de Colonia (OLG Köln).",
+    "intellectualTitle": "Propiedad Intelectual",
+    "intellectualDesc": "Todos los contenidos (textos, diseño) están protegidos. Su uso sin consentimiento está prohibido.",
+    "liabilityTitle": "Limitación de responsabilidad",
+    "liabilityDesc": "Declinamos toda responsabilidad respecto al contenido de enlaces externos.",
+    "jurisdictionTitle": "Derecho aplicable",
+    "jurisdictionDesc": "Se aplica el derecho español. El tribunal competente es el del domicilio de la traductora en España."
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Diciembre 2024",
+    "intro": "Nos tomamos muy en serio la protección de sus datos personales y cumplimos estrictamente con el RGPD.",
+    "section1Title": "Responsable",
+    "section1Content": "María Ángeles Capas López\n[Su dirección aquí]\nEmail: capaslopez@gmail.com",
+    "section2Title": "Tratamiento de datos",
+    "section2Content": "Tratamos sus datos (nombre, contacto, documentos) exclusivamente para elaborar presupuestos y realizar las traducciones.",
+    "section3Title": "Cesión a terceros",
+    "section3Content": "No se ceden datos a terceros, salvo necesidad contractual (ej. correo postal) u obligación legal.",
+    "section4Title": "Conservación",
+    "section4Content": "Conservamos sus datos solo el tiempo necesario para cumplir el objetivo y las obligaciones legales.",
+    "section5Title": "Sus derechos",
+    "section5Content": "Tiene derecho de acceso, rectificación, supresión y limitación del tratamiento de sus datos en cualquier momento.",
+    "section6Title": "Secreto profesional",
+    "section6Content": "Como traductora jurada, estoy sujeta a una estricta obligación de confidencialidad respecto a todos los documentos confiados.",
+    "contactTitle": "Contacto de Privacidad",
+    "contactText": "Para cualquier consulta, contacte directamente por email."
   }
 }

@@ -1,0 +1,225 @@
+{
+  "home": "Inicio",
+  "about": "Sobre Mí",
+  "services": "Servicios",
+  "contact": "Contacto",
+  "homePage": {
+    "heroTitle1": "Traducción Jurada",
+    "heroTitle2": "Oficial.",
+    "heroSubtitle": "Precisión legal para documentos críticos.",
+    "heroDescription": "Certificada por el Ministerio de Asuntos Exteriores de España y el Oberlandesgericht Köln de Alemania. Especializada en derecho internacional y corporativo.",
+    "requestQuote": "Presupuesto Gratis en 2h",
+    "trustBadge": "Traductora-Intérprete Jurada • Ministerio de Asuntos Exteriores de España • Oberlandesgericht Köln",
+    "servicesTitle": "Servicios de Traducción Jurada",
+    "service1Title": "Traducción Jurada",
+    "service1Desc": "Documentos oficiales con validez legal ante organismos públicos de España y Alemania. Contratos, sentencias, escrituras.",
+    "service2Title": "Documentos Académicos",
+    "service2Desc": "Títulos universitarios, expedientes académicos, certificados de estudios para procesos de homologación internacional.",
+    "service3Title": "Traducción Corporativa",
+    "service3Desc": "Documentación empresarial, acuerdos comerciales, informes financieros y compliance corporativo internacional.",
+    "languagePairsTitle": "Combinaciones lingüísticas",
+    "bidirectional": "Bidireccional",
+    "unidirectional": "Unidireccional",
+    "credentialsTitle": "Acreditaciones Oficiales de Traductora Jurada",
+    "spainTitle": "España",
+    "spainDesc": "Traductora-intérprete jurada nombrada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación del Reino de España.",
+    "germanyTitle": "Alemania",
+    "germanyDesc": "Traductora autorizada por el Oberlandesgericht Köln (Tribunal Superior Regional de Colonia) para los idiomas francés y español.",
+    "verifyCredential": "Verificar acreditación",
+    "statCountries": "Países certificada",
+    "statLanguages": "Idiomas",
+    "statDelivery": "Entrega estándar",
+    "statConfidential": "Confidencial",
+    "officialBadge": "Traductora Jurada Oficial",
+    "ctaTitle": "¿Tienes un documento que traducir?",
+    "ctaSubtitle": "Envíamelo ahora y recibe presupuesto gratis en menos de 2 horas",
+    "ctaContact": "Enviar documento",
+    "ctaLearnMore": "Conocer más",
+    "spanish": "Español",
+    "german": "Alemán",
+    "french": "Francés",
+    "english": "Inglés",
+    "process": {
+      "title": "Cómo Funciona",
+      "subtitle": "Un proceso sencillo y transparente para obtener tu traducción jurada",
+      "step1Title": "Envío",
+      "step1Desc": "Envía tu documento por email o WhatsApp",
+      "step2Title": "Presupuesto",
+      "step2Desc": "Recibes presupuesto en menos de 24h",
+      "step3Title": "Traducción",
+      "step3Desc": "Realizo la traducción jurada oficial",
+      "step4Title": "Entrega",
+      "step4Desc": "Recibes el documento certificado"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Qué es una traducción jurada?",
+      "a1": "Una traducción jurada es una traducción oficial realizada por un traductor habilitado por el Estado. Incluye firma, sello y certificación que le otorgan validez legal ante organismos oficiales.",
+      "q2": "¿Cuánto tiempo tarda una traducción jurada?",
+      "a2": "El tiempo depende de la extensión del documento. Generalmente, un documento estándar se entrega en 24-48 horas. Para proyectos urgentes, consulte disponibilidad.",
+      "q3": "¿Qué documentos se pueden traducir de forma jurada?",
+      "a3": "Cualquier documento oficial: certificados de nacimiento, títulos académicos, contratos, sentencias, escrituras, poderes notariales, certificados de antecedentes, etc.",
+      "q4": "¿La traducción jurada tiene validez internacional?",
+      "a4": "Sí, las traducciones juradas realizadas en España y Alemania tienen validez en ambos países y son reconocidas internacionalmente según los convenios vigentes.",
+      "q5": "¿Cómo se entrega la traducción?",
+      "a5": "La traducción se puede entregar en formato digital (PDF firmado) y/o en papel con firma y sello original, según las necesidades del cliente."
+    }
+  },
+  "common": {
+    "swornTranslator": "Traductora Jurada",
+    "certified": "Certificada",
+    "allRightsReserved": "Todos los derechos reservados",
+    "privacyPolicy": "Política de Privacidad",
+    "quickLinks": "Enlaces Rápidos",
+    "certifications": "Certificaciones",
+    "sendEmail": "Enviar correo",
+    "openWhatsApp": "Abrir WhatsApp",
+    "contactNow": "Contactar Ahora",
+    "badges": {
+      "professionalServices": "Servicios Profesionales",
+      "professionalProfile": "Perfil Profesional",
+      "whyChooseMe": "¿Por qué elegirme?",
+      "mainService": "Servicio Principal",
+      "additionalServices": "Servicios Adicionales",
+      "guarantees": "Garantías"
+    }
+  },
+  "hero": {
+    "headline": "Traducciones Juradas y Especializadas | Fiabilidad y Rapidez",
+    "subheadline": "Experta en textos legales complejos, ofrezco soluciones lingüísticas precisas y rápidas para particulares, bufetes y empresas.",
+    "contactButton": "Contactar Ahora",
+    "servicesButton": "Ver Servicios",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "Certificación Oficial",
+        "description": "Traductora jurada habilitada en España y Alemania"
+      },
+      "fastDelivery": {
+        "title": "Entrega Rápida",
+        "description": "Soluciones eficientes sin comprometer la calidad"
+      },
+      "legalSpecialization": {
+        "title": "Especialización Legal",
+        "description": "Experiencia en textos jurídicos complejos"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Servicios de Traducción Jurada Oficial",
+    "generalTranslation": {
+      "heading": "Traducciones Generales y Especializadas",
+      "description": "Ofrezco servicios de traducción de alta calidad para una amplia gama de documentos, desde textos comerciales hasta técnicos, con un enfoque particular en el ámbito jurídico."
+    },
+    "languagePairs": {
+      "germanSpanish": "Alemán ⟷ Español",
+      "frenchGerman": "Francés → Alemán",
+      "englishGerman": "Inglés → Alemán",
+      "englishSpanish": "Inglés → Español",
+      "galicianGerman": "Gallego ⟷ Alemán",
+      "description": "Traducción profesional en esta combinación de idiomas."
+    },
+    "swornTranslation": {
+      "heading": "Traducción Jurada Oficial",
+      "description": "Necesaria para documentos que deben presentarse ante organismos oficiales o instituciones extranjeras. Mis traducciones juradas tienen validez legal.",
+      "spain": {
+        "title": "Traductora Jurada en España",
+        "description": "Habilitada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación de España.",
+        "linkText": "Ver lista de traductores jurados del MAEC"
+      },
+      "germany": {
+        "title": "Traductora Jurada en Alemania",
+        "description": "Habilitada por el Oberlandesgericht Köln (Tribunal Regional Superior de Colonia) en Alemania.",
+        "linkText": "Buscar en el registro de traductores de justiz-dolmetscher.de"
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "María Ángeles Capas, Traductora Jurada Oficial",
+    "introduction": "Soy una traductora jurada con años de experiencia en el ámbito jurídico y técnico. Mi pasión por los idiomas y el rigor legal me han llevado a especializarme en la traducción de documentos complejos, garantizando siempre la máxima precisión y confidencialidad.",
+    "paragraph1": "Mi trayectoria profesional se ha centrado en ofrecer soluciones lingüísticas fiables a particulares, empresas, bufetes de abogados y organismos oficiales. Comprendo la importancia de cada palabra en un contexto legal, por lo que cada traducción se realiza con la meticulosidad que exige la materia.",
+    "paragraph2": "Además de mi especialización jurídica, también cuento con experiencia en traducciones técnicas, lo que me permite abordar una amplia variedad de textos con la terminología adecuada. Mi objetivo es superar las expectativas de mis clientes, proporcionando un servicio rápido, eficiente y de confianza.",
+    "conclusion": "Me adapto a las necesidades específicas de cada proyecto, ofreciendo un trato personalizado y una comunicación fluida. Si buscas un servicio de traducción profesional que combine precisión, rapidez y un profundo conocimiento del sector, no dudes en contactarme.",
+    "sections": {
+      "presentation": "Presentación",
+      "experience": "Experiencia",
+      "capabilities": "Capacidades",
+      "commitment": "Compromiso"
+    },
+    "credentials": {
+      "officialSeal": "Sello Oficial de Traductora Jurada",
+      "certification": "Certificación",
+      "spainAndGermany": "España & Alemania",
+      "specialization": "Especialización",
+      "legalAndTechnical": "Legal & Técnica"
+    }
+  },
+  "contactPage": {
+    "title": "Contacto - Presupuesto de Traducción Jurada",
+    "introduction": "Estaré encantada de atenderle. Póngase en contacto conmigo para cualquier consulta sobre traducción jurada, técnica o jurídica. Responderé a la mayor brevedad posible.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "successTitle": "Mensaje enviado",
+      "successMessage": "Gracias por contactar. Te responderé en menos de 24 horas.",
+      "sendAnother": "Enviar otro mensaje",
+      "error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "guarantees": {
+      "responseTime": "Tiempo de respuesta",
+      "confidentiality": "Confidencialidad",
+      "professionalService": "Servicio profesional"
+    }
+  },
+  "footer": {
+    "description": "Traducciones juradas y especializadas de alta calidad. Certificada en España y Alemania.",
+    "spain": {
+      "country": "España",
+      "authority": "Ministerio de Asuntos Exteriores"
+    },
+    "germany": {
+      "country": "Alemania",
+      "authority": "Oberlandesgericht Köln"
+    }
+  },
+  "legalPage": {
+    "title": "Aviso Legal",
+    "ownerTitle": "Titular del sitio web",
+    "profession": "Traductora-Intérprete Jurada",
+    "activityTitle": "Actividad profesional",
+    "activityDesc": "Este sitio web ofrece servicios de traducción jurada y especializada. Las traducciones juradas realizadas tienen plena validez legal ante organismos oficiales de España y Alemania.",
+    "credentialsTitle": "Acreditaciones oficiales",
+    "spainCredential": "Traductora-Intérprete Jurada",
+    "spainAuthority": "Nombrada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación del Reino de España",
+    "germanyCredential": "Ermächtigte Übersetzerin",
+    "germanyAuthority": "Autorizada por el Oberlandesgericht Köln para los idiomas francés y español",
+    "intellectualTitle": "Propiedad intelectual",
+    "intellectualDesc": "Todos los contenidos de este sitio web, incluyendo textos, diseño gráfico y código fuente, son propiedad de María Ángeles Capas López o se utilizan con la debida autorización. Queda prohibida su reproducción sin consentimiento expreso.",
+    "liabilityTitle": "Limitación de responsabilidad",
+    "liabilityDesc": "La información proporcionada en este sitio web tiene carácter meramente informativo. María Ángeles Capas López no se hace responsable de los daños que pudieran derivarse del uso de esta información. Los presupuestos y condiciones específicas se acordarán individualmente con cada cliente.",
+    "jurisdictionTitle": "Legislación aplicable",
+    "jurisdictionDesc": "Las relaciones establecidas entre el titular del sitio web y los usuarios se regirán por la legislación española vigente. Para cualquier controversia, las partes se someterán a los Juzgados y Tribunales competentes."
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Diciembre 2024",
+    "intro": "En cumplimiento del Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección de Datos Personales (LOPDGDD), le informamos sobre el tratamiento de sus datos personales.",
+    "section1Title": "Responsable del tratamiento",
+    "section1Content": "María Ángeles Capas López\nTraductora-Intérprete Jurada\nEmail: capaslopez@gmail.com",
+    "section2Title": "Finalidad del tratamiento",
+    "section2Content": "Sus datos personales serán tratados con las siguientes finalidades:\n• Gestionar las solicitudes de presupuesto y encargos de traducción\n• Prestar los servicios de traducción jurada contratados\n• Emitir facturas y gestionar el cobro de los servicios\n• Responder a consultas y comunicaciones\n• Cumplir con las obligaciones legales aplicables",
+    "section3Title": "Base legal del tratamiento",
+    "section3Content": "El tratamiento de sus datos se basa en:\n• La ejecución de un contrato o la adopción de medidas precontractuales\n• El cumplimiento de obligaciones legales (fiscales, mercantiles)\n• Su consentimiento expreso cuando sea necesario",
+    "section4Title": "Conservación de los datos",
+    "section4Content": "Los datos personales se conservarán durante el tiempo necesario para cumplir con la finalidad para la que se recabaron y para determinar posibles responsabilidades derivadas de dicha finalidad. Los documentos traducidos y datos asociados se conservarán durante los plazos legalmente establecidos.",
+    "section5Title": "Derechos del interesado",
+    "section5Content": "Puede ejercer sus derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición enviando un email a capaslopez@gmail.com indicando el derecho que desea ejercer. También tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).",
+    "section6Title": "Confidencialidad",
+    "section6Content": "Todos los documentos e información proporcionados serán tratados con la máxima confidencialidad. Como traductora jurada, estoy sujeta al deber de secreto profesional respecto al contenido de los documentos traducidos.",
+    "contactTitle": "Contacto para cuestiones de privacidad",
+    "contactText": "Para cualquier consulta relacionada con el tratamiento de sus datos personales, puede contactar en:"
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { LocalizedLink } from '../components/LocalizedLink';
 import { motion } from 'framer-motion';
 import {
   fadeInUp,
@@ -59,16 +59,20 @@ function AboutPage() {
             >
               <div className="sticky top-28 space-y-6">
                 <motion.div
-                  className="p-8 bg-gray-50 rounded-xl text-center"
+                  className="p-6 bg-gray-50 rounded-xl text-center"
                   whileHover={{ scale: 1.02, boxShadow: "0 10px 30px rgba(0,0,0,0.06)" }}
                   transition={{ duration: 0.3 }}
                 >
                   <motion.div
-                    className="w-20 h-20 bg-blue-600 text-white font-serif text-2xl rounded-full flex items-center justify-center mx-auto mb-4"
-                    whileHover={{ scale: 1.1, rotate: 5 }}
+                    className="w-32 h-32 mx-auto mb-4 overflow-hidden rounded-full border-4 border-white shadow-lg"
+                    whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                   >
-                    MA
+                    <img
+                      src="/foto.jpg"
+                      alt="María Ángeles Capas - Traductora Jurada"
+                      className="w-full h-full object-cover"
+                    />
                   </motion.div>
                   <h3 className="font-serif text-xl font-semibold text-gray-900">
                     María Ángeles Capas
@@ -102,6 +106,33 @@ function AboutPage() {
                   <p className="font-medium text-gray-900">
                     {t('aboutPage.credentials.legalAndTechnical')}
                   </p>
+                </motion.div>
+
+                {/* Official Stamps */}
+                <motion.div
+                  className="p-6 bg-white border border-gray-200 rounded-xl"
+                  whileHover={{ borderColor: "rgb(156 163 175)", boxShadow: "0 4px 12px rgba(0,0,0,0.04)" }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4 text-center">
+                    {t('aboutPage.credentials.officialStamps')}
+                  </p>
+                  <div className="space-y-4">
+                    <motion.img
+                      src="/selloespana.png"
+                      alt="Sello Traductora Jurada España - Nº 11241"
+                      className="w-full h-auto max-w-[220px] mx-auto"
+                      whileHover={{ scale: 1.03 }}
+                      transition={{ duration: 0.2 }}
+                    />
+                    <motion.img
+                      src="/selloalemania.png"
+                      alt="Sello Traductora Jurada Alemania - OLG Köln"
+                      className="w-full h-auto max-w-[160px] mx-auto"
+                      whileHover={{ scale: 1.03 }}
+                      transition={{ duration: 0.2 }}
+                    />
+                  </div>
                 </motion.div>
               </div>
             </motion.div>
@@ -158,7 +189,7 @@ function AboutPage() {
             {t('homePage.ctaSubtitle')}
           </motion.p>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
-            <Link
+            <LocalizedLink
               to="/contacto"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
             >
@@ -172,7 +203,7 @@ function AboutPage() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </motion.svg>
-            </Link>
+            </LocalizedLink>
           </motion.div>
         </div>
       </motion.section>

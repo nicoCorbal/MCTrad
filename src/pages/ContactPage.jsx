@@ -27,6 +27,8 @@ function ContactPage() {
     e.preventDefault();
     setStatus('loading');
 
+    console.log('API Key:', import.meta.env.VITE_WEB3FORMS_KEY);
+
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
@@ -34,7 +36,7 @@ function ContactPage() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          access_key: 'TU_ACCESS_KEY_AQUI',
+          access_key: import.meta.env.VITE_WEB3FORMS_KEY,
           ...formData,
           from_name: formData.name,
         }),

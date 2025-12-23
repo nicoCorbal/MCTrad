@@ -1,114 +1,117 @@
 {
   "home": "Accueil",
-  "about": "À propos de moi",
+  "about": "À propos",
   "services": "Services",
   "contact": "Contact",
   "homePage": {
-    "heroTitle1": "Traduction Assermentée",
-    "heroTitle2": "Officielle.",
-    "heroSubtitle": "Précision juridique pour documents critiques.",
-    "heroDescription": "Certifiée par le Ministère des Affaires Étrangères d'Espagne et l'Oberlandesgericht Köln en Allemagne. Spécialisée en droit international et des sociétés.",
+    "heroTitle1": "Traductions Assermentées",
+    "heroTitle2": "Officielles et Juridiques.",
+    "heroSubtitle": "Précision juridique pour vos démarches en Espagne, Allemagne et France.",
+    "heroDescription": "Traductrice assermentée par le MAEC (Espagne) et habilitée par l'OLG de Cologne (Allemagne). Votre experte en droit international.",
     "requestQuote": "Demander un devis",
-    "trustBadge": "Traductrice Assermentée • Ministère des Affaires Étrangères d'Espagne • Oberlandesgericht Köln",
-    "servicesTitle": "Services de Traduction Assermentée",
+    "trustBadge": "Ministère des Affaires étrangères (MAEC) • OLG Cologne",
+    "servicesTitle": "Mes domaines d'expertise",
     "service1Title": "Traduction Assermentée",
-    "service1Desc": "Documents officiels avec validité légale devant les organismes publics d'Espagne et d'Allemagne. Contrats, jugements, actes.",
+    "service1Desc": "Documents officiels valables devant les autorités en Espagne et en Allemagne. Jugements, contrats, actes d'état civil.",
     "service2Title": "Documents Académiques",
-    "service2Desc": "Diplômes universitaires, relevés de notes, certificats d'études pour les processus de reconnaissance internationale.",
-    "service3Title": "Traduction d'Entreprise",
-    "service3Desc": "Documentation commerciale, accords commerciaux, rapports financiers et conformité internationale des entreprises.",
-    "languagePairsTitle": "Combinaisons linguistiques",
+    "service2Desc": "Diplômes, relevés de notes et certificats pour procédures d'homologation et candidatures universitaires.",
+    "service3Title": "Traduction Juridique",
+    "service3Desc": "Droit commercial, actes notariés, rapports financiers et documentation d'entreprise internationale.",
+    "languagePairsTitle": "Combinaisons de langues",
     "bidirectional": "Bidirectionnel",
     "unidirectional": "Unidirectionnel",
-    "credentialsTitle": "Accréditations Officielles de Traductrice Assermentée",
-    "spainTitle": "Espagne",
-    "spainDesc": "Traductrice assermentée nommée par le Ministère des Affaires Étrangères, de l'Union Européenne et de la Coopération du Royaume d'Espagne.",
-    "germanyTitle": "Allemagne",
-    "germanyDesc": "Traductrice habilitée par l'Oberlandesgericht Köln (Cour d'Appel de Cologne) pour le français et l'espagnol.",
+    "credentialsTitle": "Accréditations Officielles",
+    "spainTitle": "Espagne (MAEC)",
+    "spainDesc": "Traductrice-Interprète Jurée nommée par le Ministère des Affaires étrangères, de l'Union européenne et de la Coopération.",
+    "germanyTitle": "Allemagne (OLG Cologne)",
+    "germanyDesc": "Traductrice habilitée (Ermächtigte Übersetzerin) par le Tribunal régional supérieur de Cologne pour l'espagnol et le français.",
     "verifyCredential": "Vérifier l'accréditation",
-    "statCountries": "Pays certifiés",
-    "statLanguages": "Langues",
-    "statDelivery": "Livraison standard",
-    "statConfidential": "Confidentiel",
-    "officialBadge": "Traductrice Assermentée",
+    "statCountries": "Pays de validité",
+    "statLanguages": "Langues de travail",
+    "statDelivery": "Délai standard",
+    "statConfidential": "Confidentialité",
+    "officialBadge": "Reconnu officiellement",
     "ctaTitle": "Besoin d'une traduction officielle ?",
-    "ctaSubtitle": "Demandez un devis sans engagement",
-    "ctaContact": "Contacter maintenant",
+    "ctaSubtitle": "Envoyez vos documents pour recevoir un devis ferme et sans engagement.",
+    "ctaContact": "Devis gratuit",
     "ctaLearnMore": "En savoir plus",
     "spanish": "Espagnol",
     "german": "Allemand",
     "french": "Français",
     "english": "Anglais",
     "process": {
-      "title": "Comment ça fonctionne",
-      "subtitle": "Un processus simple et transparent pour obtenir votre traduction assermentée",
-      "step1Title": "Envoi",
-      "step1Desc": "Envoyez votre document par e-mail ou WhatsApp",
-      "step2Title": "Devis",
-      "step2Desc": "Vous recevez un devis en moins de 24h",
+      "title": "Processus",
+      "subtitle": "Votre traduction en 4 étapes simples",
+      "step1Title": "Envoyer le document",
+      "step1Desc": "Envoyez un scan ou une photo par e-mail ou WhatsApp.",
+      "step2Title": "Recevoir l'offre",
+      "step2Desc": "Vous recevrez rapidement un devis à prix fixe.",
       "step3Title": "Traduction",
-      "step3Desc": "Je réalise la traduction assermentée officielle",
+      "step3Desc": "Réalisation de la traduction assermentée avec sceau et signature.",
       "step4Title": "Livraison",
-      "step4Desc": "Vous recevez le document certifié"
+      "step4Desc": "Envoi numérique (PDF) préalable et original par courrier postal."
     },
     "faq": {
       "title": "Questions Fréquentes",
-      "q1": "Qu'est-ce qu'une traduction assermentée ?",
-      "a1": "Une traduction assermentée est une traduction officielle réalisée par un traducteur habilité par l'État. Elle comprend signature, cachet et certification qui lui confèrent une validité légale devant les organismes officiels.",
-      "q2": "Combien de temps prend une traduction assermentée ?",
-      "a2": "Le délai dépend de la longueur du document. Généralement, un document standard est livré en 24-48 heures. Pour les projets urgents, veuillez consulter la disponibilité.",
-      "q3": "Quels documents peuvent être traduits de manière assermentée ?",
-      "a3": "Tous les documents officiels : actes de naissance, diplômes, contrats, jugements, actes notariés, procurations, casiers judiciaires, etc.",
-      "q4": "La traduction assermentée a-t-elle une validité internationale ?",
-      "a4": "Oui, les traductions assermentées réalisées en Espagne et en Allemagne sont valables dans les deux pays et sont reconnues internationalement selon les conventions en vigueur.",
-      "q5": "Comment la traduction est-elle livrée ?",
-      "a5": "La traduction peut être livrée en format numérique (PDF signé) et/ou sur papier avec signature et cachet original, selon les besoins du client."
+      "q1": "Quelle est la différence entre traduction simple et assermentée ?",
+      "a1": "La traduction assermentée est officielle. Elle est signée et scellée par un traducteur expert judiciaire, ce qui lui confère une valeur légale devant l'administration.",
+      "q2": "Quel est le délai de traduction ?",
+      "a2": "Les documents standard (ex: acte de naissance) sont souvent prêts en 24-48h. Le délai postal depuis l'Espagne vers l'Allemagne est d'environ 3-5 jours.",
+      "q3": "Avez-vous besoin de l'original ?",
+      "a3": "Généralement non. Un scan de bonne qualité suffit. La traduction mentionnera qu'il s'agit d'une 'traduction sur copie'. Veuillez vérifier auprès de votre administration (accepté dans 99% des cas).",
+      "q4": "La traduction est-elle valable en Allemagne ?",
+      "a4": "Oui. Étant habilitée par le Tribunal supérieur de Cologne (OLG Köln), mes traductions sont reconnues par les autorités allemandes.",
+      "q5": "Comment s'effectue le paiement ?",
+      "a5": "Vous recevrez une facture avec TVA. Le paiement s'effectue facilement par virement bancaire."
     }
   },
   "common": {
     "swornTranslator": "Traductrice Assermentée",
     "certified": "Certifiée",
     "allRightsReserved": "Tous droits réservés",
-    "privacyPolicy": "Politique de confidentialité",
-    "quickLinks": "Liens rapides",
+    "privacyPolicy": "Confidentialité",
+    "quickLinks": "Menu",
     "certifications": "Certifications",
     "sendEmail": "Envoyer un e-mail",
     "openWhatsApp": "Ouvrir WhatsApp",
     "contactNow": "Contacter maintenant",
+    "changeLanguageTo": "Changer la langue en",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
     "badges": {
       "professionalServices": "Services Professionnels",
-      "professionalProfile": "Profil Professionnel",
-      "whyChooseMe": "Pourquoi me choisir ?",
+      "professionalProfile": "Profil",
+      "whyChooseMe": "Pourquoi moi ?",
       "mainService": "Service Principal",
-      "additionalServices": "Services Supplémentaires",
+      "additionalServices": "Autres langues",
       "guarantees": "Garanties"
     }
   },
   "hero": {
-    "headline": "Traductions Assermentées et Spécialisées | Fiabilité et Rapidité",
-    "subheadline": "Experte en textes juridiques complexes, j'offre des solutions linguistiques précises et rapides pour les particuliers, les cabinets d'avocats et les entreprises.",
-    "contactButton": "Contacter Maintenant",
-    "servicesButton": "Voir les Services",
+    "headline": "Traductions Assermentées | Allemand - Espagnol - Français",
+    "subheadline": "Valeur légale, rapidité et contact direct avec la traductrice. Reconnue en Espagne et en Allemagne.",
+    "contactButton": "Demander un devis",
+    "servicesButton": "Voir les services",
     "trustIndicators": {
       "officialCertification": {
-        "title": "Certification Officielle",
-        "description": "Traductrice assermentée habilitée en Espagne et en Allemagne"
+        "title": "Double Habilitation",
+        "description": "Accréditée en Espagne (MAEC) et en Allemagne (OLG Cologne)"
       },
       "fastDelivery": {
-        "title": "Livraison Rapide",
-        "description": "Solutions efficaces sans compromettre la qualité"
+        "title": "Livraison Numérique",
+        "description": "PDF signé en avance, original par la poste"
       },
       "legalSpecialization": {
-        "title": "Spécialisation Juridique",
-        "description": "Expérience en textes juridiques complexes"
+        "title": "Expertise Juridique",
+        "description": "Spécialisée dans les textes juridiques complexes"
       }
     }
   },
   "servicesPage": {
-    "title": "Services de Traduction Assermentée Officielle",
+    "title": "Services et Spécialisations",
     "generalTranslation": {
-      "heading": "Traductions Générales et Spécialisées",
-      "description": "J'offre des services de traduction de haute qualité pour une large gamme de documents, des textes commerciaux aux textes techniques, avec un accent particulier sur le domaine juridique."
+      "heading": "Traductions Spécialisées",
+      "description": "Traductions de haute qualité pour textes juridiques, économiques et techniques. Terminologie précise et style adapté à votre communication d'entreprise."
     },
     "languagePairs": {
       "germanSpanish": "Allemand ⟷ Espagnol",
@@ -116,73 +119,111 @@
       "englishGerman": "Anglais → Allemand",
       "englishSpanish": "Anglais → Espagnol",
       "galicianGerman": "Galicien ⟷ Allemand",
-      "description": "Traduction professionnelle dans cette combinaison linguistique."
+      "description": "Traduction professionnelle dans ces combinaisons."
     },
     "swornTranslation": {
-      "heading": "Traduction Assermentée Officielle",
-      "description": "Nécessaire pour les documents qui doivent être présentés à des organismes officiels ou des institutions étrangères. Mes traductions assermentées ont une validité légale.",
+      "heading": "Traduction Jurée de Documents",
+      "description": "Obligatoire pour présentation aux états civils, tribunaux, universités et services de l'immigration.",
       "spain": {
-        "title": "Traductrice Assermentée en Espagne",
-        "description": "Agréée par le Ministère des Affaires Étrangères, de l'Union Européenne et de la Coopération d'Espagne.",
-        "linkText": "Voir la liste des traducteurs assermentés du MAEC"
+        "title": "Pour l'Espagne (Traductora Jurada)",
+        "description": "Avec sceau et signature selon les normes du Ministère espagnol (MAEC).",
+        "linkText": "Voir la liste du MAEC"
       },
       "germany": {
-        "title": "Traductrice Assermentée en Allemagne",
-        "description": "Agréée par l'Oberlandesgericht Köln (Cour d'Appel de Cologne) en Allemagne.",
-        "linkText": "Rechercher dans le registre des traducteurs de justiz-dolmetscher.de"
+        "title": "Pour l'Allemagne (Traductrice Habilitée)",
+        "description": "Traduction certifiée selon § 142 ZPO, reconnue par l'OLG de Cologne.",
+        "linkText": "Annuaire des traducteurs de justice"
       }
     }
   },
   "aboutPage": {
-    "title": "María Ángeles Capas, Traductrice Assermentée Officielle",
-    "introduction": "Je suis une traductrice assermentée avec des années d'expérience dans le domaine juridique et technique. Ma passion pour les langues et la rigueur légale m'ont conduite à me spécialiser dans la traduction de documents complexes, garantissant toujours la plus grande précision et confidentialité.",
-    "paragraph1": "Mon parcours professionnel s'est concentré sur l'offre de solutions linguistiques fiables aux particuliers, aux entreprises, aux cabinets d'avocats et aux organismes officiels. Je comprends l'importance de chaque mot dans un contexte juridique, c'est pourquoi chaque traduction est réalisée avec la minutie qu'exige la matière.",
-    "paragraph2": "Outre ma spécialisation juridique, j'ai également de l'expérience en traductions techniques, ce qui me permet d'aborder une grande variété de textes avec la terminologie appropriée. Mon objectif est de dépasser les attentes de mes clients, en fournissant un service rapide, efficace et fiable.",
-    "conclusion": "Je m'adapte aux besoins spécifiques de chaque projet, offrant un traitement personnalisé et une communication fluide. Si vous recherchez un service de traduction professionnel alliant précision, rapidité et une connaissance approfondie du secteur, n'hésitez pas à me contacter.",
+    "title": "María Ángeles Capas – Votre Traductrice",
+    "introduction": "En tant que traductrice doublement qualifiée, je fais le pont entre les systèmes juridiques espagnol et allemand. Mon habilitation par l'OLG de Cologne et ma nomination par le Ministère espagnol vous garantissent une sécurité juridique maximale.",
+    "paragraph1": "Depuis des années, j'aide cabinets d'avocats, notaires, entreprises et particuliers à surmonter les barrières linguistiques administratives. Je sais que dans le juridique, chaque détail compte.",
+    "paragraph2": "Outre mon expertise juridique, je propose aussi des traductions techniques. Grâce à ma base en Espagne et mon habilitation en Allemagne, je suis le lien idéal pour vos affaires internationales.",
+    "conclusion": "Service personnalisé, communication directe et confidentialité absolue sont mes priorités. Je serais ravie de vous assister.",
     "sections": {
-      "presentation": "Présentation",
+      "presentation": "Profil",
       "experience": "Expérience",
       "capabilities": "Compétences",
       "commitment": "Engagement"
     },
     "credentials": {
-      "officialSeal": "Sceau officiel de traductrice assermentée",
-      "certification": "Certification",
-      "spainAndGermany": "Espagne & Allemagne",
-      "specialization": "Spécialisation",
-      "legalAndTechnical": "Juridique & Technique"
+      "officialSeal": "Sceau Officiel",
+      "certification": "Accréditation",
+      "spainAndGermany": "ES & DE",
+      "specialization": "Domaines",
+      "legalAndTechnical": "Droit & Technique",
+      "officialStamps": "Cachets Officiels"
     }
   },
   "contactPage": {
-    "title": "Contact - Devis de Traduction Assermentée",
-    "introduction": "Je serais ravie de vous aider. N'hésitez pas à me contacter pour toute question concernant les traductions assermentées, techniques ou juridiques. Je vous répondrai dans les plus brefs délais.",
+    "title": "Contact & Devis",
+    "introduction": "Vous avez des questions ou besoin d'un devis rapide ? Envoyez-moi vos documents par e-mail ou via le formulaire.",
     "form": {
-      "name": "Nom",
-      "email": "E-mail",
-      "subject": "Objet",
-      "message": "Message",
-      "submit": "Envoyer le message",
+      "name": "Votre Nom",
+      "email": "Votre E-mail",
+      "subject": "Sujet (ex: Traduction Acte de Naissance)",
+      "message": "Message / Détails de la demande",
+      "submit": "Demander un devis",
       "sending": "Envoi en cours...",
-      "successTitle": "Message envoyé",
-      "successMessage": "Merci de m'avoir contactée. Je vous répondrai dans les 24 heures.",
-      "sendAnother": "Envoyer un autre message",
-      "error": "Une erreur s'est produite lors de l'envoi. Veuillez réessayer."
+      "successTitle": "Merci !",
+      "successMessage": "Votre demande a bien été reçue. Je vous répondrai sous peu.",
+      "sendAnother": "Nouveau message",
+      "error": "Erreur lors de l'envoi. Veuillez réessayer par e-mail."
     },
     "guarantees": {
-      "responseTime": "Temps de réponse",
-      "confidentiality": "Confidentialité",
-      "professionalService": "Service professionnel"
+      "responseTime": "Réponse rapide",
+      "confidentiality": "Secret professionnel",
+      "professionalService": "Contact direct"
     }
   },
   "footer": {
-    "description": "Traductions assermentées et spécialisées de haute qualité. Certifiée en Espagne et en Allemagne.",
+    "description": "Traductions assermentées pour l'Espagne et l'Allemagne. Juridiquement valables, rapides et compétentes.",
     "spain": {
       "country": "Espagne",
-      "authority": "Ministère des Affaires Étrangères"
+      "authority": "Traductrice Jurée (MAEC)"
     },
     "germany": {
       "country": "Allemagne",
-      "authority": "Oberlandesgericht Köln"
+      "authority": "Traductrice Habilitée (OLG Cologne)"
     }
+  },
+  "legalPage": {
+    "title": "Mentions Légales",
+    "ownerTitle": "Informations selon LSSI-CE / § 5 TMG",
+    "profession": "Traductrice Assermentée et Habilitée",
+    "activityTitle": "Activité Professionnelle",
+    "activityDesc": "Traductrice freelance. Titres obtenus en Espagne (Traductora Jurada) et en Allemagne (Ermächtigte Übersetzerin).",
+    "credentialsTitle": "Autorités de Contrôle",
+    "spainCredential": "Espagne : Traductora-Intérprete Jurada",
+    "spainAuthority": "Nommée par le Ministère des Affaires étrangères (MAEC), Madrid.",
+    "germanyCredential": "Allemagne : Ermächtigte Übersetzerin",
+    "germanyAuthority": "Président du Tribunal régional supérieur de Cologne (OLG Köln).",
+    "intellectualTitle": "Propriété Intellectuelle",
+    "intellectualDesc": "Tous les contenus (textes, design) sont protégés. Utilisation interdite sans accord.",
+    "liabilityTitle": "Limitation de responsabilité",
+    "liabilityDesc": "Nous déclinons toute responsabilité concernant le contenu des liens externes.",
+    "jurisdictionTitle": "Droit applicable",
+    "jurisdictionDesc": "Le droit espagnol s'applique. Le tribunal compétent est celui du domicile de la traductrice en Espagne."
+  },
+  "privacyPage": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Mise à jour : Décembre 2024",
+    "intro": "Nous prenons très au sérieux la protection de vos données personnelles et respectons strictement le RGPD.",
+    "section1Title": "Responsable",
+    "section1Content": "María Ángeles Capas López\n[Votre adresse ici]\nE-mail : capaslopez@gmail.com",
+    "section2Title": "Traitement des données",
+    "section2Content": "Nous traitons vos données (nom, contact, documents) exclusivement pour établir des devis et réaliser les traductions.",
+    "section3Title": "Transmission aux tiers",
+    "section3Content": "Aucune transmission à des tiers, sauf nécessité contractuelle (ex: poste) ou obligation légale.",
+    "section4Title": "Conservation",
+    "section4Content": "Nous ne conservons vos données que le temps nécessaire à la réalisation de l'objectif et aux obligations légales.",
+    "section5Title": "Vos droits",
+    "section5Content": "Vous avez un droit d'accès, de rectification, de suppression et de limitation du traitement de vos données.",
+    "section6Title": "Secret professionnel",
+    "section6Content": "En tant que traductrice assermentée, je suis soumise à une obligation stricte de confidentialité concernant tous les documents confiés.",
+    "contactTitle": "Contact Données",
+    "contactText": "Pour toute question, contactez-moi par e-mail."
   }
 }

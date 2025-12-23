@@ -1,0 +1,7 @@
+# Robots.txt for mariaangelescapas.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mariaangelescapas.com/sitemap.xml

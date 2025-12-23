@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { LocalizedLink } from './LocalizedLink';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -41,12 +41,12 @@ const Footer = () => {
           {/* Brand */}
           <motion.div variants={fadeInUp}>
             <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }}>
-              <Link to="/" className="inline-block">
+              <LocalizedLink to="/" className="inline-block">
                 <span className="font-serif text-xl font-semibold text-gray-900">María Ángeles Capas</span>
                 <span className="block text-xs text-gray-500 uppercase tracking-wider mt-1">
                   {t('common.swornTranslator')}
                 </span>
-              </Link>
+              </LocalizedLink>
             </motion.div>
             <p className="text-gray-600 text-sm mt-4 leading-relaxed">
               {t('footer.description')}
@@ -66,12 +66,12 @@ const Footer = () => {
                 { to: '/contacto', label: t('contact') }
               ].map((link) => (
                 <motion.div key={link.to} whileHover={{ x: 4 }} transition={{ duration: 0.2 }}>
-                  <Link
+                  <LocalizedLink
                     to={link.to}
                     className="block text-gray-600 hover:text-blue-600 transition-colors text-sm"
                   >
                     {link.label}
-                  </Link>
+                  </LocalizedLink>
                 </motion.div>
               ))}
             </nav>
@@ -116,11 +116,19 @@ const Footer = () => {
           variants={fadeInUp}
         >
           <p>© {year} María Ángeles Capas</p>
-          <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
-            <Link to="/politica-de-privacidad" className="hover:text-blue-600 transition-colors">
-              {t('common.privacyPolicy')}
-            </Link>
-          </motion.div>
+          <div className="flex items-center gap-4">
+            <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
+              <LocalizedLink to="/aviso-legal" className="hover:text-blue-600 transition-colors">
+                {t('legalPage.title')}
+              </LocalizedLink>
+            </motion.div>
+            <span className="text-gray-300">|</span>
+            <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
+              <LocalizedLink to="/privacidad" className="hover:text-blue-600 transition-colors">
+                {t('common.privacyPolicy')}
+              </LocalizedLink>
+            </motion.div>
+          </div>
         </motion.div>
       </div>
     </motion.footer>

@@ -33,7 +33,7 @@ const EmailButton = () => {
         </div>
         <div className="flex flex-col pr-1">
           <span className="font-semibold text-sm leading-tight">Pedir presupuesto</span>
-          <span className="text-xs text-gray-500">Respuesta en 2h</span>
+          <span className="text-xs text-gray-500">Respuesta en 24h</span>
         </div>
       </div>
     </motion.a>
