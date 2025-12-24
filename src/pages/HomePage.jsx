@@ -1,67 +1,53 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
 import { LocalizedLink } from '../components/LocalizedLink';
 import { motion, AnimatePresence } from 'framer-motion';
+import SEO from '../components/SEO';
+import InternalLinks from '../components/InternalLinks';
 import {
   fadeInUp,
   staggerContainer,
   staggerItem,
-  cardHover,
-  buttonHover
 } from '../components/animations/MotionComponents';
 
 function HomePage() {
   const { t } = useTranslation();
+  const { lang = 'es' } = useParams();
   const [openFaq, setOpenFaq] = useState(null);
 
-  // Inyectar FAQPage Schema para Rich Snippets de Google
-  useEffect(() => {
-    const faqSchema = {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": t('homePage.faq.q1'),
-          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a1') }
-        },
-        {
-          "@type": "Question",
-          "name": t('homePage.faq.q2'),
-          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a2') }
-        },
-        {
-          "@type": "Question",
-          "name": t('homePage.faq.q3'),
-          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a3') }
-        },
-        {
-          "@type": "Question",
-          "name": t('homePage.faq.q4'),
-          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a4') }
-        },
-        {
-          "@type": "Question",
-          "name": t('homePage.faq.q5'),
-          "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a5') }
-        }
-      ]
-    };
-
-    let script = document.getElementById('faq-schema');
-    if (!script) {
-      script = document.createElement('script');
-      script.id = 'faq-schema';
-      script.type = 'application/ld+json';
-      document.head.appendChild(script);
-    }
-    script.textContent = JSON.stringify(faqSchema);
-
-    return () => {
-      const existingScript = document.getElementById('faq-schema');
-      if (existingScript) existingScript.remove();
-    };
-  }, [t]);
+  // Generate FAQ Schema for JSON-LD
+  const faqSchema = useMemo(() => ({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": t('homePage.faq.q1'),
+        "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a1') }
+      },
+      {
+        "@type": "Question",
+        "name": t('homePage.faq.q2'),
+        "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a2') }
+      },
+      {
+        "@type": "Question",
+        "name": t('homePage.faq.q3'),
+        "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a3') }
+      },
+      {
+        "@type": "Question",
+        "name": t('homePage.faq.q4'),
+        "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a4') }
+      },
+      {
+        "@type": "Question",
+        "name": t('homePage.faq.q5'),
+        "acceptedAnswer": { "@type": "Answer", "text": t('homePage.faq.a5') }
+      }
+    ]
+  }), [t, lang]);
 
   const services = [
     {
@@ -109,7 +95,9 @@ function HomePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white overflow-hidden">
+    <>
+      <SEO page="home" jsonLd={faqSchema} />
+      <main className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
       <section className="min-h-[calc(100vh-3.5rem)] md:min-h-[calc(100vh-5rem)] flex items-center relative overflow-hidden bg-gradient-to-b from-gray-50 via-white to-white">
@@ -576,6 +564,9 @@ function HomePage() {
         </div>
       </motion.section>
 
+      {/* Internal Links - Programmatic SEO Pages */}
+      <InternalLinks lang={lang} variant="grid" />
+
       {/* CTA */}
       <motion.section
         className="py-12 md:py-20 lg:py-28 bg-blue-600"
@@ -621,7 +612,8 @@ function HomePage() {
         </div>
       </motion.section>
 
-    </div>
+      </main>
+    </>
   );
 }
 

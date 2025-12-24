@@ -2,19 +2,21 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { LocalizedLink } from '../components/LocalizedLink';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import {
   fadeInUp,
   staggerContainer,
   staggerItem,
   slideInLeft,
-  slideInRight
 } from '../components/animations/MotionComponents';
 
 function AboutPage() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white overflow-hidden">
+    <>
+      <SEO page="about" />
+      <main className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
       <motion.section
@@ -208,7 +210,8 @@ function AboutPage() {
         </div>
       </motion.section>
 
-    </div>
+      </main>
+    </>
   );
 }
 

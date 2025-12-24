@@ -1,7 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
 import { LocalizedLink } from '../components/LocalizedLink';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
+import InternalLinks from '../components/InternalLinks';
 import {
   fadeInUp,
   staggerContainer,
@@ -10,6 +13,7 @@ import {
 
 function ServicesPage() {
   const { t } = useTranslation();
+  const { lang = 'es' } = useParams();
 
   const languagePairs = [
     { from: t('homePage.german'), to: t('homePage.spanish'), bidirectional: true },
@@ -19,7 +23,9 @@ function ServicesPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white overflow-hidden">
+    <>
+      <SEO page="services" />
+      <main className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
       <motion.section
@@ -175,6 +181,9 @@ function ServicesPage() {
         </div>
       </motion.section>
 
+      {/* Internal Links - Programmatic SEO Pages */}
+      <InternalLinks lang={lang} variant="grid" />
+
       {/* CTA */}
       <motion.section
         className="py-12 md:py-20 lg:py-28 bg-blue-600"
@@ -216,7 +225,8 @@ function ServicesPage() {
         </div>
       </motion.section>
 
-    </div>
+      </main>
+    </>
   );
 }
 

@@ -1,15 +1,21 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ScrollToTop from './components/ScrollToTop';
 import LanguageLayout from './components/LanguageLayout';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ServicesPage from './pages/ServicesPage';
-import ContactPage from './pages/ContactPage';
-import PrivacyPage from './pages/PrivacyPage';
-import LegalPage from './pages/LegalPage';
+import StructuredData from './components/StructuredData';
+import Loader from './components/Loader';
 import { supportedLanguages, defaultLanguage } from './i18n/i18n';
-import { routes, getRoutePath } from './config/routes';
+import { getRoutePath } from './config/routes';
+
+// Lazy load pages for better performance
+const HomePage = lazy(() => import('./pages/HomePage'));
+const AboutPage = lazy(() => import('./pages/AboutPage'));
+const ServicesPage = lazy(() => import('./pages/ServicesPage'));
+const ContactPage = lazy(() => import('./pages/ContactPage'));
+const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
+const LegalPage = lazy(() => import('./pages/LegalPage'));
+const ServiceDetailPage = lazy(() => import('./pages/ServiceDetailPage'));
 
 // Component to handle root redirect
 const RootRedirect = () => {
@@ -28,9 +34,12 @@ const LegacyRedirect = ({ routeKey }) => {
   return <Navigate to={path} replace />;
 };
 
+
 function App() {
   return (
     <Router>
+      {/* Global structured data for SEO */}
+      <StructuredData />
       <ScrollToTop />
       <Routes>
         {/* Root redirect to default/detected language */}
@@ -46,35 +55,178 @@ function App() {
         {/* Language-prefixed routes with translated slugs */}
         <Route path="/:lang" element={<LanguageLayout />}>
           {/* Home */}
-          <Route index element={<HomePage />} />
+          <Route
+            index
+            element={
+              <Suspense fallback={<Loader />}>
+                <HomePage />
+              </Suspense>
+            }
+          />
 
           {/* Services - all language variants */}
-          <Route path="servicios" element={<ServicesPage />} />
-          <Route path="dienstleistungen" element={<ServicesPage />} />
-          <Route path="services" element={<ServicesPage />} />
+          <Route
+            path="servicios"
+            element={
+              <Suspense fallback={<Loader />}>
+                <ServicesPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="dienstleistungen"
+            element={
+              <Suspense fallback={<Loader />}>
+                <ServicesPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="services"
+            element={
+              <Suspense fallback={<Loader />}>
+                <ServicesPage />
+              </Suspense>
+            }
+          />
 
           {/* About - all language variants */}
-          <Route path="sobre-mi" element={<AboutPage />} />
-          <Route path="ueber-mich" element={<AboutPage />} />
-          <Route path="a-propos" element={<AboutPage />} />
-          <Route path="about" element={<AboutPage />} />
+          <Route
+            path="sobre-mi"
+            element={
+              <Suspense fallback={<Loader />}>
+                <AboutPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="ueber-mich"
+            element={
+              <Suspense fallback={<Loader />}>
+                <AboutPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="a-propos"
+            element={
+              <Suspense fallback={<Loader />}>
+                <AboutPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="about"
+            element={
+              <Suspense fallback={<Loader />}>
+                <AboutPage />
+              </Suspense>
+            }
+          />
 
           {/* Contact - all language variants */}
-          <Route path="contacto" element={<ContactPage />} />
-          <Route path="kontakt" element={<ContactPage />} />
-          <Route path="contact" element={<ContactPage />} />
+          <Route
+            path="contacto"
+            element={
+              <Suspense fallback={<Loader />}>
+                <ContactPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="kontakt"
+            element={
+              <Suspense fallback={<Loader />}>
+                <ContactPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="contact"
+            element={
+              <Suspense fallback={<Loader />}>
+                <ContactPage />
+              </Suspense>
+            }
+          />
 
           {/* Privacy - all language variants */}
-          <Route path="privacidad" element={<PrivacyPage />} />
-          <Route path="datenschutz" element={<PrivacyPage />} />
-          <Route path="confidentialite" element={<PrivacyPage />} />
-          <Route path="privacy" element={<PrivacyPage />} />
+          <Route
+            path="privacidad"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PrivacyPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="datenschutz"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PrivacyPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="confidentialite"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PrivacyPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="privacy"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PrivacyPage />
+              </Suspense>
+            }
+          />
 
           {/* Legal - all language variants */}
-          <Route path="aviso-legal" element={<LegalPage />} />
-          <Route path="impressum" element={<LegalPage />} />
-          <Route path="mentions-legales" element={<LegalPage />} />
-          <Route path="legal-notice" element={<LegalPage />} />
+          <Route
+            path="aviso-legal"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LegalPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="impressum"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LegalPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="mentions-legales"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LegalPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="legal-notice"
+            element={
+              <Suspense fallback={<Loader />}>
+                <LegalPage />
+              </Suspense>
+            }
+          />
+
+          {/* Programmatic SEO pages - Service detail pages with dynamic slug */}
+          <Route
+            path=":serviceSlug"
+            element={
+              <Suspense fallback={<Loader />}>
+                <ServiceDetailPage />
+              </Suspense>
+            }
+          />
         </Route>
 
         {/* Catch-all redirect */}

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
+import SEO from '../components/SEO';
 import {
   fadeInUp,
   staggerContainer,
   staggerItem,
-  scaleIn
 } from '../components/animations/MotionComponents';
 
 function ContactPage() {
@@ -64,7 +64,9 @@ function ContactPage() {
   `;
 
   return (
-    <div className="min-h-screen bg-white overflow-hidden">
+    <>
+      <SEO page="contact" />
+      <main className="min-h-screen bg-white overflow-hidden">
 
       {/* Hero */}
       <motion.section
@@ -339,7 +341,8 @@ function ContactPage() {
         </div>
       </motion.section>
 
-    </div>
+      </main>
+    </>
   );
 }
 

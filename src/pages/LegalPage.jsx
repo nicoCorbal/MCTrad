@@ -1,13 +1,16 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 import { fadeInUp, staggerContainer } from '../components/animations/MotionComponents';
 
 function LegalPage() {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <SEO page="legal" />
+      <main className="min-h-screen bg-white">
       {/* Header */}
       <motion.section
         className="pt-24 pb-12 md:pt-32 md:pb-16 bg-gradient-to-b from-gray-50 to-white"
@@ -117,7 +120,8 @@ function LegalPage() {
 
         </div>
       </motion.section>
-    </div>
+      </main>
+    </>
   );
 }
 
