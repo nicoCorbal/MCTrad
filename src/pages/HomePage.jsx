@@ -175,7 +175,7 @@ function HomePage() {
             {/* Headline */}
             <h1 className="mb-5 md:mb-7">
               <motion.span
-                className="block font-serif text-[2.75rem] leading-[0.95] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold text-gray-900 tracking-[-0.02em]"
+                className="block font-serif text-[2.25rem] leading-[0.95] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-gray-900 tracking-[-0.02em]"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
@@ -183,7 +183,7 @@ function HomePage() {
                 {t('homePage.heroTitle1')}
               </motion.span>
               <motion.span
-                className="block font-serif text-[2.75rem] leading-[0.95] sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-semibold tracking-[-0.02em] mt-1 sm:mt-2"
+                className="block font-serif text-[2.25rem] leading-[0.95] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-[-0.02em] mt-1 sm:mt-2"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.15 }}
@@ -272,34 +272,32 @@ function HomePage() {
 
             {/* Trust indicators - Diseño limpio horizontal */}
             <motion.div
-              className="flex items-center justify-between sm:justify-start gap-4 sm:gap-8 md:gap-10 pt-6 border-t border-gray-100 sm:border-0 sm:pt-0"
+              className="flex items-center justify-between sm:justify-start gap-3 sm:gap-6 md:gap-8 pt-6 border-t border-gray-100 sm:border-0 sm:pt-0"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
+              {/* 30 años */}
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <span className="text-lg sm:text-2xl font-serif font-semibold text-gray-900">30</span>
+                <span className="text-xs sm:text-sm text-gray-500">{t('homePage.statExperience')}</span>
+              </div>
+
+              <div className="h-5 w-px bg-gray-200 sm:h-8" />
+
+              {/* 3000+ documentos */}
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <span className="text-lg sm:text-2xl font-serif font-semibold text-gray-900">3000+</span>
+                <span className="text-xs sm:text-sm text-gray-500 hidden sm:inline">{t('homePage.statDocuments')}</span>
+              </div>
+
+              <div className="h-5 w-px bg-gray-200 sm:h-8" />
+
               {/* Certificación */}
               <div className="flex items-center gap-1.5">
                 <span className="text-xs sm:text-sm text-gray-600">
-                  Certificada en 🇪🇸 y 🇩🇪
+                  🇪🇸 🇩🇪
                 </span>
-              </div>
-
-              <div className="h-5 w-px bg-gray-200 sm:h-8" />
-
-              {/* 24h */}
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="text-lg sm:text-2xl font-serif font-semibold text-gray-900">24h</span>
-                <span className="text-xs sm:text-sm text-gray-500 hidden sm:inline">{t('homePage.statDelivery')}</span>
-              </div>
-
-              <div className="h-5 w-px bg-gray-200 sm:h-8" />
-
-              {/* Confidencial */}
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-                <span className="text-xs sm:text-sm text-gray-500">{t('homePage.statConfidential')}</span>
               </div>
             </motion.div>
           </div>
@@ -308,17 +306,17 @@ function HomePage() {
         {/* Scroll indicator - Desktop only */}
         <motion.div
           className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:block"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.5 }}
+          transition={{ duration: 0.8, delay: 1 }}
         >
           <motion.div
-            className="flex flex-col items-center gap-2 text-gray-400"
-            animate={{ y: [0, 8, 0] }}
+            animate={{ y: [0, 6, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
-            <span className="text-[10px] uppercase tracking-[0.2em]">Scroll</span>
-            <div className="w-px h-8 bg-gradient-to-b from-gray-300 to-transparent" />
+            <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+            </svg>
           </motion.div>
         </motion.div>
       </section>

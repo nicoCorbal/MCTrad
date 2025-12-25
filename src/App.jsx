@@ -15,6 +15,7 @@ const ServicesPage = lazy(() => import('./pages/ServicesPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
 const LegalPage = lazy(() => import('./pages/LegalPage'));
+const PricingPage = lazy(() => import('./pages/PricingPage'));
 const ServiceDetailPage = lazy(() => import('./pages/ServiceDetailPage'));
 
 // Component to handle root redirect
@@ -214,6 +215,40 @@ function App() {
             element={
               <Suspense fallback={<Loader />}>
                 <LegalPage />
+              </Suspense>
+            }
+          />
+
+          {/* Pricing - all language variants */}
+          <Route
+            path="tarifas"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PricingPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="preise"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PricingPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="tarifs"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PricingPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="pricing"
+            element={
+              <Suspense fallback={<Loader />}>
+                <PricingPage />
               </Suspense>
             }
           />

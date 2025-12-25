@@ -40,6 +40,12 @@ export const routes = {
     fr: 'mentions-legales',
     en: 'legal-notice',
   },
+  pricing: {
+    es: 'tarifas',
+    de: 'preise',
+    fr: 'tarifs',
+    en: 'pricing',
+  },
 };
 
 /**

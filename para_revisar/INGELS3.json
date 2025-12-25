@@ -1,0 +1,61 @@
+{
+  "home": "Home",
+  "about": "About me",
+  "services": "Services",
+  "contact": "Contact",
+  "homePage": {
+    "heroTitle1": "certified translations",
+    "heroTitle2": "legally valid & state-recognized.",
+    "heroSubtitle": "legal precision for critical documents in Spain, Germany, and beyond.",
+    "heroDescription": "Sworn translator appointed by the Spanish Ministry (MAEC) and authorized translator by the Higher Regional Court of Cologne (OLG Köln). Your expert for international legal affairs.",
+    "requestQuote": "request a quote",
+    "trustBadge": "Spanish Ministry of Foreign Affairs (MAEC) • OLG Cologne authorized",
+    "servicesTitle": "My expertise",
+    "service1Title": "sworn translation",
+    "service1Desc": "official documents with legal validity for authorities in Spain and Germany. Court rulings, contracts, deeds.",
+    "service2Title": "academic documents",
+    "service2Desc": "university degrees, transcripts, and certificates for recognition procedures and international admissions.",
+    "service3Title": "specialized legal translation",
+    "service3Desc": "corporate documentation, trade agreements, financial reports, and international compliance.",
+    "languagePairsTitle": "Language combinations",
+    "bidirectional": "bidirectional",
+    "unidirectional": "unidirectional",
+    "credentialsTitle": "state accreditations",
+    "spainTitle": "Spain (MAEC)",
+    "spainDesc": "sworn translator and interpreter appointed by the Ministry of Foreign Affairs, European Union and Cooperation.",
+    "germanyTitle": "Germany (OLG Cologne)",
+    "germanyDesc": "authorized translator (Ermächtigte Übersetzerin) by the Higher Regional Court of Cologne for Spanish and French.",
+    "verifyCredential": "verify credential",
+    "statCountries": "Valid in countries",
+    "statLanguages": "Working languages",
+    "statDelivery": "Standard delivery",
+    "statConfidential": "Confidentiality",
+    "officialBadge": "state-recognized",
+    "ctaTitle": "Need a certified translation?",
+    "ctaSubtitle": "Send your documents for a non-binding fixed-price quote.",
+    "ctaContact": "free quote",
+    "ctaLearnMore": "learn more",
+    "spanish": "Spanish",
+    "german": "German",
+    "french": "French",
+    "english": "English"
+  },
+  "common": {
+    "swornTranslator": "sworn & authorized translator",
+    "certified": "certified",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "certifications": "Accreditations",
+    "sendEmail": "Send email",
+    "contactNow": "Contact now",
+    "badges": {
+      "professionalServices": "specialized translations",
+      "guarantees": "Guarantee"
+    }
+  },
+  "aboutPage": {
+    "credentials": {
+      "officialSeal": "official stamp"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "home": "Accueil",
+  "about": "À propos",
+  "services": "Services",
+  "contact": "Contact",
+  "homePage": {
+    "heroTitle1": "traductions assermentées",
+    "heroTitle2": "valeur légale & agréée par l'État.",
+    "heroSubtitle": "précision juridique pour vos démarches en Espagne, Allemagne et France.",
+    "heroDescription": "Traductrice assermentée par le MAEC (Espagne) et habilitée par l'OLG de Cologne (Allemagne). Votre experte pour les affaires juridiques internationales.",
+    "requestQuote": "demander un devis",
+    "trustBadge": "Ministère des Affaires étrangères (MAEC) • OLG Cologne",
+    "servicesTitle": "Mes domaines d'expertise",
+    "service1Title": "traduction assermentée",
+    "service1Desc": "documents officiels avec valeur légale devant les autorités en Espagne et en Allemagne. Jugements, contrats, actes d'état civil.",
+    "service2Title": "documents académiques",
+    "service2Desc": "diplômes, relevés de notes et certificats pour procédures d'homologation et candidatures universitaires.",
+    "service3Title": "traduction juridique spécialisée",
+    "service3Desc": "droit commercial, actes notariés, rapports financiers et documentation d'entreprise internationale.",
+    "languagePairsTitle": "Combinaisons de langues",
+    "bidirectional": "bidirectionnel",
+    "unidirectional": "unidirectionnel",
+    "credentialsTitle": "accréditations étatiques",
+    "spainTitle": "Espagne (MAEC)",
+    "spainDesc": "traductrice-interprète jurée nommée par le Ministère des Affaires étrangères, de l'Union européenne et de la Coopération.",
+    "germanyTitle": "Allemagne (OLG Cologne)",
+    "germanyDesc": "traductrice habilitée (Ermächtigte Übersetzerin) par le Tribunal régional supérieur de Cologne pour l'espagnol et le français.",
+    "verifyCredential": "vérifier l'accréditation",
+    "statCountries": "Pays de validité",
+    "statLanguages": "Langues de travail",
+    "statDelivery": "Délai standard",
+    "statConfidential": "Confidentialité",
+    "officialBadge": "reconnue par l'État",
+    "ctaTitle": "Besoin d'une traduction assermentée ?",
+    "ctaSubtitle": "Envoyez vos documents pour recevoir un devis ferme et sans engagement.",
+    "ctaContact": "devis gratuit",
+    "ctaLearnMore": "en savoir plus",
+    "spanish": "espagnol",
+    "german": "allemand",
+    "french": "français",
+    "english": "anglais"
+  },
+  "common": {
+    "swornTranslator": "traductrice assermentée et habilitée",
+    "certified": "assermentée",
+    "allRightsReserved": "Tous droits réservés",
+    "privacyPolicy": "Confidentialité",
+    "certifications": "Accréditations",
+    "sendEmail": "Envoyer un e-mail",
+    "contactNow": "Contacter maintenant",
+    "badges": {
+      "professionalServices": "traductions spécialisées",
+      "guarantees": "Garantie"
+    }
+  },
+  "aboutPage": {
+    "credentials": {
+      "officialSeal": "tampon officiel"
+    }
+  }
+}

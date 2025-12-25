@@ -2,43 +2,46 @@
   "home": "Accueil",
   "about": "À propos",
   "services": "Services",
+  "pricing": "Tarifs",
   "contact": "Contact",
   "homePage": {
     "heroTitle1": "Traductions Assermentées",
-    "heroTitle2": "Officielles et Juridiques.",
-    "heroSubtitle": "Précision juridique pour vos démarches en Espagne, Allemagne et France.",
-    "heroDescription": "Traductrice assermentée par le MAEC (Espagne) et habilitée par l'OLG de Cologne (Allemagne). Votre experte en droit international.",
-    "requestQuote": "Demander un devis",
+    "heroTitle2": "Valeur Légale & Agréée par l'État.",
+    "heroSubtitle": "précision juridique pour vos démarches en Espagne, Allemagne et France.",
+    "heroDescription": "Traductrice assermentée par le MAEC (Espagne) et habilitée par l'OLG de Cologne (Allemagne). Votre experte pour les affaires juridiques internationales.",
+    "requestQuote": "demander un devis",
     "trustBadge": "Ministère des Affaires étrangères (MAEC) • OLG Cologne",
     "servicesTitle": "Mes domaines d'expertise",
-    "service1Title": "Traduction Assermentée",
-    "service1Desc": "Documents officiels valables devant les autorités en Espagne et en Allemagne. Jugements, contrats, actes d'état civil.",
-    "service2Title": "Documents Académiques",
-    "service2Desc": "Diplômes, relevés de notes et certificats pour procédures d'homologation et candidatures universitaires.",
-    "service3Title": "Traduction Juridique",
-    "service3Desc": "Droit commercial, actes notariés, rapports financiers et documentation d'entreprise internationale.",
+    "service1Title": "traduction assermentée",
+    "service1Desc": "documents officiels avec valeur légale devant les autorités en Espagne et en Allemagne. Jugements, contrats, actes d'état civil.",
+    "service2Title": "documents académiques",
+    "service2Desc": "diplômes, relevés de notes et certificats pour procédures d'homologation et candidatures universitaires.",
+    "service3Title": "traduction juridique spécialisée",
+    "service3Desc": "droit commercial, actes notariés, rapports financiers et documentation d'entreprise internationale.",
     "languagePairsTitle": "Combinaisons de langues",
-    "bidirectional": "Bidirectionnel",
-    "unidirectional": "Unidirectionnel",
-    "credentialsTitle": "Accréditations Officielles",
+    "bidirectional": "bidirectionnel",
+    "unidirectional": "unidirectionnel",
+    "credentialsTitle": "accréditations étatiques",
     "spainTitle": "Espagne (MAEC)",
-    "spainDesc": "Traductrice-Interprète Jurée nommée par le Ministère des Affaires étrangères, de l'Union européenne et de la Coopération.",
+    "spainDesc": "traductrice-interprète jurée nommée par le Ministère des Affaires étrangères, de l'Union européenne et de la Coopération.",
     "germanyTitle": "Allemagne (OLG Cologne)",
-    "germanyDesc": "Traductrice habilitée (Ermächtigte Übersetzerin) par le Tribunal régional supérieur de Cologne pour l'espagnol et le français.",
-    "verifyCredential": "Vérifier l'accréditation",
+    "germanyDesc": "traductrice habilitée (Ermächtigte Übersetzerin) par le Tribunal régional supérieur de Cologne pour l'espagnol et le français.",
+    "verifyCredential": "vérifier l'accréditation",
     "statCountries": "Pays de validité",
     "statLanguages": "Langues de travail",
     "statDelivery": "Délai standard",
     "statConfidential": "Confidentialité",
-    "officialBadge": "Reconnu officiellement",
-    "ctaTitle": "Besoin d'une traduction officielle ?",
+    "statExperience": "ans d'expérience",
+    "statDocuments": "documents traduits",
+    "officialBadge": "reconnue par l'État",
+    "ctaTitle": "Besoin d'une traduction assermentée ?",
     "ctaSubtitle": "Envoyez vos documents pour recevoir un devis ferme et sans engagement.",
-    "ctaContact": "Devis gratuit",
-    "ctaLearnMore": "En savoir plus",
-    "spanish": "Espagnol",
-    "german": "Allemand",
-    "french": "Français",
-    "english": "Anglais",
+    "ctaContact": "devis gratuit",
+    "ctaLearnMore": "en savoir plus",
+    "spanish": "espagnol",
+    "german": "allemand",
+    "french": "français",
+    "english": "anglais",
     "process": {
       "title": "Processus",
       "subtitle": "Votre traduction en 4 étapes simples",
@@ -66,12 +69,12 @@
     }
   },
   "common": {
-    "swornTranslator": "Traductrice Assermentée",
-    "certified": "Certifiée",
+    "swornTranslator": "traductrice assermentée et habilitée",
+    "certified": "assermentée",
     "allRightsReserved": "Tous droits réservés",
     "privacyPolicy": "Confidentialité",
     "quickLinks": "Menu",
-    "certifications": "Certifications",
+    "certifications": "Accréditations",
     "sendEmail": "Envoyer un e-mail",
     "openWhatsApp": "Ouvrir WhatsApp",
     "contactNow": "Contacter maintenant",
@@ -79,12 +82,12 @@
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "badges": {
-      "professionalServices": "Services Professionnels",
+      "professionalServices": "traductions spécialisées",
       "professionalProfile": "Profil",
       "whyChooseMe": "Pourquoi moi ?",
       "mainService": "Service Principal",
       "additionalServices": "Autres langues",
-      "guarantees": "Garanties"
+      "guarantees": "Garantie"
     }
   },
   "hero": {
@@ -149,7 +152,7 @@
       "commitment": "Engagement"
     },
     "credentials": {
-      "officialSeal": "Sceau Officiel",
+      "officialSeal": "tampon officiel",
       "certification": "Accréditation",
       "spainAndGermany": "ES & DE",
       "specialization": "Domaines",
@@ -205,14 +208,92 @@
     "liabilityTitle": "Limitation de responsabilité",
     "liabilityDesc": "Nous déclinons toute responsabilité concernant le contenu des liens externes.",
     "jurisdictionTitle": "Droit applicable",
-    "jurisdictionDesc": "Le droit espagnol s'applique. Le tribunal compétent est celui du domicile de la traductrice en Espagne."
+    "jurisdictionDesc": "Le droit espagnol s'applique. Le tribunal compétent est celui du domicile de la traductrice en Espagne.",
+    "schedule": "Horaires d'ouverture"
+  },
+  "pricingPage": {
+    "title": "Tarifs et Devis",
+    "subtitle": "Le coût des traductions assermentées dépend de plusieurs facteurs. Envoyez vos documents pour recevoir un devis personnalisé sans engagement.",
+    "factorsTitle": "De quoi dépend le prix ?",
+    "factors": {
+      "certified": "Type de traduction : assermentée ou simple",
+      "wordCount": "Nombre de mots du document",
+      "complexity": "Type de texte et niveau de difficulté technique",
+      "formatting": "Travail de mise en page",
+      "outputFormat": "Format de livraison (Word modifiable ou PDF)",
+      "copies": "Nombre de copies certifiées nécessaires",
+      "deadline": "Délai de livraison (supplément urgence possible)",
+      "shipping": "Mode d'envoi (standard, recommandé, express)"
+    },
+    "jvegNote": "Les coûts des traductions assermentées espagnol-allemand en Allemagne sont régis par le § 3 JVEG (Loi sur la rémunération judiciaire).",
+    "process": {
+      "badge": "En 5 étapes",
+      "title": "Processus de commande",
+      "subtitle": "Commander votre traduction assermentée est simple",
+      "step1": {
+        "title": "Envoyez le scan",
+        "description": "Envoyez vos documents scannés en PDF par email"
+      },
+      "step2": {
+        "title": "Recevez le devis",
+        "description": "Recevez un devis détaillé sous 24h"
+      },
+      "step3": {
+        "title": "Confirmez et payez",
+        "description": "Acceptez le devis et effectuez le paiement"
+      },
+      "step4": {
+        "title": "Vérifiez le brouillon",
+        "description": "Recevez un brouillon PDF pour vérification"
+      },
+      "step5": {
+        "title": "Recevez la traduction",
+        "description": "Envoi de l'original certifié par courrier postal"
+      }
+    },
+    "scanning": {
+      "title": "Comment envoyer vos documents",
+      "subtitle": "Un bon scan nous aide à vous fournir un devis plus rapide et précis",
+      "dosTitle": "À faire",
+      "dontsTitle": "À éviter",
+      "dos": {
+        "pdf": "Envoyez les documents en format PDF",
+        "clear": "Assurez-vous que le texte est lisible",
+        "stamps": "Incluez les cachets et signatures visibles",
+        "apostille": "Scannez également les apostilles si présentes",
+        "both": "Scannez le recto et le verso du document"
+      },
+      "donts": {
+        "photo": "Évitez les photos au téléphone (utilisez un scanner ou une app)",
+        "blurry": "Évitez les images floues",
+        "cropped": "Ne recadrez pas le document",
+        "original": "Pas besoin d'envoyer l'original par courrier"
+      },
+      "appNote": "Si vous n'avez pas de scanner, vous pouvez utiliser des applications comme CamScanner, Adobe Scan ou l'app Notes de l'iPhone."
+    },
+    "individuals": {
+      "title": "Particuliers",
+      "description": "Traductions de documents personnels pour démarches administratives, académiques ou juridiques.",
+      "examples": "Actes de naissance, actes de mariage, diplômes universitaires, permis de conduire, casiers judiciaires..."
+    },
+    "corporate": {
+      "title": "Entreprises",
+      "description": "Traductions de documents commerciaux et juridiques pour opérations internationales.",
+      "examples": "Extraits du registre du commerce, statuts, contrats, actes notariés, rapports financiers..."
+    },
+    "cta": {
+      "title": "Besoin d'un devis ?",
+      "description": "Envoyez vos documents scannés et recevez un devis détaillé sous 24 heures.",
+      "email": "Envoyer par email",
+      "form": "Utiliser le formulaire"
+    }
   },
   "privacyPage": {
     "title": "Politique de Confidentialité",
-    "lastUpdated": "Mise à jour : Décembre 2024",
+    "lastUpdated": "Mise à jour : Décembre 2025",
     "intro": "Nous prenons très au sérieux la protection de vos données personnelles et respectons strictement le RGPD.",
     "section1Title": "Responsable",
-    "section1Content": "María Ángeles Capas López\n[Votre adresse ici]\nE-mail : capaslopez@gmail.com",
+    "section1Content": "María Ángeles Capas López\nNIF : 34986996-V\nRúa do Serán, 2 - 5 C\n32002 Ourense, Espagne\nE-mail : capaslopez@gmail.com",
     "section2Title": "Traitement des données",
     "section2Content": "Nous traitons vos données (nom, contact, documents) exclusivement pour établir des devis et réaliser les traductions.",
     "section3Title": "Transmission aux tiers",

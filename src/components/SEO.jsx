@@ -29,7 +29,6 @@ function SEO({ page, jsonLd, overrides = {} }) {
     const seoData = getSeoData(page, currentLang);
 
     if (!seoData) {
-      console.warn(`SEO: No configuration found for page "${page}"`);
       return null;
     }
 

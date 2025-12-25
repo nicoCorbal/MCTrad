@@ -1,0 +1,155 @@
+{
+  "home": "Inicio",
+  "about": "Sobre mí",
+  "services": "Servicios",
+  "contact": "Contacto",
+  "homePage": {
+    "heroTitle1": "traducciones juradas",
+    "heroTitle2": "con validez legal y reconocimiento estatal.",
+    "heroSubtitle": "precisión jurídica para trámites en España, Alemania y Francia.",
+    "heroDescription": "Traductora jurada nombrada por el MAEC (España) y traductora autorizada por el OLG de Colonia (Alemania). Su experta para el tráfico jurídico internacional.",
+    "requestQuote": "solicitar presupuesto",
+    "trustBadge": "Ministerio de Asuntos Exteriores (MAEC) • OLG Colonia (Alemania)",
+    "servicesTitle": "Mis especialidades",
+    "service1Title": "traducción jurada",
+    "service1Desc": "documentos oficiales con plena validez legal ante autoridades en España y Alemania. Sentencias, contratos, actas notariales.",
+    "service2Title": "documentos académicos",
+    "service2Desc": "títulos universitarios, expedientes y certificados de notas para homologaciones y procesos de admisión internacional.",
+    "service3Title": "traducción jurídica especializada",
+    "service3Desc": "derecho mercantil, escrituras, informes financieros y documentación corporativa para empresas internacionales.",
+    "languagePairsTitle": "Combinaciones lingüísticas",
+    "bidirectional": "bidireccional (ida y vuelta)",
+    "unidirectional": "unidireccional",
+    "credentialsTitle": "acreditaciones estatales",
+    "spainTitle": "España (MAEC)",
+    "spainDesc": "traductora-intérprete jurada nombrada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.",
+    "germanyTitle": "Alemania (OLG Colonia)",
+    "germanyDesc": "traductora autorizada (Ermächtigte Übersetzerin) por el Tribunal Superior Regional de Colonia para español y francés.",
+    "verifyCredential": "verificar credencial",
+    "statCountries": "Países de validez",
+    "statLanguages": "Idiomas de trabajo",
+    "statDelivery": "Entrega estándar",
+    "statConfidential": "Confidencialidad",
+    "officialBadge": "reconocimiento estatal",
+    "ctaTitle": "¿Necesita una traducción jurada?",
+    "ctaSubtitle": "Envíe sus documentos para recibir un presupuesto cerrado sin compromiso.",
+    "ctaContact": "presupuesto gratuito",
+    "ctaLearnMore": "ver detalles",
+    "spanish": "español",
+    "german": "alemán",
+    "french": "francés",
+    "english": "inglés"
+  },
+  "common": {
+    "swornTranslator": "traductora jurada y autorizada",
+    "certified": "certificada",
+    "allRightsReserved": "Todos los derechos reservados",
+    "privacyPolicy": "Privacidad",
+    "quickLinks": "Menú",
+    "certifications": "Acreditaciones",
+    "sendEmail": "Enviar email",
+    "openWhatsApp": "Abrir WhatsApp",
+    "contactNow": "Contactar ahora",
+    "badges": {
+      "professionalServices": "traducciones especializadas",
+      "professionalProfile": "Sobre mí",
+      "whyChooseMe": "Sus ventajas",
+      "mainService": "Competencia central",
+      "additionalServices": "otros idiomas",
+      "guarantees": "Garantía"
+    }
+  },
+  "hero": {
+    "headline": "traducciones juradas | alemán - español - francés",
+    "subheadline": "con validez legal, rapidez y trato directo con la traductora autorizada. Reconocida en España y Alemania.",
+    "contactButton": "solicitar presupuesto",
+    "servicesButton": "saber más",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "doble acreditación",
+        "description": "nombrada en España (MAEC) y autorizada en Alemania (OLG Colonia)"
+      },
+      "fastDelivery": {
+        "title": "entrega digital anticipada",
+        "description": "PDF firmado al instante, original por correo postal"
+      },
+      "legalSpecialization": {
+        "title": "peritaje jurídico",
+        "description": "especializada en textos legales y actas notariales complejas"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Servicios y especialidades",
+    "generalTranslation": {
+      "heading": "traducciones especializadas",
+      "description": "traducciones de alta calidad para textos jurídicos, económicos y técnicos. Terminología precisa y seguridad estilística para su comunicación corporativa."
+    },
+    "swornTranslation": {
+      "heading": "traducción jurada de documentos",
+      "description": "imprescindible para la presentación ante registros civiles, juzgados, universidades y autoridades de extranjería.",
+      "spain": {
+        "title": "para España (traductora jurada)",
+        "description": "con sello oficial y firma según la normativa del Ministerio de Asuntos Exteriores (MAEC)."
+      },
+      "germany": {
+        "title": "para Alemania (traductora autorizada)",
+        "description": "traducción certificada según el artículo 142, apartado 3 de la ZPO, reconocida por el OLG de Colonia."
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "María Ángeles Capas – Su traductora",
+    "introduction": "Como traductora con doble cualificación, uno los sistemas jurídicos de España y Alemania. Mi autorización por el OLG de Colonia y el nombramiento por el Ministerio español le garantizan la máxima seguridad jurídica.",
+    "paragraph1": "Desde hace años ayudo a bufetes, notarios, empresas y particulares a superar barreras lingüísticas en la burocracia internacional. Entiendo que en los textos legales, cada detalle cuenta.",
+    "conclusion": "Un servicio personal, comunicación directa y confidencialidad absoluta son fundamentales para mi trabajo. Espero poder ayudarle con su proyecto.",
+    "sections": {
+      "presentation": "Perfil",
+      "experience": "Experiencia",
+      "capabilities": "Capacidades",
+      "commitment": "Compromiso de calidad"
+    },
+    "credentials": {
+      "officialSeal": "sello oficial",
+      "certification": "Acreditación",
+      "spainAndGermany": "ES & DE",
+      "specialization": "Especialidades",
+      "legalAndTechnical": "derecho y economía"
+    }
+  },
+  "legalPage": {
+    "title": "Aviso legal",
+    "ownerTitle": "Información según LSSI-CE / § 5 TMG",
+    "profession": "traductora jurada y autorizada",
+    "activityTitle": "Denominación profesional y regulación",
+    "activityDesc": "Traductora freelance. Los títulos profesionales han sido obtenidos en España (traductora jurada) y Alemania (traductora autorizada).",
+    "credentialsTitle": "Autoridades de control y acreditaciones",
+    "spainCredential": "España: traductora-intérprete jurada",
+    "spainAuthority": "Nombrada por el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación (MAEC), Madrid.",
+    "germanyCredential": "Alemania: traductora autorizada (Ermächtigte Übersetzerin)",
+    "germanyAuthority": "Presidente del Tribunal Superior Regional de Colonia (OLG Köln).",
+    "intellectualTitle": "Propiedad intelectual",
+    "intellectualDesc": "Todos los contenidos (textos, diseño) están protegidos por derechos de autor. Queda prohibido su uso sin consentimiento previo.",
+    "liabilityTitle": "Exención de responsabilidad",
+    "liabilityDesc": "A pesar de un control exhaustivo, no asumimos responsabilidad por el contenido de enlaces externos.",
+    "jurisdictionTitle": "Legislación aplicable",
+    "jurisdictionDesc": "Se aplica la legislación española. El fuero competente es, en la medida permitida, el domicilio de la traductora en España."
+  },
+  "privacyPage": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Estado: diciembre 2024",
+    "intro": "Nos tomamos muy en serio la protección de sus datos personales y cumplimos estrictamente con el Reglamento General de Protección de Datos (RGPD).",
+    "section1Title": "responsable del tratamiento",
+    "section1Content": "María Ángeles Capas López\n[Su dirección en España]\nEmail: capaslopez@gmail.com",
+    "section2Title": "tratamiento de datos",
+    "section2Content": "Tratamos sus datos (nombre, contacto, contenido de los documentos) exclusivamente para elaborar presupuestos y realizar las traducciones encargadas.",
+    "section3Title": "cesión a terceros",
+    "section3Content": "No se ceden datos a terceros, salvo que sea necesario para la ejecución del contrato (p. ej. servicio postal) o por obligación legal.",
+    "section5Title": "sus derechos",
+    "section5Content": "Tiene derecho a acceder, rectificar, suprimir y limitar el tratamiento de sus datos personales en cualquier momento.",
+    "section6Title": "confidencialidad",
+    "section6Content": "Como traductora jurada y autorizada, estoy sujeta a un estricto deber de secreto profesional y confidencialidad sobre todos los documentos confiados.",
+    "contactTitle": "Contacto privacidad",
+    "contactText": "Para cualquier consulta, contácteme directamente por email."
+  }
+}

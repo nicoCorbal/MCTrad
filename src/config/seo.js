@@ -153,6 +153,28 @@ export const seoConfig = {
       keywords: 'legal notice, terms of use, site information',
     },
   },
+  pricing: {
+    es: {
+      title: 'Tarifas Traducción Jurada | Precios y Presupuesto',
+      description: 'Consulte las tarifas de traducción jurada alemán-español. Presupuesto gratuito en 24h. Precios transparentes según JVEG.',
+      keywords: 'tarifas traducción jurada, precio traducción certificada, presupuesto traducción alemán español',
+    },
+    de: {
+      title: 'Preise Beglaubigte Übersetzung | Kosten und Angebot',
+      description: 'Informieren Sie sich über die Kosten beglaubigter Übersetzungen. Kostenloses Angebot in 24h. Transparente Preise nach JVEG.',
+      keywords: 'Preise beglaubigte Übersetzung, Kosten Übersetzung, Angebot Übersetzung',
+    },
+    fr: {
+      title: 'Tarifs Traduction Assermentée | Prix et Devis',
+      description: 'Consultez les tarifs de traduction assermentée. Devis gratuit en 24h. Prix transparents.',
+      keywords: 'tarifs traduction assermentée, prix traduction certifiée, devis traduction',
+    },
+    en: {
+      title: 'Certified Translation Rates | Pricing and Quotes',
+      description: 'Check certified translation rates for German-Spanish. Free quote within 24h. Transparent pricing per JVEG standards.',
+      keywords: 'certified translation rates, translation pricing, translation quote',
+    },
+  },
 };
 
 /**

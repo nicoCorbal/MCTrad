@@ -2,38 +2,41 @@
   "home": "Startseite",
   "about": "Über mich",
   "services": "Leistungen",
+  "pricing": "Preise",
   "contact": "Kontakt",
   "homePage": {
     "heroTitle1": "Beglaubigte Übersetzungen",
-    "heroTitle2": "Rechtssicher & Offiziell.",
-    "heroSubtitle": "Präzise Fachübersetzungen für Justiz, Behörden und Wirtschaft.",
-    "heroDescription": "In Spanien vom Außenministerium ernannte und in Deutschland vom OLG Köln ermächtigte Übersetzerin. Ihre Expertin für deutsch-spanischen Rechtsverkehr.",
+    "heroTitle2": "Rechtssicher & Staatlich Anerkannt.",
+    "heroSubtitle": "präzise Fachübersetzungen für Justiz, Behörden und Wirtschaft.",
+    "heroDescription": "In Spanien vom Außenministerium ernannte und in Deutschland vom OLG Köln ermächtigte Übersetzerin. Ihre Expertin für den deutsch-spanischen Rechtsverkehr.",
     "requestQuote": "Jetzt Angebot anfordern",
     "trustBadge": "Spanisches Außenministerium (MAEC) • OLG Köln ermächtigt",
     "servicesTitle": "Meine Fachgebiete",
-    "service1Title": "Beglaubigte Übersetzung",
-    "service1Desc": "Offizielle Dokumente mit Rechtsgültigkeit für Behörden in Spanien, Deutschland und darüber hinaus. Urteile, Verträge, Personenstandsurkunden.",
-    "service2Title": "Akademische Dokumente",
+    "service1Title": "beglaubigte Übersetzung",
+    "service1Desc": "amtliche Dokumente mit Rechtsgültigkeit für Behörden in Spanien, Deutschland und darüber hinaus. Urteile, Verträge, Personenstandsurkunden.",
+    "service2Title": "akademische Dokumente",
     "service2Desc": "Diplome, Transkripte und Zeugnisse für Anerkennungsverfahren, Universitätsbewerbungen und berufliche Zulassungen.",
-    "service3Title": "Juristische Fachübersetzungen",
+    "service3Title": "juristische Fachübersetzungen",
     "service3Desc": "Handelsregisterauszüge, Notarurkunden, Zivil- und Strafrecht sowie Unternehmenskommunikation.",
     "languagePairsTitle": "Sprachkombinationen",
-    "bidirectional": "Bidirektional (Hin & Zurück)",
-    "unidirectional": "Unidirektional",
-    "credentialsTitle": "Offizielle Akkreditierungen",
+    "bidirectional": "bidirektional (Hin & Zurück)",
+    "unidirectional": "unidirektional",
+    "credentialsTitle": "staatliche Akkreditierungen",
     "spainTitle": "Spanien (MAEC)",
-    "spainDesc": "Vereidigte Übersetzerin und Dolmetscherin, ernannt vom Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit.",
+    "spainDesc": "vereidigte Übersetzerin und Dolmetscherin, ernannt vom Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit.",
     "germanyTitle": "Deutschland (OLG Köln)",
-    "germanyDesc": "Vom Oberlandesgericht Köln ermächtigte Übersetzerin für die spanische und französische Sprache.",
+    "germanyDesc": "vom Oberlandesgericht Köln ermächtigte Übersetzerin für die spanische und französische Sprache.",
     "verifyCredential": "Zulassung prüfen",
     "statCountries": "Länder mit Gültigkeit",
     "statLanguages": "Arbeitssprachen",
     "statDelivery": "Regellieferzeit",
-    "statConfidential": "Diskretion",
-    "officialBadge": "Offiziell anerkannt",
+    "statConfidential": "Vertraulichkeit",
+    "statExperience": "Jahre Erfahrung",
+    "statDocuments": "übersetzte Dokumente",
+    "officialBadge": "amtlich anerkannt",
     "ctaTitle": "Benötigen Sie eine beglaubigte Übersetzung?",
     "ctaSubtitle": "Senden Sie mir Ihre Dokumente für ein unverbindliches Festpreisangebot.",
-    "ctaContact": "Kostenloses Angebot",
+    "ctaContact": "kostenloses Angebot",
     "ctaLearnMore": "Details ansehen",
     "spanish": "Spanisch",
     "german": "Deutsch",
@@ -66,14 +69,14 @@
     }
   },
   "common": {
-    "swornTranslator": "Ermächtigte & Beeidigte Übersetzerin",
-    "certified": "Beglaubigt",
+    "swornTranslator": "ermächtigte & beeidigte Übersetzerin",
+    "certified": "beglaubigt",
     "allRightsReserved": "Alle Rechte vorbehalten",
     "privacyPolicy": "Datenschutz",
     "quickLinks": "Menü",
     "certifications": "Zulassungen",
     "sendEmail": "E-Mail schreiben",
-    "openWhatsApp": "WhatsApp Nachricht",
+    "openWhatsApp": "WhatsApp-Nachricht",
     "contactNow": "Anfrage senden",
     "changeLanguageTo": "Sprache wechseln zu",
     "openMenu": "Menü öffnen",
@@ -83,27 +86,27 @@
       "professionalProfile": "Über mich",
       "whyChooseMe": "Ihre Vorteile",
       "mainService": "Kernkompetenz",
-      "additionalServices": "Weitere Sprachen",
+      "additionalServices": "weitere Sprachen",
       "guarantees": "Garantie"
     }
   },
   "hero": {
-    "headline": "Beglaubigte Übersetzungen | Deutsch - Spanisch - Französisch",
-    "subheadline": "Rechtssicher, schnell und direkt von der gerichtlich ermächtigten Übersetzerin. Anerkannt in Deutschland und Spanien.",
+    "headline": "beglaubigte Übersetzungen | Deutsch - Spanisch - Französisch",
+    "subheadline": "rechtssicher, schnell und direkt von der gerichtlich ermächtigten Übersetzerin. Anerkannt in Deutschland und Spanien.",
     "contactButton": "Angebot anfordern",
     "servicesButton": "Mehr erfahren",
     "trustIndicators": {
       "officialCertification": {
-        "title": "Doppelte Zulassung",
-        "description": "Akkreditiert in Spanien (MAEC) und Deutschland (OLG Köln)"
+        "title": "doppelte Zulassung",
+        "description": "akkreditiert in Spanien (MAEC) und Deutschland (OLG Köln)"
       },
       "fastDelivery": {
-        "title": "Digitale Vorab-Lieferung",
-        "description": "Signiertes PDF vorab, Original per Post"
+        "title": "digitale Vorab-Lieferung",
+        "description": "signiertes PDF vorab, Original per Post"
       },
       "legalSpecialization": {
         "title": "Rechtsexpertise",
-        "description": "Spezialisiert auf juristische Fachtexte und Urkunden"
+        "description": "spezialisiert auf juristische Fachtexte und Urkunden"
       }
     }
   },
@@ -205,14 +208,92 @@
     "liabilityTitle": "Haftungsausschluss",
     "liabilityDesc": "Trotz sorgfältiger Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.",
     "jurisdictionTitle": "Gerichtsstand",
-    "jurisdictionDesc": "Es gilt spanisches Recht. Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz der Übersetzerin in Spanien."
+    "jurisdictionDesc": "Es gilt spanisches Recht. Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz der Übersetzerin in Spanien.",
+    "schedule": "Sprechzeiten"
+  },
+  "pricingPage": {
+    "title": "Preise und Kostenvoranschläge",
+    "subtitle": "Die Kosten für beglaubigte Übersetzungen hängen von verschiedenen Faktoren ab. Senden Sie Ihre Dokumente für ein unverbindliches Angebot.",
+    "factorsTitle": "Wovon hängt der Preis ab?",
+    "factors": {
+      "certified": "Art der Übersetzung: beglaubigt oder einfach",
+      "wordCount": "Anzahl der Wörter im Dokument",
+      "complexity": "Textart und technischer Schwierigkeitsgrad",
+      "formatting": "Formatierungsaufwand",
+      "outputFormat": "Ausgabeformat (editierbares Word oder PDF)",
+      "copies": "Anzahl der benötigten beglaubigten Kopien",
+      "deadline": "Lieferfrist (Eilzuschlag möglich)",
+      "shipping": "Versandart (Standard, Einschreiben, Express)"
+    },
+    "jvegNote": "Die Kosten für beglaubigte Übersetzungen Spanisch-Deutsch richten sich in Deutschland nach § 3 JVEG (Justizvergütungs- und -entschädigungsgesetz).",
+    "process": {
+      "badge": "In 5 Schritten",
+      "title": "Ablauf der Beauftragung",
+      "subtitle": "So einfach bestellen Sie Ihre beglaubigte Übersetzung",
+      "step1": {
+        "title": "Scan senden",
+        "description": "Senden Sie Ihre Dokumente als PDF per E-Mail"
+      },
+      "step2": {
+        "title": "Angebot erhalten",
+        "description": "Sie erhalten ein Angebot innerhalb von 24 Stunden"
+      },
+      "step3": {
+        "title": "Bestätigen & bezahlen",
+        "description": "Nehmen Sie das Angebot an und leisten Sie die Zahlung"
+      },
+      "step4": {
+        "title": "Entwurf prüfen",
+        "description": "Sie erhalten einen PDF-Entwurf zur Prüfung"
+      },
+      "step5": {
+        "title": "Übersetzung erhalten",
+        "description": "Versand des beglaubigten Originals per Post"
+      }
+    },
+    "scanning": {
+      "title": "So senden Sie Ihre Dokumente",
+      "subtitle": "Ein guter Scan hilft uns, Ihnen schneller ein genaues Angebot zu erstellen",
+      "dosTitle": "Richtig",
+      "dontsTitle": "Vermeiden",
+      "dos": {
+        "pdf": "Dokumente im PDF-Format senden",
+        "clear": "Text muss gut lesbar sein",
+        "stamps": "Stempel und Unterschriften sichtbar",
+        "apostille": "Apostillen ebenfalls scannen",
+        "both": "Vorder- und Rückseite scannen"
+      },
+      "donts": {
+        "photo": "Keine Handyfotos (Scanner oder App verwenden)",
+        "blurry": "Keine unscharfen Bilder",
+        "cropped": "Dokument nicht beschneiden",
+        "original": "Original nicht per Post senden"
+      },
+      "appNote": "Ohne Scanner können Sie Apps wie CamScanner, Adobe Scan oder die iPhone-Notizen-App verwenden."
+    },
+    "individuals": {
+      "title": "Privatpersonen",
+      "description": "Übersetzungen persönlicher Dokumente für behördliche, akademische oder rechtliche Zwecke.",
+      "examples": "Geburtsurkunden, Heiratsurkunden, Hochschulzeugnisse, Führerscheine, Führungszeugnisse..."
+    },
+    "corporate": {
+      "title": "Unternehmen",
+      "description": "Übersetzungen von Geschäfts- und Rechtsdokumenten für internationale Geschäftstätigkeit.",
+      "examples": "Handelsregisterauszüge, Satzungen, Verträge, notarielle Urkunden, Finanzberichte..."
+    },
+    "cta": {
+      "title": "Benötigen Sie ein Angebot?",
+      "description": "Senden Sie Ihre gescannten Dokumente und erhalten Sie innerhalb von 24 Stunden ein detailliertes Angebot.",
+      "email": "Per E-Mail senden",
+      "form": "Formular verwenden"
+    }
   },
   "privacyPage": {
     "title": "Datenschutzerklärung",
-    "lastUpdated": "Stand: Dezember 2024",
+    "lastUpdated": "Stand: Dezember 2025",
     "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln der Datenschutz-Grundverordnung (DSGVO).",
     "section1Title": "Verantwortliche Stelle",
-    "section1Content": "María Ángeles Capas López\n[Ihre Adresse in Spanien einfügen]\nE-Mail: capaslopez@gmail.com",
+    "section1Content": "María Ángeles Capas López\nSteuer-Nr.: 34986996-V\nRúa do Serán, 2 - 5 C\n32002 Ourense, Spanien\nE-Mail: capaslopez@gmail.com",
     "section2Title": "Datenverarbeitung",
     "section2Content": "Wir verarbeiten Ihre Daten (z.B. Name, Kontaktdaten, Inhalte der zu übersetzenden Dokumente) ausschließlich zur Erstellung von Angeboten und Durchführung der Übersetzungsaufträge.",
     "section3Title": "Weitergabe an Dritte",

@@ -47,10 +47,20 @@ function LegalPage() {
               <p className="text-gray-900 font-medium">María Ángeles Capas López</p>
               <p className="text-gray-600">{t('legalPage.profession')}</p>
               <p className="text-gray-600">
+                <span className="text-gray-500">NIF: </span>34986996-V
+              </p>
+              <p className="text-gray-600">
+                Rúa do Serán, 2 - 5 C<br />
+                32002 Ourense, España
+              </p>
+              <p className="text-gray-600">
                 <span className="text-gray-500">Email: </span>
                 <a href="mailto:capaslopez@gmail.com" className="text-blue-600 hover:underline">
                   capaslopez@gmail.com
                 </a>
+              </p>
+              <p className="text-gray-600">
+                <span className="text-gray-500">{t('legalPage.schedule')}: </span>16:00 - 20:00 h
               </p>
             </div>
           </motion.div>

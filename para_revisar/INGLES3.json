@@ -1,0 +1,180 @@
+{
+  "home": "Home",
+  "about": "About me",
+  "services": "Services",
+  "contact": "Contact",
+  "homePage": {
+    "heroTitle1": "certified translations",
+    "heroTitle2": "legally valid & state-recognized.",
+    "heroSubtitle": "legal precision for critical documents in Spain, Germany, and beyond.",
+    "heroDescription": "Sworn translator appointed by the Spanish Ministry (MAEC) and authorized translator by the Higher Regional Court of Cologne (OLG Köln). Your expert for international legal affairs.",
+    "requestQuote": "request a quote",
+    "trustBadge": "Spanish Ministry of Foreign Affairs (MAEC) • OLG Cologne authorized",
+    "servicesTitle": "My expertise",
+    "service1Title": "sworn translation",
+    "service1Desc": "official documents with legal validity for authorities in Spain and Germany. Court rulings, contracts, deeds.",
+    "service2Title": "academic documents",
+    "service2Desc": "university degrees, transcripts, and certificates for recognition procedures and international admissions.",
+    "service3Title": "specialized legal translation",
+    "service3Desc": "corporate documentation, trade agreements, financial reports, and international compliance.",
+    "languagePairsTitle": "Language combinations",
+    "bidirectional": "bidirectional (both ways)",
+    "unidirectional": "unidirectional",
+    "credentialsTitle": "state accreditations",
+    "spainTitle": "Spain (MAEC)",
+    "spainDesc": "sworn translator and interpreter appointed by the Ministry of Foreign Affairs, European Union and Cooperation.",
+    "germanyTitle": "Germany (OLG Cologne)",
+    "germanyDesc": "authorized translator (Ermächtigte Übersetzerin) by the Higher Regional Court of Cologne for Spanish and French.",
+    "verifyCredential": "verify credential",
+    "statCountries": "Valid in countries",
+    "statLanguages": "Working languages",
+    "statDelivery": "Standard delivery",
+    "statConfidential": "Confidentiality",
+    "officialBadge": "state-recognized",
+    "ctaTitle": "Need a certified translation?",
+    "ctaSubtitle": "Send your documents for a non-binding fixed-price quote.",
+    "ctaContact": "free quote",
+    "ctaLearnMore": "learn more",
+    "spanish": "Spanish",
+    "german": "German",
+    "french": "French",
+    "english": "English",
+    "process": {
+      "title": "Process",
+      "subtitle": "Your sworn translation in 4 simple steps",
+      "step1Title": "Send document",
+      "step1Desc": "Send a scan or a photo via email or WhatsApp.",
+      "step2Title": "Receive quote",
+      "step2Desc": "You will receive a binding fixed-price quote shortly.",
+      "step3Title": "Translation",
+      "step3Desc": "Preparation of the sworn translation including stamp and signature.",
+      "step4Title": "Delivery",
+      "step4Desc": "Digital copy (PDF) sent in advance, original sent by post."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "What is the difference between a certified and a sworn translation?",
+      "a1": "In many contexts, these terms are used interchangeably. It refers to a translation confirmed by a court-authorized translator, which is legally recognized by authorities.",
+      "q2": "How fast will I receive the translation?",
+      "a2": "Standard documents (e.g., birth certificates) are often processed within 24-48 hours. Postal delivery from Spain to Germany takes approx. 3-5 business days.",
+      "q3": "Do you need the original document?",
+      "a3": "In most cases, a high-quality scan is sufficient. The translation will state 'translated from scan'. Please check with your authority (accepted in 99% of cases).",
+      "q4": "Is the translation valid in Germany?",
+      "a4": "Yes. As a translator authorized by the OLG Cologne, my translations are recognized by all German authorities and courts.",
+      "q5": "How do I pay?",
+      "a5": "You will receive an invoice including VAT. Payment is made conveniently via bank transfer."
+    }
+  },
+  "common": {
+    "swornTranslator": "sworn & authorized translator",
+    "certified": "certified",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "quickLinks": "Menu",
+    "certifications": "Accreditations",
+    "sendEmail": "Send email",
+    "openWhatsApp": "WhatsApp message",
+    "contactNow": "Send inquiry",
+    "badges": {
+      "professionalServices": "specialized translations",
+      "professionalProfile": "About me",
+      "whyChooseMe": "Your advantages",
+      "mainService": "Core competence",
+      "additionalServices": "other languages",
+      "guarantees": "Guarantee"
+    }
+  },
+  "hero": {
+    "headline": "certified translations | German - Spanish - French",
+    "subheadline": "legally valid, fast, and direct from the court-authorized translator. Recognized in Germany and Spain.",
+    "contactButton": "request a quote",
+    "servicesButton": "learn more",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "dual accreditation",
+        "description": "accredited in Spain (MAEC) and Germany (OLG Cologne)"
+      },
+      "fastDelivery": {
+        "title": "digital pre-delivery",
+        "description": "signed PDF in advance, original by post"
+      },
+      "legalSpecialization": {
+        "title": "legal expertise",
+        "description": "specialized in complex legal texts and deeds"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Services & expertise",
+    "generalTranslation": {
+      "heading": "specialized translations",
+      "description": "high-quality translations for legal, economic, and technical texts. Precise terminology and stylistic reliability for your business correspondence."
+    },
+    "swornTranslation": {
+      "heading": "sworn document translation",
+      "description": "mandatory for submission to civil registries, courts, universities, and immigration offices.",
+      "spain": {
+        "title": "for Spain (Traductora Jurada)",
+        "description": "with official stamp and signature according to the Spanish Ministry (MAEC) guidelines."
+      },
+      "germany": {
+        "title": "for Germany (Authorized Translator)",
+        "description": "certified translation according to § 142 para. 3 ZPO, recognized by the OLG Cologne."
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "María Ángeles Capas – Your Translator",
+    "introduction": "As a dual-qualified translator, I bridge the legal systems of Spain and Germany. My authorization by the OLG Cologne and appointment by the Spanish Ministry guarantee you maximum legal certainty.",
+    "paragraph1": "For many years, I have been supporting law firms, notaries, companies, and private individuals in overcoming language barriers in the bureaucratic jungle. I know that in legal texts, every detail counts.",
+    "conclusion": "Personal service, direct communication, and absolute confidentiality are a matter of course for me. I look forward to supporting you with your request.",
+    "sections": {
+      "presentation": "Profile",
+      "experience": "Experience",
+      "capabilities": "Competencies",
+      "commitment": "Quality standard"
+    },
+    "credentials": {
+      "officialSeal": "official stamp",
+      "certification": "Accreditation",
+      "spainAndGermany": "DE & ES",
+      "specialization": "Specializations",
+      "legalAndTechnical": "law & economics"
+    }
+  },
+  "legalPage": {
+    "title": "Legal Notice",
+    "ownerTitle": "Information according to § 5 TMG / LSSI-CE",
+    "profession": "sworn & authorized translator",
+    "activityTitle": "Professional designation & regulations",
+    "activityDesc": "Freelance translator. Professional titles granted in Spain (Traductora Jurada) and Germany (Ermächtigte Übersetzerin).",
+    "credentialsTitle": "Supervisory authorities & accreditations",
+    "spainCredential": "Spain: Traductora-Intérprete Jurada",
+    "spainAuthority": "Ministry of Foreign Affairs, European Union and Cooperation (MAEC), Madrid.",
+    "germanyCredential": "Germany: Authorized Translator",
+    "germanyAuthority": "President of the Higher Regional Court of Cologne (OLG Köln).",
+    "intellectualTitle": "Copyright",
+    "intellectualDesc": "All content (text, design) is protected by copyright. Use without consent is prohibited.",
+    "liabilityTitle": "Disclaimer",
+    "liabilityDesc": "Despite careful control, we assume no liability for the content of external links.",
+    "jurisdictionTitle": "Jurisdiction",
+    "jurisdictionDesc": "Spanish law applies. Place of jurisdiction is, as far as legally permissible, the seat of the translator in Spain."
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Status: December 2024",
+    "intro": "We take the protection of your personal data very seriously and strictly adhere to the rules of the General Data Protection Regulation (GDPR).",
+    "section1Title": "responsible body",
+    "section1Content": "María Ángeles Capas López\n[Your address in Spain]\nEmail: capaslopez@gmail.com",
+    "section2Title": "data processing",
+    "section2Content": "We process your data (e.g., name, contact details, content of documents) exclusively for preparing quotes and performing translation orders.",
+    "section3Title": "disclosure to third parties",
+    "section3Content": "Data will not be passed on to third parties unless necessary for contract fulfillment (e.g., postal delivery) or required by law.",
+    "section5Title": "your rights",
+    "section5Content": "You have the right to information, correction, deletion, and restriction of processing of your stored data at any time.",
+    "section6Title": "confidentiality",
+    "section6Content": "As a sworn/authorized translator, I am subject to a special professional duty of confidentiality regarding all documents entrusted to me.",
+    "contactTitle": "Privacy Contact",
+    "contactText": "If you have any questions, contact me directly via email."
+  }
+}

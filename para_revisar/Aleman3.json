@@ -1,0 +1,155 @@
+{
+  "home": "Startseite",
+  "about": "Über mich",
+  "services": "Leistungen",
+  "contact": "Kontakt",
+  "homePage": {
+    "heroTitle1": "beglaubigte Übersetzungen",
+    "heroTitle2": "rechtssicher & staatlich anerkannt.",
+    "heroSubtitle": "präzise Fachübersetzungen für Justiz, Behörden und Wirtschaft.",
+    "heroDescription": "In Spanien vom Außenministerium ernannte und in Deutschland vom OLG Köln ermächtigte Übersetzerin. Ihre Expertin für den deutsch-spanischen Rechtsverkehr.",
+    "requestQuote": "Jetzt Angebot anfordern",
+    "trustBadge": "Spanisches Außenministerium (MAEC) • OLG Köln ermächtigt",
+    "servicesTitle": "Meine Fachgebiete",
+    "service1Title": "beglaubigte Übersetzung",
+    "service1Desc": "amtliche Dokumente mit Rechtsgültigkeit für Behörden in Spanien, Deutschland und darüber hinaus. Urteile, Verträge, Personenstandsurkunden.",
+    "service2Title": "akademische Dokumente",
+    "service2Desc": "Diplome, Transkripte und Zeugnisse für Anerkennungsverfahren, Universitätsbewerbungen und berufliche Zulassungen.",
+    "service3Title": "juristische Fachübersetzungen",
+    "service3Desc": "Handelsregisterauszüge, Notarurkunden, Zivil- und Strafrecht sowie Unternehmenskommunikation.",
+    "languagePairsTitle": "Sprachkombinationen",
+    "bidirectional": "bidirektional (Hin & Zurück)",
+    "unidirectional": "unidirektional",
+    "credentialsTitle": "staatliche Akkreditierungen",
+    "spainTitle": "Spanien (MAEC)",
+    "spainDesc": "vereidigte Übersetzerin und Dolmetscherin, ernannt vom Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit.",
+    "germanyTitle": "Deutschland (OLG Köln)",
+    "germanyDesc": "vom Oberlandesgericht Köln ermächtigte Übersetzerin für die spanische und französische Sprache.",
+    "verifyCredential": "Zulassung prüfen",
+    "statCountries": "Länder mit Gültigkeit",
+    "statLanguages": "Arbeitssprachen",
+    "statDelivery": "Regellieferzeit",
+    "statConfidential": "Vertraulichkeit",
+    "officialBadge": "amtlich anerkannt",
+    "ctaTitle": "Benötigen Sie eine beglaubigte Übersetzung?",
+    "ctaSubtitle": "Senden Sie mir Ihre Dokumente für ein unverbindliches Festpreisangebot.",
+    "ctaContact": "kostenloses Angebot",
+    "ctaLearnMore": "Details ansehen",
+    "spanish": "Spanisch",
+    "german": "Deutsch",
+    "french": "Französisch",
+    "english": "Englisch"
+  },
+  "common": {
+    "swornTranslator": "ermächtigte & beeidigte Übersetzerin",
+    "certified": "beglaubigt",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "privacyPolicy": "Datenschutz",
+    "quickLinks": "Menü",
+    "certifications": "Zulassungen",
+    "sendEmail": "E-Mail schreiben",
+    "openWhatsApp": "WhatsApp-Nachricht",
+    "contactNow": "Anfrage senden",
+    "badges": {
+      "professionalServices": "Fachübersetzungen",
+      "professionalProfile": "Über mich",
+      "whyChooseMe": "Ihre Vorteile",
+      "mainService": "Kernkompetenz",
+      "additionalServices": "weitere Sprachen",
+      "guarantees": "Garantie"
+    }
+  },
+  "hero": {
+    "headline": "beglaubigte Übersetzungen | Deutsch - Spanisch - Französisch",
+    "subheadline": "rechtssicher, schnell und direkt von der gerichtlich ermächtigten Übersetzerin. Anerkannt in Deutschland und Spanien.",
+    "contactButton": "Angebot anfordern",
+    "servicesButton": "Mehr erfahren",
+    "trustIndicators": {
+      "officialCertification": {
+        "title": "doppelte Zulassung",
+        "description": "akkreditiert in Spanien (MAEC) und Deutschland (OLG Köln)"
+      },
+      "fastDelivery": {
+        "title": "digitale Vorab-Lieferung",
+        "description": "signiertes PDF vorab, Original per Post"
+      },
+      "legalSpecialization": {
+        "title": "Rechtsexpertise",
+        "description": "spezialisiert auf juristische Fachtexte und Urkunden"
+      }
+    }
+  },
+  "servicesPage": {
+    "title": "Dienstleistungen & Fachgebiete",
+    "generalTranslation": {
+      "heading": "Fachübersetzungen",
+      "description": "hochwertige Übersetzungen für juristische, wirtschaftliche und technische Texte. Präzise Terminologie und stilistische Sicherheit für Ihre Geschäftskorrespondenz."
+    },
+    "swornTranslation": {
+      "heading": "beglaubigte Urkundenübersetzung",
+      "description": "zwingend erforderlich für die Vorlage bei Standesämtern, Gerichten, Universitäten und Ausländerbehörden.",
+      "spain": {
+        "title": "für Spanien (Traductora Jurada)",
+        "description": "mit amtlichem Stempel und Unterschrift gemäß den Vorgaben des spanischen Außenministeriums (MAEC)."
+      },
+      "germany": {
+        "title": "für Deutschland (Ermächtigte Übersetzerin)",
+        "description": "bestätigte Übersetzung gemäß § 142 Abs. 3 ZPO, anerkannt durch das OLG Köln."
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "María Ángeles Capas – Ihre Übersetzerin",
+    "introduction": "Als doppelt qualifizierte Übersetzerin verbinde ich die Rechtssysteme Spaniens und Deutschlands. Meine Ermächtigung durch das OLG Köln und die Ernennung durch das spanische Außenministerium garantieren Ihnen höchste Rechtssicherheit.",
+    "paragraph1": "Seit vielen Jahren unterstütze ich Kanzleien, Notare, Unternehmen und Privatpersonen dabei, sprachliche Barrieren im bürokratischen Dschungel zu überwinden. Ich weiß, dass es bei juristischen Texten auf jedes Detail ankommt.",
+    "conclusion": "Persönlicher Service, direkte Kommunikation und absolute Vertraulichkeit sind für mich selbstverständlich. Ich freue mich darauf, Sie bei Ihrem Anliegen zu unterstützen.",
+    "sections": {
+      "presentation": "Profil",
+      "experience": "Erfahrung",
+      "capabilities": "Kompetenzen",
+      "commitment": "Qualitätsanspruch"
+    },
+    "credentials": {
+      "officialSeal": "amtlicher Stempel",
+      "certification": "Akkreditierung",
+      "spainAndGermany": "DE & ES",
+      "specialization": "Fachgebiete",
+      "legalAndTechnical": "Recht & Wirtschaft"
+    }
+  },
+  "legalPage": {
+    "title": "Impressum",
+    "ownerTitle": "Angaben gemäß § 5 TMG / LSSI-CE",
+    "profession": "beeidigte & ermächtigte Übersetzerin",
+    "activityTitle": "Berufsbezeichnung & Regelungen",
+    "activityDesc": "freiberufliche Übersetzerin. Die Berufsbezeichnungen wurden in Spanien (Traductora Jurada) und Deutschland (Ermächtigte Übersetzerin) verliehen.",
+    "credentialsTitle": "Aufsichtsbehörden & Zulassungen",
+    "spainCredential": "Spanien: Traductora-Intérprete Jurada",
+    "spainAuthority": "Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit (MAEC), Madrid.",
+    "germanyCredential": "Deutschland: Ermächtigte Übersetzerin",
+    "germanyAuthority": "Präsident des Oberlandesgerichts Köln (Reichenspergerplatz 1, 50670 Köln).",
+    "intellectualTitle": "Urheberrecht",
+    "intellectualDesc": "Alle Inhalte (Texte, Design) sind urheberrechtlich geschützt. Eine Nutzung ohne Zustimmung ist untersagt.",
+    "liabilityTitle": "Haftungsausschluss",
+    "liabilityDesc": "Trotz sorgfältiger Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.",
+    "jurisdictionTitle": "Gerichtsstand",
+    "jurisdictionDesc": "Es gilt spanisches Recht. Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz der Übersetzerin in Spanien."
+  },
+  "privacyPage": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Stand: Dezember 2024",
+    "intro": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln der Datenschutz-Grundverordnung (DSGVO).",
+    "section1Title": "verantwortliche Stelle",
+    "section1Content": "María Ángeles Capas López\n[Adresse in Spanien]\nE-Mail: capaslopez@gmail.com",
+    "section2Title": "Datenverarbeitung",
+    "section2Content": "Wir verarbeiten Ihre Daten (z. B. Name, Kontaktdaten, Inhalte der zu übersetzenden Dokumente) ausschließlich zur Erstellung von Angeboten und Durchführung der Übersetzungsaufträge.",
+    "section3Title": "Weitergabe an Dritte",
+    "section3Content": "Eine Weitergabe Ihrer Daten an Dritte findet nicht statt, es sei denn, dies ist zur Vertragserfüllung notwendig (z. B. Postversand) oder gesetzlich vorgeschrieben.",
+    "section5Title": "Ihre Rechte",
+    "section5Content": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer gespeicherten Daten.",
+    "section6Title": "Vertraulichkeit",
+    "section6Content": "Als beeidigte/ermächtigte Übersetzerin unterliege ich einer besonderen berufsrechtlichen Verschwiegenheitspflicht bezüglich aller mir anvertrauten Unterlagen.",
+    "contactTitle": "Datenschutz-Kontakt",
+    "contactText": "Wenden Sie sich bei Fragen direkt per E-Mail an mich."
+  }
+}
