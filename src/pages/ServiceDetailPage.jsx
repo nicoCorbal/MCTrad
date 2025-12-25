@@ -240,7 +240,7 @@ function ServiceDetailPage() {
             >
               <div className="flex items-center gap-1.5">
                 <span className="text-xs sm:text-sm text-gray-600">
-                  Certificada en 🇪🇸 y 🇩🇪
+                  {t('homePage.certifiedIn')} 🇪🇸 🇩🇪
                 </span>
               </div>
               <div className="h-5 w-px bg-gray-200 sm:h-8" />

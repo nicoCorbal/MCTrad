@@ -135,7 +135,7 @@ function ContactPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
                 >
-                  {t('contactPage.form.successTitle') || 'Mensaje enviado'}
+                  {t('contactPage.form.successTitle')}
                 </motion.h2>
                 <motion.p
                   className="text-gray-600 mb-8"
@@ -143,7 +143,7 @@ function ContactPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4 }}
                 >
-                  {t('contactPage.form.successMessage') || 'Gracias por contactar. Te responderé en menos de 24 horas.'}
+                  {t('contactPage.form.successMessage')}
                 </motion.p>
                 <motion.button
                   onClick={() => setStatus('idle')}
@@ -151,7 +151,7 @@ function ContactPage() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  {t('contactPage.form.sendAnother') || 'Enviar otro mensaje'}
+                  {t('contactPage.form.sendAnother')}
                 </motion.button>
               </motion.div>
             ) : (

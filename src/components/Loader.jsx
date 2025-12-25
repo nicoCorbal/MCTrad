@@ -29,14 +29,14 @@ const Loader = () => {
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 0.2 }}
           />
 
-          {/* Iniciales */}
-          <motion.div
-            className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center"
+          {/* Logo */}
+          <motion.img
+            src="/apple-touch-icon.png"
+            alt="Logo"
+            className="w-20 h-20 rounded-full object-cover"
             animate={{ rotate: [0, 5, -5, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-          >
-            <span className="font-serif text-2xl text-white font-semibold">MA</span>
-          </motion.div>
+          />
         </motion.div>
 
         {/* Nombre */}

@@ -2,6 +2,7 @@
   "home": "Home",
   "about": "About Me",
   "services": "Services",
+  "pricing": "Pricing",
   "contact": "Contact",
   "homePage": {
     "heroTitle1": "Certified Translations",
@@ -32,6 +33,7 @@
     "statConfidential": "Confidentiality",
     "statExperience": "years of experience",
     "statDocuments": "documents translated",
+    "certifiedIn": "Certified in",
     "officialBadge": "state-recognized",
     "ctaTitle": "Need a certified translation?",
     "ctaSubtitle": "Send your documents for a non-binding fixed-price quote.",
@@ -142,6 +144,7 @@
     "title": "María Ángeles Capas – Your Translator",
     "introduction": "As a dual-qualified translator, I bridge the legal systems of Spain and Germany. My authorization by the OLG Cologne and appointment by the Spanish Ministry guarantee you maximum legal certainty.",
     "paragraph1": "For many years, I have been supporting law firms, notaries, companies, and private individuals in overcoming language barriers in the bureaucratic jungle. I know that in legal texts, every detail counts.",
+    "paragraph2": "In addition to my legal expertise, I also offer technical translations. Based in Spain with accreditation in Germany, I am the ideal link for your international affairs.",
     "conclusion": "Personal service, direct communication, and absolute confidentiality are a matter of course for me. I look forward to supporting you with your request.",
     "sections": {
       "presentation": "Profile",
@@ -206,7 +209,8 @@
     "liabilityTitle": "Disclaimer",
     "liabilityDesc": "Despite careful control, we assume no liability for the content of external links.",
     "jurisdictionTitle": "Jurisdiction",
-    "jurisdictionDesc": "Spanish law applies. Place of jurisdiction is, as far as legally permissible, the seat of the translator in Spain."
+    "jurisdictionDesc": "Spanish law applies. Place of jurisdiction is, as far as legally permissible, the seat of the translator in Spain.",
+    "schedule": "Office Hours"
   },
   "privacyPage": {
     "title": "Privacy Policy",
@@ -226,5 +230,82 @@
     "section6Content": "As a sworn/authorized translator, I am subject to a special professional duty of confidentiality regarding all documents entrusted to me.",
     "contactTitle": "Privacy Contact",
     "contactText": "If you have any questions, contact me directly via email."
+  },
+  "pricingPage": {
+    "title": "Pricing & Quotes",
+    "subtitle": "The cost of sworn translations depends on several factors. Send your documents to receive a personalized quote with no obligation.",
+    "factorsTitle": "What does the price depend on?",
+    "factors": {
+      "certified": "Type of translation: certified (sworn) or standard",
+      "wordCount": "Number of words in the document",
+      "complexity": "Type of text and level of technical difficulty",
+      "formatting": "Formatting and layout effort",
+      "outputFormat": "Delivery format (editable Word or PDF)",
+      "copies": "Number of certified copies required",
+      "deadline": "Delivery deadline (rush surcharge may apply)",
+      "shipping": "Shipping method (standard, registered, express)"
+    },
+    "jvegNote": "Costs for sworn Spanish-German translations in Germany are governed by § 3 of the Judicial Remuneration and Compensation Act (JVEG).",
+    "process": {
+      "badge": "In 5 steps",
+      "title": "Order Process",
+      "subtitle": "Ordering your sworn translation is easy",
+      "step1": {
+        "title": "Send the scan",
+        "description": "Send your scanned documents as PDF via email"
+      },
+      "step2": {
+        "title": "Receive quote",
+        "description": "Receive a detailed quote within 24 hours"
+      },
+      "step3": {
+        "title": "Confirm and pay",
+        "description": "Accept the quote and make the payment"
+      },
+      "step4": {
+        "title": "Review draft",
+        "description": "Receive a draft PDF for your review"
+      },
+      "step5": {
+        "title": "Receive translation",
+        "description": "Certified original sent by postal mail"
+      }
+    },
+    "scanning": {
+      "title": "How to send your documents",
+      "subtitle": "A good scan helps us provide a faster and more accurate quote",
+      "dosTitle": "Do",
+      "dontsTitle": "Don't",
+      "dos": {
+        "pdf": "Send documents in PDF format",
+        "clear": "Make sure the text is legible",
+        "stamps": "Include visible stamps and signatures",
+        "apostille": "Also scan apostilles if present",
+        "both": "Scan front and back of the document"
+      },
+      "donts": {
+        "photo": "Avoid phone photos (use scanner or app)",
+        "blurry": "Avoid blurry or unfocused images",
+        "cropped": "Don't crop parts of the document",
+        "original": "No need to send the original by mail"
+      },
+      "appNote": "If you don't have a scanner, you can use mobile apps like CamScanner, Adobe Scan, or iPhone Notes app."
+    },
+    "individuals": {
+      "title": "Individuals",
+      "description": "Translations of personal documents for administrative, academic, or legal procedures.",
+      "examples": "Birth certificates, marriage certificates, university degrees, driver's licenses, criminal records..."
+    },
+    "corporate": {
+      "title": "Businesses",
+      "description": "Translations of commercial and legal documentation for international operations.",
+      "examples": "Commercial registry extracts, articles of association, contracts, notarial deeds, financial reports..."
+    },
+    "cta": {
+      "title": "Need a quote?",
+      "description": "Send your scanned documents and receive a detailed quote within 24 hours.",
+      "email": "Send by email",
+      "form": "Use form"
+    }
   }
 }

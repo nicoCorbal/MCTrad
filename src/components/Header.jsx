@@ -26,6 +26,7 @@ const Header = () => {
   const navLinks = [
     { to: '/', label: t('home'), end: true },
     { to: '/servicios', label: t('services') },
+    { to: '/tarifas', label: t('pricing') },
     { to: '/sobre-mi', label: t('about') },
     { to: '/contacto', label: t('contact') },
   ];

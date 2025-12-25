@@ -287,7 +287,7 @@ function HomePage() {
 
               {/* 3000+ documentos */}
               <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="text-lg sm:text-2xl font-serif font-semibold text-gray-900">5000+</span>
+                <span className="text-lg sm:text-2xl font-serif font-semibold text-gray-900">+5000</span>
                 <span className="text-xs sm:text-sm text-gray-500 hidden sm:inline">{t('homePage.statDocuments')}</span>
               </div>
 

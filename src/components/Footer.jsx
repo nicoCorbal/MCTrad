@@ -41,11 +41,14 @@ const Footer = () => {
           {/* Brand */}
           <motion.div variants={fadeInUp}>
             <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }}>
-              <LocalizedLink to="/" className="inline-block">
-                <span className="font-serif text-xl font-semibold text-gray-900">María Ángeles Capas</span>
-                <span className="block text-xs text-gray-500 uppercase tracking-wider mt-1">
-                  {t('common.swornTranslator')}
-                </span>
+              <LocalizedLink to="/" className="inline-flex items-center gap-3">
+                <img src="/apple-touch-icon.png" alt="Logo" className="w-12 h-12 rounded-full" />
+                <div>
+                  <span className="font-serif text-xl font-semibold text-gray-900 block">María Ángeles Capas</span>
+                  <span className="text-xs text-gray-500 uppercase tracking-wider">
+                    {t('common.swornTranslator')}
+                  </span>
+                </div>
               </LocalizedLink>
             </motion.div>
             <p className="text-gray-600 text-sm mt-4 leading-relaxed">
@@ -62,6 +65,7 @@ const Footer = () => {
               {[
                 { to: '/', label: t('home') },
                 { to: '/servicios', label: t('services') },
+                { to: '/tarifas', label: t('pricing') },
                 { to: '/sobre-mi', label: t('about') },
                 { to: '/contacto', label: t('contact') }
               ].map((link) => (
