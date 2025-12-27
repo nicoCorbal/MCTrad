@@ -76,7 +76,7 @@ function ServicesPage() {
                 flag: '🇪🇸',
                 title: t('servicesPage.swornTranslation.spain.title'),
                 desc: t('servicesPage.swornTranslation.spain.description'),
-                link: 'https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/TraductoresInt%C3%A9rpretes.aspx',
+                link: 'https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Oficina-de-Interpretacion-de-Lenguas/Paginas/Traduccion-e-interpretacion-jurada.aspx',
                 linkText: t('servicesPage.swornTranslation.spain.linkText')
               },
               {

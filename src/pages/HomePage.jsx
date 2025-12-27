@@ -395,7 +395,7 @@ function HomePage() {
 
           <motion.div className="grid md:grid-cols-2 gap-8" variants={staggerContainer}>
             {[
-              { flag: '🇪🇸', title: t('homePage.spainTitle'), desc: t('homePage.spainDesc'), link: 'https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/TraductoresInt%C3%A9rpretes.aspx' },
+              { flag: '🇪🇸', title: t('homePage.spainTitle'), desc: t('homePage.spainDesc'), link: 'https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Oficina-de-Interpretacion-de-Lenguas/Paginas/Traduccion-e-interpretacion-jurada.aspx' },
               { flag: '🇩🇪', title: t('homePage.germanyTitle'), desc: t('homePage.germanyDesc'), link: 'https://www.justiz-dolmetscher.de/Recherche/de/Suchen' }
             ].map((cred, i) => (
               <motion.div
