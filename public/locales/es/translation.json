@@ -92,21 +92,21 @@
     }
   },
   "hero": {
-    "headline": "traducciones juradas | alemán - español - francés",
+    "headline": "Traducciones juradas | Alemán - Español - Francés",
     "subheadline": "con validez legal, rapidez y trato directo con la traductora autorizada. Reconocida en España y Alemania.",
-    "contactButton": "solicitar presupuesto",
-    "servicesButton": "saber más",
+    "contactButton": "Solicitar presupuesto",
+    "servicesButton": "Saber más",
     "trustIndicators": {
       "officialCertification": {
-        "title": "doble acreditación",
+        "title": "Doble acreditación",
         "description": "nombrada en España (MAEC) y autorizada en Alemania (OLG Colonia)"
       },
       "fastDelivery": {
-        "title": "entrega digital anticipada",
+        "title": "Entrega digital anticipada",
         "description": "PDF firmado al instante, original por correo postal"
       },
       "legalSpecialization": {
-        "title": "peritaje jurídico",
+        "title": "Peritaje jurídico",
         "description": "especializada en textos legales y actas notariales complejas"
       }
     }
@@ -114,7 +114,7 @@
   "servicesPage": {
     "title": "Servicios y especialidades",
     "generalTranslation": {
-      "heading": "traducciones especializadas",
+      "heading": "Traducciones especializadas",
       "description": "traducciones de alta calidad para textos jurídicos, económicos y técnicos. Terminología precisa y seguridad estilística para su comunicación corporativa."
     },
     "languagePairs": {
@@ -126,7 +126,7 @@
       "description": "Traducción profesional en estas combinaciones."
     },
     "swornTranslation": {
-      "heading": "traducción jurada de documentos",
+      "heading": "Traducción jurada de documentos",
       "description": "imprescindible para la presentación ante registros civiles, juzgados, universidades y autoridades de extranjería.",
       "spain": {
         "title": "para España (traductora jurada)",
@@ -196,7 +196,7 @@
   "legalPage": {
     "title": "Aviso legal",
     "ownerTitle": "Información según LSSI-CE / § 5 TMG",
-    "profession": "traductora jurada y autorizada",
+    "profession": "Traductora jurada y autorizada",
     "activityTitle": "Denominación profesional y regulación",
     "activityDesc": "Traductora freelance. Los títulos profesionales han sido obtenidos en España (traductora jurada) y Alemania (traductora autorizada).",
     "credentialsTitle": "Autoridades de control y acreditaciones",

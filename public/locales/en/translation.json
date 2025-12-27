@@ -94,27 +94,27 @@
   "hero": {
     "headline": "Certified Translations | German - Spanish - French",
     "subheadline": "legally valid, fast, and direct from the court-authorized translator. Recognized in Germany and Spain.",
-    "contactButton": "request a quote",
-    "servicesButton": "learn more",
+    "contactButton": "Request a quote",
+    "servicesButton": "Learn more",
     "trustIndicators": {
       "officialCertification": {
-        "title": "dual accreditation",
+        "title": "Dual accreditation",
         "description": "accredited in Spain (MAEC) and Germany (OLG Cologne)"
       },
       "fastDelivery": {
-        "title": "digital pre-delivery",
+        "title": "Digital pre-delivery",
         "description": "signed PDF in advance, original by post"
       },
       "legalSpecialization": {
-        "title": "legal expertise",
+        "title": "Legal expertise",
         "description": "specialized in complex legal texts and deeds"
       }
     }
   },
   "servicesPage": {
-    "title": "Services & expertise",
+    "title": "Services & Expertise",
     "generalTranslation": {
-      "heading": "specialized translations",
+      "heading": "Specialized Translations",
       "description": "high-quality translations for legal, economic, and technical texts. Precise terminology and stylistic reliability for your business correspondence."
     },
     "languagePairs": {
@@ -126,7 +126,7 @@
       "description": "Professional translation in these combinations."
     },
     "swornTranslation": {
-      "heading": "sworn document translation",
+      "heading": "Sworn Document Translation",
       "description": "mandatory for submission to civil registries, courts, universities, and immigration offices.",
       "spain": {
         "title": "for Spain (Traductora Jurada)",
@@ -196,7 +196,7 @@
   "legalPage": {
     "title": "Legal Notice",
     "ownerTitle": "Information according to § 5 TMG / LSSI-CE",
-    "profession": "sworn & authorized translator",
+    "profession": "Sworn & Authorized Translator",
     "activityTitle": "Professional designation & regulations",
     "activityDesc": "Freelance translator. Professional titles granted in Spain (Traductora Jurada) and Germany (Ermächtigte Übersetzerin).",
     "credentialsTitle": "Supervisory authorities & accreditations",
@@ -214,19 +214,19 @@
   },
   "privacyPage": {
     "title": "Privacy Policy",
-    "lastUpdated": "Status: December 2024",
+    "lastUpdated": "Last updated: December 2025",
     "intro": "We take the protection of your personal data very seriously and strictly adhere to the rules of the General Data Protection Regulation (GDPR).",
-    "section1Title": "responsible body",
+    "section1Title": "Responsible Body",
     "section1Content": "María Ángeles Capas López\nNIF: 34986996-V\nRúa do Serán, 2 - 5 C\n32002 Ourense, Spain\nEmail: capaslopez@gmail.com",
-    "section2Title": "data processing",
+    "section2Title": "Data Processing",
     "section2Content": "We process your data (e.g., name, contact details, content of documents) exclusively for preparing quotes and performing translation orders.",
-    "section3Title": "disclosure to third parties",
+    "section3Title": "Disclosure to Third Parties",
     "section3Content": "Data will not be passed on to third parties unless necessary for contract fulfillment (e.g., postal delivery) or required by law.",
     "section4Title": "Retention",
     "section4Content": "We store your data only as long as necessary for the purpose and legal obligations (e.g., invoicing retention periods).",
-    "section5Title": "your rights",
+    "section5Title": "Your Rights",
     "section5Content": "You have the right to information, correction, deletion, and restriction of processing of your stored data at any time.",
-    "section6Title": "confidentiality",
+    "section6Title": "Confidentiality",
     "section6Content": "As a sworn/authorized translator, I am subject to a special professional duty of confidentiality regarding all documents entrusted to me.",
     "contactTitle": "Privacy Contact",
     "contactText": "If you have any questions, contact me directly via email."

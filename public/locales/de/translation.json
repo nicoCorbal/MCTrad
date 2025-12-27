@@ -92,17 +92,17 @@
     }
   },
   "hero": {
-    "headline": "beglaubigte Übersetzungen | Deutsch - Spanisch - Französisch",
+    "headline": "Beglaubigte Übersetzungen | Deutsch - Spanisch - Französisch",
     "subheadline": "rechtssicher, schnell und direkt von der gerichtlich ermächtigten Übersetzerin. Anerkannt in Deutschland und Spanien.",
     "contactButton": "Angebot anfordern",
     "servicesButton": "Mehr erfahren",
     "trustIndicators": {
       "officialCertification": {
-        "title": "doppelte Zulassung",
+        "title": "Doppelte Zulassung",
         "description": "akkreditiert in Spanien (MAEC) und Deutschland (OLG Köln)"
       },
       "fastDelivery": {
-        "title": "digitale Vorab-Lieferung",
+        "title": "Digitale Vorab-Lieferung",
         "description": "signiertes PDF vorab, Original per Post"
       },
       "legalSpecialization": {

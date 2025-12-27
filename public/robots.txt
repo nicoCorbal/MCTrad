@@ -1,7 +1,29 @@
 # Robots.txt for mariaangelescapas.com
+# Sworn & Authorized Translator - Spanish, German, French, English
 
+# Allow all crawlers
 User-agent: *
 Allow: /
 
-# Sitemap
+# Block non-content paths
+Disallow: /assets/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Block development/utility paths
+Disallow: /404
+Disallow: /*?*
+
+# Sitemaps
 Sitemap: https://mariaangelescapas.com/sitemap.xml
+
+# Crawl-delay for polite crawling (optional, respected by some bots)
+# Crawl-delay: 1
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+
+# Bing-specific
+User-agent: Bingbot
+Allow: /
