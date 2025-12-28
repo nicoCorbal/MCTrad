@@ -18,11 +18,10 @@ const Footer = () => {
     }
   };
 
-  const fadeInUp = {
-    hidden: { opacity: 0, y: 20 },
+  const fadeIn = {
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      y: 0,
       transition: { duration: 0.5, ease: [0.25, 0.4, 0.25, 1] }
     }
   };
@@ -39,7 +38,7 @@ const Footer = () => {
         <motion.div className="grid md:grid-cols-3 gap-12" variants={staggerContainer}>
 
           {/* Brand */}
-          <motion.div variants={fadeInUp}>
+          <motion.div variants={fadeIn}>
             <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }}>
               <LocalizedLink to="/" className="inline-flex items-center gap-3">
                 <img src="/apple-touch-icon.png" alt="Logo" className="w-12 h-12 rounded-full" />
@@ -57,7 +56,7 @@ const Footer = () => {
           </motion.div>
 
           {/* Links */}
-          <motion.div variants={fadeInUp}>
+          <motion.div variants={fadeIn}>
             <p className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
               {t('common.quickLinks')}
             </p>
@@ -82,7 +81,7 @@ const Footer = () => {
           </motion.div>
 
           {/* Certifications */}
-          <motion.div variants={fadeInUp}>
+          <motion.div variants={fadeIn}>
             <p className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
               {t('common.certifications')}
             </p>
@@ -117,7 +116,7 @@ const Footer = () => {
 
         <motion.div
           className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500"
-          variants={fadeInUp}
+          variants={fadeIn}
         >
           <p>© {year} María Ángeles Capas</p>
           <div className="flex items-center gap-4">
