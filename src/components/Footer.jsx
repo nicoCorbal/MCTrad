@@ -58,9 +58,9 @@ const Footer = () => {
 
           {/* Links */}
           <motion.div variants={fadeInUp}>
-            <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
+            <p className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
               {t('common.quickLinks')}
-            </h4>
+            </p>
             <nav className="space-y-2">
               {[
                 { to: '/', label: t('home') },
@@ -83,9 +83,9 @@ const Footer = () => {
 
           {/* Certifications */}
           <motion.div variants={fadeInUp}>
-            <h4 className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
+            <p className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
               {t('common.certifications')}
-            </h4>
+            </p>
             <div className="space-y-3">
               {[
                 { flag: '🇪🇸', country: t('footer.spain.country'), authority: t('footer.spain.authority') },

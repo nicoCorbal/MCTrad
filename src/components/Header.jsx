@@ -113,7 +113,7 @@ const Header = () => {
                     className={`px-1.5 py-1 font-medium transition-colors ${
                       currentLang === lang.code
                         ? 'text-blue-600'
-                        : 'text-gray-400 hover:text-gray-600'
+                        : 'text-gray-500 hover:text-gray-700'
                     }`}
                     type="button"
                     aria-label={t('common.changeLanguageTo', { lng: lang.label }) || `Cambiar idioma a ${lang.label}`}
