@@ -23,6 +23,7 @@ const ROUTE_CONFIGS = [
   { slugs: { es: 'traduccion-contratos', de: 'uebersetzung-vertraege', fr: 'traduction-contrats', en: 'contract-translation' } },
   { slugs: { es: 'traduccion-sentencias-judiciales', de: 'uebersetzung-gerichtsurteile', fr: 'traduction-jugements', en: 'court-judgment-translation' } },
   { slugs: { es: 'traduccion-documentos-notariales', de: 'uebersetzung-notarielle-dokumente', fr: 'traduction-actes-notaries', en: 'notarial-document-translation' } },
+  { slugs: { es: 'traduccion-jubilaciones-pensiones', de: 'uebersetzung-rente-pension', fr: 'traduction-retraite-pension', en: 'retirement-pension-translation' } },
 ];
 
 function generate_routes() {

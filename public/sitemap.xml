@@ -508,6 +508,52 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mariaangelescapas.com/es/traduccion-documentos-notariales"/>
   </url>
 
+  <!-- Retirement and Pension Translation (Programmatic SEO) -->
+  <url>
+    <loc>https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mariaangelescapas.com/de/uebersetzung-rente-pension"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mariaangelescapas.com/fr/traduction-retraite-pension"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mariaangelescapas.com/en/retirement-pension-translation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+  </url>
+  <url>
+    <loc>https://mariaangelescapas.com/de/uebersetzung-rente-pension</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mariaangelescapas.com/de/uebersetzung-rente-pension"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mariaangelescapas.com/fr/traduction-retraite-pension"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mariaangelescapas.com/en/retirement-pension-translation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+  </url>
+  <url>
+    <loc>https://mariaangelescapas.com/fr/traduction-retraite-pension</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mariaangelescapas.com/de/uebersetzung-rente-pension"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mariaangelescapas.com/fr/traduction-retraite-pension"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mariaangelescapas.com/en/retirement-pension-translation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+  </url>
+  <url>
+    <loc>https://mariaangelescapas.com/en/retirement-pension-translation</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mariaangelescapas.com/de/uebersetzung-rente-pension"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mariaangelescapas.com/fr/traduction-retraite-pension"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mariaangelescapas.com/en/retirement-pension-translation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"/>
+  </url>
+
   <!-- Privacy -->
   <url>
     <loc>https://mariaangelescapas.com/es/privacidad</loc>

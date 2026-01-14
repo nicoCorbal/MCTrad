@@ -342,6 +342,38 @@ export const servicePages = {
       },
     },
   },
+  // Retirement and pension documents
+  'traduccion-jubilaciones-pensiones': {
+    routeKey: 'retirement-pension',
+    slugs: {
+      es: 'traduccion-jubilaciones-pensiones',
+      de: 'uebersetzung-rente-pension',
+      fr: 'traduction-retraite-pension',
+      en: 'retirement-pension-translation',
+    },
+    seo: {
+      es: {
+        title: 'Traducción Jurada Jubilaciones y Pensiones | Alemán-Español | Seguridad Social',
+        description: 'Traducciones juradas de documentos de jubilación, pensiones y Seguridad Social. Válida ante la Seguridad Social española y Deutsche Rentenversicherung. Certificados de vida, resoluciones de pensiones. Entrega 24-48h.',
+        keywords: 'traducción jubilación, traducir pensión alemana, traducción Seguridad Social, Deutsche Rentenversicherung, certificado vida pensionista',
+      },
+      de: {
+        title: 'Beglaubigte Übersetzung Rente und Pension | Spanisch-Deutsch | Rentenversicherung',
+        description: 'Beglaubigte Übersetzung von Rentenbescheiden, Pensionsdokumenten und Sozialversicherungsunterlagen. Gültig bei Deutsche Rentenversicherung und spanischer Seguridad Social. Lebensbescheinigung, Rentenbescheid.',
+        keywords: 'Übersetzung Rentenbescheid, Rente übersetzen, Pension Übersetzung, spanische Rente, Lebensbescheinigung',
+      },
+      fr: {
+        title: 'Traduction Assermentée Retraite et Pension | Allemand-Espagnol | Sécurité Sociale',
+        description: 'Traduction assermentée de documents de retraite, pensions et sécurité sociale. Valide auprès des organismes espagnols et allemands. Certificat de vie, décisions de pension.',
+        keywords: 'traduction retraite, traduire pension, sécurité sociale traduction, certificat vie',
+      },
+      en: {
+        title: 'Certified Retirement & Pension Translation | German-Spanish | Social Security',
+        description: 'Certified translation of retirement documents, pension statements and social security records. Valid for Spanish Seguridad Social and German Rentenversicherung. Life certificates, pension decisions. 24-48h delivery.',
+        keywords: 'retirement translation, pension translation, social security translation, life certificate, pension statement',
+      },
+    },
+  },
   // Notarial documents
   'traduccion-documentos-notariales': {
     routeKey: 'notarial-documents',
