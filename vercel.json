@@ -3,5 +3,13 @@
   "buildCommand": "",
   "installCommand": "",
   "framework": null,
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "redirects": [
+    { "source": "/", "destination": "/es", "permanent": true },
+    { "source": "/servicios", "destination": "/es/servicios", "permanent": true },
+    { "source": "/sobre-mi", "destination": "/es/sobre-mi", "permanent": true },
+    { "source": "/contacto", "destination": "/es/contacto", "permanent": true },
+    { "source": "/privacidad", "destination": "/es/privacidad", "permanent": true },
+    { "source": "/aviso-legal", "destination": "/es/aviso-legal", "permanent": true }
+  ]
 }
