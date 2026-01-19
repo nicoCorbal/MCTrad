@@ -6,10 +6,10 @@
   "contact": "Kontakt",
   "homePage": {
     "heroTitle1": "Beglaubigte Übersetzungen",
-    "heroTitle2": "Rechtssicher & Staatlich Anerkannt.",
-    "heroSubtitle": "präzise Fachübersetzungen für Justiz, Behörden und Wirtschaft.",
-    "heroDescription": "In Spanien vom Außenministerium ernannte und in Deutschland vom OLG Köln ermächtigte Übersetzerin. Ihre Expertin für den deutsch-spanischen Rechtsverkehr.",
-    "requestQuote": "Jetzt Angebot anfordern",
+    "heroTitle2": "Deutsch ⟷ Spanisch",
+    "heroSubtitle": "Sofortige Rechtsgültigkeit in Spanien und Deutschland. Express-Lieferung verfügbar.",
+    "heroDescription": "Die einzige Übersetzerin mit doppelter amtlicher Zulassung: OLG Köln (Deutschland) und MAEC (Spanien). +30 Jahre Erfahrung mit Rechts-, Hochschul- und Wirtschaftsdokumenten.",
+    "requestQuote": "Kostenloses Angebot in 24h →",
     "trustBadge": "Spanisches Außenministerium (MAEC) • OLG Köln ermächtigt",
     "servicesTitle": "Meine Fachgebiete",
     "service1Title": "beglaubigte Übersetzung",
@@ -21,7 +21,7 @@
     "languagePairsTitle": "Sprachkombinationen",
     "bidirectional": "bidirektional (Hin & Zurück)",
     "unidirectional": "unidirektional",
-    "credentialsTitle": "staatliche Akkreditierungen",
+    "credentialsTitle": "Staatliche Akkreditierungen",
     "spainTitle": "Spanien (MAEC)",
     "spainDesc": "vereidigte Übersetzerin und Dolmetscherin, ernannt vom Ministerium für auswärtige Angelegenheiten, Europäische Union und Zusammenarbeit.",
     "germanyTitle": "Deutschland (OLG Köln)",
@@ -35,9 +35,9 @@
     "statDocuments": "übersetzte Dokumente",
     "certifiedIn": "Akkreditiert in",
     "officialBadge": "amtlich anerkannt",
-    "ctaTitle": "Benötigen Sie eine beglaubigte Übersetzung?",
-    "ctaSubtitle": "Senden Sie mir Ihre Dokumente für ein unverbindliches Festpreisangebot.",
-    "ctaContact": "kostenloses Angebot",
+    "ctaTitle": "Dringender Behördengang?",
+    "ctaSubtitle": "Senden Sie Ihr Dokument jetzt und erhalten Sie ein verbindliches Angebot innerhalb einer Stunde. Unverbindlich.",
+    "ctaContact": "Dokument Senden →",
     "ctaLearnMore": "Details ansehen",
     "spanish": "Spanisch",
     "german": "Deutsch",
@@ -113,9 +113,11 @@
   },
   "servicesPage": {
     "title": "Dienstleistungen & Fachgebiete",
+    "subtitle": "Übersetzungen mit sofortiger Rechtsgültigkeit in Spanien und Deutschland, ohne zusätzliche Formalitäten",
     "generalTranslation": {
       "heading": "Fachübersetzungen",
-      "description": "Hochwertige Übersetzungen für juristische, wirtschaftliche und technische Texte. Präzise Terminologie und stilistische Sicherheit für Ihre Geschäftskorrespondenz."
+      "description": "Juristische, wirtschaftliche und technische Texte mit terminologischer Präzision übersetzt. Über 30 Jahre Erfahrung im Handels-, Notariats- und Gesellschaftsrecht garantieren, dass Ihre Dokumente perfekt ankommen.",
+      "benefits": ["Präzise Terminologie für jeden Fachbereich", "Umfassende Korrekturprüfung inklusive", "Format angepasst an das Zielland"]
     },
     "languagePairs": {
       "germanSpanish": "Deutsch ⟷ Spanisch",
@@ -123,64 +125,101 @@
       "englishGerman": "Englisch → Deutsch",
       "englishSpanish": "Englisch → Spanisch",
       "galicianGerman": "Galicisch ⟷ Deutsch",
-      "description": "Professionelle Übersetzungen in diesen Kombinationen."
+      "description": "Professionelle Übersetzungen in diesen Kombinationen. Verfügbarkeit für weitere Kombinationen auf Anfrage."
     },
     "swornTranslation": {
       "heading": "Beglaubigte Urkundenübersetzung",
-      "description": "Zwingend erforderlich für die Vorlage bei Standesämtern, Gerichten, Universitäten und Ausländerbehörden.",
+      "description": "Ihr Dokument übersetzt mit voller Rechtsgültigkeit. Zwingend erforderlich für Standesämter, Gerichte, Universitäten, Notare und Ausländerbehörden. Ohne Ablehnung oder Zurückweisung.",
       "spain": {
         "title": "Für Spanien (Traductora Jurada)",
-        "description": "Mit Stempel und Unterschrift gemäß den Vorgaben des spanischen Außenministeriums (MAEC).",
-        "linkText": "MAEC-Liste einsehen"
+        "description": "Offizielle Ernennung durch das Spanische Außenministerium (MAEC). Siegel und Unterschrift landesweit anerkannt.",
+        "linkText": "Überprüfen in der offiziellen MAEC-Liste"
       },
       "germany": {
         "title": "Für Deutschland (Ermächtigte Übersetzerin)",
-        "description": "Bestätigte Übersetzung gemäß § 142 Abs. 3 ZPO, anerkannt durch das OLG Köln.",
-        "linkText": "Justiz-Dolmetscher Verzeichnis"
+        "description": "Ermächtigt durch das OLG Köln. Direkt von allen deutschen Behörden akzeptiert ohne zusätzliche Apostille.",
+        "linkText": "Überprüfen im Justiz-Dolmetscher Verzeichnis"
       }
+    },
+    "whyChoose": {
+      "heading": "Warum mich wählen?",
+      "reasons": [
+        {"title": "Doppelte amtliche Zulassung", "description": "Die einzige Übersetzerin mit gültiger Zertifizierung in Spanien UND Deutschland gleichzeitig."},
+        {"title": "Ohne Ablehnung", "description": "Über 30 Jahre Erfahrung. Ich kenne die genauen Anforderungen jeder Behörde."},
+        {"title": "Digitale Vorablieferung", "description": "Signiertes PDF noch am selben Tag für dringende Angelegenheiten. Original per Post."},
+        {"title": "Festpreis ohne Überraschungen", "description": "Das Angebot, das Sie erhalten, ist der Endpreis. Keine versteckten Kosten."}
+      ]
     }
   },
   "aboutPage": {
-    "title": "María Ángeles Capas – Ihre Übersetzerin",
-    "introduction": "Als doppelt qualifizierte Übersetzerin verbinde ich die Rechtssysteme Spaniens und Deutschlands. Meine Ermächtigung durch das OLG Köln und die Ernennung durch das spanische Außenministerium garantieren Ihnen höchste Rechtssicherheit.",
-    "paragraph1": "Seit vielen Jahren unterstütze ich Kanzleien, Notare, Unternehmen und Privatpersonen dabei, sprachliche Barrieren im bürokratischen Dschungel zu überwinden. Ich weiß, dass es bei juristischen Texten auf jedes Detail ankommt.",
-    "paragraph2": "Neben meiner juristischen Expertise biete ich auch technische Übersetzungen an. Durch meinen Standort in Spanien und meine Zulassung in Deutschland bin ich die ideale Brücke für Ihre internationalen Angelegenheiten.",
-    "conclusion": "Persönlicher Service, direkte Kommunikation und absolute Vertraulichkeit sind für mich selbstverständlich. Ich freue mich darauf, Sie bei Ihrem Anliegen zu unterstützen.",
+    "title": "Ihre beeidigte Übersetzerin",
+    "subtitle": "Über 30 Jahre Verbindung zwischen Spanien und Deutschland",
+    "introduction": "Ich bin María Ángeles Capas, beeidigte Übersetzerin mit der doppelten Akkreditierung, die Sie brauchen: ernannt vom spanischen Außenministerium und ermächtigt durch das OLG Köln.",
+    "paragraph1": "Seit über drei Jahrzehnten helfe ich Privatpersonen, Anwaltskanzleien, Notariaten und Unternehmen, sprachliche Barrieren bei internationalen Angelegenheiten zu überwinden. Ich weiß: Wenn Sie eine beglaubigte Übersetzung brauchen, brauchen Sie vor allem Sicherheit – dass Ihr Dokument beim ersten Mal akzeptiert wird, ohne Ablehnung oder Komplikationen.",
+    "paragraph2": "Meine Spezialisierung auf Recht, Wirtschaft und amtliche Dokumentation ermöglicht mir, mit der terminologischen Präzision zu übersetzen, die Behörden verlangen. Jedes Komma, jeder juristische Begriff, jede Formalität zählt.",
+    "paragraph3": "Ich arbeite von Ourense (Spanien) aus, aber meine deutsche Ermächtigung erlaubt mir, Übersetzungen anzubieten, die in beiden Ländern gültig sind – ohne zusätzliche Apostille. Ein Vorteil, den nur wenige Übersetzer bieten können.",
+    "conclusion": "Direkter Kontakt, ohne Vermittler. Sie sprechen mit mir, ich übersetze Ihr Dokument und liefere es persönlich. So einfach ist das.",
+    "stats": {
+      "experience": "+30 Jahre",
+      "experienceLabel": "Erfahrung",
+      "documents": "+10.000",
+      "documentsLabel": "übersetzte Dokumente",
+      "rejections": "0",
+      "rejectionsLabel": "Ablehnungen durch Behörden"
+    },
     "sections": {
-      "presentation": "Profil",
-      "experience": "Erfahrung",
-      "capabilities": "Kompetenzen",
-      "commitment": "Qualitätsanspruch"
+      "presentation": "Wer ich bin",
+      "experience": "Mein Werdegang",
+      "capabilities": "Fachgebiete",
+      "commitment": "Mein Versprechen"
     },
     "credentials": {
-      "officialSeal": "Offizielles Siegel",
-      "certification": "Akkreditierung",
-      "spainAndGermany": "DE & ES",
+      "officialSeal": "Amtssiegel",
+      "certification": "Doppelte Akkreditierung",
+      "spainAndGermany": "Spanien und Deutschland",
       "specialization": "Fachgebiete",
-      "legalAndTechnical": "Recht & Wirtschaft",
-      "officialStamps": "Offizielle Stempel"
+      "legalAndTechnical": "Recht und Wirtschaft",
+      "officialStamps": "Amtliche Stempel"
+    },
+    "values": {
+      "title": "Wie ich arbeite",
+      "items": [
+        {"title": "Persönlicher Kontakt", "description": "Sie sprechen direkt mit mir. Ohne Vertrieb, ohne Vermittler."},
+        {"title": "Absolute Vertraulichkeit", "description": "Berufsgeheimnis garantiert. Ihre Dokumente sind geschützt."},
+        {"title": "Eingehaltene Fristen", "description": "Wenn ich einen Termin nenne, halte ich ihn. Eilservice verfügbar."},
+        {"title": "Festpreis", "description": "Das Angebot ist der Endpreis. Ohne Überraschungen."}
+      ]
     }
   },
   "contactPage": {
-    "title": "Kontakt & Anfrage",
-    "introduction": "Haben Sie Fragen oder benötigen Sie ein schnelles Angebot? Senden Sie mir Ihre Dokumente einfach per E-Mail oder über das Formular.",
+    "title": "Angebot anfordern",
+    "subtitle": "Kostenloses Angebot innerhalb von 24 Stunden. Unverbindlich.",
+    "introduction": "Senden Sie einen Scan oder ein Foto Ihres Dokuments und erhalten Sie ein verbindliches Angebot mit Endpreis. Keine versteckten Kosten.",
+    "howItWorks": "Hängen Sie einfach Ihr Dokument an (PDF, Foto oder Scan) und Sie erhalten noch am selben Werktag eine Antwort.",
     "form": {
       "name": "Ihr Name",
       "email": "Ihre E-Mail-Adresse",
       "subject": "Betreff (z.B. Übersetzung Geburtsurkunde)",
       "message": "Nachricht / Details zum Auftrag",
-      "submit": "Kostenpflichtiges Angebot anfordern",
+      "submit": "Kostenloses Angebot anfordern →",
       "sending": "Wird gesendet...",
-      "successTitle": "Vielen Dank!",
-      "successMessage": "Ihre Anfrage ist eingegangen. Ich melde mich in Kürze bei Ihnen.",
-      "sendAnother": "Neue Nachricht",
-      "error": "Fehler beim Senden. Bitte versuchen Sie es per E-Mail."
+      "successTitle": "Nachricht erhalten!",
+      "successMessage": "Ich prüfe Ihr Dokument und sende Ihnen innerhalb von 24 Stunden ein Angebot. Bitte prüfen Sie auch Ihren Spam-Ordner.",
+      "sendAnother": "Weiteres Dokument senden",
+      "error": "Fehler beim Senden. Bitte versuchen Sie es direkt per E-Mail."
     },
     "guarantees": {
-      "responseTime": "Schnelle Antwort",
-      "confidentiality": "Verschwiegenheit",
-      "professionalService": "Direkter Kontakt"
-    }
+      "responseTime": "Antwort in 24h",
+      "responseTimeDesc": "Detailliertes Angebot noch am selben Werktag",
+      "confidentiality": "100% Vertraulich",
+      "confidentialityDesc": "Ihre Dokumente werden mit Berufsgeheimnis behandelt",
+      "professionalService": "Direkter Kontakt",
+      "professionalServiceDesc": "Direkte Kommunikation mit mir, ohne Vermittler",
+      "noObligation": "Unverbindlich",
+      "noObligationDesc": "Das Angebot verpflichtet Sie zu nichts"
+    },
+    "urgentNote": "Eilauftrag? Vermerken Sie es in der Nachricht und ich priorisiere Ihre Anfrage.",
+    "alternativeContact": "Sie können Ihr Dokument auch direkt per E-Mail oder WhatsApp senden"
   },
   "footer": {
     "description": "Beglaubigte Übersetzungen für Spanien und Deutschland. Rechtssicher, schnell, kompetent.",
@@ -214,79 +253,95 @@
   },
   "pricingPage": {
     "title": "Preise und Kostenvoranschläge",
-    "subtitle": "Die Kosten für beglaubigte Übersetzungen hängen von verschiedenen Faktoren ab. Senden Sie Ihre Dokumente für ein unverbindliches Angebot.",
+    "subtitle": "Kostenloses und unverbindliches Angebot innerhalb von 24 Stunden",
+    "introText": "Jedes Dokument ist einzigartig. Senden Sie Ihren Scan und erhalten Sie einen verbindlichen Festpreis, ohne Überraschungen oder versteckte Kosten.",
     "factorsTitle": "Wovon hängt der Preis ab?",
     "factors": {
       "certified": "Art der Übersetzung: beglaubigt oder einfach",
-      "wordCount": "Anzahl der Wörter im Dokument",
-      "complexity": "Textart und technischer Schwierigkeitsgrad",
-      "formatting": "Formatierungsaufwand",
+      "wordCount": "Umfang des Dokuments (Wortzahl)",
+      "complexity": "Technische Komplexität und Fachterminologie",
+      "formatting": "Formatierung und Reproduktion des Originallayouts",
       "outputFormat": "Ausgabeformat (editierbares Word oder PDF)",
       "copies": "Anzahl der benötigten beglaubigten Kopien",
-      "deadline": "Lieferfrist (Eilzuschlag möglich)",
+      "deadline": "Lieferfrist (Eilservice verfügbar)",
       "shipping": "Versandart (Standard, Einschreiben, Express)"
     },
     "jvegNote": "Die Kosten für beglaubigte Übersetzungen Spanisch-Deutsch richten sich in Deutschland nach § 3 JVEG (Justizvergütungs- und -entschädigungsgesetz).",
+    "transparencyNote": "Keine versteckten Kosten: Das Angebot umfasst Übersetzung, Beglaubigung, offizielles Siegel und digitalen Versand. Nur der Postversand wird extra berechnet.",
     "process": {
-      "badge": "In 5 Schritten",
-      "title": "Ablauf der Beauftragung",
-      "subtitle": "So einfach bestellen Sie Ihre beglaubigte Übersetzung",
+      "badge": "Einfach und schnell",
+      "title": "Wie funktioniert es?",
+      "subtitle": "Ihre beglaubigte Übersetzung in 5 einfachen Schritten",
       "step1": {
         "title": "Scan senden",
-        "description": "Senden Sie Ihre Dokumente als PDF per E-Mail"
+        "description": "Per E-Mail, WhatsApp oder Formular. Ein lesbarer Scan oder Foto genügt."
       },
       "step2": {
         "title": "Angebot erhalten",
-        "description": "Sie erhalten ein Angebot innerhalb von 24 Stunden"
+        "description": "Verbindlicher Festpreis innerhalb von 24 Stunden. Unverbindlich."
       },
       "step3": {
         "title": "Bestätigen & bezahlen",
-        "description": "Nehmen Sie das Angebot an und leisten Sie die Zahlung"
+        "description": "Banküberweisung. Offizielle Rechnung mit MwSt."
       },
       "step4": {
-        "title": "Entwurf prüfen",
-        "description": "Sie erhalten einen PDF-Entwurf zur Prüfung"
+        "title": "Signiertes PDF erhalten",
+        "description": "Digitale Vorablieferung für dringende Angelegenheiten."
       },
       "step5": {
-        "title": "Übersetzung erhalten",
-        "description": "Versand des beglaubigten Originals per Post"
+        "title": "Original erhalten",
+        "description": "Beglaubigtes Dokument mit Amtssiegel per Post."
       }
     },
     "scanning": {
       "title": "So senden Sie Ihre Dokumente",
-      "subtitle": "Ein guter Scan hilft uns, Ihnen schneller ein genaues Angebot zu erstellen",
-      "dosTitle": "Richtig",
-      "dontsTitle": "Vermeiden",
+      "subtitle": "Ein guter Scan = schnelleres und genaueres Angebot",
+      "dosTitle": "So geht's richtig",
+      "dontsTitle": "Besser vermeiden",
       "dos": {
-        "pdf": "Dokumente im PDF-Format senden",
-        "clear": "Text muss gut lesbar sein",
-        "stamps": "Stempel und Unterschriften sichtbar",
-        "apostille": "Apostillen ebenfalls scannen",
-        "both": "Vorder- und Rückseite scannen"
+        "pdf": "Vorzugsweise im PDF-Format",
+        "clear": "Lesbarer und vollständiger Text",
+        "stamps": "Sichtbare Stempel und Unterschriften",
+        "apostille": "Apostillen wenn vorhanden beifügen",
+        "both": "Vorder- und Rückseite des Dokuments"
       },
       "donts": {
-        "photo": "Keine Handyfotos (Scanner oder App verwenden)",
-        "blurry": "Keine unscharfen Bilder",
-        "cropped": "Dokument nicht beschneiden",
-        "original": "Original nicht per Post senden"
+        "photo": "Unscharfe oder schattige Fotos",
+        "blurry": "Verschwommene Bilder",
+        "cropped": "Abgeschnittene oder unvollständige Dokumente",
+        "original": "Keine Originale per Post senden (nicht notwendig)"
       },
-      "appNote": "Ohne Scanner können Sie Apps wie CamScanner, Adobe Scan oder die iPhone-Notizen-App verwenden."
+      "appNote": "Kein Scanner? Nutzen Sie CamScanner, Adobe Scan oder die iPhone-Notizen-App. Funktioniert perfekt!"
     },
     "individuals": {
-      "title": "Privatpersonen",
-      "description": "Übersetzungen persönlicher Dokumente für behördliche, akademische oder rechtliche Zwecke.",
-      "examples": "Geburtsurkunden, Heiratsurkunden, Hochschulzeugnisse, Führerscheine, Führungszeugnisse..."
+      "title": "Für Privatpersonen",
+      "description": "Persönliche Dokumente für behördliche, akademische, aufenthaltsrechtliche oder juristische Angelegenheiten.",
+      "examples": "Geburtsurkunden, Heiratsurkunden, Scheidungsurteile, Hochschulzeugnisse, Führerscheine, Führungszeugnisse, Rentenunterlagen...",
+      "commonUse": "Auswanderung, Zeugnisanerkennung, Sozialversicherungsanträge, Erbschaften",
+      "commonUseLabel": "Häufige Anwendung:"
     },
     "corporate": {
-      "title": "Unternehmen",
-      "description": "Übersetzungen von Geschäfts- und Rechtsdokumenten für internationale Geschäftstätigkeit.",
-      "examples": "Handelsregisterauszüge, Satzungen, Verträge, notarielle Urkunden, Finanzberichte..."
+      "title": "Für Unternehmen",
+      "description": "Handels- und Rechtsdokumentation für internationale Geschäftstätigkeit und Expansion.",
+      "examples": "Handelsregisterauszüge, Satzungen, Verträge, notarielle Urkunden, Finanzberichte, Prüfungsberichte...",
+      "commonUse": "Tochtergründung, öffentliche Ausschreibungen, Due Diligence, Fusionen und Übernahmen",
+      "commonUseLabel": "Häufige Anwendung:"
+    },
+    "guarantee": {
+      "title": "Mein Versprechen",
+      "items": [
+        {"title": "Garantierte Akzeptanz", "description": "Ihre Dokumente werden von den Behörden akzeptiert. Über 30 Jahre ohne Ablehnung."},
+        {"title": "Festpreis", "description": "Das Angebot ist der Endpreis. Keine Überraschungen oder Zusatzkosten."},
+        {"title": "Vollständige Vertraulichkeit", "description": "Berufsgeheimnis garantiert. Ihre Dokumente sind geschützt."},
+        {"title": "Pünktliche Lieferung", "description": "Wir halten vereinbarte Fristen ein. Eilservice verfügbar."}
+      ]
     },
     "cta": {
-      "title": "Benötigen Sie ein Angebot?",
-      "description": "Senden Sie Ihre gescannten Dokumente und erhalten Sie innerhalb von 24 Stunden ein detailliertes Angebot.",
-      "email": "Per E-Mail senden",
-      "form": "Formular verwenden"
+      "title": "Bereit anzufangen?",
+      "description": "Senden Sie Ihr Dokument jetzt und erhalten Sie ein kostenloses Angebot innerhalb von 24 Stunden.",
+      "email": "Per E-Mail senden →",
+      "form": "Formular verwenden →",
+      "note": "Unverbindlich. Sie brauchen nur einen lesbaren Scan oder Foto."
     }
   },
   "privacyPage": {

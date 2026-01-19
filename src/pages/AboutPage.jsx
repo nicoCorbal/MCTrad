@@ -20,25 +20,54 @@ function AboutPage() {
 
       {/* Hero */}
       <motion.section
-        className="pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-gray-50 to-white"
+        className="pt-32 pb-12 md:pt-40 md:pb-16 bg-gradient-to-b from-gray-50 to-white"
         initial="hidden"
         animate="visible"
         variants={staggerContainer}
       >
         <div className="max-w-6xl mx-auto px-6">
-          <motion.div className="max-w-2xl" variants={staggerContainer}>
+          <motion.div className="max-w-3xl" variants={staggerContainer}>
+            <motion.p
+              className="text-sm font-medium text-blue-600 uppercase tracking-wider mb-3"
+              variants={fadeInUp}
+            >
+              {t('aboutPage.subtitle')}
+            </motion.p>
             <motion.h1
-              className="font-serif text-4xl md:text-5xl font-semibold text-gray-900 mb-4"
+              className="font-serif text-4xl md:text-5xl font-semibold text-gray-900 mb-6"
               variants={fadeInUp}
             >
               {t('aboutPage.title')}
             </motion.h1>
             <motion.p
-              className="text-lg text-gray-600 leading-relaxed"
+              className="text-xl text-gray-600 leading-relaxed"
               variants={fadeInUp}
             >
               {t('aboutPage.introduction')}
             </motion.p>
+          </motion.div>
+
+          {/* Stats */}
+          <motion.div
+            className="grid grid-cols-3 gap-6 mt-12 max-w-2xl"
+            variants={staggerContainer}
+          >
+            {[
+              { value: t('aboutPage.stats.experience'), label: t('aboutPage.stats.experienceLabel') },
+              { value: t('aboutPage.stats.documents'), label: t('aboutPage.stats.documentsLabel') },
+              { value: t('aboutPage.stats.rejections'), label: t('aboutPage.stats.rejectionsLabel') }
+            ].map((stat, i) => (
+              <motion.div
+                key={i}
+                className="text-center p-4 bg-white rounded-xl border border-gray-100 shadow-sm"
+                variants={staggerItem}
+                whileHover={{ y: -4, boxShadow: "0 8px 30px rgba(0,0,0,0.08)" }}
+                transition={{ duration: 0.2 }}
+              >
+                <p className="text-3xl md:text-4xl font-bold text-blue-600">{stat.value}</p>
+                <p className="text-sm text-gray-500 mt-1">{stat.label}</p>
+              </motion.div>
+            ))}
           </motion.div>
         </div>
       </motion.section>
@@ -141,28 +170,52 @@ function AboutPage() {
 
             {/* Main Content */}
             <motion.div
-              className="lg:col-span-2 space-y-12"
+              className="lg:col-span-2 space-y-10"
               variants={staggerContainer}
             >
               {[
                 { title: t('aboutPage.sections.experience'), content: t('aboutPage.paragraph1') },
                 { title: t('aboutPage.sections.capabilities'), content: t('aboutPage.paragraph2') },
+                { title: null, content: t('aboutPage.paragraph3') },
                 { title: t('aboutPage.sections.commitment'), content: t('aboutPage.conclusion') }
               ].map((section, i) => (
                 <motion.div
                   key={i}
                   variants={staggerItem}
-                  whileHover={{ x: 4 }}
+                  className={`${section.title ? 'pl-6 border-l-2 border-blue-100' : 'pl-6 border-l-2 border-gray-100'}`}
+                  whileHover={{ borderColor: "rgb(59 130 246)" }}
                   transition={{ duration: 0.2 }}
                 >
-                  <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-4">
-                    {section.title}
-                  </h2>
+                  {section.title && (
+                    <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-3">
+                      {section.title}
+                    </h2>
+                  )}
                   <p className="text-gray-600 leading-relaxed">
                     {section.content}
                   </p>
                 </motion.div>
               ))}
+
+              {/* Values Section */}
+              <motion.div variants={staggerItem} className="mt-12">
+                <h2 className="font-serif text-2xl font-semibold text-gray-900 mb-6">
+                  {t('aboutPage.values.title')}
+                </h2>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {t('aboutPage.values.items', { returnObjects: true }).map((item, i) => (
+                    <motion.div
+                      key={i}
+                      className="p-5 bg-gray-50 rounded-xl"
+                      whileHover={{ scale: 1.02, backgroundColor: "rgb(239 246 255)" }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
+                      <p className="text-sm text-gray-600">{item.description}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              </motion.div>
             </motion.div>
 
           </div>

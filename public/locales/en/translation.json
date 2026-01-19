@@ -6,10 +6,10 @@
   "contact": "Contact",
   "homePage": {
     "heroTitle1": "Certified Translations",
-    "heroTitle2": "Legally Valid & State-Recognized.",
-    "heroSubtitle": "legal precision for critical documents in Spain, Germany, and beyond.",
-    "heroDescription": "Sworn translator appointed by the Spanish Ministry (MAEC) and authorized translator by the Higher Regional Court of Cologne (OLG Köln). Your expert for international legal affairs.",
-    "requestQuote": "request a quote",
+    "heroTitle2": "German ⟷ Spanish",
+    "heroSubtitle": "Immediate legal validity in Spain and Germany. Express delivery available.",
+    "heroDescription": "The only translator with dual official certification: MAEC (Spain) and OLG Cologne (Germany). +30 years of experience with legal, academic, and corporate documents.",
+    "requestQuote": "Free Quote in 24h →",
     "trustBadge": "Spanish Ministry of Foreign Affairs (MAEC) • OLG Cologne authorized",
     "servicesTitle": "My expertise",
     "service1Title": "sworn translation",
@@ -21,7 +21,7 @@
     "languagePairsTitle": "Language combinations",
     "bidirectional": "bidirectional (both ways)",
     "unidirectional": "unidirectional",
-    "credentialsTitle": "state accreditations",
+    "credentialsTitle": "State Accreditations",
     "spainTitle": "Spain (MAEC)",
     "spainDesc": "sworn translator and interpreter appointed by the Ministry of Foreign Affairs, European Union and Cooperation.",
     "germanyTitle": "Germany (OLG Cologne)",
@@ -35,9 +35,9 @@
     "statDocuments": "documents translated",
     "certifiedIn": "Certified in",
     "officialBadge": "state-recognized",
-    "ctaTitle": "Need a certified translation?",
-    "ctaSubtitle": "Send your documents for a non-binding fixed-price quote.",
-    "ctaContact": "free quote",
+    "ctaTitle": "Urgent deadline?",
+    "ctaSubtitle": "Send your document now and receive a fixed quote within 1 hour. No commitment.",
+    "ctaContact": "Send Document →",
     "ctaLearnMore": "learn more",
     "spanish": "Spanish",
     "german": "German",
@@ -113,9 +113,11 @@
   },
   "servicesPage": {
     "title": "Services & Expertise",
+    "subtitle": "Translations with immediate legal validity in Spain and Germany, without additional formalities",
     "generalTranslation": {
       "heading": "Specialized Translations",
-      "description": "high-quality translations for legal, economic, and technical texts. Precise terminology and stylistic reliability for your business correspondence."
+      "description": "Legal, economic, and technical texts translated with terminological precision. Over 30 years of experience in commercial, notarial, and corporate law guarantee your documents arrive perfectly.",
+      "benefits": ["Precise terminology for each sector", "Comprehensive review included", "Format adapted to destination country"]
     },
     "languagePairs": {
       "germanSpanish": "German ⟷ Spanish",
@@ -123,64 +125,101 @@
       "englishGerman": "English → German",
       "englishSpanish": "English → Spanish",
       "galicianGerman": "Galician ⟷ German",
-      "description": "Professional translation in these combinations."
+      "description": "Professional translations in these combinations. Availability for other combinations on request."
     },
     "swornTranslation": {
-      "heading": "Sworn Document Translation",
-      "description": "mandatory for submission to civil registries, courts, universities, and immigration offices.",
+      "heading": "Certified Document Translation",
+      "description": "Your document translated with full legal validity. Essential for civil registries, courts, universities, notaries, and immigration offices. No rejections or returns.",
       "spain": {
         "title": "for Spain (Traductora Jurada)",
-        "description": "with official stamp and signature according to the Spanish Ministry (MAEC) guidelines.",
-        "linkText": "View MAEC List"
+        "description": "Official appointment by the Spanish Ministry of Foreign Affairs (MAEC). Stamp and signature recognized nationwide.",
+        "linkText": "Verify in official MAEC list"
       },
       "germany": {
         "title": "for Germany (Authorized Translator)",
-        "description": "certified translation according to § 142 para. 3 ZPO, recognized by the OLG Cologne.",
-        "linkText": "View Justice Directory"
+        "description": "Authorized by the Higher Regional Court of Cologne (OLG Köln). Accepted directly by all German authorities without additional apostille.",
+        "linkText": "Verify in Justiz-Dolmetscher directory"
       }
+    },
+    "whyChoose": {
+      "heading": "Why choose me?",
+      "reasons": [
+        {"title": "Dual official accreditation", "description": "The only translator with valid certification in Spain AND Germany simultaneously."},
+        {"title": "No rejections", "description": "Over 30 years of experience. I know the exact requirements of each authority."},
+        {"title": "Early digital delivery", "description": "Signed PDF same day for urgent matters. Original by postal mail."},
+        {"title": "Fixed price with no surprises", "description": "The quote you receive is the final price. No hidden costs."}
+      ]
     }
   },
   "aboutPage": {
-    "title": "María Ángeles Capas – Your Translator",
-    "introduction": "As a dual-qualified translator, I bridge the legal systems of Spain and Germany. My authorization by the OLG Cologne and appointment by the Spanish Ministry guarantee you maximum legal certainty.",
-    "paragraph1": "For many years, I have been supporting law firms, notaries, companies, and private individuals in overcoming language barriers in the bureaucratic jungle. I know that in legal texts, every detail counts.",
-    "paragraph2": "In addition to my legal expertise, I also offer technical translations. Based in Spain with accreditation in Germany, I am the ideal link for your international affairs.",
-    "conclusion": "Personal service, direct communication, and absolute confidentiality are a matter of course for me. I look forward to supporting you with your request.",
+    "title": "Your certified translator",
+    "subtitle": "Over 30 years connecting Spain and Germany",
+    "introduction": "I'm María Ángeles Capas, a sworn translator with the dual accreditation you need: appointed by the Spanish Ministry of Foreign Affairs and authorized by the Higher Regional Court of Cologne (Germany).",
+    "paragraph1": "For over three decades, I've been helping individuals, law firms, notaries, and companies overcome language barriers in their international procedures. I know that when you need a certified translation, what you really need is peace of mind: that your document will be accepted the first time, without rejections or complications.",
+    "paragraph2": "My specialization in law, economics, and official documentation allows me to translate with the terminological precision that official bodies require. Every comma, every legal term, every formality counts.",
+    "paragraph3": "I work from Ourense (Spain), but my German authorization allows me to offer translations valid in both countries without additional apostille. An advantage that few translators can offer.",
+    "conclusion": "Direct contact, no intermediaries. You talk to me, I translate your document, and I deliver it personally. It's that simple.",
+    "stats": {
+      "experience": "+30 years",
+      "experienceLabel": "of experience",
+      "documents": "+10,000",
+      "documentsLabel": "documents translated",
+      "rejections": "0",
+      "rejectionsLabel": "rejections by authorities"
+    },
     "sections": {
-      "presentation": "Profile",
-      "experience": "Experience",
-      "capabilities": "Competencies",
-      "commitment": "Quality standard"
+      "presentation": "Who I am",
+      "experience": "My background",
+      "capabilities": "Specialties",
+      "commitment": "My commitment"
     },
     "credentials": {
-      "officialSeal": "official stamp",
-      "certification": "Accreditation",
-      "spainAndGermany": "DE & ES",
-      "specialization": "Specializations",
-      "legalAndTechnical": "law & economics",
-      "officialStamps": "Official Stamps"
+      "officialSeal": "Official stamp",
+      "certification": "Dual accreditation",
+      "spainAndGermany": "Spain and Germany",
+      "specialization": "Specialties",
+      "legalAndTechnical": "Law and economics",
+      "officialStamps": "Official stamps"
+    },
+    "values": {
+      "title": "How I work",
+      "items": [
+        {"title": "Personal contact", "description": "You speak directly with me. No salespeople, no intermediaries."},
+        {"title": "Complete confidentiality", "description": "Professional secrecy guaranteed. Your documents are protected."},
+        {"title": "Deadlines met", "description": "If I give you a date, I keep it. Rush service available."},
+        {"title": "Fixed price", "description": "The quote is the final price. No surprises."}
+      ]
     }
   },
   "contactPage": {
-    "title": "Contact & Quote",
-    "introduction": "Do you have questions or need a quick quote? Simply send me your documents via email or use the form.",
+    "title": "Request Your Quote",
+    "subtitle": "Free quote within 24 hours. No obligation.",
+    "introduction": "Send a scan or photo of your document and receive a fixed quote with final price. No hidden costs or surprises.",
+    "howItWorks": "Simply attach your document (PDF, photo, or scan) and you'll receive a response the same business day.",
     "form": {
       "name": "Your Name",
       "email": "Your Email",
       "subject": "Subject (e.g. Birth Certificate Translation)",
       "message": "Message / Project Details",
-      "submit": "Request Quote",
+      "submit": "Request free quote →",
       "sending": "Sending...",
-      "successTitle": "Thank you!",
-      "successMessage": "Your request has been received. I will get back to you shortly.",
-      "sendAnother": "New Message",
-      "error": "Error sending. Please try via email."
+      "successTitle": "Message received!",
+      "successMessage": "I will review your document and send you a quote within 24 hours. Please also check your spam folder.",
+      "sendAnother": "Send another document",
+      "error": "Error sending. Please try via direct email."
     },
     "guarantees": {
-      "responseTime": "Fast Response",
-      "confidentiality": "Confidentiality",
-      "professionalService": "Direct Contact"
-    }
+      "responseTime": "Response in 24h",
+      "responseTimeDesc": "Detailed quote the same business day",
+      "confidentiality": "100% Confidential",
+      "confidentialityDesc": "Your documents treated with professional secrecy",
+      "professionalService": "Direct contact",
+      "professionalServiceDesc": "Direct communication with me, no intermediaries",
+      "noObligation": "No obligation",
+      "noObligationDesc": "The quote doesn't commit you to anything"
+    },
+    "urgentNote": "Urgent matter? Mention it in your message and I'll prioritize your request.",
+    "alternativeContact": "You can also send your document directly via email or WhatsApp"
   },
   "footer": {
     "description": "Sworn translations for Spain and Germany. Legally valid, fast, and competent.",
@@ -233,79 +272,95 @@
   },
   "pricingPage": {
     "title": "Pricing & Quotes",
-    "subtitle": "The cost of sworn translations depends on several factors. Send your documents to receive a personalized quote with no obligation.",
+    "subtitle": "Free quote with no obligation within 24 hours",
+    "introText": "Every document is unique. Send your scan and receive a fixed final price, no surprises or hidden costs.",
     "factorsTitle": "What does the price depend on?",
     "factors": {
       "certified": "Type of translation: certified (sworn) or standard",
-      "wordCount": "Number of words in the document",
-      "complexity": "Type of text and level of technical difficulty",
-      "formatting": "Formatting and layout effort",
+      "wordCount": "Document length (word count)",
+      "complexity": "Technical complexity and specialized terminology",
+      "formatting": "Layout and reproduction of original format",
       "outputFormat": "Delivery format (editable Word or PDF)",
       "copies": "Number of certified copies required",
-      "deadline": "Delivery deadline (rush surcharge may apply)",
+      "deadline": "Delivery deadline (rush service available)",
       "shipping": "Shipping method (standard, registered, express)"
     },
     "jvegNote": "Costs for sworn Spanish-German translations in Germany are governed by § 3 of the Judicial Remuneration and Compensation Act (JVEG).",
+    "transparencyNote": "No hidden costs: the quote includes translation, certification, official stamp, and digital delivery. Only postal shipping is charged separately.",
     "process": {
-      "badge": "In 5 steps",
-      "title": "Order Process",
-      "subtitle": "Ordering your sworn translation is easy",
+      "badge": "Easy and fast",
+      "title": "How does it work?",
+      "subtitle": "Your certified translation in 5 simple steps",
       "step1": {
         "title": "Send the scan",
-        "description": "Send your scanned documents as PDF via email"
+        "description": "Via email, WhatsApp, or form. A legible scan or photo is sufficient."
       },
       "step2": {
         "title": "Receive quote",
-        "description": "Receive a detailed quote within 24 hours"
+        "description": "Fixed final price within 24 hours. No obligation."
       },
       "step3": {
         "title": "Confirm and pay",
-        "description": "Accept the quote and make the payment"
+        "description": "Bank transfer. Official invoice with VAT included."
       },
       "step4": {
-        "title": "Review draft",
-        "description": "Receive a draft PDF for your review"
+        "title": "Receive signed PDF",
+        "description": "Early digital delivery for urgent matters."
       },
       "step5": {
-        "title": "Receive translation",
-        "description": "Certified original sent by postal mail"
+        "title": "Receive the original",
+        "description": "Certified document with official stamp by postal mail."
       }
     },
     "scanning": {
       "title": "How to send your documents",
-      "subtitle": "A good scan helps us provide a faster and more accurate quote",
+      "subtitle": "A good scan = faster and more accurate quote",
       "dosTitle": "Do",
       "dontsTitle": "Don't",
       "dos": {
-        "pdf": "Send documents in PDF format",
-        "clear": "Make sure the text is legible",
-        "stamps": "Include visible stamps and signatures",
-        "apostille": "Also scan apostilles if present",
-        "both": "Scan front and back of the document"
+        "pdf": "PDF format preferred",
+        "clear": "Legible and complete text",
+        "stamps": "Visible stamps and signatures",
+        "apostille": "Include apostilles if present",
+        "both": "Front and back of document"
       },
       "donts": {
-        "photo": "Avoid phone photos (use scanner or app)",
-        "blurry": "Avoid blurry or unfocused images",
-        "cropped": "Don't crop parts of the document",
-        "original": "No need to send the original by mail"
+        "photo": "Blurry or shadowy photos",
+        "blurry": "Unfocused images",
+        "cropped": "Cropped or incomplete documents",
+        "original": "Don't send originals by mail (not necessary)"
       },
-      "appNote": "If you don't have a scanner, you can use mobile apps like CamScanner, Adobe Scan, or iPhone Notes app."
+      "appNote": "No scanner? Use CamScanner, Adobe Scan, or iPhone Notes app. Works perfectly!"
     },
     "individuals": {
-      "title": "Individuals",
-      "description": "Translations of personal documents for administrative, academic, or legal procedures.",
-      "examples": "Birth certificates, marriage certificates, university degrees, driver's licenses, criminal records..."
+      "title": "For Individuals",
+      "description": "Personal documents for administrative, academic, immigration, or legal procedures.",
+      "examples": "Birth certificates, marriage certificates, divorce judgments, university degrees, driver's licenses, criminal records, pensions...",
+      "commonUse": "Emigration, degree recognition, social security procedures, inheritances",
+      "commonUseLabel": "Common use:"
     },
     "corporate": {
-      "title": "Businesses",
-      "description": "Translations of commercial and legal documentation for international operations.",
-      "examples": "Commercial registry extracts, articles of association, contracts, notarial deeds, financial reports..."
+      "title": "For Businesses",
+      "description": "Commercial and legal documentation for international operations and expansion.",
+      "examples": "Commercial registry extracts, articles of association, contracts, notarial deeds, financial reports, audits...",
+      "commonUse": "Subsidiary formation, public tenders, due diligence, mergers and acquisitions",
+      "commonUseLabel": "Common use:"
+    },
+    "guarantee": {
+      "title": "My commitment",
+      "items": [
+        {"title": "Guaranteed acceptance", "description": "Your documents will be accepted by authorities. Over 30 years without rejections."},
+        {"title": "Fixed price", "description": "The quote is the final price. No surprises or additional costs."},
+        {"title": "Complete confidentiality", "description": "Professional secrecy guaranteed. Your documents are protected."},
+        {"title": "On-time delivery", "description": "We meet agreed deadlines. Rush service available."}
+      ]
     },
     "cta": {
-      "title": "Need a quote?",
-      "description": "Send your scanned documents and receive a detailed quote within 24 hours.",
-      "email": "Send by email",
-      "form": "Use form"
+      "title": "Ready to start?",
+      "description": "Send your document now and receive a free quote within 24 hours.",
+      "email": "Send by email →",
+      "form": "Use form →",
+      "note": "No obligation. You just need a legible scan or photo."
     }
   }
 }

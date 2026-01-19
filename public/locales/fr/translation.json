@@ -6,10 +6,10 @@
   "contact": "Contact",
   "homePage": {
     "heroTitle1": "Traductions Assermentées",
-    "heroTitle2": "Valeur Légale & Agréée par l'État.",
-    "heroSubtitle": "précision juridique pour vos démarches en Espagne, Allemagne et France.",
-    "heroDescription": "Traductrice assermentée par le MAEC (Espagne) et habilitée par l'OLG de Cologne (Allemagne). Votre experte pour les affaires juridiques internationales.",
-    "requestQuote": "demander un devis",
+    "heroTitle2": "Allemand ⟷ Espagnol",
+    "heroSubtitle": "Validité juridique immédiate en Espagne et Allemagne. Livraison express disponible.",
+    "heroDescription": "La seule traductrice avec double certification officielle : MAEC (Espagne) et OLG Cologne (Allemagne). +30 ans d'expérience en documents juridiques, académiques et commerciaux.",
+    "requestQuote": "Devis gratuit en 24h →",
     "trustBadge": "Ministère des Affaires étrangères (MAEC) • OLG Cologne",
     "servicesTitle": "Mes domaines d'expertise",
     "service1Title": "traduction assermentée",
@@ -21,7 +21,7 @@
     "languagePairsTitle": "Combinaisons de langues",
     "bidirectional": "bidirectionnel",
     "unidirectional": "unidirectionnel",
-    "credentialsTitle": "accréditations étatiques",
+    "credentialsTitle": "Accréditations étatiques",
     "spainTitle": "Espagne (MAEC)",
     "spainDesc": "traductrice-interprète jurée nommée par le Ministère des Affaires étrangères, de l'Union européenne et de la Coopération.",
     "germanyTitle": "Allemagne (OLG Cologne)",
@@ -35,9 +35,9 @@
     "statDocuments": "documents traduits",
     "certifiedIn": "Accréditée en",
     "officialBadge": "reconnue par l'État",
-    "ctaTitle": "Besoin d'une traduction assermentée ?",
-    "ctaSubtitle": "Envoyez vos documents pour recevoir un devis ferme et sans engagement.",
-    "ctaContact": "devis gratuit",
+    "ctaTitle": "Démarche urgente ?",
+    "ctaSubtitle": "Envoyez votre document maintenant et recevez un devis fixe en moins d'une heure. Sans engagement.",
+    "ctaContact": "Envoyer Document →",
     "ctaLearnMore": "en savoir plus",
     "spanish": "espagnol",
     "german": "allemand",
@@ -113,9 +113,11 @@
   },
   "servicesPage": {
     "title": "Services et Spécialisations",
+    "subtitle": "Traductions avec validité juridique immédiate en Espagne et Allemagne, sans formalités supplémentaires",
     "generalTranslation": {
       "heading": "Traductions Spécialisées",
-      "description": "Traductions de haute qualité pour textes juridiques, économiques et techniques. Terminologie précise et style adapté à votre communication d'entreprise."
+      "description": "Textes juridiques, économiques et techniques traduits avec précision terminologique. Plus de 30 ans d'expérience en droit commercial, notarial et des sociétés garantissent que vos documents arrivent parfaits à destination.",
+      "benefits": ["Terminologie précise pour chaque secteur", "Révision complète incluse", "Format adapté au pays de destination"]
     },
     "languagePairs": {
       "germanSpanish": "Allemand ⟷ Espagnol",
@@ -123,64 +125,101 @@
       "englishGerman": "Anglais → Allemand",
       "englishSpanish": "Anglais → Espagnol",
       "galicianGerman": "Galicien ⟷ Allemand",
-      "description": "Traduction professionnelle dans ces combinaisons."
+      "description": "Traductions professionnelles dans ces combinaisons. Disponibilité pour d'autres combinaisons sur demande."
     },
     "swornTranslation": {
-      "heading": "Traduction Jurée de Documents",
-      "description": "Obligatoire pour présentation aux états civils, tribunaux, universités et services de l'immigration.",
+      "heading": "Traduction Assermentée de Documents",
+      "description": "Votre document traduit avec pleine validité juridique. Indispensable pour les états civils, tribunaux, universités, notaires et services de l'immigration. Sans refus ni renvoi.",
       "spain": {
         "title": "Pour l'Espagne (Traductora Jurada)",
-        "description": "Avec sceau et signature selon les normes du Ministère espagnol (MAEC).",
-        "linkText": "Voir la liste du MAEC"
+        "description": "Nomination officielle par le Ministère des Affaires étrangères espagnol (MAEC). Sceau et signature reconnus sur tout le territoire national.",
+        "linkText": "Vérifier dans la liste officielle du MAEC"
       },
       "germany": {
         "title": "Pour l'Allemagne (Traductrice Habilitée)",
-        "description": "Traduction certifiée selon § 142 ZPO, reconnue par l'OLG de Cologne.",
-        "linkText": "Annuaire des traducteurs de justice"
+        "description": "Habilitée par le Tribunal régional supérieur de Cologne (OLG Köln). Acceptée directement par toutes les autorités allemandes sans apostille supplémentaire.",
+        "linkText": "Vérifier dans l'annuaire Justiz-Dolmetscher"
       }
+    },
+    "whyChoose": {
+      "heading": "Pourquoi me choisir ?",
+      "reasons": [
+        {"title": "Double accréditation officielle", "description": "La seule traductrice avec certification valide en Espagne ET Allemagne simultanément."},
+        {"title": "Sans refus", "description": "Plus de 30 ans d'expérience. Je connais les exigences exactes de chaque organisme."},
+        {"title": "Livraison digitale anticipée", "description": "PDF signé le jour même pour les urgences. Original par courrier postal."},
+        {"title": "Prix fixe sans surprises", "description": "Le devis que vous recevez est le prix final. Pas de frais cachés."}
+      ]
     }
   },
   "aboutPage": {
-    "title": "María Ángeles Capas – Votre Traductrice",
-    "introduction": "En tant que traductrice doublement qualifiée, je fais le pont entre les systèmes juridiques espagnol et allemand. Mon habilitation par l'OLG de Cologne et ma nomination par le Ministère espagnol vous garantissent une sécurité juridique maximale.",
-    "paragraph1": "Depuis des années, j'aide cabinets d'avocats, notaires, entreprises et particuliers à surmonter les barrières linguistiques administratives. Je sais que dans le juridique, chaque détail compte.",
-    "paragraph2": "Outre mon expertise juridique, je propose aussi des traductions techniques. Grâce à ma base en Espagne et mon habilitation en Allemagne, je suis le lien idéal pour vos affaires internationales.",
-    "conclusion": "Service personnalisé, communication directe et confidentialité absolue sont mes priorités. Je serais ravie de vous assister.",
+    "title": "Votre traductrice assermentée",
+    "subtitle": "Plus de 30 ans de connexion entre l'Espagne et l'Allemagne",
+    "introduction": "Je suis María Ángeles Capas, traductrice assermentée avec la double accréditation dont vous avez besoin : nommée par le Ministère des Affaires étrangères espagnol et habilitée par le Tribunal régional supérieur de Cologne (Allemagne).",
+    "paragraph1": "Depuis plus de trois décennies, j'aide particuliers, cabinets d'avocats, notaires et entreprises à surmonter les barrières linguistiques dans leurs démarches internationales. Je sais que lorsque vous avez besoin d'une traduction assermentée, ce dont vous avez vraiment besoin c'est la tranquillité : que votre document soit accepté du premier coup, sans refus ni complications.",
+    "paragraph2": "Ma spécialisation en droit, économie et documentation officielle me permet de traduire avec la précision terminologique qu'exigent les organismes officiels. Chaque virgule, chaque terme juridique, chaque formalité compte.",
+    "paragraph3": "Je travaille depuis Ourense (Espagne), mais mon accréditation allemande me permet d'offrir des traductions valides dans les deux pays sans apostille supplémentaire. Un avantage que peu de traducteurs peuvent offrir.",
+    "conclusion": "Contact direct, sans intermédiaires. Vous me parlez, je traduis votre document et je vous le livre personnellement. C'est aussi simple que ça.",
+    "stats": {
+      "experience": "+30 ans",
+      "experienceLabel": "d'expérience",
+      "documents": "+10 000",
+      "documentsLabel": "documents traduits",
+      "rejections": "0",
+      "rejectionsLabel": "refus par les autorités"
+    },
     "sections": {
-      "presentation": "Profil",
-      "experience": "Expérience",
-      "capabilities": "Compétences",
-      "commitment": "Engagement"
+      "presentation": "Qui suis-je",
+      "experience": "Mon parcours",
+      "capabilities": "Spécialités",
+      "commitment": "Mon engagement"
     },
     "credentials": {
-      "officialSeal": "tampon officiel",
-      "certification": "Accréditation",
-      "spainAndGermany": "ES & DE",
-      "specialization": "Domaines",
-      "legalAndTechnical": "Droit & Technique",
-      "officialStamps": "Cachets Officiels"
+      "officialSeal": "Cachet officiel",
+      "certification": "Double accréditation",
+      "spainAndGermany": "Espagne et Allemagne",
+      "specialization": "Spécialités",
+      "legalAndTechnical": "Droit et économie",
+      "officialStamps": "Cachets officiels"
+    },
+    "values": {
+      "title": "Comment je travaille",
+      "items": [
+        {"title": "Contact personnel", "description": "Vous parlez directement avec moi. Sans commerciaux, sans intermédiaires."},
+        {"title": "Confidentialité totale", "description": "Secret professionnel garanti. Vos documents sont protégés."},
+        {"title": "Délais respectés", "description": "Si je vous donne une date, je la respecte. Service urgent disponible."},
+        {"title": "Prix fixe", "description": "Le devis est le prix final. Sans surprises."}
+      ]
     }
   },
   "contactPage": {
-    "title": "Contact & Devis",
-    "introduction": "Vous avez des questions ou besoin d'un devis rapide ? Envoyez-moi vos documents par e-mail ou via le formulaire.",
+    "title": "Demandez votre Devis",
+    "subtitle": "Devis gratuit en moins de 24 heures. Sans engagement.",
+    "introduction": "Envoyez un scan ou une photo de votre document et recevez un devis ferme avec prix final. Pas de frais cachés ni de surprises.",
+    "howItWorks": "Joignez simplement votre document (PDF, photo ou scan) et vous recevrez une réponse le jour ouvrable même.",
     "form": {
       "name": "Votre Nom",
       "email": "Votre E-mail",
       "subject": "Sujet (ex: Traduction Acte de Naissance)",
       "message": "Message / Détails de la demande",
-      "submit": "Demander un devis",
+      "submit": "Demander un devis gratuit →",
       "sending": "Envoi en cours...",
-      "successTitle": "Merci !",
-      "successMessage": "Votre demande a bien été reçue. Je vous répondrai sous peu.",
-      "sendAnother": "Nouveau message",
-      "error": "Erreur lors de l'envoi. Veuillez réessayer par e-mail."
+      "successTitle": "Message reçu !",
+      "successMessage": "J'examinerai votre document et vous enverrai un devis en moins de 24 heures. Vérifiez également votre dossier spam.",
+      "sendAnother": "Envoyer un autre document",
+      "error": "Erreur lors de l'envoi. Veuillez réessayer par e-mail direct."
     },
     "guarantees": {
-      "responseTime": "Réponse rapide",
-      "confidentiality": "Secret professionnel",
-      "professionalService": "Contact direct"
-    }
+      "responseTime": "Réponse en 24h",
+      "responseTimeDesc": "Devis détaillé le jour ouvrable même",
+      "confidentiality": "100% Confidentiel",
+      "confidentialityDesc": "Vos documents traités avec secret professionnel",
+      "professionalService": "Contact direct",
+      "professionalServiceDesc": "Communication directe avec moi, sans intermédiaire",
+      "noObligation": "Sans engagement",
+      "noObligationDesc": "Le devis ne vous engage à rien"
+    },
+    "urgentNote": "Démarche urgente ? Indiquez-le dans le message et je prioriserai votre demande.",
+    "alternativeContact": "Vous pouvez aussi envoyer votre document directement par e-mail ou WhatsApp"
   },
   "footer": {
     "description": "Traductions assermentées pour l'Espagne et l'Allemagne. Juridiquement valables, rapides et compétentes.",
@@ -214,79 +253,95 @@
   },
   "pricingPage": {
     "title": "Tarifs et Devis",
-    "subtitle": "Le coût des traductions assermentées dépend de plusieurs facteurs. Envoyez vos documents pour recevoir un devis personnalisé sans engagement.",
+    "subtitle": "Devis gratuit et sans engagement en moins de 24 heures",
+    "introText": "Chaque document est unique. Envoyez votre scan et recevez un prix ferme et définitif, sans surprises ni frais cachés.",
     "factorsTitle": "De quoi dépend le prix ?",
     "factors": {
       "certified": "Type de traduction : assermentée ou simple",
-      "wordCount": "Nombre de mots du document",
-      "complexity": "Type de texte et niveau de difficulté technique",
-      "formatting": "Travail de mise en page",
+      "wordCount": "Volume du document (nombre de mots)",
+      "complexity": "Complexité technique et terminologie spécialisée",
+      "formatting": "Mise en page et reproduction du format original",
       "outputFormat": "Format de livraison (Word modifiable ou PDF)",
       "copies": "Nombre de copies certifiées nécessaires",
-      "deadline": "Délai de livraison (supplément urgence possible)",
+      "deadline": "Délai de livraison (service urgent disponible)",
       "shipping": "Mode d'envoi (standard, recommandé, express)"
     },
     "jvegNote": "Les coûts des traductions assermentées espagnol-allemand en Allemagne sont régis par le § 3 JVEG (Loi sur la rémunération judiciaire).",
+    "transparencyNote": "Pas de frais cachés : le devis comprend traduction, certification, sceau officiel et envoi digital. Seul l'envoi postal est facturé séparément.",
     "process": {
-      "badge": "En 5 étapes",
-      "title": "Processus de commande",
-      "subtitle": "Commander votre traduction assermentée est simple",
+      "badge": "Simple et rapide",
+      "title": "Comment ça marche ?",
+      "subtitle": "Votre traduction assermentée en 5 étapes simples",
       "step1": {
         "title": "Envoyez le scan",
-        "description": "Envoyez vos documents scannés en PDF par email"
+        "description": "Par email, WhatsApp ou formulaire. Un scan ou photo lisible suffit."
       },
       "step2": {
         "title": "Recevez le devis",
-        "description": "Recevez un devis détaillé sous 24h"
+        "description": "Prix ferme et définitif en moins de 24h. Sans engagement."
       },
       "step3": {
         "title": "Confirmez et payez",
-        "description": "Acceptez le devis et effectuez le paiement"
+        "description": "Virement bancaire. Facture officielle avec TVA."
       },
       "step4": {
-        "title": "Vérifiez le brouillon",
-        "description": "Recevez un brouillon PDF pour vérification"
+        "title": "Recevez le PDF signé",
+        "description": "Livraison digitale anticipée pour les urgences."
       },
       "step5": {
-        "title": "Recevez la traduction",
-        "description": "Envoi de l'original certifié par courrier postal"
+        "title": "Recevez l'original",
+        "description": "Document certifié avec sceau officiel par courrier postal."
       }
     },
     "scanning": {
       "title": "Comment envoyer vos documents",
-      "subtitle": "Un bon scan nous aide à vous fournir un devis plus rapide et précis",
+      "subtitle": "Un bon scan = devis plus rapide et plus précis",
       "dosTitle": "À faire",
       "dontsTitle": "À éviter",
       "dos": {
-        "pdf": "Envoyez les documents en format PDF",
-        "clear": "Assurez-vous que le texte est lisible",
-        "stamps": "Incluez les cachets et signatures visibles",
-        "apostille": "Scannez également les apostilles si présentes",
-        "both": "Scannez le recto et le verso du document"
+        "pdf": "Format PDF de préférence",
+        "clear": "Texte lisible et complet",
+        "stamps": "Cachets et signatures visibles",
+        "apostille": "Inclure les apostilles si présentes",
+        "both": "Recto et verso du document"
       },
       "donts": {
-        "photo": "Évitez les photos au téléphone (utilisez un scanner ou une app)",
-        "blurry": "Évitez les images floues",
-        "cropped": "Ne recadrez pas le document",
-        "original": "Pas besoin d'envoyer l'original par courrier"
+        "photo": "Photos floues ou avec ombres",
+        "blurry": "Images non focalisées",
+        "cropped": "Documents recadrés ou incomplets",
+        "original": "N'envoyez pas les originaux par courrier (pas nécessaire)"
       },
-      "appNote": "Si vous n'avez pas de scanner, vous pouvez utiliser des applications comme CamScanner, Adobe Scan ou l'app Notes de l'iPhone."
+      "appNote": "Pas de scanner ? Utilisez CamScanner, Adobe Scan ou l'app Notes de l'iPhone. Ça marche parfaitement !"
     },
     "individuals": {
-      "title": "Particuliers",
-      "description": "Traductions de documents personnels pour démarches administratives, académiques ou juridiques.",
-      "examples": "Actes de naissance, actes de mariage, diplômes universitaires, permis de conduire, casiers judiciaires..."
+      "title": "Pour Particuliers",
+      "description": "Documents personnels pour démarches administratives, académiques, migratoires ou juridiques.",
+      "examples": "Actes de naissance, mariage, divorce, diplômes universitaires, permis de conduire, casiers judiciaires, retraites...",
+      "commonUse": "Émigration, reconnaissance de diplômes, démarches sécurité sociale, successions",
+      "commonUseLabel": "Usage fréquent :"
     },
     "corporate": {
-      "title": "Entreprises",
-      "description": "Traductions de documents commerciaux et juridiques pour opérations internationales.",
-      "examples": "Extraits du registre du commerce, statuts, contrats, actes notariés, rapports financiers..."
+      "title": "Pour Entreprises",
+      "description": "Documentation commerciale et juridique pour opérations internationales et expansion.",
+      "examples": "Extraits du registre du commerce, statuts, contrats, actes notariés, rapports financiers, audits...",
+      "commonUse": "Création de filiales, appels d'offres publics, due diligence, fusions et acquisitions",
+      "commonUseLabel": "Usage fréquent :"
+    },
+    "guarantee": {
+      "title": "Mon engagement",
+      "items": [
+        {"title": "Acceptation garantie", "description": "Vos documents seront acceptés par les autorités. Plus de 30 ans sans refus."},
+        {"title": "Prix fixe", "description": "Le devis est le prix final. Pas de surprises ni de coûts additionnels."},
+        {"title": "Confidentialité totale", "description": "Secret professionnel garanti. Vos documents sont protégés."},
+        {"title": "Livraison ponctuelle", "description": "Nous respectons les délais convenus. Service urgent disponible."}
+      ]
     },
     "cta": {
-      "title": "Besoin d'un devis ?",
-      "description": "Envoyez vos documents scannés et recevez un devis détaillé sous 24 heures.",
-      "email": "Envoyer par email",
-      "form": "Utiliser le formulaire"
+      "title": "Prêt à commencer ?",
+      "description": "Envoyez votre document maintenant et recevez un devis gratuit en moins de 24 heures.",
+      "email": "Envoyer par email →",
+      "form": "Utiliser le formulaire →",
+      "note": "Sans engagement. Vous avez juste besoin d'un scan ou photo lisible."
     }
   },
   "privacyPage": {

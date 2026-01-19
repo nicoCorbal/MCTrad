@@ -134,7 +134,7 @@ function PricingPage() {
 
         {/* Hero */}
         <motion.section
-          className="relative pt-32 pb-16 md:pt-40 md:pb-20 bg-gradient-to-b from-gray-50 to-white"
+          className="relative pt-32 pb-12 md:pt-40 md:pb-16 bg-gradient-to-b from-gray-50 to-white"
           initial="hidden"
           animate="visible"
           variants={staggerContainer}
@@ -152,11 +152,32 @@ function PricingPage() {
                 {t('pricingPage.title')}
               </motion.h1>
               <motion.p
-                className="text-lg text-gray-600 leading-relaxed"
+                className="text-xl text-gray-600 leading-relaxed mb-4"
                 variants={fadeInUp}
               >
                 {t('pricingPage.subtitle')}
               </motion.p>
+              <motion.p
+                className="text-gray-500 leading-relaxed"
+                variants={fadeInUp}
+              >
+                {t('pricingPage.introText')}
+              </motion.p>
+            </motion.div>
+
+            {/* Transparency note */}
+            <motion.div
+              className="mt-8 p-5 bg-blue-50 border border-blue-100 rounded-xl max-w-2xl"
+              variants={fadeInUp}
+            >
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                  <svg className="w-4 h-4 text-white" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <p className="text-blue-900 font-medium">{t('pricingPage.transparencyNote')}</p>
+              </div>
             </motion.div>
           </div>
         </motion.section>
@@ -357,8 +378,10 @@ function PricingPage() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Individual Clients */}
               <motion.div
-                className="bg-white rounded-2xl p-8 shadow-sm"
+                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100"
                 variants={staggerItem}
+                whileHover={{ y: -4, boxShadow: "0 12px 40px rgba(0,0,0,0.08)" }}
+                transition={{ duration: 0.2 }}
               >
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -372,15 +395,21 @@ function PricingPage() {
                 <p className="text-gray-600 mb-4">
                   {t('pricingPage.individuals.description')}
                 </p>
-                <p className="text-sm text-gray-500">
+                <p className="text-sm text-gray-500 mb-4">
                   {t('pricingPage.individuals.examples')}
                 </p>
+                <div className="pt-4 border-t border-gray-100">
+                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">{t('pricingPage.individuals.commonUseLabel')}</p>
+                  <p className="text-sm text-blue-600 font-medium">{t('pricingPage.individuals.commonUse')}</p>
+                </div>
               </motion.div>
 
               {/* Corporate Clients */}
               <motion.div
-                className="bg-white rounded-2xl p-8 shadow-sm"
+                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100"
                 variants={staggerItem}
+                whileHover={{ y: -4, boxShadow: "0 12px 40px rgba(0,0,0,0.08)" }}
+                transition={{ duration: 0.2 }}
               >
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
                   <svg className="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -394,10 +423,51 @@ function PricingPage() {
                 <p className="text-gray-600 mb-4">
                   {t('pricingPage.corporate.description')}
                 </p>
-                <p className="text-sm text-gray-500">
+                <p className="text-sm text-gray-500 mb-4">
                   {t('pricingPage.corporate.examples')}
                 </p>
+                <div className="pt-4 border-t border-gray-100">
+                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">{t('pricingPage.corporate.commonUseLabel')}</p>
+                  <p className="text-sm text-blue-600 font-medium">{t('pricingPage.corporate.commonUse')}</p>
+                </div>
               </motion.div>
+            </div>
+          </div>
+        </motion.section>
+
+        {/* Guarantee Section */}
+        <motion.section
+          className="py-12 md:py-20"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          variants={staggerContainer}
+        >
+          <div className="max-w-6xl mx-auto px-6">
+            <motion.h2
+              className="font-serif text-2xl md:text-3xl font-semibold text-gray-900 mb-8 text-center"
+              variants={fadeInUp}
+            >
+              {t('pricingPage.guarantee.title')}
+            </motion.h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {t('pricingPage.guarantee.items', { returnObjects: true }).map((item, i) => (
+                <motion.div
+                  key={i}
+                  className="text-center p-6 bg-white rounded-xl border border-gray-100"
+                  variants={staggerItem}
+                  whileHover={{ y: -4, borderColor: "rgb(59 130 246)" }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <div className="w-12 h-12 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
+                    <svg className="w-6 h-6 text-green-600" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-2">{item.title}</h3>
+                  <p className="text-sm text-gray-600">{item.description}</p>
+                </motion.div>
+              ))}
             </div>
           </div>
         </motion.section>
@@ -446,6 +516,12 @@ function PricingPage() {
                 </svg>
               </LocalizedLink>
             </motion.div>
+            <motion.p
+              className="mt-6 text-blue-200 text-sm"
+              variants={fadeInUp}
+            >
+              {t('pricingPage.cta.note')}
+            </motion.p>
           </div>
         </motion.section>
 
