@@ -16,9 +16,9 @@ export const organizationSchema = {
   "name": "María Ángeles Capas - Traductora Jurada",
   "alternateName": ["María Ángeles Capas López", "Traductora Jurada Oficial"],
   "url": SITE_URL,
-  "logo": `${SITE_URL}/logo.png`,
+  "logo": `${SITE_URL}/apple-touch-icon.png`,
   "email": "capaslopez@gmail.com",
-  "foundingDate": "2015",
+  "foundingDate": "1995",
   "founder": {
     "@type": "Person",
     "name": "María Ángeles Capas López",
@@ -46,31 +46,29 @@ export const localBusinessSchema = {
   "name": "María Ángeles Capas - Traductora Jurada",
   "description": "Servicios de traducción jurada oficial alemán-español. Traductora-Intérprete Jurada nombrada por el MAEC y certificada por el OLG Köln.",
   "url": SITE_URL,
+  "image": `${SITE_URL}/apple-touch-icon.png`,
   "email": "capaslopez@gmail.com",
   "priceRange": "€€",
   "paymentAccepted": ["Cash", "Bank Transfer", "PayPal"],
   "currenciesAccepted": "EUR",
   "address": {
     "@type": "PostalAddress",
-    "addressCountry": "ES",
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "40.4168",
-    "longitude": "-3.7038",
+    "addressLocality": "Madrid",
+    "addressRegion": "Madrid",
+    "addressCountry": "ES"
   },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       "opens": "09:00",
-      "closes": "18:00",
-    },
+      "closes": "18:00"
+    }
   ],
   "sameAs": [
     "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Oficina-de-Interpretacion-de-Lenguas/Paginas/Traduccion-e-interpretacion-jurada.aspx",
-    "https://www.justiz-dolmetscher.de/Recherche/de/Suchen",
-  ],
+    "https://www.justiz-dolmetscher.de/Recherche/de/Suchen"
+  ]
 };
 
 /**
@@ -83,6 +81,7 @@ export const professionalServiceSchema = {
   "name": "María Ángeles Capas - Traductora Jurada Oficial",
   "description": "Servicios de traducción jurada oficial alemán-español-francés. Certificada por el MAEC (España) y OLG Köln (Alemania).",
   "url": SITE_URL,
+  "image": `${SITE_URL}/apple-touch-icon.png`,
   "email": "capaslopez@gmail.com",
   "priceRange": "€€",
   "areaServed": [

@@ -70,10 +70,37 @@ async function prerender() {
         timeout: 30000,
       });
 
+      // Wait for critical SEO elements to be present
       await page.waitForSelector('title', { timeout: 10000 });
-      await new Promise(r => setTimeout(r, 2000));
+
+      // Wait for JSON-LD schemas to be injected by React
+      await page.waitForFunction(
+        () => document.querySelectorAll('script[type="application/ld+json"]').length > 0,
+        { timeout: 10000 }
+      ).catch(() => {
+        console.log(`    Warning: No JSON-LD found for ${route}`);
+      });
+
+      // Wait for canonical link to be present
+      await page.waitForSelector('link[rel="canonical"]', { timeout: 5000 }).catch(() => {
+        console.log(`    Warning: No canonical link found for ${route}`);
+      });
+
+      // Additional wait to ensure all dynamic content is rendered
+      await new Promise(r => setTimeout(r, 1500));
 
       const html = await page.content();
+
+      // Verify SEO elements are present
+      const seo_check = await page.evaluate(() => {
+        const title = document.title;
+        const canonical = document.querySelector('link[rel="canonical"]')?.href;
+        const hreflang_count = document.querySelectorAll('link[rel="alternate"][hreflang]').length;
+        const jsonld_count = document.querySelectorAll('script[type="application/ld+json"]').length;
+        return { title, canonical, hreflang_count, jsonld_count };
+      });
+
+      console.log(`    SEO: title="${seo_check.title?.substring(0, 40)}...", canonical=${seo_check.canonical ? 'yes' : 'no'}, hreflang=${seo_check.hreflang_count}, jsonld=${seo_check.jsonld_count}`);
 
       const file_path = path.join(DIST_DIR, route, 'index.html');
       const dir_path = path.dirname(file_path);

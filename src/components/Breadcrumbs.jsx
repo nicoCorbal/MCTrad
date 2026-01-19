@@ -1,6 +1,5 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useDocumentHead } from '../hooks/useDocumentHead';
 import { SITE_URL } from '../config/seo';
 
 /**
@@ -11,9 +10,8 @@ import { SITE_URL } from '../config/seo';
  * @param {Array} props.items - Array of breadcrumb items [{label, href}]
  */
 function Breadcrumbs({ items = [] }) {
-
   // Generate BreadcrumbList schema
-  const breadcrumbSchema = useMemo(() => {
+  const breadcrumb_schema = useMemo(() => {
     if (items.length === 0) return null;
 
     return {
@@ -28,10 +26,27 @@ function Breadcrumbs({ items = [] }) {
     };
   }, [items]);
 
-  // Inject breadcrumb schema
-  useDocumentHead({
-    jsonLd: breadcrumbSchema,
-  });
+  // Inject breadcrumb schema separately (doesn't interfere with page schemas)
+  useEffect(() => {
+    if (!breadcrumb_schema) return;
+
+    const script_id = 'breadcrumb-jsonld';
+    let script = document.getElementById(script_id);
+
+    if (!script) {
+      script = document.createElement('script');
+      script.id = script_id;
+      script.type = 'application/ld+json';
+      document.head.appendChild(script);
+    }
+
+    script.textContent = JSON.stringify(breadcrumb_schema);
+
+    return () => {
+      const el = document.getElementById(script_id);
+      if (el) el.remove();
+    };
+  }, [breadcrumb_schema]);
 
   if (items.length === 0) return null;
 
@@ -43,7 +58,7 @@ function Breadcrumbs({ items = [] }) {
       <div className="max-w-6xl mx-auto px-6 py-3">
         <ol className="flex items-center flex-wrap gap-2 text-sm" itemScope itemType="https://schema.org/BreadcrumbList">
           {items.map((item, index) => {
-            const isLast = index === items.length - 1;
+            const is_last = index === items.length - 1;
 
             return (
               <li
@@ -70,11 +85,11 @@ function Breadcrumbs({ items = [] }) {
                   </svg>
                 )}
 
-                {isLast || !item.href ? (
+                {is_last || !item.href ? (
                   <span
-                    className={`${isLast ? 'text-gray-900 font-medium' : 'text-gray-600'}`}
+                    className={`${is_last ? 'text-gray-900 font-medium' : 'text-gray-600'}`}
                     itemProp="name"
-                    aria-current={isLast ? 'page' : undefined}
+                    aria-current={is_last ? 'page' : undefined}
                   >
                     {item.label}
                   </span>
