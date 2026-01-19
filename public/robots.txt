@@ -1,29 +1,56 @@
 # Robots.txt for mariaangelescapas.com
 # Sworn & Authorized Translator - Spanish, German, French, English
 
-# Allow all crawlers
+# Default: Allow all crawlers
 User-agent: *
 Allow: /
-
-# Block non-content paths
-Disallow: /assets/
-Disallow: /*.js$
-Disallow: /*.css$
-
-# Block development/utility paths
 Disallow: /404
-Disallow: /*?*
 
-# Sitemaps
-Sitemap: https://mariaangelescapas.com/sitemap.xml
-
-# Crawl-delay for polite crawling (optional, respected by some bots)
-# Crawl-delay: 1
-
-# Google-specific
+# ===========================================
+# Traditional Search Engines
+# ===========================================
 User-agent: Googlebot
 Allow: /
 
-# Bing-specific
 User-agent: Bingbot
 Allow: /
+
+# ===========================================
+# AI Search Crawlers (Allow - provides citations)
+# These crawlers fetch content for real-time search results
+# ===========================================
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ===========================================
+# AI Training Crawlers (Block - no direct SEO benefit)
+# These crawlers collect data for model training
+# ===========================================
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# ===========================================
+# Sitemaps
+# ===========================================
+Sitemap: https://mariaangelescapas.com/sitemap.xml
