@@ -84,11 +84,17 @@ export const professionalServiceSchema = {
   "image": `${SITE_URL}/apple-touch-icon.png`,
   "email": "capaslopez@gmail.com",
   "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Madrid",
+    "addressRegion": "Madrid",
+    "addressCountry": "ES"
+  },
   "areaServed": [
     { "@type": "Country", "name": "España" },
     { "@type": "Country", "name": "Alemania" },
   ],
-  "serviceType": [
+  "knowsAbout": [
     "Traducción Jurada",
     "Traducción Legal",
     "Traducción de Documentos Académicos",
@@ -119,7 +125,7 @@ export const professionalServiceSchema = {
       "description": "Ermächtigte Übersetzerin für die französische und spanische Sprache",
     },
   ],
-  "availableLanguage": ["es", "de", "en", "fr"],
+  "knowsLanguage": ["es", "de", "en", "fr"],
 };
 
 /**

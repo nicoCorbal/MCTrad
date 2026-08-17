@@ -5,7 +5,7 @@
 
 export const SITE_URL = 'https://mariaangelescapas.com';
 export const SITE_NAME = 'María Ángeles Capas - Traductora Jurada';
-export const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
+export const DEFAULT_IMAGE = `${SITE_URL}/foto.jpg`;
 
 /**
  * Language-specific site names and locales
@@ -112,7 +112,7 @@ export const seoConfig = {
   privacy: {
     es: {
       title: 'Política de Privacidad | María Ángeles Capas',
-      description: 'Política de privacidad y protección de datos personales. Cumplimiento RGPD. Información detallada sobre el tratamiento, almacenamiento y derechos sobre sus datos.',
+      description: 'Política de privacidad y protección de datos personales. Cumplimiento RGPD. Información sobre el tratamiento de sus datos y cómo ejercer sus derechos.',
       keywords: 'política privacidad, protección datos, RGPD',
     },
     de: {
@@ -166,7 +166,7 @@ export const seoConfig = {
     },
     fr: {
       title: 'Tarifs Traduction Assermentée | Prix et Devis',
-      description: 'Consultez les tarifs de traduction assermentée. Devis gratuit en 24h. Prix transparents.',
+      description: 'Consultez les tarifs de traduction assermentée allemand-espagnol. Devis gratuit sous 24h. Prix transparents selon le barème JVEG, sans frais cachés.',
       keywords: 'tarifs traduction assermentée, prix traduction certifiée, devis traduction',
     },
     en: {
@@ -209,7 +209,7 @@ export const servicePages = {
       },
       en: {
         title: 'Certified Birth Certificate Translation | German-Spanish',
-        description: 'Certified translation of birth certificates with legal validity. Sworn translator MAEC Spain and OLG Cologne. For civil registry, citizenship, visas. 24-48h delivery.',
+        description: 'Certified birth certificate translation with legal validity. Sworn translator MAEC Spain and OLG Cologne. For civil registry, citizenship, visas. 24-48h.',
         keywords: 'birth certificate translation, certified birth certificate, translate birth certificate, apostille birth certificate',
       },
     },
@@ -226,7 +226,7 @@ export const servicePages = {
     seo: {
       es: {
         title: 'Traducción Jurada Certificado de Matrimonio | Alemán-Español',
-        description: 'Traducciones juradas de certificados de matrimonio. Válida para Registro Civil, reagrupación familiar y nacionalidad. Traductora MAEC y OLG Köln. Entrega 24-48h.',
+        description: 'Traducciones juradas de certificados de matrimonio. Válidas para Registro Civil, reagrupación familiar y nacionalidad. MAEC y OLG Köln. Entrega 24-48h.',
         keywords: 'traducción certificado matrimonio, traducir acta matrimonio, traducción jurada matrimonio, inscribir matrimonio extranjero, libro familia alemán',
       },
       de: {
@@ -290,7 +290,7 @@ export const servicePages = {
     seo: {
       es: {
         title: 'Traducción Jurada de Contratos | Alemán-Español',
-        description: 'Traducciones juradas de contratos mercantiles, laborales y NDAs. Precisión jurídica adaptada al derecho español y alemán. Válida ante tribunales. Entrega 24-48h.',
+        description: 'Traducciones juradas de contratos mercantiles, laborales y NDAs. Precisión jurídica en derecho español y alemán. Válidas ante tribunales. Entrega 24-48h.',
         keywords: 'traducción contratos, traducir contrato alemán, traducción jurada contrato, contrato trabajo alemán, NDA traducción',
       },
       de: {
@@ -386,7 +386,7 @@ export const servicePages = {
     seo: {
       es: {
         title: 'Traducción Jurada Documentos Notariales | Alemán-Español',
-        description: 'Traducciones juradas de escrituras públicas, poderes notariales y testamentos. Válida ante notarios españoles y alemanes. Para inmuebles y herencias. Entrega 48-72h.',
+        description: 'Traducciones juradas de escrituras, poderes notariales y testamentos. Válidas ante notarios españoles y alemanes. Inmuebles y herencias. Entrega 48-72h.',
         keywords: 'traducción escritura pública, traducir poder notarial, traducción actas notariales, testamento alemán, Vollmacht traducción',
       },
       de: {
@@ -401,7 +401,7 @@ export const servicePages = {
       },
       en: {
         title: 'Certified Notarial Document Translation | German-Spanish',
-        description: 'Certified translation of notarial deeds, powers of attorney and wills. Valid before Spanish and German notaries. For real estate and inheritance. 48-72h delivery.',
+        description: 'Certified translation of notarial deeds, powers of attorney and wills. Valid before Spanish and German notaries. Real estate and inheritance. 48-72h.',
         keywords: 'notarial translation, power of attorney translation, will translation, deed translation',
       },
     },

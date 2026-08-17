@@ -57,11 +57,17 @@ function ServiceDetailPage() {
         "description": seoData.description,
         "provider": {
           "@type": "ProfessionalService",
+          "@id": `${SITE_URL}/#professionalservice`,
           "name": "María Ángeles Capas - Traductora Jurada",
           "url": SITE_URL,
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Madrid",
+            "addressRegion": "Madrid",
+            "addressCountry": "ES"
+          },
         },
         "areaServed": ["España", "Alemania", "Francia"],
-        "availableLanguage": ["es", "de", "fr", "en"],
         "serviceType": "Translation Service",
       },
       {

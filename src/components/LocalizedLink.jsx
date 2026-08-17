@@ -26,6 +26,10 @@ const pathToRouteKey = {
   '/legal-notice': 'legal',
   '/impressum': 'legal',
   '/mentions-legales': 'legal',
+  '/tarifas': 'pricing',
+  '/preise': 'pricing',
+  '/tarifs': 'pricing',
+  '/pricing': 'pricing',
 };
 
 /**
