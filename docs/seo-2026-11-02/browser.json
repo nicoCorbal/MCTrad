@@ -1,0 +1,118 @@
+{
+  "rows": [
+    {
+      "width": 390,
+      "path": "/es",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/es",
+      "loader": false
+    },
+    {
+      "width": 390,
+      "path": "/de/uebersetzung-heiratsurkunde",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+      "loader": false
+    },
+    {
+      "width": 390,
+      "path": "/es/traduccion-titulo-universitario",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+      "loader": false
+    },
+    {
+      "width": 390,
+      "path": "/en/contact",
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/en/contact",
+      "loader": false
+    },
+    {
+      "width": 768,
+      "path": "/es",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/es",
+      "loader": false
+    },
+    {
+      "width": 768,
+      "path": "/de/uebersetzung-heiratsurkunde",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+      "loader": false
+    },
+    {
+      "width": 768,
+      "path": "/es/traduccion-titulo-universitario",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+      "loader": false
+    },
+    {
+      "width": 768,
+      "path": "/en/contact",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/en/contact",
+      "loader": false
+    },
+    {
+      "width": 1440,
+      "path": "/es",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/es",
+      "loader": false
+    },
+    {
+      "width": 1440,
+      "path": "/de/uebersetzung-heiratsurkunde",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+      "loader": false
+    },
+    {
+      "width": 1440,
+      "path": "/es/traduccion-titulo-universitario",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+      "loader": false
+    },
+    {
+      "width": 1440,
+      "path": "/en/contact",
+      "status": 304,
+      "overflow": false,
+      "h1": 1,
+      "canonical": "https://mariaangelescapas.com/en/contact",
+      "loader": false
+    },
+    {
+      "interaction": "client-side language navigation",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

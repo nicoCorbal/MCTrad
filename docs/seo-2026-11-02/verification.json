@@ -9,7 +9,7 @@
     "fr",
     "en"
   ],
-  "status": "validated locally; awaiting CI publication",
+  "status": "published and verified on canonical domain",
   "deferredByOwner": [
     "numeric pricing changes",
     "Google Business Profile"
@@ -17,9 +17,9 @@
   "analyticsCloudVerification": "pending correct GA4 property; the session inspected was Foco",
   "javascriptBytes": {
     "initialBefore": 439890,
-    "initialAfter": 318410,
+    "initialAfter": 318868,
     "serviceBeforeApprox": 95000,
-    "serviceAfterApprox": 9020
+    "serviceAfterApprox": 9028
   },
   "rollbackDeploymentId": "dpl_5USxuWtP4tgfCvXCPiJEWQ31x2mM",
   "sourceManifest": "source-sha256.json",
@@ -31,5 +31,40 @@
     "56 page prerender validation",
     "static SEO verification"
   ],
-  "sourceFileCount": 113
+  "sourceFileCount": 113,
+  "releaseCommit": "b652d7a62382ca383c27d6a5e942e85fde73961a",
+  "ci": {
+    "runUrl": "https://github.com/nicoCorbal/MCTrad/actions/runs/41384609614",
+    "firstRun": {
+      "url": "https://github.com/nicoCorbal/MCTrad/actions/runs/41384350216",
+      "result": "all verification passed; deployment authentication failed; fixed by passing the GitHub secret to the CLI token option"
+    },
+    "conclusion": "success"
+  },
+  "publishedAtUTC": "2026-11-02T03:45:46Z",
+  "deployment": {
+    "url": "https://mc-trad-3ziy1a91u-nicos-projects-65539a5e.vercel.app",
+    "id": "dpl_3JQrSSCYtoj2xVm1CLJchxtVoA1N",
+    "canonicalDomainVerified": true,
+    "mainScript": "/assets/index-D0_LIRCt.js"
+  },
+  "publicVerification": {
+    "httpPages": "http-pages.json",
+    "headers": "http-headers.json",
+    "browser": "browser.json",
+    "lighthouse": "lighthouse-production.json",
+    "pagesPassed": 56,
+    "browserScenariosPassed": 13
+  },
+  "searchConsoleReindexing": {
+    "status": "pending browser access",
+    "requested": false,
+    "reason": "Native Chrome window unavailable: cgWindowNotFound; owner asked to reopen it",
+    "priorityPaths": [
+      "/es",
+      "/de",
+      "/de/uebersetzung-heiratsurkunde",
+      "/es/traduccion-titulo-universitario"
+    ]
+  }
 }

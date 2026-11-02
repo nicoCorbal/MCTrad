@@ -45,7 +45,7 @@ La configuración del flujo de GA4 debe concordar con las páginas vistas manual
 
 El proyecto es `mc-trad`, del equipo `nicos-projects-65539a5e`, y el dominio canónico es `https://mariaangelescapas.com`.
 
-El flujo existente de GitHub Actions publica `master`. Antes de publicar ejecuta las comprobaciones de código, contenido, medición y SEO. Para una publicación manual desde el artefacto compilado:
+El flujo de GitHub Actions publica los cambios de aplicación de `master`; los cambios solo de documentación no generan otro despliegue. Antes de publicar ejecuta las comprobaciones de código, contenido, medición y SEO. Para una publicación manual desde el artefacto compilado:
 
 ```sh
 cp vercel.json dist/vercel.json

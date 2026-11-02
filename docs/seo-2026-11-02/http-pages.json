@@ -1,0 +1,1182 @@
+{
+  "pageCount": 56,
+  "allPassed": true,
+  "rows": [
+    {
+      "url": "https://mariaangelescapas.com/es",
+      "final": "https://mariaangelescapas.com/es",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 589,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es",
+        "de": "https://mariaangelescapas.com/de",
+        "fr": "https://mariaangelescapas.com/fr",
+        "en": "https://mariaangelescapas.com/en",
+        "x-default": "https://mariaangelescapas.com/es"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de",
+      "final": "https://mariaangelescapas.com/de",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 541,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es",
+        "de": "https://mariaangelescapas.com/de",
+        "fr": "https://mariaangelescapas.com/fr",
+        "en": "https://mariaangelescapas.com/en",
+        "x-default": "https://mariaangelescapas.com/es"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr",
+      "final": "https://mariaangelescapas.com/fr",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 587,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es",
+        "de": "https://mariaangelescapas.com/de",
+        "fr": "https://mariaangelescapas.com/fr",
+        "en": "https://mariaangelescapas.com/en",
+        "x-default": "https://mariaangelescapas.com/es"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en",
+      "final": "https://mariaangelescapas.com/en",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 568,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es",
+        "de": "https://mariaangelescapas.com/de",
+        "fr": "https://mariaangelescapas.com/fr",
+        "en": "https://mariaangelescapas.com/en",
+        "x-default": "https://mariaangelescapas.com/es"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/servicios",
+      "final": "https://mariaangelescapas.com/es/servicios",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/servicios"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 316,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/servicios",
+        "de": "https://mariaangelescapas.com/de/dienstleistungen",
+        "fr": "https://mariaangelescapas.com/fr/services",
+        "en": "https://mariaangelescapas.com/en/services",
+        "x-default": "https://mariaangelescapas.com/es/servicios"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/dienstleistungen",
+      "final": "https://mariaangelescapas.com/de/dienstleistungen",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/dienstleistungen"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 285,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/servicios",
+        "de": "https://mariaangelescapas.com/de/dienstleistungen",
+        "fr": "https://mariaangelescapas.com/fr/services",
+        "en": "https://mariaangelescapas.com/en/services",
+        "x-default": "https://mariaangelescapas.com/es/servicios"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/services",
+      "final": "https://mariaangelescapas.com/fr/services",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/services"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 311,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/servicios",
+        "de": "https://mariaangelescapas.com/de/dienstleistungen",
+        "fr": "https://mariaangelescapas.com/fr/services",
+        "en": "https://mariaangelescapas.com/en/services",
+        "x-default": "https://mariaangelescapas.com/es/servicios"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/services",
+      "final": "https://mariaangelescapas.com/en/services",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/services"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 305,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/servicios",
+        "de": "https://mariaangelescapas.com/de/dienstleistungen",
+        "fr": "https://mariaangelescapas.com/fr/services",
+        "en": "https://mariaangelescapas.com/en/services",
+        "x-default": "https://mariaangelescapas.com/es/servicios"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/tarifas",
+      "final": "https://mariaangelescapas.com/es/tarifas",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/tarifas"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 628,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/tarifas",
+        "de": "https://mariaangelescapas.com/de/preise",
+        "fr": "https://mariaangelescapas.com/fr/tarifs",
+        "en": "https://mariaangelescapas.com/en/pricing",
+        "x-default": "https://mariaangelescapas.com/es/tarifas"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/preise",
+      "final": "https://mariaangelescapas.com/de/preise",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/preise"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 549,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/tarifas",
+        "de": "https://mariaangelescapas.com/de/preise",
+        "fr": "https://mariaangelescapas.com/fr/tarifs",
+        "en": "https://mariaangelescapas.com/en/pricing",
+        "x-default": "https://mariaangelescapas.com/es/tarifas"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/tarifs",
+      "final": "https://mariaangelescapas.com/fr/tarifs",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/tarifs"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 639,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/tarifas",
+        "de": "https://mariaangelescapas.com/de/preise",
+        "fr": "https://mariaangelescapas.com/fr/tarifs",
+        "en": "https://mariaangelescapas.com/en/pricing",
+        "x-default": "https://mariaangelescapas.com/es/tarifas"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/pricing",
+      "final": "https://mariaangelescapas.com/en/pricing",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/pricing"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 595,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/tarifas",
+        "de": "https://mariaangelescapas.com/de/preise",
+        "fr": "https://mariaangelescapas.com/fr/tarifs",
+        "en": "https://mariaangelescapas.com/en/pricing",
+        "x-default": "https://mariaangelescapas.com/es/tarifas"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/sobre-mi",
+      "final": "https://mariaangelescapas.com/es/sobre-mi",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/sobre-mi"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 404,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/sobre-mi",
+        "de": "https://mariaangelescapas.com/de/ueber-mich",
+        "fr": "https://mariaangelescapas.com/fr/a-propos",
+        "en": "https://mariaangelescapas.com/en/about",
+        "x-default": "https://mariaangelescapas.com/es/sobre-mi"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/ueber-mich",
+      "final": "https://mariaangelescapas.com/de/ueber-mich",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/ueber-mich"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 373,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/sobre-mi",
+        "de": "https://mariaangelescapas.com/de/ueber-mich",
+        "fr": "https://mariaangelescapas.com/fr/a-propos",
+        "en": "https://mariaangelescapas.com/en/about",
+        "x-default": "https://mariaangelescapas.com/es/sobre-mi"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/a-propos",
+      "final": "https://mariaangelescapas.com/fr/a-propos",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/a-propos"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 414,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/sobre-mi",
+        "de": "https://mariaangelescapas.com/de/ueber-mich",
+        "fr": "https://mariaangelescapas.com/fr/a-propos",
+        "en": "https://mariaangelescapas.com/en/about",
+        "x-default": "https://mariaangelescapas.com/es/sobre-mi"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/about",
+      "final": "https://mariaangelescapas.com/en/about",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/about"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 393,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/sobre-mi",
+        "de": "https://mariaangelescapas.com/de/ueber-mich",
+        "fr": "https://mariaangelescapas.com/fr/a-propos",
+        "en": "https://mariaangelescapas.com/en/about",
+        "x-default": "https://mariaangelescapas.com/es/sobre-mi"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/contacto",
+      "final": "https://mariaangelescapas.com/es/contacto",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/contacto"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 160,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/contacto",
+        "de": "https://mariaangelescapas.com/de/kontakt",
+        "fr": "https://mariaangelescapas.com/fr/contact",
+        "en": "https://mariaangelescapas.com/en/contact",
+        "x-default": "https://mariaangelescapas.com/es/contacto"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/kontakt",
+      "final": "https://mariaangelescapas.com/de/kontakt",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/kontakt"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 153,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/contacto",
+        "de": "https://mariaangelescapas.com/de/kontakt",
+        "fr": "https://mariaangelescapas.com/fr/contact",
+        "en": "https://mariaangelescapas.com/en/contact",
+        "x-default": "https://mariaangelescapas.com/es/contacto"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/contact",
+      "final": "https://mariaangelescapas.com/fr/contact",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/contact"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 168,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/contacto",
+        "de": "https://mariaangelescapas.com/de/kontakt",
+        "fr": "https://mariaangelescapas.com/fr/contact",
+        "en": "https://mariaangelescapas.com/en/contact",
+        "x-default": "https://mariaangelescapas.com/es/contacto"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/contact",
+      "final": "https://mariaangelescapas.com/en/contact",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/contact"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 161,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/contacto",
+        "de": "https://mariaangelescapas.com/de/kontakt",
+        "fr": "https://mariaangelescapas.com/fr/contact",
+        "en": "https://mariaangelescapas.com/en/contact",
+        "x-default": "https://mariaangelescapas.com/es/contacto"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/privacidad",
+      "final": "https://mariaangelescapas.com/es/privacidad",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/privacidad"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 224,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/privacidad",
+        "de": "https://mariaangelescapas.com/de/datenschutz",
+        "fr": "https://mariaangelescapas.com/fr/confidentialite",
+        "en": "https://mariaangelescapas.com/en/privacy",
+        "x-default": "https://mariaangelescapas.com/es/privacidad"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/datenschutz",
+      "final": "https://mariaangelescapas.com/de/datenschutz",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/datenschutz"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 230,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/privacidad",
+        "de": "https://mariaangelescapas.com/de/datenschutz",
+        "fr": "https://mariaangelescapas.com/fr/confidentialite",
+        "en": "https://mariaangelescapas.com/en/privacy",
+        "x-default": "https://mariaangelescapas.com/es/privacidad"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/confidentialite",
+      "final": "https://mariaangelescapas.com/fr/confidentialite",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/confidentialite"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 232,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/privacidad",
+        "de": "https://mariaangelescapas.com/de/datenschutz",
+        "fr": "https://mariaangelescapas.com/fr/confidentialite",
+        "en": "https://mariaangelescapas.com/en/privacy",
+        "x-default": "https://mariaangelescapas.com/es/privacidad"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/privacy",
+      "final": "https://mariaangelescapas.com/en/privacy",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/privacy"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 253,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/privacidad",
+        "de": "https://mariaangelescapas.com/de/datenschutz",
+        "fr": "https://mariaangelescapas.com/fr/confidentialite",
+        "en": "https://mariaangelescapas.com/en/privacy",
+        "x-default": "https://mariaangelescapas.com/es/privacidad"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/aviso-legal",
+      "final": "https://mariaangelescapas.com/es/aviso-legal",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/aviso-legal"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 233,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/aviso-legal",
+        "de": "https://mariaangelescapas.com/de/impressum",
+        "fr": "https://mariaangelescapas.com/fr/mentions-legales",
+        "en": "https://mariaangelescapas.com/en/legal-notice",
+        "x-default": "https://mariaangelescapas.com/es/aviso-legal"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/impressum",
+      "final": "https://mariaangelescapas.com/de/impressum",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/impressum"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 196,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/aviso-legal",
+        "de": "https://mariaangelescapas.com/de/impressum",
+        "fr": "https://mariaangelescapas.com/fr/mentions-legales",
+        "en": "https://mariaangelescapas.com/en/legal-notice",
+        "x-default": "https://mariaangelescapas.com/es/aviso-legal"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/mentions-legales",
+      "final": "https://mariaangelescapas.com/fr/mentions-legales",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/mentions-legales"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 203,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/aviso-legal",
+        "de": "https://mariaangelescapas.com/de/impressum",
+        "fr": "https://mariaangelescapas.com/fr/mentions-legales",
+        "en": "https://mariaangelescapas.com/en/legal-notice",
+        "x-default": "https://mariaangelescapas.com/es/aviso-legal"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/legal-notice",
+      "final": "https://mariaangelescapas.com/en/legal-notice",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/legal-notice"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 215,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/aviso-legal",
+        "de": "https://mariaangelescapas.com/de/impressum",
+        "fr": "https://mariaangelescapas.com/fr/mentions-legales",
+        "en": "https://mariaangelescapas.com/en/legal-notice",
+        "x-default": "https://mariaangelescapas.com/es/aviso-legal"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento",
+      "final": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 967,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-geburtsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-naissance",
+        "en": "https://mariaangelescapas.com/en/birth-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/uebersetzung-geburtsurkunde",
+      "final": "https://mariaangelescapas.com/de/uebersetzung-geburtsurkunde",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/uebersetzung-geburtsurkunde"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 836,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-geburtsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-naissance",
+        "en": "https://mariaangelescapas.com/en/birth-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/traduction-acte-naissance",
+      "final": "https://mariaangelescapas.com/fr/traduction-acte-naissance",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/traduction-acte-naissance"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 926,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-geburtsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-naissance",
+        "en": "https://mariaangelescapas.com/en/birth-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/birth-certificate-translation",
+      "final": "https://mariaangelescapas.com/en/birth-certificate-translation",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/birth-certificate-translation"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 882,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-geburtsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-naissance",
+        "en": "https://mariaangelescapas.com/en/birth-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-nacimiento"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio",
+      "final": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 934,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-mariage",
+        "en": "https://mariaangelescapas.com/en/marriage-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+      "final": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 812,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-mariage",
+        "en": "https://mariaangelescapas.com/en/marriage-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/traduction-acte-mariage",
+      "final": "https://mariaangelescapas.com/fr/traduction-acte-mariage",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/traduction-acte-mariage"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 891,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-mariage",
+        "en": "https://mariaangelescapas.com/en/marriage-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/marriage-certificate-translation",
+      "final": "https://mariaangelescapas.com/en/marriage-certificate-translation",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/marriage-certificate-translation"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 836,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-heiratsurkunde",
+        "fr": "https://mariaangelescapas.com/fr/traduction-acte-mariage",
+        "en": "https://mariaangelescapas.com/en/marriage-certificate-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-certificado-matrimonio"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+      "final": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/traduccion-titulo-universitario"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 913,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-hochschulzeugnis",
+        "fr": "https://mariaangelescapas.com/fr/traduction-diplome-universitaire",
+        "en": "https://mariaangelescapas.com/en/university-degree-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-titulo-universitario"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/uebersetzung-hochschulzeugnis",
+      "final": "https://mariaangelescapas.com/de/uebersetzung-hochschulzeugnis",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/uebersetzung-hochschulzeugnis"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 784,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-hochschulzeugnis",
+        "fr": "https://mariaangelescapas.com/fr/traduction-diplome-universitaire",
+        "en": "https://mariaangelescapas.com/en/university-degree-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-titulo-universitario"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/traduction-diplome-universitaire",
+      "final": "https://mariaangelescapas.com/fr/traduction-diplome-universitaire",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/traduction-diplome-universitaire"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 859,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-hochschulzeugnis",
+        "fr": "https://mariaangelescapas.com/fr/traduction-diplome-universitaire",
+        "en": "https://mariaangelescapas.com/en/university-degree-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-titulo-universitario"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/university-degree-translation",
+      "final": "https://mariaangelescapas.com/en/university-degree-translation",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/university-degree-translation"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 825,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-titulo-universitario",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-hochschulzeugnis",
+        "fr": "https://mariaangelescapas.com/fr/traduction-diplome-universitaire",
+        "en": "https://mariaangelescapas.com/en/university-degree-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-titulo-universitario"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/traduccion-contratos",
+      "final": "https://mariaangelescapas.com/es/traduccion-contratos",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/traduccion-contratos"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 789,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-contratos",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-vertraege",
+        "fr": "https://mariaangelescapas.com/fr/traduction-contrats",
+        "en": "https://mariaangelescapas.com/en/contract-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-contratos"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/uebersetzung-vertraege",
+      "final": "https://mariaangelescapas.com/de/uebersetzung-vertraege",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/uebersetzung-vertraege"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 670,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-contratos",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-vertraege",
+        "fr": "https://mariaangelescapas.com/fr/traduction-contrats",
+        "en": "https://mariaangelescapas.com/en/contract-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-contratos"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/traduction-contrats",
+      "final": "https://mariaangelescapas.com/fr/traduction-contrats",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/traduction-contrats"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 747,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-contratos",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-vertraege",
+        "fr": "https://mariaangelescapas.com/fr/traduction-contrats",
+        "en": "https://mariaangelescapas.com/en/contract-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-contratos"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/contract-translation",
+      "final": "https://mariaangelescapas.com/en/contract-translation",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/contract-translation"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 717,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-contratos",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-vertraege",
+        "fr": "https://mariaangelescapas.com/fr/traduction-contrats",
+        "en": "https://mariaangelescapas.com/en/contract-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-contratos"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales",
+      "final": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 845,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-gerichtsurteile",
+        "fr": "https://mariaangelescapas.com/fr/traduction-jugements",
+        "en": "https://mariaangelescapas.com/en/court-judgment-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/uebersetzung-gerichtsurteile",
+      "final": "https://mariaangelescapas.com/de/uebersetzung-gerichtsurteile",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/uebersetzung-gerichtsurteile"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 738,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-gerichtsurteile",
+        "fr": "https://mariaangelescapas.com/fr/traduction-jugements",
+        "en": "https://mariaangelescapas.com/en/court-judgment-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/traduction-jugements",
+      "final": "https://mariaangelescapas.com/fr/traduction-jugements",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/traduction-jugements"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 792,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-gerichtsurteile",
+        "fr": "https://mariaangelescapas.com/fr/traduction-jugements",
+        "en": "https://mariaangelescapas.com/en/court-judgment-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/court-judgment-translation",
+      "final": "https://mariaangelescapas.com/en/court-judgment-translation",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/court-judgment-translation"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 782,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-gerichtsurteile",
+        "fr": "https://mariaangelescapas.com/fr/traduction-jugements",
+        "en": "https://mariaangelescapas.com/en/court-judgment-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-sentencias-judiciales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/traduccion-documentos-notariales",
+      "final": "https://mariaangelescapas.com/es/traduccion-documentos-notariales",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/traduccion-documentos-notariales"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 891,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-documentos-notariales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-notarielle-dokumente",
+        "fr": "https://mariaangelescapas.com/fr/traduction-actes-notaries",
+        "en": "https://mariaangelescapas.com/en/notarial-document-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-documentos-notariales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/uebersetzung-notarielle-dokumente",
+      "final": "https://mariaangelescapas.com/de/uebersetzung-notarielle-dokumente",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/uebersetzung-notarielle-dokumente"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 791,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-documentos-notariales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-notarielle-dokumente",
+        "fr": "https://mariaangelescapas.com/fr/traduction-actes-notaries",
+        "en": "https://mariaangelescapas.com/en/notarial-document-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-documentos-notariales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/traduction-actes-notaries",
+      "final": "https://mariaangelescapas.com/fr/traduction-actes-notaries",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/traduction-actes-notaries"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 855,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-documentos-notariales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-notarielle-dokumente",
+        "fr": "https://mariaangelescapas.com/fr/traduction-actes-notaries",
+        "en": "https://mariaangelescapas.com/en/notarial-document-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-documentos-notariales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/notarial-document-translation",
+      "final": "https://mariaangelescapas.com/en/notarial-document-translation",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/notarial-document-translation"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 838,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-documentos-notariales",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-notarielle-dokumente",
+        "fr": "https://mariaangelescapas.com/fr/traduction-actes-notaries",
+        "en": "https://mariaangelescapas.com/en/notarial-document-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-documentos-notariales"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones",
+      "final": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones",
+      "status": 200,
+      "lang": "es",
+      "canonical": [
+        "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 875,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-rente-pension",
+        "fr": "https://mariaangelescapas.com/fr/traduction-retraite-pension",
+        "en": "https://mariaangelescapas.com/en/retirement-pension-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/de/uebersetzung-rente-pension",
+      "final": "https://mariaangelescapas.com/de/uebersetzung-rente-pension",
+      "status": 200,
+      "lang": "de",
+      "canonical": [
+        "https://mariaangelescapas.com/de/uebersetzung-rente-pension"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 671,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-rente-pension",
+        "fr": "https://mariaangelescapas.com/fr/traduction-retraite-pension",
+        "en": "https://mariaangelescapas.com/en/retirement-pension-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/fr/traduction-retraite-pension",
+      "final": "https://mariaangelescapas.com/fr/traduction-retraite-pension",
+      "status": 200,
+      "lang": "fr",
+      "canonical": [
+        "https://mariaangelescapas.com/fr/traduction-retraite-pension"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 734,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-rente-pension",
+        "fr": "https://mariaangelescapas.com/fr/traduction-retraite-pension",
+        "en": "https://mariaangelescapas.com/en/retirement-pension-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"
+      }
+    },
+    {
+      "url": "https://mariaangelescapas.com/en/retirement-pension-translation",
+      "final": "https://mariaangelescapas.com/en/retirement-pension-translation",
+      "status": 200,
+      "lang": "en",
+      "canonical": [
+        "https://mariaangelescapas.com/en/retirement-pension-translation"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "h1": 1,
+      "words": 713,
+      "alternates": {
+        "es": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones",
+        "de": "https://mariaangelescapas.com/de/uebersetzung-rente-pension",
+        "fr": "https://mariaangelescapas.com/fr/traduction-retraite-pension",
+        "en": "https://mariaangelescapas.com/en/retirement-pension-translation",
+        "x-default": "https://mariaangelescapas.com/es/traduccion-jubilaciones-pensiones"
+      }
+    }
+  ]
+}

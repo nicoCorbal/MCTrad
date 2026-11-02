@@ -1,0 +1,59 @@
+[
+  {
+    "path": "/",
+    "status": 308,
+    "location": "/es",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/plain"
+  },
+  {
+    "path": "/index.html",
+    "status": 308,
+    "location": "/",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/plain"
+  },
+  {
+    "path": "/es/index.html",
+    "status": 308,
+    "location": "/es",
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/plain"
+  },
+  {
+    "path": "/es/no-existe-audit",
+    "status": 404,
+    "location": null,
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/html; charset=utf-8",
+    "noindex": true
+  },
+  {
+    "path": "/fonts/inter-normal-c940764593.woff2",
+    "status": 200,
+    "location": null,
+    "cacheControl": "public, max-age=31536000, immutable",
+    "contentType": "font/woff2"
+  },
+  {
+    "path": "/assets/index-D0_LIRCt.js",
+    "status": 200,
+    "location": null,
+    "cacheControl": "public, max-age=31536000, immutable",
+    "contentType": "application/javascript; charset=utf-8"
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "location": null,
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "text/plain; charset=utf-8"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "location": null,
+    "cacheControl": "public, max-age=0, must-revalidate",
+    "contentType": "application/xml"
+  }
+]
