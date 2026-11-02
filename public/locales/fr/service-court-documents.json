@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Jugements",
+  "badge": "Traduction Assermentée",
+  "title": "Traduction Assermentée de Jugements",
+  "description": "Traductions assermentées de jugements et documents judiciaires pour procédures internationales.",
+  "featuresTitle": "Caractéristiques du Service",
+  "features": [
+    {
+      "title": "Procédures Judiciaires",
+      "description": "Valide devant les tribunaux espagnols et allemands."
+    },
+    {
+      "title": "Jugements et Ordonnances",
+      "description": "Civil, pénal, commercial et droit de la famille."
+    },
+    {
+      "title": "Entraide Judiciaire",
+      "description": "Commissions rogatoires et significations."
+    },
+    {
+      "title": "Service Urgent",
+      "description": "Service express pour délais procéduraux."
+    }
+  ],
+  "documents": [
+    "Jugements",
+    "Ordonnances",
+    "Assignations",
+    "Écritures judiciaires",
+    "Commissions rogatoires",
+    "Procès-verbaux"
+  ],
+  "faqs": [
+    {
+      "question": "La traduction assermentée est valable devant les tribunaux?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Proposez-vous un service urgent?",
+      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+    },
+    {
+      "question": "Traduisez-vous les procédures d'extradition?",
+      "answer": "Oui, traductions pour toutes procédures d'extradition et d'entraide judiciaire internationale."
+    },
+    {
+      "question": "Pouvez-vous traduire des dossiers complets?",
+      "answer": "Oui, avec devis spécifique pour les dossiers volumineux."
+    },
+    {
+      "question": "Comment exécuter un jugement espagnol en Allemagne?",
+      "answer": "Une traduction assermentée peut faire partie d’un dossier judiciaire. Votre avocat ou la juridiction compétente doit confirmer la procédure applicable, les certificats et les pièces à traduire. La traduction ne remplace ni la reconnaissance ni l’exécution d’une décision."
+    },
+    {
+      "question": "Traduisez-vous les jugements de divorce pour l'état civil?",
+      "answer": "Une traduction assermentée peut faire partie d’un dossier judiciaire. Votre avocat ou la juridiction compétente doit confirmer la procédure applicable, les certificats et les pièces à traduire. La traduction ne remplace ni la reconnaissance ni l’exécution d’une décision."
+    },
+    {
+      "question": "Qu'est-ce qu'une commission rogatoire et comment la traduire?",
+      "answer": "Une commission rogatoire est une demande d'entraide judiciaire entre pays. Nous traduisons ces documents en respectant le format et la terminologie procédurale des deux systèmes juridiques."
+    },
+    {
+      "question": "Puis-je utiliser la traduction pour un recours?",
+      "answer": "Une traduction assermentée peut faire partie d’un dossier judiciaire. Votre avocat ou la juridiction compétente doit confirmer la procédure applicable, les certificats et les pièces à traduire. La traduction ne remplace ni la reconnaissance ni l’exécution d’une décision."
+    }
+  ]
+}

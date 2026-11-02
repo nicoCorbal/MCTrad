@@ -7,8 +7,8 @@
   "homePage": {
     "heroTitle1": "Traductions Assermentées",
     "heroTitle2": "Allemand ⟷ Espagnol",
-    "heroSubtitle": "Validité juridique immédiate en Espagne et Allemagne. Livraison express disponible.",
-    "heroDescription": "La seule traductrice avec double certification officielle : MAEC (Espagne) et OLG Cologne (Allemagne). +30 ans d'expérience en documents juridiques, académiques et commerciaux.",
+    "heroSubtitle": "Traductions assermentées pour vos démarches en Espagne et en Allemagne",
+    "heroDescription": "Traductrice avec double accréditation officielle : MAEC (Espagne) et OLG Cologne (Allemagne). Plus de 30 ans d’expérience en documents juridiques, universitaires et commerciaux.",
     "requestQuote": "Devis gratuit en 24h →",
     "trustBadge": "Ministère des Affaires étrangères (MAEC) • OLG Cologne",
     "servicesTitle": "Mes domaines d'expertise",
@@ -36,7 +36,7 @@
     "certifiedIn": "Accréditée en",
     "officialBadge": "reconnue par l'État",
     "ctaTitle": "Démarche urgente ?",
-    "ctaSubtitle": "Envoyez votre document maintenant et recevez un devis fixe en moins d'une heure. Sans engagement.",
+    "ctaSubtitle": "Envoyez votre document et recevez un devis ferme sous 24 heures. Sans engagement.",
     "ctaContact": "Envoyer Document →",
     "ctaLearnMore": "en savoir plus",
     "spanish": "espagnol",
@@ -62,9 +62,9 @@
       "q2": "Quel est le délai de traduction ?",
       "a2": "Les documents standard (ex: acte de naissance) sont souvent prêts en 24-48h. Le délai postal depuis l'Espagne vers l'Allemagne est d'environ 3-5 jours.",
       "q3": "Avez-vous besoin de l'original ?",
-      "a3": "Généralement non. Un scan de bonne qualité suffit. La traduction mentionnera qu'il s'agit d'une 'traduction sur copie'. Veuillez vérifier auprès de votre administration (accepté dans 99% des cas).",
+      "a3": "Un scan ou une photo lisible de toutes les pages suffit pour établir le devis. Avant la traduction, vérifiez auprès du destinataire s’il exige un original, une copie certifiée ou un format de remise particulier.",
       "q4": "La traduction est-elle valable en Allemagne ?",
-      "a4": "Oui. Étant habilitée par le Tribunal supérieur de Cologne (OLG Köln), mes traductions sont reconnues par les autorités allemandes.",
+      "a4": "Habilitée par l’OLG Cologne pour l’espagnol et le français. Vérifiez les exigences de l’organisme destinataire.",
       "q5": "Comment s'effectue le paiement ?",
       "a5": "Vous recevrez une facture avec TVA. Le paiement s'effectue facilement par virement bancaire."
     }
@@ -89,7 +89,15 @@
       "mainService": "Service Principal",
       "additionalServices": "Autres langues",
       "guarantees": "Garantie"
-    }
+    },
+    "skipToContent": "Aller au contenu principal",
+    "stampSpain": "Cachet de traductrice assermentée en Espagne, nº 11241",
+    "stampGermany": "Cachet de traductrice habilitée en Allemagne, OLG Cologne",
+    "quoteLabel": "Demander un devis",
+    "responseTime": "Réponse sous 24h",
+    "emailSubject": "Demande de devis - Traduction assermentée",
+    "emailBody": "Bonjour,\n\nje souhaite un devis pour une traduction assermentée.\n\nVous trouverez le document en pièce jointe. Je précise les langues, le destinataire et le délai.\n\nMerci.",
+    "loading": "Chargement de la page"
   },
   "hero": {
     "headline": "Traductions Assermentées | Allemand - Espagnol - Français",
@@ -113,11 +121,15 @@
   },
   "servicesPage": {
     "title": "Services et Spécialisations",
-    "subtitle": "Traductions avec validité juridique immédiate en Espagne et Allemagne, sans formalités supplémentaires",
+    "subtitle": "Traductions assermentées pour vos démarches en Espagne et en Allemagne",
     "generalTranslation": {
       "heading": "Traductions Spécialisées",
-      "description": "Textes juridiques, économiques et techniques traduits avec précision terminologique. Plus de 30 ans d'expérience en droit commercial, notarial et des sociétés garantissent que vos documents arrivent parfaits à destination.",
-      "benefits": ["Terminologie précise pour chaque secteur", "Révision complète incluse", "Format adapté au pays de destination"]
+      "description": "Textes juridiques, économiques et techniques traduits avec précision terminologique. Plus de 30 ans d’expérience en droit commercial, notarial et des sociétés.",
+      "benefits": [
+        "Terminologie précise pour chaque secteur",
+        "Révision complète incluse",
+        "Format adapté au pays de destination"
+      ]
     },
     "languagePairs": {
       "germanSpanish": "Allemand ⟷ Espagnol",
@@ -125,11 +137,11 @@
       "englishGerman": "Anglais → Allemand",
       "englishSpanish": "Anglais → Espagnol",
       "galicianGerman": "Galicien ⟷ Allemand",
-      "description": "Traductions professionnelles dans ces combinaisons. Disponibilité pour d'autres combinaisons sur demande."
+      "description": "La combinaison linguistique, le format et les conditions d’acceptation sont confirmés selon le document et l’organisme destinataire."
     },
     "swornTranslation": {
       "heading": "Traduction Assermentée de Documents",
-      "description": "Votre document traduit avec pleine validité juridique. Indispensable pour les états civils, tribunaux, universités, notaires et services de l'immigration. Sans refus ni renvoi.",
+      "description": "La combinaison linguistique, le format et les conditions d’acceptation sont confirmés selon le document et l’organisme destinataire.",
       "spain": {
         "title": "Pour l'Espagne (Traductora Jurada)",
         "description": "Nomination officielle par le Ministère des Affaires étrangères espagnol (MAEC). Sceau et signature reconnus sur tout le territoire national.",
@@ -137,17 +149,29 @@
       },
       "germany": {
         "title": "Pour l'Allemagne (Traductrice Habilitée)",
-        "description": "Habilitée par le Tribunal régional supérieur de Cologne (OLG Köln). Acceptée directement par toutes les autorités allemandes sans apostille supplémentaire.",
+        "description": "Habilitée par l’OLG Cologne pour l’espagnol et le français. Vérifiez les exigences de l’organisme destinataire.",
         "linkText": "Vérifier dans l'annuaire Justiz-Dolmetscher"
       }
     },
     "whyChoose": {
       "heading": "Pourquoi me choisir ?",
       "reasons": [
-        {"title": "Double accréditation officielle", "description": "La seule traductrice avec certification valide en Espagne ET Allemagne simultanément."},
-        {"title": "Sans refus", "description": "Plus de 30 ans d'expérience. Je connais les exigences exactes de chaque organisme."},
-        {"title": "Livraison digitale anticipée", "description": "PDF signé le jour même pour les urgences. Original par courrier postal."},
-        {"title": "Prix fixe sans surprises", "description": "Le devis que vous recevez est le prix final. Pas de frais cachés."}
+        {
+          "title": "Double accréditation officielle",
+          "description": "Double accréditation officielle en Espagne (MAEC) et en Allemagne (OLG Cologne)."
+        },
+        {
+          "title": "Vérification des exigences",
+          "description": "Nous examinons le document, son usage et les exigences de l’organisme destinataire."
+        },
+        {
+          "title": "Livraison digitale anticipée",
+          "description": "Livraison numérique et original papier selon le devis. Urgences selon disponibilité."
+        },
+        {
+          "title": "Prix fixe sans surprises",
+          "description": "Le devis que vous recevez est le prix final. Pas de frais cachés."
+        }
       ]
     }
   },
@@ -155,17 +179,17 @@
     "title": "Votre traductrice assermentée",
     "subtitle": "Plus de 30 ans de connexion entre l'Espagne et l'Allemagne",
     "introduction": "Je suis María Ángeles Capas, traductrice assermentée avec la double accréditation dont vous avez besoin : nommée par le Ministère des Affaires étrangères espagnol et habilitée par le Tribunal régional supérieur de Cologne (Allemagne).",
-    "paragraph1": "Depuis plus de trois décennies, j'aide particuliers, cabinets d'avocats, notaires et entreprises à surmonter les barrières linguistiques dans leurs démarches internationales. Je sais que lorsque vous avez besoin d'une traduction assermentée, ce dont vous avez vraiment besoin c'est la tranquillité : que votre document soit accepté du premier coup, sans refus ni complications.",
+    "paragraph1": "Depuis plus de trois décennies, j’accompagne particuliers, cabinets d’avocats, notaires et entreprises dans la traduction de documents pour leurs démarches internationales.",
     "paragraph2": "Ma spécialisation en droit, économie et documentation officielle me permet de traduire avec la précision terminologique qu'exigent les organismes officiels. Chaque virgule, chaque terme juridique, chaque formalité compte.",
-    "paragraph3": "Je travaille depuis Ourense (Espagne), mais mon accréditation allemande me permet d'offrir des traductions valides dans les deux pays sans apostille supplémentaire. Un avantage que peu de traducteurs peuvent offrir.",
+    "paragraph3": "Je travaille depuis Ourense (Espagne) et accompagne en ligne des clients en Espagne, en Allemagne et dans d’autres pays. Nous confirmons la destination et les exigences avant la traduction.",
     "conclusion": "Contact direct, sans intermédiaires. Vous me parlez, je traduis votre document et je vous le livre personnellement. C'est aussi simple que ça.",
     "stats": {
       "experience": "+30 ans",
       "experienceLabel": "d'expérience",
-      "documents": "+10 000",
+      "documents": "+5 000",
       "documentsLabel": "documents traduits",
-      "rejections": "0",
-      "rejectionsLabel": "refus par les autorités"
+      "accreditations": "2",
+      "accreditationsLabel": "accréditations officielles"
     },
     "sections": {
       "presentation": "Qui suis-je",
@@ -184,12 +208,25 @@
     "values": {
       "title": "Comment je travaille",
       "items": [
-        {"title": "Contact personnel", "description": "Vous parlez directement avec moi. Sans commerciaux, sans intermédiaires."},
-        {"title": "Confidentialité totale", "description": "Secret professionnel garanti. Vos documents sont protégés."},
-        {"title": "Délais respectés", "description": "Si je vous donne une date, je la respecte. Service urgent disponible."},
-        {"title": "Prix fixe", "description": "Le devis est le prix final. Sans surprises."}
+        {
+          "title": "Contact personnel",
+          "description": "Vous parlez directement avec moi. Sans commerciaux, sans intermédiaires."
+        },
+        {
+          "title": "Confidentialité totale",
+          "description": "Secret professionnel garanti. Vos documents sont protégés."
+        },
+        {
+          "title": "Délais respectés",
+          "description": "Si je vous donne une date, je la respecte. Service urgent disponible."
+        },
+        {
+          "title": "Prix fixe",
+          "description": "Le devis est le prix final. Sans surprises."
+        }
       ]
-    }
+    },
+    "verifyCredentials": "Recherchez « María Ángeles Capas López » dans les registres liés. Le numéro MAEC est le 11241 ; vérifiez aussi la langue et l’autorité qui délivre l’accréditation."
   },
   "contactPage": {
     "title": "Demandez votre Devis",
@@ -266,7 +303,6 @@
       "deadline": "Délai de livraison (service urgent disponible)",
       "shipping": "Mode d'envoi (standard, recommandé, express)"
     },
-    "jvegNote": "Les coûts des traductions assermentées espagnol-allemand en Allemagne sont régis par le § 3 JVEG (Loi sur la rémunération judiciaire).",
     "transparencyNote": "Pas de frais cachés : le devis comprend traduction, certification, sceau officiel et envoi digital. Seul l'envoi postal est facturé séparément.",
     "process": {
       "badge": "Simple et rapide",
@@ -330,10 +366,22 @@
     "guarantee": {
       "title": "Mon engagement",
       "items": [
-        {"title": "Acceptation garantie", "description": "Vos documents seront acceptés par les autorités. Plus de 30 ans sans refus."},
-        {"title": "Prix fixe", "description": "Le devis est le prix final. Pas de surprises ni de coûts additionnels."},
-        {"title": "Confidentialité totale", "description": "Secret professionnel garanti. Vos documents sont protégés."},
-        {"title": "Livraison ponctuelle", "description": "Nous respectons les délais convenus. Service urgent disponible."}
+        {
+          "title": "Vérification des exigences",
+          "description": "Nous examinons le document, son usage et les exigences de l’organisme destinataire."
+        },
+        {
+          "title": "Prix fixe",
+          "description": "Le devis est le prix final. Pas de surprises ni de coûts additionnels."
+        },
+        {
+          "title": "Confidentialité totale",
+          "description": "Secret professionnel garanti. Vos documents sont protégés."
+        },
+        {
+          "title": "Livraison ponctuelle",
+          "description": "Nous respectons les délais convenus. Service urgent disponible."
+        }
       ]
     },
     "cta": {
@@ -342,6 +390,16 @@
       "email": "Envoyer par email →",
       "form": "Utiliser le formulaire →",
       "note": "Sans engagement. Vous avez juste besoin d'un scan ou photo lisible."
+    },
+    "quoteNote": "Le devis dépend du document : langues, volume, technicité, livraison et copies demandées. Il n’existe pas de tarif unique pour toutes les commandes.",
+    "example": {
+      "title": "Exemple : un acte de naissance allemand",
+      "intro": "Pour une traduction vers l’espagnol, envoyez une image lisible de toutes les pages, cachets et annexes compris. Précisez l’organisme destinataire et la date limite.",
+      "steps": [
+        "Nous examinons le volume, les langues et les annexes à traduire.",
+        "Vous recevez un devis indiquant le montant total, les taxes applicables, le délai, le format et les copies incluses.",
+        "Les frais postaux et les éventuels suppléments d’urgence sont précisés séparément. La traduction commence après acceptation du devis."
+      ]
     }
   },
   "privacyPage": {
@@ -362,5 +420,44 @@
     "section6Content": "En tant que traductrice assermentée, je suis soumise à une obligation stricte de confidentialité concernant tous les documents confiés.",
     "contactTitle": "Contact Données",
     "contactText": "Pour toute question, contactez-moi par e-mail."
+  },
+  "serviceBrief": {
+    "title": "Avant d’envoyer votre document",
+    "description": "Précisez les langues source et cible, l’organisme destinataire et la date limite. Envoyez toutes les pages lisibles et les annexes à traduire. Nous confirmerons le format et les exigences avant de commencer.",
+    "quoteLink": "Comment le devis est préparé"
+  },
+  "documentPreparation": {
+    "birth-certificate": [
+      "Envoyez toutes les pages de l’acte, y compris le verso, les cachets et les mentions marginales présentes.",
+      "Précisez le pays et l’organisme destinataires, ainsi que les annexes ou l’apostille jointe que vous souhaitez faire traduire."
+    ],
+    "marriage-certificate": [
+      "Envoyez l’acte complet avec toutes les mentions et les pages supplémentaires.",
+      "Indiquez si des documents associés, comme un livret de famille ou un jugement de divorce, font partie de la demande afin de les inclure dans le devis."
+    ],
+    "university-degree": [
+      "Envoyez le recto et le verso du diplôme ainsi que les relevés de notes et suppléments demandés pour votre démarche.",
+      "Précisez l’établissement ou l’organisme destinataire et les documents dont il demande la traduction. Les pièces et annexes sont prises en compte dans le devis."
+    ],
+    "contracts": [
+      "Envoyez le contrat complet avec les tableaux, signatures et annexes à traduire.",
+      "Précisez la langue cible, l’usage prévu et si vous avez besoin d’une traduction assermentée ou spécialisée sans certification."
+    ],
+    "court-documents": [
+      "Envoyez la décision complète, avec toutes ses pages et les annexes à inclure dans la traduction.",
+      "Précisez l’organisme destinataire et votre échéance. Si le dossier comporte plusieurs pièces, identifiez celles à traduire."
+    ],
+    "retirement-pension": [
+      "Envoyez les courriers ou décisions complets, avec les périodes, montants et annexes qui y figurent.",
+      "Précisez les documents à traduire et l’organisme destinataire. Plusieurs courriers peuvent être regroupés dans un devis commun."
+    ],
+    "notarial-documents": [
+      "Envoyez l’acte ou la procuration en entier, avec des cachets lisibles et toutes les annexes.",
+      "Précisez le pays de destination, le destinataire et le nombre d’exemplaires souhaité. Joignez toute apostille présente afin de la prendre en compte dans le devis."
+    ]
+  },
+  "officialResources": {
+    "title": "Sources officielles pour votre démarche",
+    "description": "Consultez les exigences actualisées de l’organisme destinataire avant de commander la traduction."
   }
 }

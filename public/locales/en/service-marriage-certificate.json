@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Marriage Certificate",
+  "badge": "Certified Translation",
+  "title": "Certified Marriage Certificate Translation",
+  "description": "Certified translations of marriage certificates for civil registry and legal procedures. Official validity in Spain and Germany.",
+  "featuresTitle": "Service Features",
+  "features": [
+    {
+      "title": "Civil Registry",
+      "description": "Valid for registration of marriages celebrated abroad."
+    },
+    {
+      "title": "Visa Procedures",
+      "description": "Accepted for family reunification and residence permits."
+    },
+    {
+      "title": "Dual Accreditation",
+      "description": "Officially recognized sworn translator in Spain and Germany."
+    },
+    {
+      "title": "Full Confidentiality",
+      "description": "Discrete and secure handling of personal data."
+    }
+  ],
+  "documents": [
+    "Full marriage certificate",
+    "Civil marriage certificate",
+    "Religious marriage certificate",
+    "Family book",
+    "International marriage certificate",
+    "Divorce decree"
+  ],
+  "faqs": [
+    {
+      "question": "Can I use the certified translation to register my marriage in Spain?",
+      "answer": "A sworn translation can be used when requested by the receiving organisation. For certain public documents exchanged between EU countries, Regulation (EU) 2016/1191 simplifies authentication and a multilingual form may replace a translation. Check the requirement before ordering."
+    },
+    {
+      "question": "Can I use the same translation in Germany and Spain?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "What information is needed to translate family reunification documents?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "Do you translate divorce decrees?",
+      "answer": "Yes, we provide certified translations of divorce decrees and civil status documents."
+    },
+    {
+      "question": "Does the German marriage certificate need an apostille?",
+      "answer": "An apostille is not always required. Public documents covered by Regulation (EU) 2016/1191, including certain birth and marriage certificates, are exempt when presented in another EU country. Other documents or destinations may have different requirements. Consult the official guidance and the receiving organisation."
+    },
+    {
+      "question": "Should I provide the civil registry’s requirements and deadline?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "What should I check if the certificate comes from another country?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "Do you translate the German Stammbuch?",
+      "answer": "Yes, we translate the complete German Stammbuch or just the required pages. It is a frequently requested document for registrations at the Spanish Civil Registry."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Documentos Notariales",
+  "badge": "Traducción Jurada",
+  "title": "Traducción Jurada de Documentos Notariales",
+  "description": "Traducciones juradas de escrituras públicas, poderes notariales y testamentos con validez legal.",
+  "featuresTitle": "Características del Servicio",
+  "features": [
+    {
+      "title": "Escrituras Públicas",
+      "description": "Compraventa de inmuebles, constitución de sociedades e hipotecas."
+    },
+    {
+      "title": "Poderes Notariales",
+      "description": "Poderes generales, especiales, para pleitos y preventivos."
+    },
+    {
+      "title": "Testamentos",
+      "description": "Testamentos abiertos, cerrados, ológrafos y certificados de últimas voluntades."
+    },
+    {
+      "title": "Actas Notariales",
+      "description": "Actas de manifestaciones, notoriedad y protocolización."
+    }
+  ],
+  "documents": [
+    "Escrituras de compraventa",
+    "Poderes notariales",
+    "Testamentos",
+    "Actas de manifestaciones",
+    "Escrituras de constitución",
+    "Capitulaciones matrimoniales"
+  ],
+  "faqs": [
+    {
+      "question": "¿La traducción de una escritura pública tiene validez en Alemania?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Traducís poderes para usar en el extranjero?",
+      "answer": "Sí, traducimos poderes notariales para uso internacional."
+    },
+    {
+      "question": "¿Qué documentos necesito para una herencia internacional?",
+      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+    },
+    {
+      "question": "¿Cuánto tarda traducir una escritura de compraventa?",
+      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+    },
+    {
+      "question": "¿Qué debo enviar para presupuestar traducciones de una compraventa en Alemania?",
+      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+    },
+    {
+      "question": "¿Cómo se traduce un testamento para usarlo en otro país?",
+      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+    },
+    {
+      "question": "¿Cómo solicito presupuesto para traducir una Vollmacht?",
+      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+    },
+    {
+      "question": "¿Traducís capitulaciones matrimoniales?",
+      "answer": "Sí, traducimos capitulaciones matrimoniales (Ehevertrag en alemán) que son fundamentales para definir el régimen económico del matrimonio, especialmente en parejas binacionales hispano-alemanas."
+    }
+  ]
+}

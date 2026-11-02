@@ -1,0 +1,53 @@
+{
+  "shortTitle": "Retirement & Pension",
+  "badge": "Certified Translation",
+  "title": "Certified Retirement & Pension Document Translation",
+  "description": "Certified translations of retirement documents, pension statements, and social security records with official validity.",
+  "featuresTitle": "Service Features",
+  "features": [
+    {
+      "title": "Social Security",
+      "description": "Valid for Spanish Seguridad Social and German Rentenversicherung for recognition of contribution periods."
+    },
+    {
+      "title": "Life Certificates",
+      "description": "Translation of life certificates required to continue receiving foreign pensions."
+    },
+    {
+      "title": "Pension Decisions",
+      "description": "Translation of pension decisions, calculations, and notifications for retirement, survivor, and disability pensions."
+    },
+    {
+      "title": "Bilateral Agreements",
+      "description": "Experience with documents for totalizing contribution periods between countries."
+    }
+  ],
+  "documents": [
+    "Retirement pension decision",
+    "Life certificate (Fe de Vida / Lebensbescheinigung)",
+    "Employment history",
+    "Contribution record",
+    "Survivor pension decision",
+    "Disability pension decision",
+    "Forms E-205 / P1",
+    "Deutsche Rentenversicherung certificates"
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to translate my German pension decision to receive it in Spain?",
+      "answer": "Whether translation is needed depends on the procedure and requesting organisation. Confirm the requirements with Seguridad Social, Deutsche Rentenversicherung or the receiving authority, then send the specific correspondence to translate."
+    },
+    {
+      "question": "What is a life certificate and what is it for?",
+      "answer": "A life certificate confirms that a person is alive. If your pension provider requests one, check its required form, deadline, accepted format and whether a translation is needed before ordering."
+    },
+    {
+      "question": "What information is needed to translate contribution records from Spain and Germany?",
+      "answer": "Whether translation is needed depends on the procedure and requesting organisation. Confirm the requirements with Seguridad Social, Deutsche Rentenversicherung or the receiving authority, then send the specific correspondence to translate."
+    },
+    {
+      "question": "Do you translate Deutsche Rentenversicherung documents?",
+      "answer": "Yes, we translate all types of Deutsche Rentenversicherung documents: decisions, pension calculations, contribution certificates, and official correspondence."
+    }
+  ]
+}

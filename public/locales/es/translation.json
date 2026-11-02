@@ -7,8 +7,8 @@
   "homePage": {
     "heroTitle1": "Traducciones Juradas",
     "heroTitle2": "Alemán ⟷ Español",
-    "heroSubtitle": "Validez legal inmediata en España y Alemania. Entrega express disponible.",
-    "heroDescription": "La única traductora con doble certificación oficial: MAEC (España) y OLG Köln (Alemania). +30 años de experiencia en documentos legales, académicos y corporativos.",
+    "heroSubtitle": "Traducciones juradas para trámites en España y Alemania",
+    "heroDescription": "Traductora con doble acreditación oficial: MAEC (España) y OLG Köln (Alemania). Más de 30 años de experiencia en documentos legales, académicos y corporativos.",
     "requestQuote": "Presupuesto gratis en 24h →",
     "trustBadge": "Ministerio de Asuntos Exteriores (MAEC) • OLG Colonia (Alemania)",
     "servicesTitle": "Mis especialidades",
@@ -36,7 +36,7 @@
     "certifiedIn": "Certificada en",
     "officialBadge": "reconocimiento estatal",
     "ctaTitle": "¿Tiene un trámite urgente?",
-    "ctaSubtitle": "Envíe su documento ahora y reciba presupuesto cerrado en menos de 1 hora. Sin compromiso.",
+    "ctaSubtitle": "Envíe su documento y reciba un presupuesto cerrado en menos de 24 horas. Sin compromiso.",
     "ctaContact": "Enviar Documento →",
     "ctaLearnMore": "ver detalles",
     "spanish": "español",
@@ -62,9 +62,9 @@
       "q2": "¿Cuánto tarda la traducción?",
       "a2": "Documentos estándar (ej. certificados de nacimiento) suelen estar listos en 24-48 horas. El envío postal dentro de España tarda 1-3 días; a Alemania aprox. 3-5 días.",
       "q3": "¿Necesita el documento original?",
-      "a3": "Generalmente no. Basta con un escaneo de alta calidad. La traducción certificará que es una 'traducción del escaneo'. En el 99% de los casos es suficiente.",
+      "a3": "Para preparar el presupuesto basta con un escaneo o una foto legible de todas las páginas. Antes de traducir, confirme con el organismo destinatario si exige el original, una copia certificada o un formato concreto de entrega.",
       "q4": "¿Es válida la traducción en Alemania?",
-      "a4": "Sí. Al estar autorizada por el Tribunal Superior de Colonia (OLG Köln), mis traducciones son aceptadas directamente por organismos alemanes sin trámites adicionales.",
+      "a4": "Autorizada por el Tribunal Superior de Colonia (OLG Köln) para español y francés. Consulte los requisitos del organismo que recibirá el documento.",
       "q5": "¿Cómo se realiza el pago?",
       "a5": "Recibirá una factura oficial con IVA. El pago se realiza cómodamente por transferencia bancaria."
     }
@@ -89,7 +89,15 @@
       "mainService": "Competencia central",
       "additionalServices": "otros idiomas",
       "guarantees": "Garantía"
-    }
+    },
+    "skipToContent": "Ir al contenido principal",
+    "stampSpain": "Sello de traductora jurada en España, número 11241",
+    "stampGermany": "Sello de traductora autorizada en Alemania, OLG Köln",
+    "quoteLabel": "Pedir presupuesto",
+    "responseTime": "Respuesta en 24h",
+    "emailSubject": "Solicitud de presupuesto - Traducción jurada",
+    "emailBody": "Hola,\n\nMe gustaría solicitar presupuesto para una traducción jurada.\n\nAdjunto el documento e indico los idiomas, el destino y el plazo.\n\nGracias.",
+    "loading": "Cargando página"
   },
   "hero": {
     "headline": "Traducciones juradas | Alemán - Español - Francés",
@@ -113,11 +121,15 @@
   },
   "servicesPage": {
     "title": "Servicios y especialidades",
-    "subtitle": "Traducciones con validez legal inmediata en España y Alemania, sin trámites adicionales",
+    "subtitle": "Traducciones juradas para trámites en España y Alemania",
     "generalTranslation": {
       "heading": "Traducciones especializadas",
-      "description": "Textos jurídicos, económicos y técnicos traducidos con precisión terminológica. Más de 30 años de experiencia en derecho mercantil, notarial y corporativo garantizan que su documentación llegue perfecta a su destino.",
-      "benefits": ["Terminología precisa para cada sector", "Revisión exhaustiva incluida", "Formato adaptado al país de destino"]
+      "description": "Textos jurídicos, económicos y técnicos traducidos con precisión terminológica. Más de 30 años de experiencia en derecho mercantil, notarial y corporativo.",
+      "benefits": [
+        "Terminología precisa para cada sector",
+        "Revisión exhaustiva incluida",
+        "Formato adaptado al país de destino"
+      ]
     },
     "languagePairs": {
       "germanSpanish": "Alemán ⟷ Español",
@@ -125,11 +137,11 @@
       "englishGerman": "Inglés → Alemán",
       "englishSpanish": "Inglés → Español",
       "galicianGerman": "Gallego ⟷ Alemán",
-      "description": "Traducciones profesionales en estas combinaciones. Consulte disponibilidad para otras combinaciones."
+      "description": "La combinación de idiomas, el formato y los requisitos de aceptación se confirman según el documento y el organismo destinatario."
     },
     "swornTranslation": {
       "heading": "Traducción jurada de documentos",
-      "description": "Su documento traducido con plena validez legal. Imprescindible para registros civiles, juzgados, universidades, notarías y autoridades de extranjería. Sin rechazos ni devoluciones.",
+      "description": "La combinación de idiomas, el formato y los requisitos de aceptación se confirman según el documento y el organismo destinatario.",
       "spain": {
         "title": "para España (traductora jurada)",
         "description": "Nombramiento oficial del Ministerio de Asuntos Exteriores (MAEC). Sello y firma reconocidos en todo el territorio nacional.",
@@ -137,17 +149,29 @@
       },
       "germany": {
         "title": "para Alemania (traductora autorizada)",
-        "description": "Autorizada por el Tribunal Superior de Colonia (OLG Köln). Aceptada directamente por todas las autoridades alemanas sin apostilla adicional.",
+        "description": "Autorizada por el Tribunal Superior de Colonia (OLG Köln) para español y francés. Consulte los requisitos del organismo que recibirá el documento.",
         "linkText": "Verificar en directorio Justiz-Dolmetscher"
       }
     },
     "whyChoose": {
       "heading": "¿Por qué elegirme?",
       "reasons": [
-        {"title": "Doble acreditación oficial", "description": "La única traductora con certificación válida en España Y Alemania simultáneamente."},
-        {"title": "Sin rechazos", "description": "+30 años de experiencia. Conozco los requisitos exactos de cada organismo."},
-        {"title": "Entrega digital anticipada", "description": "PDF firmado el mismo día para trámites urgentes. Original por correo postal."},
-        {"title": "Precio cerrado sin sorpresas", "description": "El presupuesto que recibe es el precio final. Sin costes ocultos."}
+        {
+          "title": "Doble acreditación oficial",
+          "description": "Doble acreditación oficial en España (MAEC) y Alemania (OLG Köln)."
+        },
+        {
+          "title": "Revisión de requisitos",
+          "description": "Revisamos el documento, su finalidad y los requisitos indicados por el organismo destinatario."
+        },
+        {
+          "title": "Entrega digital anticipada",
+          "description": "Entrega digital y original en papel según el presupuesto. Consulte disponibilidad para trámites urgentes."
+        },
+        {
+          "title": "Precio cerrado sin sorpresas",
+          "description": "El presupuesto que recibe es el precio final. Sin costes ocultos."
+        }
       ]
     }
   },
@@ -155,17 +179,17 @@
     "title": "Su traductora jurada",
     "subtitle": "Más de 30 años conectando España y Alemania",
     "introduction": "Soy María Ángeles Capas, traductora jurada con la doble acreditación que necesita: nombrada por el Ministerio de Asuntos Exteriores de España y autorizada por el Tribunal Superior de Colonia (Alemania).",
-    "paragraph1": "Llevo más de tres décadas ayudando a particulares, bufetes de abogados, notarías y empresas a superar las barreras lingüísticas en sus trámites internacionales. Sé que cuando necesita una traducción jurada, lo que realmente necesita es tranquilidad: que su documento sea aceptado a la primera, sin rechazos ni complicaciones.",
+    "paragraph1": "Llevo más de tres décadas ayudando a particulares, bufetes, notarías y empresas con la traducción de documentos para sus trámites internacionales.",
     "paragraph2": "Mi especialización en derecho, economía y documentación oficial me permite traducir con la precisión terminológica que exigen los organismos oficiales. Cada coma, cada término jurídico, cada formalidad cuenta.",
-    "paragraph3": "Trabajo desde Ourense (España), pero mi acreditación alemana me permite ofrecer traducciones válidas en ambos países sin necesidad de apostillas adicionales. Es una ventaja que pocos traductores pueden ofrecer.",
+    "paragraph3": "Trabajo desde Ourense (España) y atiendo online a clientes en España, Alemania y otros países. Antes de traducir, confirmamos el destino y los requisitos de su trámite.",
     "conclusion": "Trato directo, sin intermediarios. Usted habla conmigo, yo traduzco su documento, y se lo entrego personalmente. Así de simple.",
     "stats": {
       "experience": "+30 años",
       "experienceLabel": "de experiencia",
-      "documents": "+10.000",
+      "documents": "+5.000",
       "documentsLabel": "documentos traducidos",
-      "rejections": "0",
-      "rejectionsLabel": "rechazos por autoridades"
+      "accreditations": "2",
+      "accreditationsLabel": "acreditaciones oficiales"
     },
     "sections": {
       "presentation": "Quién soy",
@@ -184,12 +208,25 @@
     "values": {
       "title": "Cómo trabajo",
       "items": [
-        {"title": "Trato personal", "description": "Usted habla directamente conmigo. Sin comerciales, sin intermediarios."},
-        {"title": "Confidencialidad total", "description": "Secreto profesional garantizado. Sus documentos están protegidos."},
-        {"title": "Plazos cumplidos", "description": "Si le digo una fecha, la cumplo. Servicio urgente disponible."},
-        {"title": "Precio cerrado", "description": "El presupuesto es el precio final. Sin sorpresas."}
+        {
+          "title": "Trato personal",
+          "description": "Usted habla directamente conmigo. Sin comerciales, sin intermediarios."
+        },
+        {
+          "title": "Confidencialidad total",
+          "description": "Secreto profesional garantizado. Sus documentos están protegidos."
+        },
+        {
+          "title": "Plazos cumplidos",
+          "description": "Si le digo una fecha, la cumplo. Servicio urgente disponible."
+        },
+        {
+          "title": "Precio cerrado",
+          "description": "El presupuesto es el precio final. Sin sorpresas."
+        }
       ]
-    }
+    },
+    "verifyCredentials": "Para comprobar la acreditación, busque «María Ángeles Capas López» en los registros enlazados. En el listado del MAEC figura el número 11241; compruebe también el idioma y la autoridad que expide la acreditación."
   },
   "contactPage": {
     "title": "Solicite su Presupuesto",
@@ -266,7 +303,6 @@
       "deadline": "Plazo de entrega (servicio urgente disponible)",
       "shipping": "Método de envío (estándar, certificado, exprés)"
     },
-    "jvegNote": "Los costes de traducción jurada español-alemán en Alemania se rigen por el artículo 3 de la Ley de Remuneraciones y Compensaciones Judiciales (JVEG).",
     "transparencyNote": "Sin costes ocultos: el presupuesto incluye traducción, certificación, sello oficial y envío digital. Solo el envío postal se cobra aparte.",
     "process": {
       "badge": "Fácil y rápido",
@@ -330,10 +366,22 @@
     "guarantee": {
       "title": "Mi compromiso",
       "items": [
-        {"title": "Aceptación garantizada", "description": "Sus documentos serán aceptados por las autoridades. +30 años sin rechazos."},
-        {"title": "Precio cerrado", "description": "El presupuesto es el precio final. Sin sorpresas ni costes adicionales."},
-        {"title": "Confidencialidad total", "description": "Secreto profesional garantizado. Sus documentos están protegidos."},
-        {"title": "Entrega puntual", "description": "Cumplimos los plazos acordados. Servicio urgente disponible."}
+        {
+          "title": "Revisión de requisitos",
+          "description": "Revisamos el documento, su finalidad y los requisitos indicados por el organismo destinatario."
+        },
+        {
+          "title": "Precio cerrado",
+          "description": "El presupuesto es el precio final. Sin sorpresas ni costes adicionales."
+        },
+        {
+          "title": "Confidencialidad total",
+          "description": "Secreto profesional garantizado. Sus documentos están protegidos."
+        },
+        {
+          "title": "Entrega puntual",
+          "description": "Cumplimos los plazos acordados. Servicio urgente disponible."
+        }
       ]
     },
     "cta": {
@@ -342,6 +390,16 @@
       "email": "Enviar por email →",
       "form": "Usar formulario →",
       "note": "Sin compromiso. Solo necesita un escaneo o foto legible."
+    },
+    "quoteNote": "El presupuesto se prepara para su documento concreto: idiomas, extensión, complejidad, entrega y copias solicitadas. No hay una tarifa única aplicable a todos los encargos.",
+    "example": {
+      "title": "Ejemplo: un certificado de nacimiento alemán",
+      "intro": "Para solicitar su traducción al español, envíe una imagen legible de todas las páginas, incluidos los sellos y anexos, e indique el organismo destinatario y la fecha límite.",
+      "steps": [
+        "Revisamos la extensión, los idiomas y si se necesita traducir algún anexo.",
+        "Recibe un presupuesto que concreta el importe total, los impuestos aplicables, el plazo, el formato y las copias incluidas.",
+        "El envío postal y cualquier urgencia se detallan por separado, si se solicitan. La traducción comienza al aceptar el presupuesto."
+      ]
     }
   },
   "privacyPage": {
@@ -362,5 +420,44 @@
     "section6Content": "Como traductora jurada, estoy sujeta a una estricta obligación de confidencialidad respecto a todos los documentos confiados.",
     "contactTitle": "Contacto de Privacidad",
     "contactText": "Para cualquier consulta, contacte directamente por email."
+  },
+  "serviceBrief": {
+    "title": "Antes de enviar su documento",
+    "description": "Indique el idioma de origen y destino, el organismo que lo solicita y la fecha límite. Envíe todas las páginas legibles y los anexos que deban traducirse. Confirmaremos el formato de entrega y los requisitos del encargo antes de empezar.",
+    "quoteLink": "Cómo se prepara el presupuesto"
+  },
+  "documentPreparation": {
+    "birth-certificate": [
+      "Envíe todas las páginas del certificado, incluidos el reverso, los sellos y las anotaciones marginales que contenga.",
+      "Indique el país y el organismo destinatario, y si necesita traducir también los anexos o una apostilla que acompañe al documento."
+    ],
+    "marriage-certificate": [
+      "Envíe el certificado o acta completo, con las anotaciones que figuren en el documento y las páginas adicionales.",
+      "Indique si el encargo incluye otros documentos relacionados, como un libro de familia o una sentencia de divorcio, para incluirlos en el presupuesto."
+    ],
+    "university-degree": [
+      "Envíe el título por ambas caras y, si forman parte de su trámite, el expediente académico y los suplementos al título.",
+      "Indique el centro u organismo destinatario y qué documentos le ha pedido traducir. Cada documento y sus anexos se valoran en el presupuesto."
+    ],
+    "contracts": [
+      "Envíe el contrato completo, junto con las tablas, firmas y anexos que deban formar parte de la traducción.",
+      "Indique el idioma de destino, el uso previsto y si necesita traducción jurada o una traducción especializada sin certificación."
+    ],
+    "court-documents": [
+      "Envíe la resolución completa, con todas sus páginas y los anexos que quiera incluir en la traducción.",
+      "Indique el organismo destinatario y el plazo disponible. Si hay varios documentos del procedimiento, identifique cuáles necesita traducir."
+    ],
+    "retirement-pension": [
+      "Envíe las comunicaciones o resoluciones completas, con los periodos, importes y anexos que aparezcan en ellas.",
+      "Indique qué documentos necesita traducir y el organismo destinatario. Puede agrupar varias cartas o certificados para recibir un presupuesto conjunto."
+    ],
+    "notarial-documents": [
+      "Envíe la escritura, el poder o el documento notarial completo, con sus anexos y sellos legibles.",
+      "Indique el país de destino, el organismo o profesional que lo recibirá y las copias que necesita. Si acompaña una apostilla, adjúntela para su valoración."
+    ]
+  },
+  "officialResources": {
+    "title": "Fuentes oficiales para su trámite",
+    "description": "Consulte los requisitos actualizados del organismo destinatario antes de encargar la traducción."
   }
 }

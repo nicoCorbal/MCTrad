@@ -6,6 +6,7 @@ import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
   globalIgnores(['dist']),
+  { files: ['scripts/**/*.js'], languageOptions: { globals: globals.node } },
   {
     files: ['**/*.{js,jsx}'],
     extends: [
@@ -23,7 +24,9 @@ export default defineConfig([
       },
     },
     rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'no-unused-vars': ['error', { varsIgnorePattern: '^(motion$|[A-Z_])' }],
     },
   },
+  // Existing animation module intentionally shares variants and wrapper components.
+  { files: ['src/components/animations/MotionComponents.jsx'], rules: { 'react-refresh/only-export-components': 'off' } },
 ])

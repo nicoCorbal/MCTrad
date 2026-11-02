@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Hochschulzeugnis",
+  "badge": "Beglaubigte Übersetzung",
+  "title": "Beglaubigte Übersetzung von Hochschulzeugnissen",
+  "description": "Beglaubigte Übersetzungen von Hochschulzeugnissen und Transcripts für die Anerkennung in Deutschland und Spanien.",
+  "featuresTitle": "Leistungsmerkmale",
+  "features": [
+    {
+      "title": "Titelanerkennung",
+      "description": "Gültig für Anerkennungsverfahren ausländischer Abschlüsse."
+    },
+    {
+      "title": "Universitäten",
+      "description": "Akzeptiert von deutschen und spanischen Hochschulen."
+    },
+    {
+      "title": "Vollständige Unterlagen",
+      "description": "Übersetzung von Zeugnissen, Notenbescheinigungen und Diploma Supplements."
+    },
+    {
+      "title": "Haager Apostille",
+      "description": "Beratung zur Apostille gemäß den Anforderungen jedes Landes."
+    }
+  ],
+  "documents": [
+    "Offizielles Hochschulzeugnis",
+    "Transcript of Records",
+    "Diploma Supplement",
+    "Modulbeschreibungen",
+    "Master- oder Promotionsurkunde",
+    "Studienbescheinigung"
+  ],
+  "faqs": [
+    {
+      "question": "Welche Dokumente brauche ich für die Anerkennung in Deutschland?",
+      "answer": "Die Unterlagen hängen vom Abschluss und vom jeweiligen Verfahren ab. Prüfen Sie die aktuelle amtliche Checkliste und senden Sie die zur Übersetzung angeforderten Zeugnisse, Notenübersichten oder Supplements. Eine Apostille und identische Unterlagen sind nicht bei jedem Verfahren erforderlich."
+    },
+    {
+      "question": "Wie lange dauert die Übersetzung eines Transcripts?",
+      "answer": "Der Liefertermin wird nach Prüfung der Unterlagen im Angebot bestätigt. Nennen Sie Ihre Frist bereits beim Versand des Scans. Eilaufträge hängen von Umfang und Verfügbarkeit ab."
+    },
+    {
+      "question": "Ist die Übersetzung für spanische Universitäten gültig?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Übersetzen Sie das Diploma Supplement?",
+      "answer": "Ja, wir übersetzen das Diploma Supplement."
+    },
+    {
+      "question": "Wie wird ein spanischer Abschluss in Deutschland anerkannt?",
+      "answer": "Klären Sie zunächst, ob eine Anerkennung, Gleichwertigkeitsprüfung oder ein anderes Verfahren erforderlich ist. Nutzen Sie die amtlichen Informationen der zuständigen Stelle für Ihren Beruf und Ihr Zielland. Die Übersetzung umfasst die vereinbarten Dokumente und ersetzt kein Verwaltungsverfahren."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Anerkennung und Gleichwertigkeit?",
+      "answer": "Die Gleichwertigkeit erkennt das akademische Niveau an (Bachelor, Master, Doktor), berechtigt aber nicht zur Ausübung reglementierter Berufe. Die Anerkennung setzt den ausländischen Abschluss einem deutschen gleich."
+    },
+    {
+      "question": "Kann ich mit meinem spanischen Abschluss in Deutschland arbeiten?",
+      "answer": "Klären Sie zunächst, ob eine Anerkennung, Gleichwertigkeitsprüfung oder ein anderes Verfahren erforderlich ist. Nutzen Sie die amtlichen Informationen der zuständigen Stelle für Ihren Beruf und Ihr Zielland. Die Übersetzung umfasst die vereinbarten Dokumente und ersetzt kein Verwaltungsverfahren."
+    },
+    {
+      "question": "Übersetzen Sie auch FP- und Abitur-Zeugnisse?",
+      "answer": "Ja, wir übersetzen Berufsausbildungszeugnisse, Abitur, ESO und alle offiziellen akademischen Bescheinigungen für die Verwendung in Deutschland."
+    }
+  ]
+}

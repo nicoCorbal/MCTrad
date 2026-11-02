@@ -19,7 +19,8 @@ import { supportedLanguages } from '../i18n/i18n';
  * @param {Object} props.jsonLd - Optional JSON-LD structured data
  * @param {Object} props.overrides - Optional overrides for SEO values
  */
-function SEO({ page, jsonLd, overrides = {} }) {
+const EMPTY_OVERRIDES = {};
+function SEO({ page, jsonLd, overrides = EMPTY_OVERRIDES }) {
   const { lang = 'es' } = useParams();
   const currentLang = supportedLanguages.includes(lang) ? lang : 'es';
 

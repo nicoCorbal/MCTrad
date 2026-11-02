@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Gerichtsurteile",
+  "badge": "Beglaubigte Übersetzung",
+  "title": "Beglaubigte Übersetzung von Gerichtsurteilen",
+  "description": "Beglaubigte Übersetzungen von Urteilen und Prozessdokumenten für internationale Rechtsverfahren.",
+  "featuresTitle": "Leistungsmerkmale",
+  "features": [
+    {
+      "title": "Gerichtsverfahren",
+      "description": "Gültig zur Vorlage bei deutschen und spanischen Gerichten."
+    },
+    {
+      "title": "Urteile und Beschlüsse",
+      "description": "Zivil-, Straf-, Handels- und Familienrecht."
+    },
+    {
+      "title": "Internationale Rechtshilfe",
+      "description": "Rechtshilfeersuchen und Zustellungen."
+    },
+    {
+      "title": "Eilservice",
+      "description": "Express-Service für Prozessfristen."
+    }
+  ],
+  "documents": [
+    "Gerichtsurteile",
+    "Beschlüsse und Verfügungen",
+    "Klageschriften",
+    "Prozessschriftsätze",
+    "Rechtshilfeersuchen",
+    "Sitzungsprotokolle"
+  ],
+  "faqs": [
+    {
+      "question": "Ist die beglaubigte Übersetzung vor Gericht gültig?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Bieten Sie Eilservice für Prozessfristen?",
+      "answer": "Der Liefertermin wird nach Prüfung der Unterlagen im Angebot bestätigt. Nennen Sie Ihre Frist bereits beim Versand des Scans. Eilaufträge hängen von Umfang und Verfügbarkeit ab."
+    },
+    {
+      "question": "Übersetzen Sie Auslieferungsverfahren?",
+      "answer": "Ja, beglaubigte Übersetzungen für alle Auslieferungsverfahren und internationale Rechtshilfe."
+    },
+    {
+      "question": "Können Sie vollständige Gerichtsakten übersetzen?",
+      "answer": "Ja, mit spezifischem Angebot für umfangreiche Akten."
+    },
+    {
+      "question": "Wie wird ein spanisches Urteil in Deutschland vollstreckt?",
+      "answer": "Eine beglaubigte Übersetzung kann Bestandteil eines Gerichtsverfahrens sein. Ihre anwaltliche Vertretung oder das zuständige Gericht muss das anwendbare Verfahren sowie die benötigten Bescheinigungen und Unterlagen bestätigen. Die Übersetzung ersetzt weder Anerkennung noch Vollstreckung einer Entscheidung."
+    },
+    {
+      "question": "Übersetzen Sie Scheidungsurteile für das Standesamt?",
+      "answer": "Eine beglaubigte Übersetzung kann Bestandteil eines Gerichtsverfahrens sein. Ihre anwaltliche Vertretung oder das zuständige Gericht muss das anwendbare Verfahren sowie die benötigten Bescheinigungen und Unterlagen bestätigen. Die Übersetzung ersetzt weder Anerkennung noch Vollstreckung einer Entscheidung."
+    },
+    {
+      "question": "Was ist ein Rechtshilfeersuchen und wie wird es übersetzt?",
+      "answer": "Ein Rechtshilfeersuchen ist eine Bitte um justizielle Zusammenarbeit zwischen Ländern. Wir übersetzen diese Dokumente unter Beachtung des Formats und der Prozessterminologie beider Rechtssysteme."
+    },
+    {
+      "question": "Kann ich die Übersetzung für ein Rechtsmittel verwenden?",
+      "answer": "Eine beglaubigte Übersetzung kann Bestandteil eines Gerichtsverfahrens sein. Ihre anwaltliche Vertretung oder das zuständige Gericht muss das anwendbare Verfahren sowie die benötigten Bescheinigungen und Unterlagen bestätigen. Die Übersetzung ersetzt weder Anerkennung noch Vollstreckung einer Entscheidung."
+    }
+  ]
+}

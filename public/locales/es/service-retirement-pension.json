@@ -1,0 +1,61 @@
+{
+  "shortTitle": "Jubilaciones y Pensiones",
+  "badge": "Traducción Jurada",
+  "title": "Traducción Jurada de Documentos de Jubilación y Pensiones",
+  "description": "Traducciones juradas de documentos de jubilación, pensiones y Seguridad Social con validez oficial. Para trámites ante la Seguridad Social española, Deutsche Rentenversicherung y organismos internacionales.",
+  "featuresTitle": "Características del Servicio",
+  "features": [
+    {
+      "title": "Seguridad Social",
+      "description": "Válida ante la Seguridad Social española y Deutsche Rentenversicherung para el reconocimiento de cotizaciones y pensiones."
+    },
+    {
+      "title": "Certificados de Vida",
+      "description": "Traducción de Fe de Vida (Lebensbescheinigung) necesaria para mantener el cobro de pensiones en el extranjero."
+    },
+    {
+      "title": "Resoluciones de Pensión",
+      "description": "Traducción de resoluciones, notificaciones y cálculos de pensiones de jubilación, viudedad e incapacidad."
+    },
+    {
+      "title": "Convenios Bilaterales",
+      "description": "Experiencia en documentos para la totalización de períodos de cotización entre España y Alemania."
+    }
+  ],
+  "documents": [
+    "Resolución de pensión de jubilación",
+    "Certificado de vida (Fe de Vida / Lebensbescheinigung)",
+    "Vida laboral",
+    "Historial de cotizaciones",
+    "Resolución de pensión de viudedad",
+    "Resolución de incapacidad permanente",
+    "Formularios E-205 / P1",
+    "Certificados de la Deutsche Rentenversicherung"
+  ],
+  "faqs": [
+    {
+      "question": "¿Necesito traducir mi resolución de pensión alemana para cobrarla en España?",
+      "answer": "La necesidad de traducción depende del trámite y de la entidad que solicita los documentos. Confirme los requisitos con la Seguridad Social, la Deutsche Rentenversicherung o la administración destinataria y envíe las comunicaciones concretas que quiera traducir."
+    },
+    {
+      "question": "¿Qué es el certificado de vida y para qué sirve?",
+      "answer": "El certificado de vida acredita que una persona está viva. Si su entidad de pensiones le solicita este documento, compruebe qué formulario, plazo y formato acepta, y si necesita traducción antes de encargarla."
+    },
+    {
+      "question": "¿Qué necesito indicar para traducir documentos de cotización de España y Alemania?",
+      "answer": "La necesidad de traducción depende del trámite y de la entidad que solicita los documentos. Confirme los requisitos con la Seguridad Social, la Deutsche Rentenversicherung o la administración destinataria y envíe las comunicaciones concretas que quiera traducir."
+    },
+    {
+      "question": "¿Traducís documentos de la Deutsche Rentenversicherung?",
+      "answer": "Sí, traducimos todo tipo de documentos de la Deutsche Rentenversicherung: resoluciones, cálculos de pensión, certificados de cotización y correspondencia oficial."
+    },
+    {
+      "question": "¿Cuánto tarda la traducción de una resolución de pensión?",
+      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+    },
+    {
+      "question": "¿La traducción sirve para Hacienda?",
+      "answer": "La necesidad de traducción depende del trámite y de la entidad que solicita los documentos. Confirme los requisitos con la Seguridad Social, la Deutsche Rentenversicherung o la administración destinataria y envíe las comunicaciones concretas que quiera traducir."
+    }
+  ]
+}

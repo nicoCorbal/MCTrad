@@ -36,3 +36,6 @@ TODO.md
 .env.*.local
 .vercel
 .env*.local
+
+# SEO research cache
+.firecrawl/

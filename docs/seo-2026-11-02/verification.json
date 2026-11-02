@@ -1,0 +1,35 @@
+{
+  "reviewDate": "2026-11-02",
+  "canonicalOrigin": "https://mariaangelescapas.com",
+  "pages": 56,
+  "documentPages": 28,
+  "languages": [
+    "es",
+    "de",
+    "fr",
+    "en"
+  ],
+  "status": "validated locally; awaiting CI publication",
+  "deferredByOwner": [
+    "numeric pricing changes",
+    "Google Business Profile"
+  ],
+  "analyticsCloudVerification": "pending correct GA4 property; the session inspected was Foco",
+  "javascriptBytes": {
+    "initialBefore": 439890,
+    "initialAfter": 318410,
+    "serviceBeforeApprox": 95000,
+    "serviceAfterApprox": 9020
+  },
+  "rollbackDeploymentId": "dpl_5USxuWtP4tgfCvXCPiJEWQ31x2mM",
+  "sourceManifest": "source-sha256.json",
+  "externalMessagesSent": false,
+  "checksPassed": [
+    "lint",
+    "analytics unit verification",
+    "localized content verification",
+    "56 page prerender validation",
+    "static SEO verification"
+  ],
+  "sourceFileCount": 113
+}

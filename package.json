@@ -5,12 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:prerender": "vite build && node scripts/prerender.js",
+    "build": "node scripts/generate-sitemap.js && vite build && node scripts/prerender.js",
+    "build:prerender": "npm run build",
     "build:only": "vite build",
     "prerender": "node scripts/prerender.js",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint src scripts *.config.js",
+    "preview": "vite preview",
+    "verify:seo": "node scripts/verify-seo.js",
+    "verify:analytics": "node scripts/verify-analytics.js",
+    "verify:content": "node scripts/verify-content.js"
   },
   "dependencies": {
     "framer-motion": "^12.23.26",

@@ -1,0 +1,67 @@
+{
+  "shortTitle": "University Degree",
+  "badge": "Certified Translation",
+  "title": "Certified University Degree Translation",
+  "description": "Certified translations of university degrees and transcripts for credential recognition in Spain and Germany.",
+  "featuresTitle": "Service Features",
+  "features": [
+    {
+      "title": "Degree Recognition",
+      "description": "Valid for foreign degree recognition procedures."
+    },
+    {
+      "title": "Universities",
+      "description": "Accepted by Spanish and German universities."
+    },
+    {
+      "title": "Complete Records",
+      "description": "Translation of degrees, transcripts, and European Diploma Supplements."
+    },
+    {
+      "title": "Hague Apostille",
+      "description": "Guidance on apostille requirements."
+    }
+  ],
+  "documents": [
+    "Official university degree",
+    "Academic transcript",
+    "European Diploma Supplement",
+    "Course syllabi",
+    "Master's or doctoral diploma",
+    "Current enrollment certificate"
+  ],
+  "faqs": [
+    {
+      "question": "What documents for degree recognition in Spain?",
+      "answer": "Documents vary by qualification and procedure. Check the current official checklist and send the items you have been asked to translate, such as a degree, transcript or diploma supplement. An apostille and the same set of documents are not required for every application."
+    },
+    {
+      "question": "How long for a complete academic record?",
+      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+    },
+    {
+      "question": "Is the translation valid for German universities?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "Do you translate the European Diploma Supplement?",
+      "answer": "Yes, we translate the Diploma Supplement."
+    },
+    {
+      "question": "How do I get a German degree recognized in Spain?",
+      "answer": "First identify the recognition, equivalence or other procedure appropriate to your situation. Consult the official information from the competent authority for your profession and destination country. Translation covers the agreed documents and does not replace the administrative procedure."
+    },
+    {
+      "question": "What is the difference between equivalence and homologation?",
+      "answer": "Equivalence recognizes the academic level (bachelor, master, doctorate) but does not authorize regulated professions. Homologation equates the foreign degree to a specific Spanish degree."
+    },
+    {
+      "question": "Can I work in Germany with my Spanish degree?",
+      "answer": "First identify the recognition, equivalence or other procedure appropriate to your situation. Consult the official information from the competent authority for your profession and destination country. Translation covers the agreed documents and does not replace the administrative procedure."
+    },
+    {
+      "question": "Do you translate vocational training and high school diplomas?",
+      "answer": "Yes, we translate vocational training diplomas, high school certificates, and any official academic certification for use abroad."
+    }
+  ]
+}

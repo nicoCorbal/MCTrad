@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Acte de Naissance",
+  "badge": "Traduction Assermentée",
+  "title": "Traduction Assermentée des Actes de Naissance",
+  "description": "Traductions assermentées des actes de naissance avec validité officielle pour les démarches administratives. Service professionnel avec livraison en 24-48 heures.",
+  "featuresTitle": "Caractéristiques du Service",
+  "features": [
+    {
+      "title": "Traduction Assermentée",
+      "description": "Reconnue par les mairies, ambassades, consulats et administrations en Espagne et en Allemagne."
+    },
+    {
+      "title": "Livraison Express 24-48h",
+      "description": "Traduction prête en 24-48 heures ouvrables. Envoi numérique préalable et original par courrier recommandé."
+    },
+    {
+      "title": "Format Officiel Complet",
+      "description": "Cachet et signature officiels conformes aux normes MAEC et OLG Cologne."
+    },
+    {
+      "title": "Devis Sans Engagement",
+      "description": "Prix fixe avant de commencer. Pas de frais cachés."
+    }
+  ],
+  "documents": [
+    "Copie intégrale d'acte de naissance",
+    "Acte de naissance international",
+    "Extrait d'acte de naissance",
+    "Livret de famille (pages naissance)",
+    "Acte de naissance plurilingue",
+    "Acte de naissance apostillé"
+  ],
+  "faqs": [
+    {
+      "question": "Quelle validité a la traduction assermentée d'un acte de naissance?",
+      "answer": "La traduction assermentée peut être utilisée lorsque le destinataire la demande. Pour certains documents publics entre pays de l’UE, le règlement (UE) 2016/1191 simplifie l’authentification ; un formulaire multilingue peut remplacer la traduction. Vérifiez le besoin avant de passer commande."
+    },
+    {
+      "question": "Combien de temps prend la traduction d'un acte de naissance?",
+      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+    },
+    {
+      "question": "Dois-je apostiller mon acte de naissance avant de le faire traduire?",
+      "answer": "L’apostille n’est pas toujours requise. Les documents publics couverts par le règlement (UE) 2016/1191, notamment certains actes de naissance et de mariage, en sont dispensés lorsqu’ils sont présentés dans un autre pays de l’UE. D’autres documents ou destinations peuvent suivre des règles différentes. Consultez les informations officielles et le destinataire."
+    },
+    {
+      "question": "Combien coûte la traduction d'un acte de naissance?",
+      "answer": "Le prix dépend des langues, du volume et des annexes. Envoyez l’acte complet pour recevoir un devis adapté, généralement sous 24 heures."
+    },
+    {
+      "question": "Quelles informations fournir pour une traduction destinée à une démarche de nationalité?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Quelle est la différence entre extrait et copie intégrale?",
+      "answer": "La copie intégrale contient toutes les informations de l'acte original, tandis que l'extrait ne contient que les données essentielles. Les deux documents ont la même validité pour les traductions assermentées."
+    },
+    {
+      "question": "La traduction est-elle acceptée par l'ambassade allemande?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Comment envoyer mon acte de naissance pour traduction?",
+      "answer": "Envoyez une photo nette ou un scan complet par e-mail à capaslopez@gmail.com. Précisez la langue cible, le destinataire et votre échéance. L’original n’est pas nécessaire pour établir le devis."
+    }
+  ]
+}

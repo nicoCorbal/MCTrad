@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Notarielle Dokumente",
+  "badge": "Beglaubigte Übersetzung",
+  "title": "Beglaubigte Übersetzung Notarieller Dokumente",
+  "description": "Beglaubigte Übersetzungen von notariellen Urkunden, Vollmachten und Testamenten.",
+  "featuresTitle": "Leistungsmerkmale",
+  "features": [
+    {
+      "title": "Notarielle Urkunden",
+      "description": "Immobilienkaufverträge, Gesellschaftsgründungen und Hypotheken."
+    },
+    {
+      "title": "Vollmachten",
+      "description": "General-, Spezial- und Prozessvollmachten."
+    },
+    {
+      "title": "Testamente",
+      "description": "Öffentliche, privatschriftliche und eigenhändige Testamente."
+    },
+    {
+      "title": "Notarielle Protokolle",
+      "description": "Beurkundungen und Beglaubigungen."
+    }
+  ],
+  "documents": [
+    "Kaufurkunden",
+    "Notarielle Vollmachten",
+    "Testamente",
+    "Eidesstattliche Erklärungen",
+    "Gründungsurkunden",
+    "Eheverträge"
+  ],
+  "faqs": [
+    {
+      "question": "Hat die Übersetzung einer Urkunde Gültigkeit in Spanien?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Übersetzen Sie Vollmachten für das Ausland?",
+      "answer": "Ja, wir übersetzen Vollmachten für internationale Verwendung in beide Richtungen."
+    },
+    {
+      "question": "Welche Dokumente brauche ich für eine internationale Erbschaft?",
+      "answer": "Die erforderlichen Unterlagen hängen vom Rechtsgeschäft und den beteiligten Ländern ab. Lassen Sie sich vom zuständigen Notariat oder der betreuenden Fachperson eine Dokumentenliste geben und senden Sie diese für ein Übersetzungsangebot. Eine Apostille oder Legalisation ist nicht pauschal für jedes Dokument erforderlich."
+    },
+    {
+      "question": "Wie lange dauert eine Kaufurkunde?",
+      "answer": "Der Liefertermin wird nach Prüfung der Unterlagen im Angebot bestätigt. Nennen Sie Ihre Frist bereits beim Versand des Scans. Eilaufträge hängen von Umfang und Verfügbarkeit ab."
+    },
+    {
+      "question": "Was soll ich für ein Übersetzungsangebot zu einem Immobilienkauf in Deutschland senden?",
+      "answer": "Die erforderlichen Unterlagen hängen vom Rechtsgeschäft und den beteiligten Ländern ab. Lassen Sie sich vom zuständigen Notariat oder der betreuenden Fachperson eine Dokumentenliste geben und senden Sie diese für ein Übersetzungsangebot. Eine Apostille oder Legalisation ist nicht pauschal für jedes Dokument erforderlich."
+    },
+    {
+      "question": "Wie wird ein Testament für die Verwendung im Ausland übersetzt?",
+      "answer": "Die erforderlichen Unterlagen hängen vom Rechtsgeschäft und den beteiligten Ländern ab. Lassen Sie sich vom zuständigen Notariat oder der betreuenden Fachperson eine Dokumentenliste geben und senden Sie diese für ein Übersetzungsangebot. Eine Apostille oder Legalisation ist nicht pauschal für jedes Dokument erforderlich."
+    },
+    {
+      "question": "Wie erhalte ich ein Angebot für die Übersetzung einer Vollmacht?",
+      "answer": "Die erforderlichen Unterlagen hängen vom Rechtsgeschäft und den beteiligten Ländern ab. Lassen Sie sich vom zuständigen Notariat oder der betreuenden Fachperson eine Dokumentenliste geben und senden Sie diese für ein Übersetzungsangebot. Eine Apostille oder Legalisation ist nicht pauschal für jedes Dokument erforderlich."
+    },
+    {
+      "question": "Übersetzen Sie Eheverträge?",
+      "answer": "Ja, wir übersetzen Eheverträge (capitulaciones matrimoniales auf Spanisch), die für die Definition des ehelichen Güterstandes wichtig sind, besonders bei deutsch-spanischen Paaren."
+    }
+  ]
+}

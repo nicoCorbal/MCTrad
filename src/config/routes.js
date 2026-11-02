@@ -1,3 +1,6 @@
+import { servicePages } from './seo.js';
+import { supportedLanguages } from './languages.js';
+
 /**
  * Route configuration with translated paths for each language
  * Each route has a key (internal identifier) and translated slugs per language
@@ -48,6 +51,19 @@ export const routes = {
   },
 };
 
+// The same route inventory drives navigation, prerendering and the sitemap.
+export const allRoutes = {
+  ...routes,
+  ...Object.fromEntries(Object.values(servicePages).map(service => [service.routeKey, service.slugs])),
+};
+
+export const pageEntries = Object.entries(allRoutes).flatMap(([key, slugs]) =>
+  supportedLanguages.map(lang => ({
+    key, lang, slug: slugs[lang],
+    path: slugs[lang] ? `/${lang}/${slugs[lang]}` : `/${lang}`,
+  }))
+);
+
 /**
  * Get the path for a route in a specific language
  * @param {string} routeKey - The route key (e.g., 'services', 'about')
@@ -55,10 +71,10 @@ export const routes = {
  * @returns {string} - The full path (e.g., '/de/dienstleistungen')
  */
 export const getRoutePath = (routeKey, lang) => {
-  const route = routes[routeKey];
+  const route = allRoutes[routeKey];
   if (!route) return `/${lang}`;
 
-  const slug = route[lang] || route.es; // Fallback to Spanish
+  const slug = route[lang] ?? route.es; // Fallback to Spanish
   return slug ? `/${lang}/${slug}` : `/${lang}`;
 };
 
@@ -70,7 +86,7 @@ export const getRoutePath = (routeKey, lang) => {
 export const getRouteKeyFromSlug = (slug) => {
   if (!slug) return 'home';
 
-  for (const [key, translations] of Object.entries(routes)) {
+  for (const [key, translations] of Object.entries(allRoutes)) {
     for (const translatedSlug of Object.values(translations)) {
       if (translatedSlug === slug) {
         return key;
@@ -86,7 +102,7 @@ export const getRouteKeyFromSlug = (slug) => {
  * @returns {string[]} - Array of all slugs for this route
  */
 export const getAllSlugsForRoute = (routeKey) => {
-  const route = routes[routeKey];
+  const route = allRoutes[routeKey];
   if (!route) return [];
   return [...new Set(Object.values(route).filter(Boolean))];
 };

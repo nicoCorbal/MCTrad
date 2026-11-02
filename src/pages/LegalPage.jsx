@@ -10,7 +10,7 @@ function LegalPage() {
   return (
     <>
       <SEO page="legal" />
-      <main className="min-h-screen bg-white">
+      <main className="interior-page legal-page">
       {/* Header */}
       <motion.section
         className="pt-24 pb-12 md:pt-32 md:pb-16 bg-gradient-to-b from-gray-50 to-white"

@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Actes Notariés",
+  "badge": "Traduction Assermentée",
+  "title": "Traduction Assermentée d'Actes Notariés",
+  "description": "Traductions assermentées d'actes notariés, procurations et testaments.",
+  "featuresTitle": "Caractéristiques du Service",
+  "features": [
+    {
+      "title": "Actes Authentiques",
+      "description": "Ventes immobilières, constitutions de sociétés et hypothèques."
+    },
+    {
+      "title": "Procurations",
+      "description": "Procurations générales, spéciales et pour procès."
+    },
+    {
+      "title": "Testaments",
+      "description": "Testaments authentiques, mystiques et olographes."
+    },
+    {
+      "title": "Procès-verbaux Notariés",
+      "description": "Actes de notoriété et de constatation."
+    }
+  ],
+  "documents": [
+    "Actes de vente",
+    "Procurations notariées",
+    "Testaments",
+    "Attestations",
+    "Actes de constitution",
+    "Contrats de mariage"
+  ],
+  "faqs": [
+    {
+      "question": "La traduction d'un acte notarié est valable en Allemagne?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Traduisez-vous des procurations pour l'étranger?",
+      "answer": "Oui, nous traduisons des procurations pour usage international dans les deux sens."
+    },
+    {
+      "question": "Quels documents pour une succession internationale?",
+      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+    },
+    {
+      "question": "Délai pour un acte de vente?",
+      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+    },
+    {
+      "question": "Que transmettre pour un devis de traduction lié à un achat immobilier en Allemagne?",
+      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+    },
+    {
+      "question": "Comment traduire un testament pour l'utiliser à l'étranger?",
+      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+    },
+    {
+      "question": "Comment demander un devis pour traduire une Vollmacht?",
+      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+    },
+    {
+      "question": "Traduisez-vous les contrats de mariage?",
+      "answer": "Oui, nous traduisons les contrats de mariage (capitulaciones matrimoniales en espagnol, Ehevertrag en allemand) qui définissent le régime matrimonial, particulièrement importants pour les couples hispano-allemands."
+    }
+  ]
+}

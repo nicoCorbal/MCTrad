@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Contracts",
+  "badge": "Certified Translation",
+  "title": "Certified Contract Translation",
+  "description": "Certified translations of commercial and employment contracts with legal precision.",
+  "featuresTitle": "Service Features",
+  "features": [
+    {
+      "title": "Legal Precision",
+      "description": "Exact legal terminology adapted to both legal systems."
+    },
+    {
+      "title": "Commercial Contracts",
+      "description": "Sales, distribution, franchise, and NDAs."
+    },
+    {
+      "title": "Employment Contracts",
+      "description": "Work contracts and non-compete clauses."
+    },
+    {
+      "title": "Expert Review",
+      "description": "Double review for terminological consistency."
+    }
+  ],
+  "documents": [
+    "Sales contracts",
+    "Lease agreements",
+    "Employment contracts",
+    "Non-disclosure agreements (NDA)",
+    "Distribution contracts",
+    "Articles of incorporation"
+  ],
+  "faqs": [
+    {
+      "question": "Do contract translations have legal validity?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "What contracts do you translate?",
+      "answer": "All types: commercial, employment, lease, NDAs, franchise, joint ventures."
+    },
+    {
+      "question": "How long for a lengthy contract?",
+      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+    },
+    {
+      "question": "Do you offer review services?",
+      "answer": "Yes, we offer review of third-party translations."
+    },
+    {
+      "question": "What is the difference between certified and legal translation?",
+      "answer": "Legal translation is a thematic specialization (legal texts), while certified translation is an official certification by the translator. A contract may require both: legal precision and official certification."
+    },
+    {
+      "question": "Do I need a certified translation for a Spanish employment contract in Germany?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "Do you translate contracts with specialized technical clauses?",
+      "answer": "Yes, I have experience with contracts from technology, construction, pharmaceutical, and renewable energy sectors. Technical terminology is translated precisely."
+    },
+    {
+      "question": "Can an unsigned contract be translated?",
+      "answer": "Yes, contract drafts can be translated. However, for official proceedings, the translation of the signed contract is usually required, sometimes notarized."
+    }
+  ]
+}

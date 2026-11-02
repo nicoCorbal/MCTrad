@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Heiratsurkunde",
+  "badge": "Beglaubigte Übersetzung",
+  "title": "Beglaubigte Übersetzung von Heiratsurkunden",
+  "description": "Beglaubigte Übersetzungen von Heiratsurkunden für Standesamt und rechtliche Verfahren. Amtliche Gültigkeit in Deutschland und Spanien.",
+  "featuresTitle": "Leistungsmerkmale",
+  "features": [
+    {
+      "title": "Standesamt",
+      "description": "Gültig für die Eintragung im Ausland geschlossener Ehen beim deutschen oder spanischen Standesamt."
+    },
+    {
+      "title": "Visumsverfahren",
+      "description": "Akzeptiert für Familiennachzug, Aufenthaltserlaubnis und Einbürgerung."
+    },
+    {
+      "title": "Doppelzulassung",
+      "description": "Offiziell anerkannte Übersetzerin in Spanien (MAEC) und Deutschland (OLG Köln)."
+    },
+    {
+      "title": "Absolute Vertraulichkeit",
+      "description": "Diskrete und sichere Behandlung aller persönlichen Daten gemäß DSGVO."
+    }
+  ],
+  "documents": [
+    "Heiratsurkunde (beglaubigt)",
+    "Standesamtliche Heiratsurkunde",
+    "Kirchliche Heiratsurkunde",
+    "Stammbuch (Heiratsseiten)",
+    "Internationale Heiratsurkunde",
+    "Scheidungsurteil"
+  ],
+  "faqs": [
+    {
+      "question": "Kann ich mit der beglaubigten Übersetzung meine Ehe in Deutschland eintragen lassen?",
+      "answer": "Eine beglaubigte Übersetzung kann verwendet werden, wenn die empfangende Stelle sie verlangt. Für bestimmte öffentliche Urkunden innerhalb der EU vereinfacht die Verordnung (EU) 2016/1191 die Echtheitsbestätigung; ein mehrsprachiges Formular kann eine Übersetzung ersetzen. Klären Sie den Bedarf vor der Beauftragung."
+    },
+    {
+      "question": "Kann ich dieselbe Übersetzung für Verfahren in Deutschland und Spanien verwenden?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Welche Angaben benötigen Sie zur Übersetzung von Unterlagen für den Familiennachzug?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Übersetzen Sie auch Scheidungsurteile?",
+      "answer": "Ja, wir erstellen beglaubigte Übersetzungen von Scheidungsurteilen und allen Dokumenten zum Personenstand."
+    },
+    {
+      "question": "Muss die spanische Heiratsurkunde apostilliert werden?",
+      "answer": "Eine Apostille ist nicht immer erforderlich. Öffentliche Urkunden im Anwendungsbereich der Verordnung (EU) 2016/1191, etwa bestimmte Geburts- und Heiratsurkunden, sind bei Vorlage in einem anderen EU-Land davon befreit. Für andere Dokumente oder Zielländer können andere Anforderungen gelten. Prüfen Sie die amtlichen Hinweise und fragen Sie die empfangende Stelle."
+    },
+    {
+      "question": "Soll ich die Anforderungen und Fristen des Standesamts angeben?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Was sollte ich bei einer Urkunde aus einem anderen Land prüfen?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Übersetzen Sie das spanische Libro de Familia?",
+      "answer": "Ja, wir übersetzen das spanische Libro de Familia vollständig oder nur die benötigten Seiten. Es ist ein häufig angefragtes Dokument für Eintragungen beim deutschen Standesamt."
+    }
+  ]
+}

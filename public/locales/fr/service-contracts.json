@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Contrats",
+  "badge": "Traduction Assermentée",
+  "title": "Traduction Assermentée de Contrats",
+  "description": "Traductions assermentées de contrats commerciaux et de travail avec précision juridique.",
+  "featuresTitle": "Caractéristiques du Service",
+  "features": [
+    {
+      "title": "Précision Juridique",
+      "description": "Terminologie juridique exacte adaptée aux deux systèmes."
+    },
+    {
+      "title": "Contrats Commerciaux",
+      "description": "Vente, distribution, franchise et accords de confidentialité."
+    },
+    {
+      "title": "Contrats de Travail",
+      "description": "Contrats de travail et clauses de non-concurrence."
+    },
+    {
+      "title": "Révision Spécialisée",
+      "description": "Double révision pour cohérence terminologique."
+    }
+  ],
+  "documents": [
+    "Contrats de vente",
+    "Contrats de location",
+    "Contrats de travail",
+    "Accords de confidentialité (NDA)",
+    "Contrats de distribution",
+    "Statuts de société"
+  ],
+  "faqs": [
+    {
+      "question": "Les traductions de contrats ont valeur juridique?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Quels contrats traduisez-vous?",
+      "answer": "Tous types: commerciaux, de travail, de location, NDAs, franchise, joint ventures."
+    },
+    {
+      "question": "Délai pour un contrat volumineux?",
+      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+    },
+    {
+      "question": "Proposez-vous la révision?",
+      "answer": "Oui, nous offrons des services de révision de traductions réalisées par des tiers."
+    },
+    {
+      "question": "Quelle différence entre traduction assermentée et traduction juridique?",
+      "answer": "La traduction juridique est une spécialisation thématique (textes légaux), tandis que la traduction assermentée est une certification officielle. Un contrat peut nécessiter les deux: précision juridique et certification officielle."
+    },
+    {
+      "question": "Faut-il une traduction assermentée pour un contrat de travail espagnol en Allemagne?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Traduisez-vous des contrats avec des clauses techniques?",
+      "answer": "Oui, j'ai de l'expérience avec des contrats de technologie, construction, pharmaceutique et énergies renouvelables. La terminologie technique est traduite avec précision."
+    },
+    {
+      "question": "Peut-on traduire un contrat non signé?",
+      "answer": "Oui, les projets de contrat peuvent être traduits. Cependant, pour les démarches officielles, la traduction du contrat signé est généralement requise."
+    }
+  ]
+}

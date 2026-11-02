@@ -6,15 +6,80 @@
   "outputDirectory": ".",
   "trailingSlash": false,
   "redirects": [
-    { "source": "/", "destination": "/es", "permanent": true },
-    { "source": "/servicios", "destination": "/es/servicios", "permanent": true },
-    { "source": "/sobre-mi", "destination": "/es/sobre-mi", "permanent": true },
-    { "source": "/contacto", "destination": "/es/contacto", "permanent": true },
-    { "source": "/privacidad", "destination": "/es/privacidad", "permanent": true },
-    { "source": "/aviso-legal", "destination": "/es/aviso-legal", "permanent": true },
-    { "source": "/tarifas", "destination": "/es/tarifas", "permanent": true },
-    { "source": "/de/tarifas", "destination": "/de/preise", "permanent": true },
-    { "source": "/fr/tarifas", "destination": "/fr/tarifs", "permanent": true },
-    { "source": "/en/tarifas", "destination": "/en/pricing", "permanent": true }
+    {
+      "source": "/:path*/index.html",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "destination": "/es",
+      "permanent": true
+    },
+    {
+      "source": "/servicios",
+      "destination": "/es/servicios",
+      "permanent": true
+    },
+    {
+      "source": "/sobre-mi",
+      "destination": "/es/sobre-mi",
+      "permanent": true
+    },
+    {
+      "source": "/contacto",
+      "destination": "/es/contacto",
+      "permanent": true
+    },
+    {
+      "source": "/privacidad",
+      "destination": "/es/privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal",
+      "destination": "/es/aviso-legal",
+      "permanent": true
+    },
+    {
+      "source": "/tarifas",
+      "destination": "/es/tarifas",
+      "permanent": true
+    },
+    {
+      "source": "/de/tarifas",
+      "destination": "/de/preise",
+      "permanent": true
+    },
+    {
+      "source": "/fr/tarifas",
+      "destination": "/fr/tarifs",
+      "permanent": true
+    },
+    {
+      "source": "/en/tarifas",
+      "destination": "/en/pricing",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/fonts/:path*.woff2",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }

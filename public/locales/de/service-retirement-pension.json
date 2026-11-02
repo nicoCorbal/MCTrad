@@ -1,0 +1,53 @@
+{
+  "shortTitle": "Rente und Pension",
+  "badge": "Beglaubigte Übersetzung",
+  "title": "Beglaubigte Übersetzung von Renten- und Pensionsdokumenten",
+  "description": "Beglaubigte Übersetzungen von Rentenbescheiden, Pensionsdokumenten und Sozialversicherungsunterlagen. Gültig bei der Deutschen Rentenversicherung und spanischen Seguridad Social.",
+  "featuresTitle": "Leistungsmerkmale",
+  "features": [
+    {
+      "title": "Rentenversicherung",
+      "description": "Gültig bei der Deutschen Rentenversicherung und spanischen Seguridad Social für die Anerkennung von Beitragszeiten."
+    },
+    {
+      "title": "Lebensbescheinigung",
+      "description": "Übersetzung der Fe de Vida für den Bezug ausländischer Renten."
+    },
+    {
+      "title": "Rentenbescheide",
+      "description": "Übersetzung von Bescheiden, Berechnungen und Mitteilungen zu Alters-, Witwen- und Erwerbsminderungsrenten."
+    },
+    {
+      "title": "Bilaterale Abkommen",
+      "description": "Erfahrung mit Dokumenten zur Zusammenrechnung von Versicherungszeiten."
+    }
+  ],
+  "documents": [
+    "Rentenbescheid",
+    "Lebensbescheinigung",
+    "Versicherungsverlauf",
+    "Beitragsübersicht",
+    "Witwenrentenbescheid",
+    "Erwerbsminderungsrentenbescheid",
+    "Formulare E-205 / P1",
+    "Bescheinigungen der Seguridad Social"
+  ],
+  "faqs": [
+    {
+      "question": "Muss ich meinen spanischen Rentenbescheid übersetzen lassen?",
+      "answer": "Ob eine Übersetzung erforderlich ist, hängt vom Verfahren und der anfordernden Stelle ab. Fragen Sie bei der Seguridad Social, der Deutschen Rentenversicherung oder der empfangenden Behörde nach und senden Sie die konkret benötigten Schreiben zur Übersetzung."
+    },
+    {
+      "question": "Was ist die Lebensbescheinigung?",
+      "answer": "Eine Lebensbescheinigung bestätigt, dass eine Person lebt. Wenn Ihr Rententräger sie anfordert, prüfen Sie bitte das verlangte Formular, die Frist, das Ausgabeformat und ob eine Übersetzung benötigt wird."
+    },
+    {
+      "question": "Welche Angaben benötigen Sie für die Übersetzung spanischer und deutscher Beitragsunterlagen?",
+      "answer": "Ob eine Übersetzung erforderlich ist, hängt vom Verfahren und der anfordernden Stelle ab. Fragen Sie bei der Seguridad Social, der Deutschen Rentenversicherung oder der empfangenden Behörde nach und senden Sie die konkret benötigten Schreiben zur Übersetzung."
+    },
+    {
+      "question": "Übersetzen Sie Dokumente der Seguridad Social?",
+      "answer": "Ja, wir übersetzen alle Dokumente der spanischen Seguridad Social: Bescheide, Berechnungen und offizielle Korrespondenz."
+    }
+  ]
+}

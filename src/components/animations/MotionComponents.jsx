@@ -257,7 +257,7 @@ export const AnimatedButton = ({ children, className = "", onClick, type = "butt
 );
 
 // Link animado
-export const AnimatedLink = ({ children, to, className = "" }) => (
+export const AnimatedLink = ({ children }) => (
   <motion.div
     initial="rest"
     whileHover="hover"

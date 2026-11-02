@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Acte de Mariage",
+  "badge": "Traduction Assermentée",
+  "title": "Traduction Assermentée des Actes de Mariage",
+  "description": "Traductions assermentées des actes de mariage pour les démarches administratives et procédures légales.",
+  "featuresTitle": "Caractéristiques du Service",
+  "features": [
+    {
+      "title": "État Civil",
+      "description": "Valide pour l'inscription des mariages célébrés à l'étranger."
+    },
+    {
+      "title": "Procédures de Visa",
+      "description": "Acceptée pour le regroupement familial et les permis de séjour."
+    },
+    {
+      "title": "Double Accréditation",
+      "description": "Traductrice assermentée reconnue en Espagne et en Allemagne."
+    },
+    {
+      "title": "Confidentialité Totale",
+      "description": "Traitement discret et sécurisé des données personnelles."
+    }
+  ],
+  "documents": [
+    "Copie intégrale d'acte de mariage",
+    "Acte de mariage civil",
+    "Acte de mariage religieux",
+    "Livret de famille",
+    "Acte de mariage international",
+    "Jugement de divorce"
+  ],
+  "faqs": [
+    {
+      "question": "La traduction assermentée permet-elle d'inscrire mon mariage en Espagne?",
+      "answer": "La traduction assermentée peut être utilisée lorsque le destinataire la demande. Pour certains documents publics entre pays de l’UE, le règlement (UE) 2016/1191 simplifie l’authentification ; un formulaire multilingue peut remplacer la traduction. Vérifiez le besoin avant de passer commande."
+    },
+    {
+      "question": "Puis-je utiliser la même traduction en Allemagne et en Espagne?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Quelles informations fournir pour traduire des documents de regroupement familial?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Traduisez-vous les jugements de divorce?",
+      "answer": "Oui, nous réalisons des traductions assermentées de jugements de divorce et documents relatifs à l'état civil."
+    },
+    {
+      "question": "Faut-il apostiller l'acte de mariage allemand?",
+      "answer": "L’apostille n’est pas toujours requise. Les documents publics couverts par le règlement (UE) 2016/1191, notamment certains actes de naissance et de mariage, en sont dispensés lorsqu’ils sont présentés dans un autre pays de l’UE. D’autres documents ou destinations peuvent suivre des règles différentes. Consultez les informations officielles et le destinataire."
+    },
+    {
+      "question": "Dois-je préciser les exigences et les délais du service d’état civil?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Que vérifier si l’acte provient d’un autre pays?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Traduisez-vous le Stammbuch allemand?",
+      "answer": "Oui, nous traduisons le Stammbuch allemand complet ou seulement les pages nécessaires. C'est un document très demandé pour les inscriptions à l'état civil espagnol."
+    }
+  ]
+}

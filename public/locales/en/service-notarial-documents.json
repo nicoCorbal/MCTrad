@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Notarial Documents",
+  "badge": "Certified Translation",
+  "title": "Certified Notarial Document Translation",
+  "description": "Certified translations of notarial deeds, powers of attorney, and wills.",
+  "featuresTitle": "Service Features",
+  "features": [
+    {
+      "title": "Public Deeds",
+      "description": "Real estate sales, company formation, and mortgages."
+    },
+    {
+      "title": "Powers of Attorney",
+      "description": "General, special, and litigation powers."
+    },
+    {
+      "title": "Wills",
+      "description": "Open, sealed, and holographic wills."
+    },
+    {
+      "title": "Notarial Certificates",
+      "description": "Affidavits and protocol records."
+    }
+  ],
+  "documents": [
+    "Sale deeds",
+    "Notarial powers of attorney",
+    "Wills",
+    "Sworn statements",
+    "Articles of incorporation",
+    "Prenuptial agreements"
+  ],
+  "faqs": [
+    {
+      "question": "Does the translation of a deed have validity in Germany?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "Do you translate powers of attorney for abroad?",
+      "answer": "Yes, we translate powers of attorney for international use in both directions."
+    },
+    {
+      "question": "What documents for an international inheritance?",
+      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+    },
+    {
+      "question": "How long for a sale deed?",
+      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+    },
+    {
+      "question": "What should I send for a translation quote relating to a property purchase in Germany?",
+      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+    },
+    {
+      "question": "How is a will translated for use abroad?",
+      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+    },
+    {
+      "question": "How do I request a quote to translate a Vollmacht?",
+      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+    },
+    {
+      "question": "Do you translate prenuptial agreements?",
+      "answer": "Yes, we translate prenuptial agreements (capitulaciones matrimoniales in Spanish, Ehevertrag in German) which define the matrimonial property regime, especially important for Spanish-German couples."
+    }
+  ]
+}

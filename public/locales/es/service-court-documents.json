@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Sentencias Judiciales",
+  "badge": "Traducción Jurada",
+  "title": "Traducción Jurada de Sentencias Judiciales",
+  "description": "Traducciones juradas de sentencias, autos y resoluciones judiciales para procesos legales internacionales.",
+  "featuresTitle": "Características del Servicio",
+  "features": [
+    {
+      "title": "Procesos Judiciales",
+      "description": "Válida para presentar ante tribunales españoles, alemanes e internacionales."
+    },
+    {
+      "title": "Sentencias y Autos",
+      "description": "Resoluciones civiles, penales, mercantiles y de familia."
+    },
+    {
+      "title": "Exhortos Internacionales",
+      "description": "Comisiones rogatorias y notificaciones judiciales."
+    },
+    {
+      "title": "Servicio Urgente",
+      "description": "Servicio express para plazos procesales."
+    }
+  ],
+  "documents": [
+    "Sentencias judiciales",
+    "Autos y providencias",
+    "Demandas y contestaciones",
+    "Escritos procesales",
+    "Exhortos y comisiones rogatorias",
+    "Actas de juicio"
+  ],
+  "faqs": [
+    {
+      "question": "¿La traducción jurada de una sentencia es válida ante tribunales?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Ofrecéis servicio urgente para plazos procesales?",
+      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+    },
+    {
+      "question": "¿Traducís documentos para extradición?",
+      "answer": "Sí, realizamos traducciones para procesos de extradición y asistencia judicial internacional."
+    },
+    {
+      "question": "¿Podéis traducir expedientes judiciales completos?",
+      "answer": "Sí, traducimos expedientes completos con presupuesto específico."
+    },
+    {
+      "question": "¿Cómo se ejecuta una sentencia alemana en España?",
+      "answer": "La traducción jurada puede formar parte de un procedimiento judicial. Su abogado o el órgano competente debe confirmar el procedimiento aplicable, los certificados y los documentos que necesita traducir; una traducción no sustituye el reconocimiento o la ejecución de una resolución."
+    },
+    {
+      "question": "¿Traducís sentencias de divorcio para inscribir en el Registro Civil?",
+      "answer": "La traducción jurada puede formar parte de un procedimiento judicial. Su abogado o el órgano competente debe confirmar el procedimiento aplicable, los certificados y los documentos que necesita traducir; una traducción no sustituye el reconocimiento o la ejecución de una resolución."
+    },
+    {
+      "question": "¿Qué es un exhorto internacional y cómo se traduce?",
+      "answer": "Un exhorto o comisión rogatoria es una solicitud de asistencia judicial entre países. Traducimos estos documentos respetando el formato y terminología procesal de ambos sistemas jurídicos."
+    },
+    {
+      "question": "¿Puedo usar la traducción para recurrir una sentencia?",
+      "answer": "La traducción jurada puede formar parte de un procedimiento judicial. Su abogado o el órgano competente debe confirmar el procedimiento aplicable, los certificados y los documentos que necesita traducir; una traducción no sustituye el reconocimiento o la ejecución de una resolución."
+    }
+  ]
+}

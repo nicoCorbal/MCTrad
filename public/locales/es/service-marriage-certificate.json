@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Certificado de Matrimonio",
+  "badge": "Traducción Jurada",
+  "title": "Traducción Jurada de Certificados de Matrimonio",
+  "description": "Traducciones juradas de certificados de matrimonio y actas matrimoniales para registro civil y trámites legales. Validez oficial en España y Alemania.",
+  "featuresTitle": "Características del Servicio",
+  "features": [
+    {
+      "title": "Registro Civil",
+      "description": "Válida para inscripción de matrimonios celebrados en el extranjero en el Registro Civil español o alemán."
+    },
+    {
+      "title": "Trámites de Visado",
+      "description": "Aceptada para reagrupación familiar, permisos de residencia y nacionalidad."
+    },
+    {
+      "title": "Doble Acreditación",
+      "description": "Traductora jurada reconocida oficialmente tanto en España (MAEC) como en Alemania (OLG Köln)."
+    },
+    {
+      "title": "Confidencialidad Total",
+      "description": "Tratamiento discreto y seguro de todos los datos personales según RGPD."
+    }
+  ],
+  "documents": [
+    "Certificado literal de matrimonio",
+    "Acta de matrimonio civil",
+    "Certificado de matrimonio religioso",
+    "Libro de familia (páginas matrimonio)",
+    "Certificado de matrimonio internacional",
+    "Sentencia de divorcio"
+  ],
+  "faqs": [
+    {
+      "question": "¿Sirve la traducción jurada para inscribir mi matrimonio en España?",
+      "answer": "Puede utilizarse cuando el organismo destinatario solicita una traducción jurada. Para determinados documentos públicos entre países de la UE, el Reglamento (UE) 2016/1191 simplifica la autenticación y puede evitar la traducción mediante un impreso multilingüe. Confirme el requisito de su trámite antes de encargarla."
+    },
+    {
+      "question": "¿Puedo usar la misma traducción para trámites en Alemania y España?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Qué información debo facilitar para traducir documentos de reagrupación familiar?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Traducís también sentencias de divorcio?",
+      "answer": "Sí, realizamos traducciones juradas de sentencias de divorcio, convenios reguladores y cualquier documento relacionado con el estado civil."
+    },
+    {
+      "question": "¿Es necesario apostillar el certificado de matrimonio alemán?",
+      "answer": "No se exige siempre. Los documentos públicos incluidos en el Reglamento (UE) 2016/1191, como determinados certificados de nacimiento y matrimonio, están exentos de apostilla cuando se presentan entre países de la UE. Otros documentos o destinos pueden tener requisitos distintos. Consulte la información oficial y el organismo destinatario."
+    },
+    {
+      "question": "¿Debo indicar los requisitos y plazos del Registro Civil?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Qué debo comprobar si el certificado procede de otro país?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Traducís el libro de familia alemán (Stammbuch)?",
+      "answer": "Sí, traducimos el Stammbuch alemán completo o solo las páginas necesarias para tus trámites. Es un documento muy solicitado para inscripciones en el Registro Civil español."
+    }
+  ]
+}

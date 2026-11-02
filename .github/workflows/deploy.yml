@@ -3,6 +3,16 @@ name: Build and Deploy
 on:
   push:
     branches: [master]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'scripts/**'
+      - '*.json'
+      - '*.js'
+      - '.github/workflows/deploy.yml'
+
+permissions:
+  contents: read
 
 jobs:
   deploy:
@@ -13,23 +23,32 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
+      - name: Verify code, analytics and content
+        run: npm run lint && npm run verify:analytics && npm run verify:content
+
       - name: Build with prerendering
-        run: npm run build:prerender
+        run: test -n "$VITE_WEB3FORMS_KEY" && npm run build
+        env:
+          VITE_WEB3FORMS_KEY: ${{ secrets.VITE_WEB3FORMS_KEY }}
+
+      - name: Verify rendered site
+        run: npm run verify:seo
 
       - name: Copy vercel.json to dist
         run: cp vercel.json dist/
 
       - name: Install Vercel CLI
-        run: npm i -g vercel
+        run: npm i -g vercel@50.23.2
 
       - name: Deploy to Vercel
-        run: vercel deploy dist/ --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy dist/ --prod --yes --scope nicos-projects-65539a5e
         env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}

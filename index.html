@@ -6,17 +6,11 @@
 
     <!-- Verificación y Analytics -->
     <meta name="google-site-verification" content="_JocdksGFNKSQJbrMryPQ35YvJAcppojof6AeiKQSa4" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0VDR7CFGQB"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-0VDR7CFGQB');
-    </script>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png?v=mc" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=mc" />
 
     <!--
       SEO Meta Tags - Valores por defecto para /es (español)
@@ -24,7 +18,7 @@
       durante el prerendering para cada idioma/página
     -->
     <title>Traductora Jurada Alemán-Español | María Ángeles Capas</title>
-    <meta name="description" content="Traductora Jurada oficial certificada MAEC y OLG Köln. Traducciones juradas alemán-español con validez legal. Presupuesto en 1h." />
+    <meta name="description" content="Traductora Jurada oficial certificada MAEC y OLG Köln. Traducciones juradas alemán-español con validez legal. Presupuesto en 24h." />
     <meta name="author" content="María Ángeles Capas" />
     <meta name="robots" content="index, follow" />
 
@@ -35,10 +29,10 @@
     <!-- Twitter Card - Valores por defecto -->
     <meta name="twitter:card" content="summary" />
 
-    <!-- Fonts - Preconnect para performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <!-- Self-hosted fonts: no external CSS or font connection required. -->
+    <link rel="preload" href="/fonts/inter-normal-c940764593.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/playfair-display-normal-5d91eb5d52.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
   </head>
   <body>
     <div id="root"></div>

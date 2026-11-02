@@ -1,241 +1,160 @@
-import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
-import { motion, AnimatePresence } from 'framer-motion';
-import { LocalizedNavLink } from './LocalizedLink';
-import { useLocalizedNavigation } from '../hooks/useLocalizedNavigation';
+import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { LocalizedNavLink } from "./LocalizedLink";
+import { useLocalizedNavigation } from "../hooks/useLocalizedNavigation";
+import { routes } from "../config/routes";
+import Logo from "./Logo";
 
-const Header = () => {
+const languages = ["es", "de", "fr", "en"];
+
+export default function Header() {
   const { t } = useTranslation();
-  const { currentLang, changeLanguage, supportedLanguages } = useLocalizedNavigation();
+  const { currentLang, getLanguagePath, getCurrentRouteKey } =
+    useLocalizedNavigation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
+  const menuButton = useRef(null);
+  const currentKey = getCurrentRouteKey();
+  const documentPage = currentKey && !Object.hasOwn(routes, currentKey);
+  const links = [
+    { to: "/", label: t("home"), end: true },
+    { to: "/servicios", label: t("services") },
+    { to: "/tarifas", label: t("pricing") },
+    { to: "/sobre-mi", label: t("about") },
+    { to: "/contacto", label: t("contact") },
+  ];
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 10);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    if (!mobileMenuOpen) return;
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") {
+        setMobileMenuOpen(false);
+        menuButton.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", closeOnEscape);
+    return () => document.removeEventListener("keydown", closeOnEscape);
+  }, [mobileMenuOpen]);
 
-  const languages = [
-    { code: 'es', label: 'ES' },
-    { code: 'de', label: 'DE' },
-    { code: 'fr', label: 'FR' },
-    { code: 'en', label: 'EN' },
-  ];
-
-  const navLinks = [
-    { to: '/', label: t('home'), end: true },
-    { to: '/servicios', label: t('services') },
-    { to: '/tarifas', label: t('pricing') },
-    { to: '/sobre-mi', label: t('about') },
-    { to: '/contacto', label: t('contact') },
-  ];
-
+  const languageLinks = (mobile) => (
+    <div
+      className={
+        mobile
+          ? "flex gap-2 mt-4 px-4"
+          : "hidden sm:flex items-center gap-1 text-xs"
+      }
+    >
+      {languages.map((lang) => (
+        <a
+          key={lang}
+          href={getLanguagePath(lang)}
+          hrefLang={lang}
+          lang={lang}
+          aria-label={lang.toUpperCase()}
+          aria-current={currentLang === lang ? "page" : undefined}
+          className={`language-link ${currentLang === lang ? "language-current" : ""}`}
+        >
+          {lang.toUpperCase()}
+        </a>
+      ))}
+    </div>
+  );
   return (
-    <motion.header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-sm' : 'bg-white/80 backdrop-blur-sm'
-      }`}
+    <header
+      className="site-header fixed top-0 left-0 right-0 z-50"
       role="banner"
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.6, ease: [0.25, 0.4, 0.25, 1] }}
     >
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex items-center justify-between h-14 md:h-20">
-
-          {/* Logo */}
-          <motion.div
-            whileHover={{ scale: 1.02 }}
-            transition={{ duration: 0.2 }}
+        <div className="flex items-center justify-between h-14 md:h-20 gap-4">
+          <LocalizedNavLink
+            to="/"
+            className="brand-lockup flex flex-col"
+            onClick={() => setMobileMenuOpen(false)}
           >
-            <LocalizedNavLink to="/" className="flex flex-col">
-              <span className="font-serif text-lg md:text-xl font-semibold text-gray-900">
-                María Ángeles Capas
-              </span>
-              <span className="text-[10px] md:text-xs text-gray-500 uppercase tracking-wider">
-                {t('common.swornTranslator')}
-              </span>
-            </LocalizedNavLink>
-          </motion.div>
-
-          {/* Desktop Nav */}
+            <Logo className="brand-monogram" decorative />
+            <span className="font-serif text-lg md:text-xl font-semibold text-gray-900">
+              María Ángeles Capas
+            </span>
+            <span className="text-[10px] md:text-xs text-gray-500 uppercase tracking-wider">
+              {t("common.swornTranslator")}
+            </span>
+          </LocalizedNavLink>
           <nav
-            className="hidden md:flex items-center gap-8"
-            aria-label={t('common.quickLinks')}
+            className="hidden lg:flex items-center gap-6"
+            aria-label={t("common.quickLinks")}
           >
-            {navLinks.map((link, i) => (
-              <motion.div
+            {links.map((link) => (
+              <LocalizedNavLink
                 key={link.to}
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: i * 0.1 }}
+                to={link.to}
+                end={link.end}
+                className={({ isActive }) =>
+                  `site-nav-link ${isActive || (link.to === "/servicios" && documentPage) ? "site-nav-active" : ""}`
+                }
               >
-                <LocalizedNavLink
-                  to={link.to}
-                  end={link.end}
-                  className={({ isActive }) =>
-                    `relative text-sm font-medium transition-colors ${
-                      isActive ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900'
-                    }`
-                  }
-                >
-                  {({ isActive }) => (
-                    <>
-                      {link.label}
-                      {isActive && (
-                        <motion.span
-                          className="absolute -bottom-1 left-0 w-full h-0.5 bg-blue-600 rounded-full"
-                          layoutId="activeNav"
-                          transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-                        />
-                      )}
-                    </>
-                  )}
-                </LocalizedNavLink>
-              </motion.div>
+                {link.label}
+              </LocalizedNavLink>
             ))}
           </nav>
-
-          {/* Language + Mobile */}
-          <div className="flex items-center gap-4">
-            {/* Language Selector */}
-            <motion.div
-              className="hidden sm:flex items-center gap-1 text-xs"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4, delay: 0.4 }}
-            >
-              {languages.map((lang, i) => (
-                <React.Fragment key={lang.code}>
-                  <motion.button
-                    onClick={() => changeLanguage(lang.code)}
-                    className={`px-1.5 py-1 font-medium transition-colors ${
-                      currentLang === lang.code
-                        ? 'text-blue-600'
-                        : 'text-gray-500 hover:text-gray-700'
-                    }`}
-                    type="button"
-                    aria-label={t('common.changeLanguageTo', { lng: lang.label }) || `Cambiar idioma a ${lang.label}`}
-                    aria-pressed={currentLang === lang.code}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    {lang.label}
-                  </motion.button>
-                  {i < languages.length - 1 && <span className="text-gray-300">|</span>}
-                </React.Fragment>
-              ))}
-            </motion.div>
-
-            {/* Mobile Menu Button */}
-            <motion.button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-3 -mr-2 text-gray-600 min-w-[44px] min-h-[44px] flex items-center justify-center"
+          <div className="flex items-center gap-3">
+            {languageLinks(false)}
+            <button
+              ref={menuButton}
               type="button"
-              aria-label={mobileMenuOpen ? t('common.closeMenu') || 'Cerrar menú' : t('common.openMenu') || 'Abrir menú'}
+              className="lg:hidden p-3 -mr-2 text-gray-600 flex items-center justify-center"
+              aria-label={t(
+                mobileMenuOpen ? "common.closeMenu" : "common.openMenu",
+              )}
               aria-expanded={mobileMenuOpen}
               aria-controls="mobile-navigation"
-              whileTap={{ scale: 0.9 }}
+              onClick={() => setMobileMenuOpen((open) => !open)}
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <AnimatePresence mode="wait">
-                  {mobileMenuOpen ? (
-                    <motion.path
-                      key="close"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M6 18L18 6M6 6l12 12"
-                      initial={{ opacity: 0, rotate: -90 }}
-                      animate={{ opacity: 1, rotate: 0 }}
-                      exit={{ opacity: 0, rotate: 90 }}
-                      transition={{ duration: 0.2 }}
-                    />
-                  ) : (
-                    <motion.path
-                      key="menu"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M4 6h16M4 12h16M4 18h16"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                      transition={{ duration: 0.2 }}
-                    />
-                  )}
-                </AnimatePresence>
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  d={
+                    mobileMenuOpen
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
+                  }
+                />
               </svg>
-            </motion.button>
+            </button>
           </div>
         </div>
-
-        {/* Mobile Menu */}
-        <AnimatePresence>
-          {mobileMenuOpen && (
-            <motion.div
-              id="mobile-navigation"
-              className="md:hidden border-t border-gray-100 py-4 overflow-hidden"
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: 'auto', opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+        {mobileMenuOpen && (
+          <div
+            id="mobile-navigation"
+            className="lg:hidden border-t border-gray-200 py-4"
+          >
+            <nav
+              className="flex flex-col gap-1"
+              aria-label={t("common.quickLinks")}
             >
-              <nav className="flex flex-col gap-2">
-                {navLinks.map((link, i) => (
-                  <motion.div
-                    key={link.to}
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.3, delay: i * 0.05 }}
-                  >
-                    <LocalizedNavLink
-                      to={link.to}
-                      end={link.end}
-                      onClick={() => setMobileMenuOpen(false)}
-                      className={({ isActive }) =>
-                        `block px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
-                          isActive ? 'bg-blue-50 text-blue-600' : 'text-gray-600'
-                        }`
-                      }
-                    >
-                      {link.label}
-                    </LocalizedNavLink>
-                  </motion.div>
-                ))}
-              </nav>
-              <motion.div
-                className="flex items-center gap-2 mt-4 px-4"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.3, delay: 0.2 }}
-              >
-                {languages.map((lang) => (
-                  <motion.button
-                    key={lang.code}
-                    onClick={() => {
-                      changeLanguage(lang.code);
-                      setMobileMenuOpen(false);
-                    }}
-                    className={`px-3 py-1.5 text-xs font-medium rounded transition-colors ${
-                      currentLang === lang.code
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-gray-100 text-gray-600'
-                    }`}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    {lang.label}
-                  </motion.button>
-                ))}
-              </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+              {links.map((link) => (
+                <LocalizedNavLink
+                  key={link.to}
+                  to={link.to}
+                  end={link.end}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={({ isActive }) =>
+                    `block px-4 py-3 text-sm ${isActive ? "text-blue-600 bg-blue-50" : "text-gray-600"}`
+                  }
+                >
+                  {link.label}
+                </LocalizedNavLink>
+              ))}
+            </nav>
+            {languageLinks(true)}
+          </div>
+        )}
       </div>
-    </motion.header>
+    </header>
   );
-};
-
-export default Header;
+}

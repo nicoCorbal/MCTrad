@@ -3,8 +3,8 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 
 // Supported languages
-export const supportedLanguages = ['es', 'de', 'fr', 'en'];
-export const defaultLanguage = 'es';
+import { supportedLanguages, defaultLanguage } from '../config/languages.js';
+export { supportedLanguages, defaultLanguage } from '../config/languages.js';
 
 // Get language from URL path
 const getLanguageFromPath = () => {
@@ -26,7 +26,8 @@ const getInitialLanguage = () => {
   if (pathLang) return pathLang;
 
   // 2. Check localStorage
-  const storedLang = localStorage.getItem('i18nextLng');
+  let storedLang;
+  try { storedLang = localStorage.getItem('i18nextLng'); } catch { /* Storage may be unavailable. */ }
   if (storedLang && supportedLanguages.includes(storedLang)) return storedLang;
 
   // 3. Check browser language
@@ -37,7 +38,7 @@ const getInitialLanguage = () => {
   return defaultLanguage;
 };
 
-i18n
+export const i18nReady = i18n
   .use(Backend)
   .use(initReactI18next)
   .init({

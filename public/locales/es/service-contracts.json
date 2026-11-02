@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Contratos",
+  "badge": "Traducción Jurada",
+  "title": "Traducción Jurada de Contratos",
+  "description": "Traducciones juradas de contratos mercantiles, laborales, de compraventa y arrendamiento con precisión jurídica.",
+  "featuresTitle": "Características del Servicio",
+  "features": [
+    {
+      "title": "Precisión Jurídica",
+      "description": "Terminología legal exacta adaptada a ambos ordenamientos jurídicos."
+    },
+    {
+      "title": "Contratos Mercantiles",
+      "description": "Compraventa, distribución, franquicia, joint ventures y NDAs."
+    },
+    {
+      "title": "Contratos Laborales",
+      "description": "Contratos de trabajo, convenios colectivos y acuerdos de no competencia."
+    },
+    {
+      "title": "Revisión Especializada",
+      "description": "Doble revisión para garantizar coherencia terminológica."
+    }
+  ],
+  "documents": [
+    "Contratos de compraventa",
+    "Contratos de arrendamiento",
+    "Contratos laborales",
+    "Acuerdos de confidencialidad (NDA)",
+    "Contratos de distribución",
+    "Estatutos sociales"
+  ],
+  "faqs": [
+    {
+      "question": "¿Las traducciones de contratos tienen validez legal?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Qué tipo de contratos traducís?",
+      "answer": "Traducimos todo tipo de contratos: mercantiles, laborales, de arrendamiento, compraventa, NDAs, franquicias, joint ventures."
+    },
+    {
+      "question": "¿Cuánto tarda la traducción de un contrato extenso?",
+      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+    },
+    {
+      "question": "¿Ofrecéis revisión de traducciones?",
+      "answer": "Sí, ofrecemos servicios de revisión de traducciones realizadas por terceros."
+    },
+    {
+      "question": "¿Qué diferencia hay entre traducción jurada y traducción jurídica?",
+      "answer": "La traducción jurídica es una especialización temática (textos legales), mientras que la traducción jurada es una certificación oficial del traductor. Un contrato puede necesitar ambas: precisión jurídica y certificación oficial."
+    },
+    {
+      "question": "¿Necesito traducción jurada para un contrato de trabajo en Alemania?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Traducís contratos con cláusulas técnicas especializadas?",
+      "answer": "Sí, tengo experiencia en contratos de sectores específicos como tecnología, construcción, farmacéutica y energías renovables. La terminología técnica se traduce con precisión."
+    },
+    {
+      "question": "¿Se puede traducir un contrato sin firmar?",
+      "answer": "Sí, se puede traducir un borrador de contrato. Sin embargo, para trámites oficiales generalmente se requiere la traducción del contrato firmado y, en algunos casos, elevado a público ante notario."
+    }
+  ]
+}

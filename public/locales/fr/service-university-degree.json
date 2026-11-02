@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Diplôme Universitaire",
+  "badge": "Traduction Assermentée",
+  "title": "Traduction Assermentée de Diplômes Universitaires",
+  "description": "Traductions assermentées de diplômes universitaires et relevés de notes pour la reconnaissance des qualifications.",
+  "featuresTitle": "Caractéristiques du Service",
+  "features": [
+    {
+      "title": "Reconnaissance de Diplômes",
+      "description": "Valide pour les procédures de reconnaissance."
+    },
+    {
+      "title": "Universités",
+      "description": "Acceptée par les universités espagnoles et allemandes."
+    },
+    {
+      "title": "Dossier Complet",
+      "description": "Traduction de diplômes, relevés de notes et suppléments européens."
+    },
+    {
+      "title": "Apostille de La Haye",
+      "description": "Conseils sur l'apostille selon les exigences."
+    }
+  ],
+  "documents": [
+    "Diplôme universitaire officiel",
+    "Relevé de notes",
+    "Supplément au diplôme",
+    "Programme des cours",
+    "Diplôme de master ou doctorat",
+    "Attestation d'études en cours"
+  ],
+  "faqs": [
+    {
+      "question": "Quels documents pour faire reconnaître mon diplôme en Espagne?",
+      "answer": "Les pièces varient selon le diplôme et la procédure. Consultez la liste officielle à jour et envoyez les documents dont la traduction est demandée : diplôme, relevé de notes ou supplément, par exemple. L’apostille et les mêmes pièces ne sont pas exigées dans tous les dossiers."
+    },
+    {
+      "question": "Combien de temps pour un dossier académique complet?",
+      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+    },
+    {
+      "question": "La traduction est valable pour les universités allemandes?",
+      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+    },
+    {
+      "question": "Traduisez-vous le Supplément au Diplôme?",
+      "answer": "Oui, nous traduisons le Diploma Supplement."
+    },
+    {
+      "question": "Comment faire homologuer un diplôme allemand en Espagne?",
+      "answer": "Identifiez d’abord le type de reconnaissance ou d’équivalence correspondant à votre situation. Consultez les informations officielles de l’autorité compétente pour votre profession et votre pays de destination. La traduction couvre les pièces commandées et ne remplace pas la procédure administrative."
+    },
+    {
+      "question": "Quelle différence entre équivalence et homologation?",
+      "answer": "L'équivalence reconnaît le niveau académique (licence, master, doctorat) mais n'habilite pas à exercer des professions réglementées. L'homologation assimile le diplôme étranger à un diplôme espagnol spécifique."
+    },
+    {
+      "question": "Puis-je travailler en Allemagne avec mon diplôme espagnol?",
+      "answer": "Identifiez d’abord le type de reconnaissance ou d’équivalence correspondant à votre situation. Consultez les informations officielles de l’autorité compétente pour votre profession et votre pays de destination. La traduction couvre les pièces commandées et ne remplace pas la procédure administrative."
+    },
+    {
+      "question": "Traduisez-vous les diplômes de formation professionnelle?",
+      "answer": "Oui, nous traduisons les diplômes de formation professionnelle, baccalauréat et toute certification académique officielle."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Certificado de Nacimiento",
+  "badge": "Traducción Jurada",
+  "title": "Traducción Jurada de Certificados de Nacimiento",
+  "description": "Traducciones juradas de certificados y partidas de nacimiento con validez oficial para trámites en España, Alemania y otros países. Servicio profesional con entrega en 24-48 horas.",
+  "featuresTitle": "Características del Servicio",
+  "features": [
+    {
+      "title": "Traducción Jurada",
+      "description": "Reconocida por registros civiles, embajadas, consulados y administraciones públicas de España y Alemania."
+    },
+    {
+      "title": "Entrega Express 24-48h",
+      "description": "Traducción lista en 24-48 horas laborables. Envío digital previo y original por correo certificado."
+    },
+    {
+      "title": "Formato Oficial Completo",
+      "description": "Sello y firma oficial de traductora jurada según normativa MAEC (España) y OLG Köln (Alemania)."
+    },
+    {
+      "title": "Presupuesto Sin Compromiso",
+      "description": "Precio cerrado antes de comenzar. Sin costes ocultos ni sorpresas."
+    }
+  ],
+  "documents": [
+    "Partida de nacimiento literal",
+    "Certificado de nacimiento internacional",
+    "Extracto de inscripción de nacimiento",
+    "Libro de familia (páginas de nacimiento)",
+    "Certificado de nacimiento plurilingüe",
+    "Acta de nacimiento apostillada"
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué validez tiene la traducción jurada de un certificado de nacimiento?",
+      "answer": "Puede utilizarse cuando el organismo destinatario solicita una traducción jurada. Para determinados documentos públicos entre países de la UE, el Reglamento (UE) 2016/1191 simplifica la autenticación y puede evitar la traducción mediante un impreso multilingüe. Confirme el requisito de su trámite antes de encargarla."
+    },
+    {
+      "question": "¿Cuánto tiempo tarda la traducción de un certificado de nacimiento?",
+      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+    },
+    {
+      "question": "¿Necesito apostillar mi certificado de nacimiento antes de traducirlo?",
+      "answer": "No se exige siempre. Los documentos públicos incluidos en el Reglamento (UE) 2016/1191, como determinados certificados de nacimiento y matrimonio, están exentos de apostilla cuando se presentan entre países de la UE. Otros documentos o destinos pueden tener requisitos distintos. Consulte la información oficial y el organismo destinatario."
+    },
+    {
+      "question": "¿Cuánto cuesta traducir un certificado de nacimiento?",
+      "answer": "El precio depende de los idiomas, la extensión y los anexos. Envíe el certificado completo y recibirá un presupuesto adaptado a su documento, normalmente en un plazo de 24 horas."
+    },
+    {
+      "question": "¿Qué debo indicar si la traducción es para un trámite de nacionalidad?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Qué diferencia hay entre partida y certificado de nacimiento?",
+      "answer": "La partida de nacimiento es el asiento original en el libro del Registro Civil, mientras que el certificado es una copia oficial expedida por el Registro. Ambos documentos tienen la misma validez para traducciones juradas."
+    },
+    {
+      "question": "¿Aceptan la traducción jurada en la embajada alemana?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Cómo envío mi certificado de nacimiento para traducir?",
+      "answer": "Envíe una foto clara o un escaneo completo por email a capaslopez@gmail.com. Indique el idioma de destino, el organismo destinatario y la fecha límite. Para elaborar el presupuesto no necesita enviar el original."
+    }
+  ]
+}

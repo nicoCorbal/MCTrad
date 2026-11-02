@@ -1,0 +1,52 @@
+{
+  "shortTitle": "Retraite et Pension",
+  "badge": "Traduction Assermentée",
+  "title": "Traduction Assermentée des Documents de Retraite et Pension",
+  "description": "Traductions assermentées des documents de retraite, pensions et sécurité sociale avec validité officielle.",
+  "featuresTitle": "Caractéristiques du Service",
+  "features": [
+    {
+      "title": "Sécurité Sociale",
+      "description": "Valide auprès des organismes de retraite espagnols et allemands."
+    },
+    {
+      "title": "Certificat de Vie",
+      "description": "Traduction du certificat de vie nécessaire pour percevoir les pensions étrangères."
+    },
+    {
+      "title": "Décisions de Pension",
+      "description": "Traduction des décisions et calculs de retraite, réversion et invalidité."
+    },
+    {
+      "title": "Conventions Bilatérales",
+      "description": "Expérience avec les documents de totalisation des périodes de cotisation."
+    }
+  ],
+  "documents": [
+    "Décision de pension de retraite",
+    "Certificat de vie",
+    "Relevé de carrière",
+    "Historique des cotisations",
+    "Décision de pension de réversion",
+    "Décision d'invalidité",
+    "Formulaires E-205 / P1"
+  ],
+  "faqs": [
+    {
+      "question": "Dois-je traduire ma décision de pension allemande?",
+      "answer": "Le besoin de traduction dépend de la démarche et de l’organisme demandeur. Vérifiez les exigences auprès de la Seguridad Social, de la Deutsche Rentenversicherung ou de l’administration destinataire, puis envoyez les courriers concernés."
+    },
+    {
+      "question": "Qu'est-ce que le certificat de vie?",
+      "answer": "Le certificat de vie atteste qu’une personne est en vie. Si votre caisse de retraite le demande, vérifiez le formulaire, le délai, le format accepté et le besoin de traduction avant de passer commande."
+    },
+    {
+      "question": "Quelles informations fournir pour traduire des relevés de cotisations espagnols et allemands?",
+      "answer": "Le besoin de traduction dépend de la démarche et de l’organisme demandeur. Vérifiez les exigences auprès de la Seguridad Social, de la Deutsche Rentenversicherung ou de l’administration destinataire, puis envoyez les courriers concernés."
+    },
+    {
+      "question": "Combien de temps pour traduire une décision de pension?",
+      "answer": "Le délai est confirmé dans le devis après examen du nombre de pages et des annexes. Indiquez votre échéance dès l’envoi du document ; les demandes urgentes dépendent de la disponibilité."
+    }
+  ]
+}

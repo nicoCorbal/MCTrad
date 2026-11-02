@@ -7,8 +7,8 @@
   "homePage": {
     "heroTitle1": "Beglaubigte Übersetzungen",
     "heroTitle2": "Deutsch ⟷ Spanisch",
-    "heroSubtitle": "Sofortige Rechtsgültigkeit in Spanien und Deutschland. Express-Lieferung verfügbar.",
-    "heroDescription": "Die einzige Übersetzerin mit doppelter amtlicher Zulassung: OLG Köln (Deutschland) und MAEC (Spanien). +30 Jahre Erfahrung mit Rechts-, Hochschul- und Wirtschaftsdokumenten.",
+    "heroSubtitle": "Beglaubigte Übersetzungen für Verfahren in Spanien und Deutschland",
+    "heroDescription": "Übersetzerin mit doppelter amtlicher Zulassung: OLG Köln (Deutschland) und MAEC (Spanien). Über 30 Jahre Erfahrung mit Rechts-, Hochschul- und Wirtschaftsdokumenten.",
     "requestQuote": "Kostenloses Angebot in 24h →",
     "trustBadge": "Spanisches Außenministerium (MAEC) • OLG Köln ermächtigt",
     "servicesTitle": "Meine Fachgebiete",
@@ -36,7 +36,7 @@
     "certifiedIn": "Akkreditiert in",
     "officialBadge": "amtlich anerkannt",
     "ctaTitle": "Dringender Behördengang?",
-    "ctaSubtitle": "Senden Sie Ihr Dokument jetzt und erhalten Sie ein verbindliches Angebot innerhalb einer Stunde. Unverbindlich.",
+    "ctaSubtitle": "Senden Sie Ihr Dokument und erhalten Sie innerhalb von 24 Stunden ein kostenloses, unverbindliches Angebot.",
     "ctaContact": "Dokument Senden →",
     "ctaLearnMore": "Details ansehen",
     "spanish": "Spanisch",
@@ -62,9 +62,9 @@
       "q2": "Wie schnell erhalte ich die Übersetzung?",
       "a2": "Standarddokumente (z.B. Geburtsurkunde) werden oft innerhalb von 24-48 Stunden bearbeitet. Die Postlaufzeit von Spanien nach Deutschland beträgt ca. 3-5 Werktage (Eilversand möglich).",
       "q3": "Benötigen Sie das Originaldokument?",
-      "a3": "In den meisten Fällen reicht ein gut lesbarer Scan aus. Der Vermerk auf der Übersetzung lautet dann 'Übersetzung vom Scan'. Bitte klären Sie vorab mit Ihrer Behörde, ob dies ausreicht (in 99% der Fälle: ja).",
+      "a3": "Für das Angebot genügt ein gut lesbarer Scan oder ein Foto sämtlicher Seiten. Klären Sie vor der Übersetzung mit der empfangenden Stelle, ob ein Original, eine beglaubigte Kopie oder ein bestimmtes Ausgabeformat erforderlich ist.",
       "q4": "Ist die Übersetzung in Deutschland gültig?",
-      "a4": "Ja. Als vom OLG Köln ermächtigte Übersetzerin werden meine Übersetzungen von allen deutschen Behörden und Gerichten anerkannt.",
+      "a4": "Durch das OLG Köln für Spanisch und Französisch ermächtigt. Bitte klären Sie die Anforderungen der empfangenden Stelle.",
       "q5": "Wie erfolgt die Bezahlung?",
       "a5": "Sie erhalten eine Rechnung mit ausgewiesener Mehrwertsteuer. Die Zahlung erfolgt bequem per Überweisung."
     }
@@ -89,7 +89,15 @@
       "mainService": "Kernkompetenz",
       "additionalServices": "weitere Sprachen",
       "guarantees": "Garantie"
-    }
+    },
+    "skipToContent": "Zum Hauptinhalt",
+    "stampSpain": "Stempel der beeidigten Übersetzerin in Spanien, Nr. 11241",
+    "stampGermany": "Stempel der ermächtigten Übersetzerin in Deutschland, OLG Köln",
+    "quoteLabel": "Angebot anfordern",
+    "responseTime": "Antwort innerhalb 24h",
+    "emailSubject": "Anfrage zur beglaubigten Übersetzung",
+    "emailBody": "Guten Tag,\n\nich bitte um ein Angebot für eine beglaubigte Übersetzung.\n\nIm Anhang finden Sie das Dokument. Ich teile Ihnen die Sprachen, den Verwendungszweck und die Frist mit.\n\nVielen Dank.",
+    "loading": "Seite wird geladen"
   },
   "hero": {
     "headline": "Beglaubigte Übersetzungen | Deutsch - Spanisch - Französisch",
@@ -113,11 +121,15 @@
   },
   "servicesPage": {
     "title": "Dienstleistungen & Fachgebiete",
-    "subtitle": "Übersetzungen mit sofortiger Rechtsgültigkeit in Spanien und Deutschland, ohne zusätzliche Formalitäten",
+    "subtitle": "Beglaubigte Übersetzungen für Verfahren in Spanien und Deutschland",
     "generalTranslation": {
       "heading": "Fachübersetzungen",
-      "description": "Juristische, wirtschaftliche und technische Texte mit terminologischer Präzision übersetzt. Über 30 Jahre Erfahrung im Handels-, Notariats- und Gesellschaftsrecht garantieren, dass Ihre Dokumente perfekt ankommen.",
-      "benefits": ["Präzise Terminologie für jeden Fachbereich", "Umfassende Korrekturprüfung inklusive", "Format angepasst an das Zielland"]
+      "description": "Juristische, wirtschaftliche und technische Texte mit terminologischer Präzision. Über 30 Jahre Erfahrung im Handels-, Notariats- und Gesellschaftsrecht.",
+      "benefits": [
+        "Präzise Terminologie für jeden Fachbereich",
+        "Umfassende Korrekturprüfung inklusive",
+        "Format angepasst an das Zielland"
+      ]
     },
     "languagePairs": {
       "germanSpanish": "Deutsch ⟷ Spanisch",
@@ -125,11 +137,11 @@
       "englishGerman": "Englisch → Deutsch",
       "englishSpanish": "Englisch → Spanisch",
       "galicianGerman": "Galicisch ⟷ Deutsch",
-      "description": "Professionelle Übersetzungen in diesen Kombinationen. Verfügbarkeit für weitere Kombinationen auf Anfrage."
+      "description": "Sprachkombination, Lieferformat und Anforderungen an die Anerkennung werden je nach Dokument und empfangender Stelle geklärt."
     },
     "swornTranslation": {
       "heading": "Beglaubigte Urkundenübersetzung",
-      "description": "Ihr Dokument übersetzt mit voller Rechtsgültigkeit. Zwingend erforderlich für Standesämter, Gerichte, Universitäten, Notare und Ausländerbehörden. Ohne Ablehnung oder Zurückweisung.",
+      "description": "Sprachkombination, Lieferformat und Anforderungen an die Anerkennung werden je nach Dokument und empfangender Stelle geklärt.",
       "spain": {
         "title": "Für Spanien (Traductora Jurada)",
         "description": "Offizielle Ernennung durch das Spanische Außenministerium (MAEC). Siegel und Unterschrift landesweit anerkannt.",
@@ -137,17 +149,29 @@
       },
       "germany": {
         "title": "Für Deutschland (Ermächtigte Übersetzerin)",
-        "description": "Ermächtigt durch das OLG Köln. Direkt von allen deutschen Behörden akzeptiert ohne zusätzliche Apostille.",
+        "description": "Durch das OLG Köln für Spanisch und Französisch ermächtigt. Bitte klären Sie die Anforderungen der empfangenden Stelle.",
         "linkText": "Überprüfen im Justiz-Dolmetscher Verzeichnis"
       }
     },
     "whyChoose": {
       "heading": "Warum mich wählen?",
       "reasons": [
-        {"title": "Doppelte amtliche Zulassung", "description": "Die einzige Übersetzerin mit gültiger Zertifizierung in Spanien UND Deutschland gleichzeitig."},
-        {"title": "Ohne Ablehnung", "description": "Über 30 Jahre Erfahrung. Ich kenne die genauen Anforderungen jeder Behörde."},
-        {"title": "Digitale Vorablieferung", "description": "Signiertes PDF noch am selben Tag für dringende Angelegenheiten. Original per Post."},
-        {"title": "Festpreis ohne Überraschungen", "description": "Das Angebot, das Sie erhalten, ist der Endpreis. Keine versteckten Kosten."}
+        {
+          "title": "Doppelte amtliche Zulassung",
+          "description": "Doppelte amtliche Zulassung in Spanien (MAEC) und Deutschland (OLG Köln)."
+        },
+        {
+          "title": "Prüfung der Anforderungen",
+          "description": "Wir prüfen das Dokument, seinen Verwendungszweck und die Anforderungen der empfangenden Stelle."
+        },
+        {
+          "title": "Digitale Vorablieferung",
+          "description": "Digitale Lieferung und Papieroriginal gemäß Angebot. Eilaufträge nach Verfügbarkeit."
+        },
+        {
+          "title": "Festpreis ohne Überraschungen",
+          "description": "Das Angebot, das Sie erhalten, ist der Endpreis. Keine versteckten Kosten."
+        }
       ]
     }
   },
@@ -155,17 +179,17 @@
     "title": "Ihre beeidigte Übersetzerin",
     "subtitle": "Über 30 Jahre Verbindung zwischen Spanien und Deutschland",
     "introduction": "Ich bin María Ángeles Capas, beeidigte Übersetzerin mit der doppelten Akkreditierung, die Sie brauchen: ernannt vom spanischen Außenministerium und ermächtigt durch das OLG Köln.",
-    "paragraph1": "Seit über drei Jahrzehnten helfe ich Privatpersonen, Anwaltskanzleien, Notariaten und Unternehmen, sprachliche Barrieren bei internationalen Angelegenheiten zu überwinden. Ich weiß: Wenn Sie eine beglaubigte Übersetzung brauchen, brauchen Sie vor allem Sicherheit – dass Ihr Dokument beim ersten Mal akzeptiert wird, ohne Ablehnung oder Komplikationen.",
+    "paragraph1": "Seit über drei Jahrzehnten unterstütze ich Privatpersonen, Anwaltskanzleien, Notare und Unternehmen bei der Übersetzung von Dokumenten für internationale Verfahren.",
     "paragraph2": "Meine Spezialisierung auf Recht, Wirtschaft und amtliche Dokumentation ermöglicht mir, mit der terminologischen Präzision zu übersetzen, die Behörden verlangen. Jedes Komma, jeder juristische Begriff, jede Formalität zählt.",
-    "paragraph3": "Ich arbeite von Ourense (Spanien) aus, aber meine deutsche Ermächtigung erlaubt mir, Übersetzungen anzubieten, die in beiden Ländern gültig sind – ohne zusätzliche Apostille. Ein Vorteil, den nur wenige Übersetzer bieten können.",
+    "paragraph3": "Ich arbeite von Ourense (Spanien) aus und betreue Kunden in Spanien, Deutschland und weiteren Ländern online. Vor der Übersetzung klären wir den Verwendungszweck und die Anforderungen.",
     "conclusion": "Direkter Kontakt, ohne Vermittler. Sie sprechen mit mir, ich übersetze Ihr Dokument und liefere es persönlich. So einfach ist das.",
     "stats": {
       "experience": "+30 Jahre",
       "experienceLabel": "Erfahrung",
-      "documents": "+10.000",
+      "documents": "+5.000",
       "documentsLabel": "übersetzte Dokumente",
-      "rejections": "0",
-      "rejectionsLabel": "Ablehnungen durch Behörden"
+      "accreditations": "2",
+      "accreditationsLabel": "amtliche Zulassungen"
     },
     "sections": {
       "presentation": "Wer ich bin",
@@ -184,12 +208,25 @@
     "values": {
       "title": "Wie ich arbeite",
       "items": [
-        {"title": "Persönlicher Kontakt", "description": "Sie sprechen direkt mit mir. Ohne Vertrieb, ohne Vermittler."},
-        {"title": "Absolute Vertraulichkeit", "description": "Berufsgeheimnis garantiert. Ihre Dokumente sind geschützt."},
-        {"title": "Eingehaltene Fristen", "description": "Wenn ich einen Termin nenne, halte ich ihn. Eilservice verfügbar."},
-        {"title": "Festpreis", "description": "Das Angebot ist der Endpreis. Ohne Überraschungen."}
+        {
+          "title": "Persönlicher Kontakt",
+          "description": "Sie sprechen direkt mit mir. Ohne Vertrieb, ohne Vermittler."
+        },
+        {
+          "title": "Absolute Vertraulichkeit",
+          "description": "Berufsgeheimnis garantiert. Ihre Dokumente sind geschützt."
+        },
+        {
+          "title": "Eingehaltene Fristen",
+          "description": "Wenn ich einen Termin nenne, halte ich ihn. Eilservice verfügbar."
+        },
+        {
+          "title": "Festpreis",
+          "description": "Das Angebot ist der Endpreis. Ohne Überraschungen."
+        }
       ]
-    }
+    },
+    "verifyCredentials": "Suchen Sie in den verlinkten Registern nach „María Ángeles Capas López“. Die MAEC-Registrierungsnummer lautet 11241. Prüfen Sie auch die Sprache und die zuständige Zulassungsbehörde."
   },
   "contactPage": {
     "title": "Angebot anfordern",
@@ -266,7 +303,6 @@
       "deadline": "Lieferfrist (Eilservice verfügbar)",
       "shipping": "Versandart (Standard, Einschreiben, Express)"
     },
-    "jvegNote": "Die Kosten für beglaubigte Übersetzungen Spanisch-Deutsch richten sich in Deutschland nach § 3 JVEG (Justizvergütungs- und -entschädigungsgesetz).",
     "transparencyNote": "Keine versteckten Kosten: Das Angebot umfasst Übersetzung, Beglaubigung, offizielles Siegel und digitalen Versand. Nur der Postversand wird extra berechnet.",
     "process": {
       "badge": "Einfach und schnell",
@@ -330,10 +366,22 @@
     "guarantee": {
       "title": "Mein Versprechen",
       "items": [
-        {"title": "Garantierte Akzeptanz", "description": "Ihre Dokumente werden von den Behörden akzeptiert. Über 30 Jahre ohne Ablehnung."},
-        {"title": "Festpreis", "description": "Das Angebot ist der Endpreis. Keine Überraschungen oder Zusatzkosten."},
-        {"title": "Vollständige Vertraulichkeit", "description": "Berufsgeheimnis garantiert. Ihre Dokumente sind geschützt."},
-        {"title": "Pünktliche Lieferung", "description": "Wir halten vereinbarte Fristen ein. Eilservice verfügbar."}
+        {
+          "title": "Prüfung der Anforderungen",
+          "description": "Wir prüfen das Dokument, seinen Verwendungszweck und die Anforderungen der empfangenden Stelle."
+        },
+        {
+          "title": "Festpreis",
+          "description": "Das Angebot ist der Endpreis. Keine Überraschungen oder Zusatzkosten."
+        },
+        {
+          "title": "Vollständige Vertraulichkeit",
+          "description": "Berufsgeheimnis garantiert. Ihre Dokumente sind geschützt."
+        },
+        {
+          "title": "Pünktliche Lieferung",
+          "description": "Wir halten vereinbarte Fristen ein. Eilservice verfügbar."
+        }
       ]
     },
     "cta": {
@@ -342,6 +390,16 @@
       "email": "Per E-Mail senden →",
       "form": "Formular verwenden →",
       "note": "Unverbindlich. Sie brauchen nur einen lesbaren Scan oder Foto."
+    },
+    "quoteNote": "Das Angebot richtet sich nach Ihrem Dokument: Sprachen, Umfang, Fachgebiet, Lieferformat und Anzahl der Kopien. Es gibt keinen einheitlichen Tarif für alle Aufträge.",
+    "example": {
+      "title": "Beispiel: eine deutsche Geburtsurkunde",
+      "intro": "Für eine Übersetzung ins Spanische senden Sie bitte lesbare Bilder aller Seiten einschließlich Stempel und Anlagen. Geben Sie die empfangende Stelle und die Frist an.",
+      "steps": [
+        "Wir prüfen Umfang, Sprachen und die zu übersetzenden Anlagen.",
+        "Sie erhalten ein Angebot mit Gesamtpreis, anfallenden Steuern, Lieferfrist, Format und enthaltenen Kopien.",
+        "Gewünschter Postversand und Eilzuschläge werden separat ausgewiesen. Die Übersetzung beginnt nach Annahme des Angebots."
+      ]
     }
   },
   "privacyPage": {
@@ -362,5 +420,44 @@
     "section6Content": "Als beeidigte/ermächtigte Übersetzerin unterliege ich einer besonderen berufsrechtlichen Verschwiegenheitspflicht bezüglich aller mir anvertrauten Unterlagen.",
     "contactTitle": "Datenschutz-Kontakt",
     "contactText": "Wenden Sie sich bei Fragen direkt per E-Mail an mich."
+  },
+  "serviceBrief": {
+    "title": "Vor dem Versand Ihres Dokuments",
+    "description": "Geben Sie Ausgangs- und Zielsprache, die empfangende Stelle und Ihre Frist an. Senden Sie alle Seiten und die benötigten Anlagen gut lesbar. Lieferformat und Anforderungen werden vor Auftragsbeginn geklärt.",
+    "quoteLink": "So entsteht Ihr Angebot"
+  },
+  "documentPreparation": {
+    "birth-certificate": [
+      "Senden Sie alle Seiten der Urkunde einschließlich Rückseite, Stempel und vorhandener Randvermerke.",
+      "Nennen Sie das Zielland und die empfangende Stelle. Geben Sie an, ob beigefügte Anlagen oder eine Apostille ebenfalls übersetzt werden sollen."
+    ],
+    "marriage-certificate": [
+      "Senden Sie die vollständige Urkunde mit allen Vermerken und zusätzlichen Seiten.",
+      "Teilen Sie mit, ob weitere Unterlagen wie ein Stammbuch oder ein Scheidungsurteil zum Auftrag gehören, damit das Angebot diese berücksichtigt."
+    ],
+    "university-degree": [
+      "Senden Sie Vorder- und Rückseite des Zeugnisses sowie Notenübersichten und Diploma Supplements, sofern diese zu Ihrem Verfahren gehören.",
+      "Nennen Sie die empfangende Hochschule oder Behörde und die zur Übersetzung angeforderten Unterlagen. Dokumente und Anlagen werden im Angebot einzeln berücksichtigt."
+    ],
+    "contracts": [
+      "Senden Sie den vollständigen Vertrag samt Tabellen, Unterschriften und den zu übersetzenden Anlagen.",
+      "Nennen Sie die Zielsprache, den Verwendungszweck und ob Sie eine beglaubigte oder eine Fachübersetzung ohne Beglaubigung benötigen."
+    ],
+    "court-documents": [
+      "Senden Sie die vollständige Entscheidung mit sämtlichen Seiten und den zu übersetzenden Anlagen.",
+      "Nennen Sie die empfangende Stelle und Ihre Frist. Bei mehreren Verfahrensunterlagen geben Sie bitte an, welche Dokumente übersetzt werden sollen."
+    ],
+    "retirement-pension": [
+      "Senden Sie die vollständigen Schreiben oder Bescheide einschließlich der darin enthaltenen Zeiträume, Beträge und Anlagen.",
+      "Nennen Sie die zu übersetzenden Dokumente und die empfangende Stelle. Mehrere Schreiben können für ein gemeinsames Angebot zusammengefasst werden."
+    ],
+    "notarial-documents": [
+      "Senden Sie die vollständige Urkunde oder Vollmacht mit lesbaren Stempeln und allen Anlagen.",
+      "Nennen Sie das Zielland, die empfangende Stelle und die benötigten Ausfertigungen. Fügen Sie eine vorhandene Apostille zur Prüfung des Umfangs bei."
+    ]
+  },
+  "officialResources": {
+    "title": "Amtliche Informationen für Ihr Verfahren",
+    "description": "Prüfen Sie vor der Beauftragung die aktuellen Anforderungen der empfangenden Stelle."
   }
 }

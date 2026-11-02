@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Court Judgments",
+  "badge": "Certified Translation",
+  "title": "Certified Court Judgment Translation",
+  "description": "Certified translations of judgments and court documents for international legal proceedings.",
+  "featuresTitle": "Service Features",
+  "features": [
+    {
+      "title": "Court Proceedings",
+      "description": "Valid for submission to Spanish and German courts."
+    },
+    {
+      "title": "Judgments and Rulings",
+      "description": "Civil, criminal, commercial, and family law."
+    },
+    {
+      "title": "International Legal Assistance",
+      "description": "Letters rogatory and judicial notifications."
+    },
+    {
+      "title": "Rush Service",
+      "description": "Express service for procedural deadlines."
+    }
+  ],
+  "documents": [
+    "Court judgments",
+    "Rulings and orders",
+    "Complaints",
+    "Legal briefs",
+    "Letters rogatory",
+    "Trial transcripts"
+  ],
+  "faqs": [
+    {
+      "question": "Is a certified translation valid in court?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "Do you offer rush service?",
+      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+    },
+    {
+      "question": "Do you translate extradition proceedings?",
+      "answer": "Yes, certified translations for all extradition proceedings and international legal assistance."
+    },
+    {
+      "question": "Can you translate complete court files?",
+      "answer": "Yes, with specific quote for extensive files."
+    },
+    {
+      "question": "How is a Spanish judgment enforced in Germany?",
+      "answer": "A sworn translation may form part of court proceedings. Your lawyer or the competent court must confirm the applicable procedure, certificates and documents to translate. Translation does not replace recognition or enforcement of a decision."
+    },
+    {
+      "question": "Do you translate divorce judgments for civil registry?",
+      "answer": "A sworn translation may form part of court proceedings. Your lawyer or the competent court must confirm the applicable procedure, certificates and documents to translate. Translation does not replace recognition or enforcement of a decision."
+    },
+    {
+      "question": "What is a letter rogatory and how is it translated?",
+      "answer": "A letter rogatory is a request for judicial cooperation between countries. We translate these documents respecting the format and procedural terminology of both legal systems."
+    },
+    {
+      "question": "Can I use the translation for an appeal?",
+      "answer": "A sworn translation may form part of court proceedings. Your lawyer or the competent court must confirm the applicable procedure, certificates and documents to translate. Translation does not replace recognition or enforcement of a decision."
+    }
+  ]
+}

@@ -53,7 +53,7 @@ function Breadcrumbs({ items = [] }) {
   return (
     <nav
       aria-label="Breadcrumb"
-      className="bg-gray-50 border-b border-gray-100"
+      className="editorial-breadcrumbs"
     >
       <div className="max-w-6xl mx-auto px-6 py-3">
         <ol className="flex items-center flex-wrap gap-2 text-sm" itemScope itemType="https://schema.org/BreadcrumbList">

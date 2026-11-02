@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Título Universitario",
+  "badge": "Traducción Jurada",
+  "title": "Traducción Jurada de Títulos Universitarios",
+  "description": "Traducciones juradas de títulos universitarios, expedientes académicos y certificados de notas para homologación en España y Alemania.",
+  "featuresTitle": "Características del Servicio",
+  "features": [
+    {
+      "title": "Homologación de Títulos",
+      "description": "Válida para procesos de homologación ante el Ministerio de Educación."
+    },
+    {
+      "title": "Universidades",
+      "description": "Aceptada por universidades españolas y alemanas para admisión."
+    },
+    {
+      "title": "Expediente Completo",
+      "description": "Traducción de títulos, certificados de notas y suplementos europeos."
+    },
+    {
+      "title": "Apostilla de La Haya",
+      "description": "Asesoramiento sobre apostilla según los requisitos de cada país."
+    }
+  ],
+  "documents": [
+    "Título universitario oficial",
+    "Certificado académico de notas",
+    "Suplemento Europeo al Título",
+    "Programa de asignaturas",
+    "Diploma de máster o doctorado",
+    "Certificado de estudios en curso"
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué documentos necesito para homologar mi título en España?",
+      "answer": "La documentación varía según la titulación y el procedimiento. Consulte la lista oficial vigente del trámite y envíe los documentos cuya traducción le hayan solicitado: por ejemplo, título, certificación académica o suplemento. No todos los documentos necesitan apostilla ni se exige la misma documentación en todos los expedientes."
+    },
+    {
+      "question": "¿Cuánto tarda la traducción de un expediente académico?",
+      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+    },
+    {
+      "question": "¿La traducción sirve para universidades alemanas?",
+      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+    },
+    {
+      "question": "¿Traducís el Suplemento Europeo al Título?",
+      "answer": "Sí, traducimos el SET/Diploma Supplement, cada vez más solicitado por universidades y empleadores."
+    },
+    {
+      "question": "¿Cómo se homologa un título alemán en España?",
+      "answer": "Identifique primero si su caso requiere homologación, equivalencia u otro procedimiento de reconocimiento. Consulte el portal oficial y la autoridad competente para su profesión y país de destino. El servicio de traducción cubre los documentos del encargo; no sustituye la tramitación administrativa."
+    },
+    {
+      "question": "¿Qué es la equivalencia de títulos y en qué se diferencia de la homologación?",
+      "answer": "La equivalencia reconoce el nivel académico del título (grado, máster, doctorado) pero no habilita para ejercer profesiones reguladas. La homologación equipara el título extranjero a uno español específico."
+    },
+    {
+      "question": "¿Puedo trabajar en Alemania con mi título español?",
+      "answer": "Identifique primero si su caso requiere homologación, equivalencia u otro procedimiento de reconocimiento. Consulte el portal oficial y la autoridad competente para su profesión y país de destino. El servicio de traducción cubre los documentos del encargo; no sustituye la tramitación administrativa."
+    },
+    {
+      "question": "¿Traducís títulos de FP y Bachillerato?",
+      "answer": "Sí, traducimos títulos de Formación Profesional, Bachillerato, ESO y cualquier certificación académica oficial para su uso en Alemania u otros países."
+    }
+  ]
+}

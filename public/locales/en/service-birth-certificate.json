@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Birth Certificate",
+  "badge": "Certified Translation",
+  "title": "Certified Birth Certificate Translation",
+  "description": "Certified translations of birth certificates with official validity for administrative procedures in Spain, Germany, and other countries. Professional service with 24-48 hour delivery.",
+  "featuresTitle": "Service Features",
+  "features": [
+    {
+      "title": "Certified Translation",
+      "description": "Recognized by civil registries, embassies, consulates, and government offices in Spain and Germany."
+    },
+    {
+      "title": "Express Delivery 24-48h",
+      "description": "Translation ready in 24-48 business hours. Prior digital delivery and original by registered mail."
+    },
+    {
+      "title": "Complete Official Format",
+      "description": "Official seal and signature per MAEC (Spain) and OLG Cologne (Germany) standards."
+    },
+    {
+      "title": "No-Obligation Quote",
+      "description": "Fixed price before starting. No hidden costs or surprises."
+    }
+  ],
+  "documents": [
+    "Full birth certificate",
+    "International birth certificate",
+    "Birth registration extract",
+    "Family book (birth pages)",
+    "Multilingual birth certificate",
+    "Apostilled birth certificate"
+  ],
+  "faqs": [
+    {
+      "question": "What validity does a certified translation of a birth certificate have?",
+      "answer": "A sworn translation can be used when requested by the receiving organisation. For certain public documents exchanged between EU countries, Regulation (EU) 2016/1191 simplifies authentication and a multilingual form may replace a translation. Check the requirement before ordering."
+    },
+    {
+      "question": "How long does it take to translate a birth certificate?",
+      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+    },
+    {
+      "question": "Do I need to apostille my birth certificate before translating it?",
+      "answer": "An apostille is not always required. Public documents covered by Regulation (EU) 2016/1191, including certain birth and marriage certificates, are exempt when presented in another EU country. Other documents or destinations may have different requirements. Consult the official guidance and the receiving organisation."
+    },
+    {
+      "question": "How much does it cost to translate a birth certificate?",
+      "answer": "The price depends on languages, length and attachments. Send the complete certificate for an individual quote, normally provided within 24 hours."
+    },
+    {
+      "question": "What information should I provide for a citizenship-related translation?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "What is the difference between a birth certificate and a birth registration extract?",
+      "answer": "The birth certificate is the original entry in the civil registry book, while the extract is an official copy. Both documents have the same validity for certified translations."
+    },
+    {
+      "question": "Is the certified translation accepted at the German embassy?",
+      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+    },
+    {
+      "question": "How do I send my birth certificate for translation?",
+      "answer": "Send a clear photo or complete scan by email to capaslopez@gmail.com. Specify the target language, receiving organisation and deadline. An original is not needed to prepare the quote."
+    }
+  ]
+}

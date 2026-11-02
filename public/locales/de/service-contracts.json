@@ -1,0 +1,67 @@
+{
+  "shortTitle": "Verträge",
+  "badge": "Beglaubigte Übersetzung",
+  "title": "Beglaubigte Übersetzung von Verträgen",
+  "description": "Beglaubigte Übersetzungen von Handelsverträgen und Arbeitsverträgen mit juristischer Präzision.",
+  "featuresTitle": "Leistungsmerkmale",
+  "features": [
+    {
+      "title": "Juristische Präzision",
+      "description": "Exakte Rechtsterminologie angepasst an beide Rechtssysteme."
+    },
+    {
+      "title": "Handelsverträge",
+      "description": "Kaufverträge, Vertriebsverträge, Franchiseverträge und NDAs."
+    },
+    {
+      "title": "Arbeitsverträge",
+      "description": "Arbeitsverträge, Tarifverträge und Wettbewerbsverbote."
+    },
+    {
+      "title": "Fachkundige Prüfung",
+      "description": "Doppelte Expertenprüfung für terminologische Konsistenz."
+    }
+  ],
+  "documents": [
+    "Kaufverträge",
+    "Mietverträge",
+    "Arbeitsverträge",
+    "Geheimhaltungsvereinbarungen (NDA)",
+    "Vertriebsverträge",
+    "Gesellschaftsverträge"
+  ],
+  "faqs": [
+    {
+      "question": "Haben Vertragsübersetzungen Rechtsgültigkeit?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Welche Verträge übersetzen Sie?",
+      "answer": "Alle Arten: Handelsverträge, Arbeitsverträge, Mietverträge, NDAs, Franchiseverträge, Joint Ventures."
+    },
+    {
+      "question": "Wie lange dauert ein umfangreicher Vertrag?",
+      "answer": "Der Liefertermin wird nach Prüfung der Unterlagen im Angebot bestätigt. Nennen Sie Ihre Frist bereits beim Versand des Scans. Eilaufträge hängen von Umfang und Verfügbarkeit ab."
+    },
+    {
+      "question": "Bieten Sie Korrekturen an?",
+      "answer": "Ja, wir bieten Überprüfungsdienste für Übersetzungen Dritter an."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen beglaubigter und juristischer Übersetzung?",
+      "answer": "Die juristische Übersetzung ist eine fachliche Spezialisierung (Rechtstexte), während die beglaubigte Übersetzung eine amtliche Zertifizierung ist. Ein Vertrag kann beides erfordern: juristische Präzision und amtliche Beglaubigung."
+    },
+    {
+      "question": "Brauche ich eine beglaubigte Übersetzung für einen spanischen Arbeitsvertrag in Deutschland?",
+      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+    },
+    {
+      "question": "Übersetzen Sie Verträge mit technischen Fachklauseln?",
+      "answer": "Ja, ich habe Erfahrung mit Verträgen aus Technologie, Bauwesen, Pharma und erneuerbaren Energien. Die Fachterminologie wird präzise übersetzt."
+    },
+    {
+      "question": "Kann ein noch nicht unterschriebener Vertrag übersetzt werden?",
+      "answer": "Ja, Vertragsentwürfe können übersetzt werden. Für behördliche Zwecke wird jedoch meist die Übersetzung des unterschriebenen und ggf. notariell beurkundeten Vertrags benötigt."
+    }
+  ]
+}

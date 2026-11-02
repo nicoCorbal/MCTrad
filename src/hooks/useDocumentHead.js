@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 
-const SITE_URL = 'https://mariaangelescapas.com';
-const DEFAULT_IMAGE = `${SITE_URL}/apple-touch-icon.png`;
+import { DEFAULT_IMAGE } from '../config/seo';
 
 /**
  * Custom hook for managing document head elements (meta tags, title, etc.)
@@ -39,11 +38,10 @@ export function useDocumentHead(config) {
 
     // Helper to set or create meta tag
     const set_meta = (name, content, is_property = false) => {
-      if (!content) return null;
-
       const attr = is_property ? 'property' : 'name';
       let meta = document.querySelector(`meta[${attr}="${name}"]`);
 
+      if (!content) { meta?.remove(); return null; }
       if (!meta) {
         meta = document.createElement('meta');
         meta.setAttribute(attr, name);
@@ -84,6 +82,8 @@ export function useDocumentHead(config) {
     // Canonical URL
     if (canonical) {
       set_link('canonical', canonical);
+    } else {
+      document.querySelectorAll('link[rel="canonical"]').forEach(el => el.remove());
     }
 
     // Open Graph tags - COMPLETE
@@ -100,6 +100,9 @@ export function useDocumentHead(config) {
     set_meta('og:site_name', openGraph.siteName, true);
     set_meta('og:image', og_image, true);
     set_meta('og:image:alt', og_title, true);
+    set_meta('og:image:width', openGraph.image ? openGraph.imageWidth : '1200', true);
+    set_meta('og:image:height', openGraph.image ? openGraph.imageHeight : '630', true);
+    set_meta('og:image:type', 'image/png', true);
 
     // Twitter Card tags - COMPLETE
     set_meta('twitter:card', twitter.card || 'summary');
@@ -134,13 +137,12 @@ export function useDocumentHead(config) {
     }
 
     // JSON-LD structured data - supports single object or array
+    document.querySelectorAll('script[data-page-jsonld="true"]').forEach(el => el.remove());
     if (jsonLd) {
-      // Remove existing page-specific JSON-LD
-      document.querySelectorAll('script[data-page-jsonld="true"]').forEach(el => el.remove());
 
       const schemas = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
 
-      schemas.forEach((schema, index) => {
+      schemas.forEach(schema => {
         if (!schema) return;
 
         const script = document.createElement('script');
@@ -151,6 +153,8 @@ export function useDocumentHead(config) {
         created_elements.push(script);
       });
     }
+
+    document.dispatchEvent(new Event('seo:ready'));
 
     // Cleanup function
     return () => {

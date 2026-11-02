@@ -1,141 +1,88 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
-import { LocalizedLink } from './LocalizedLink';
+import { useTranslation } from "react-i18next";
+import { LocalizedLink } from "./LocalizedLink";
+import Logo from "./Logo";
 
-const Footer = () => {
+export default function Footer() {
   const { t } = useTranslation();
-  const year = new Date().getFullYear();
-
-  const staggerContainer = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.1
-      }
-    }
-  };
-
-  const fadeIn = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { duration: 0.5, ease: [0.25, 0.4, 0.25, 1] }
-    }
-  };
-
   return (
-    <motion.footer
-      className="bg-gray-50 border-t border-gray-200"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-50px" }}
-      variants={staggerContainer}
-    >
+    <footer className="site-footer border-t border-gray-200">
       <div className="max-w-6xl mx-auto px-6 py-16">
-        <motion.div className="grid md:grid-cols-3 gap-12" variants={staggerContainer}>
-
-          {/* Brand */}
-          <motion.div variants={fadeIn}>
-            <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }}>
-              <LocalizedLink to="/" className="inline-flex items-center gap-3">
-                <img src="/apple-touch-icon.png" alt="Logo" className="w-12 h-12 rounded-full" />
-                <div>
-                  <span className="font-serif text-xl font-semibold text-gray-900 block">María Ángeles Capas</span>
-                  <span className="text-xs text-gray-500 uppercase tracking-wider">
-                    {t('common.swornTranslator')}
-                  </span>
-                </div>
-              </LocalizedLink>
-            </motion.div>
+        <div className="grid md:grid-cols-3 gap-12">
+          <div>
+            <LocalizedLink to="/" className="inline-flex items-center gap-3">
+              <Logo decorative className="shrink-0" />
+              <div>
+                <span className="font-serif text-xl text-gray-900 block">
+                  María Ángeles Capas
+                </span>
+                <span className="text-xs text-gray-500 uppercase tracking-wider">
+                  {t("common.swornTranslator")}
+                </span>
+              </div>
+            </LocalizedLink>
             <p className="text-gray-600 text-sm mt-4 leading-relaxed">
-              {t('footer.description')}
+              {t("footer.description")}
             </p>
-          </motion.div>
-
-          {/* Links */}
-          <motion.div variants={fadeIn}>
-            <p className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
-              {t('common.quickLinks')}
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-wider text-gray-500 mb-4">
+              {t("common.quickLinks")}
             </p>
-            <nav className="space-y-2">
+            <nav className="space-y-2" aria-label={t("common.quickLinks")}>
               {[
-                { to: '/', label: t('home') },
-                { to: '/servicios', label: t('services') },
-                { to: '/tarifas', label: t('pricing') },
-                { to: '/sobre-mi', label: t('about') },
-                { to: '/contacto', label: t('contact') }
-              ].map((link) => (
-                <motion.div key={link.to} whileHover={{ x: 4 }} transition={{ duration: 0.2 }}>
+                ["/", "home"],
+                ["/servicios", "services"],
+                ["/tarifas", "pricing"],
+                ["/sobre-mi", "about"],
+                ["/contacto", "contact"],
+              ].map(([to, key]) => (
+                <div key={key}>
                   <LocalizedLink
-                    to={link.to}
-                    className="block text-gray-600 hover:text-blue-600 transition-colors text-sm"
+                    to={to}
+                    className="text-gray-600 hover:text-blue-600 transition-colors text-sm"
                   >
-                    {link.label}
+                    {t(key)}
                   </LocalizedLink>
-                </motion.div>
+                </div>
               ))}
             </nav>
-          </motion.div>
-
-          {/* Certifications */}
-          <motion.div variants={fadeIn}>
-            <p className="text-xs uppercase tracking-wider text-gray-500 mb-4 font-medium">
-              {t('common.certifications')}
+          </div>
+          <div>
+            <p className="text-xs uppercase tracking-wider text-gray-500 mb-4">
+              {t("common.certifications")}
             </p>
-            <div className="space-y-3">
-              {[
-                { flag: '🇪🇸', country: t('footer.spain.country'), authority: t('footer.spain.authority') },
-                { flag: '🇩🇪', country: t('footer.germany.country'), authority: t('footer.germany.authority') }
-              ].map((cert, i) => (
-                <motion.div
-                  key={i}
-                  className="flex items-center gap-3"
-                  whileHover={{ scale: 1.02 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <motion.span
-                    className="text-xl"
-                    whileHover={{ scale: 1.2, rotate: 5 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    {cert.flag}
-                  </motion.span>
-                  <div>
-                    <p className="text-sm text-gray-900 font-medium">{cert.country}</p>
-                    <p className="text-xs text-gray-500">{cert.authority}</p>
-                  </div>
-                </motion.div>
+            <div className="space-y-4">
+              {["spain", "germany"].map((country) => (
+                <div key={country}>
+                  <p className="text-sm text-gray-900">
+                    {t(`footer.${country}.country`)}
+                  </p>
+                  <p className="text-xs text-gray-500 mt-1">
+                    {t(`footer.${country}.authority`)}
+                  </p>
+                </div>
               ))}
             </div>
-          </motion.div>
-
-        </motion.div>
-
-        <motion.div
-          className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500"
-          variants={fadeIn}
-        >
-          <p>© {year} María Ángeles Capas</p>
-          <div className="flex items-center gap-4">
-            <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
-              <LocalizedLink to="/aviso-legal" className="hover:text-blue-600 transition-colors">
-                {t('legalPage.title')}
-              </LocalizedLink>
-            </motion.div>
-            <span className="text-gray-300">|</span>
-            <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
-              <LocalizedLink to="/privacidad" className="hover:text-blue-600 transition-colors">
-                {t('common.privacyPolicy')}
-              </LocalizedLink>
-            </motion.div>
           </div>
-        </motion.div>
+        </div>
+        <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+          <p>© {new Date().getFullYear()} María Ángeles Capas</p>
+          <div className="flex items-center gap-5">
+            <LocalizedLink
+              to="/aviso-legal"
+              className="hover:text-blue-600 transition-colors"
+            >
+              {t("legalPage.title")}
+            </LocalizedLink>
+            <LocalizedLink
+              to="/privacidad"
+              className="hover:text-blue-600 transition-colors"
+            >
+              {t("common.privacyPolicy")}
+            </LocalizedLink>
+          </div>
+        </div>
       </div>
-    </motion.footer>
+    </footer>
   );
-};
-
-export default Footer;
+}
