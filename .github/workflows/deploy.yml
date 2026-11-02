@@ -47,7 +47,7 @@ jobs:
         run: npm i -g vercel@50.23.2
 
       - name: Deploy to Vercel
-        run: vercel deploy dist/ --prod --yes --scope nicos-projects-65539a5e
+        run: vercel deploy dist/ --prod --yes --scope nicos-projects-65539a5e --token "$VERCEL_TOKEN"
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
