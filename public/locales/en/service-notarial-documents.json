@@ -33,7 +33,7 @@
   "faqs": [
     {
       "question": "Does the translation of a deed have validity in Germany?",
-      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+      "answer": "Yes, provided it is accompanied by the apostille on the deed. Spanish notarial deeds are not covered by the apostille exemption in Regulation (EU) 2016/1191; the apostille is issued by the relevant Colegio Notarial. Have it apostilled before translation so the apostille is included in the translation."
     },
     {
       "question": "Do you translate powers of attorney for abroad?",
@@ -41,23 +41,23 @@
     },
     {
       "question": "What documents for an international inheritance?",
-      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+      "answer": "Typically: death certificate, Spanish certificate of last wills (certificado de últimas voluntades), the will or declaration of heirs, and documents on the assets. If the estate involves several EU countries, the European Certificate of Succession under Regulation (EU) 650/2012 uses a multilingual form that reduces what needs translating; the notary or probate court will tell you exactly what is required."
     },
     {
       "question": "How long for a sale deed?",
-      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+      "answer": "A sale deed often runs to many pages, with land registry descriptions, charges and annexes. The delivery date is confirmed in the quote based on length. If the translation is needed for a signing or registration on a fixed date, mention it when sending the scan."
     },
     {
       "question": "What should I send for a translation quote relating to a property purchase in Germany?",
-      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+      "answer": "Send the draft contract (Kaufvertrag), the power of attorney if someone will sign on your behalf, and any identity or civil status documents the German notary requests. The notary must ensure the buyer understands the deed, so if you do not speak German they may require an interpreter or a translation. Check with them before the signing date."
     },
     {
       "question": "How is a will translated for use abroad?",
-      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+      "answer": "The will is translated in full, including the notary’s notes. Using it abroad usually requires an authorised copy, an apostille (in Spain, from the Colegio Notarial) and a certificate of last wills. If the deceased lived in the EU, the European Certificate of Succession can reduce the translations needed."
     },
     {
       "question": "How do I request a quote to translate a Vollmacht?",
-      "answer": "The required documents depend on the transaction and countries involved. Ask the notary or professional handling the matter for a document checklist, then send those items for a translation quote. An apostille or legalisation should not be assumed necessary for every document."
+      "answer": "Send a complete scan of the Vollmacht, including the signature certification and apostille if you already have it, and say where it will be used (notary, bank, land registry). Powers of attorney are usually short, and the quote is prepared as soon as the document is reviewed."
     },
     {
       "question": "Do you translate prenuptial agreements?",

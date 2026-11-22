@@ -33,15 +33,15 @@
   "faqs": [
     {
       "question": "¿Sirve la traducción jurada para inscribir mi matrimonio en España?",
-      "answer": "Puede utilizarse cuando el organismo destinatario solicita una traducción jurada. Para determinados documentos públicos entre países de la UE, el Reglamento (UE) 2016/1191 simplifica la autenticación y puede evitar la traducción mediante un impreso multilingüe. Confirme el requisito de su trámite antes de encargarla."
+      "answer": "Sí. Un matrimonio celebrado en Alemania se inscribe en el Registro Civil Consular si reside allí, o en el Registro Civil Central si reside en España. Se presenta la Heiratsurkunde alemana y, salvo que aporte un certificado plurilingüe que el registro acepte, su traducción jurada al español."
     },
     {
       "question": "¿Puedo usar la misma traducción para trámites en Alemania y España?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "No siempre: cada país exige la certificación de su propio sistema. Las autoridades españolas admiten traducciones de traductores jurados del MAEC y las alemanas, las de traductores habilitados por un tribunal alemán. Al tener ambas acreditaciones, puedo certificar la misma traducción para los dos países y evitarle encargar dos."
     },
     {
       "question": "¿Qué información debo facilitar para traducir documentos de reagrupación familiar?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "Para la reagrupación familiar, el consulado o la Ausländerbehörde suelen pedir el certificado de matrimonio y, a menudo, los certificados de nacimiento. Envíe todos los documentos juntos e indique el consulado o la oficina de destino: así se presupuestan a la vez y los nombres y fechas se transcriben igual en todas las traducciones."
     },
     {
       "question": "¿Traducís también sentencias de divorcio?",
@@ -49,15 +49,15 @@
     },
     {
       "question": "¿Es necesario apostillar el certificado de matrimonio alemán?",
-      "answer": "No se exige siempre. Los documentos públicos incluidos en el Reglamento (UE) 2016/1191, como determinados certificados de nacimiento y matrimonio, están exentos de apostilla cuando se presentan entre países de la UE. Otros documentos o destinos pueden tener requisitos distintos. Consulte la información oficial y el organismo destinatario."
+      "answer": "Para usarlo en España, normalmente no: el Reglamento (UE) 2016/1191 exime de apostilla a los certificados de matrimonio expedidos en un país de la UE. Además, ese reglamento y el certificado plurilingüe pueden evitar la traducción en algunos trámites. Si el certificado procede de fuera de la UE, sí suele necesitar apostilla o legalización antes de traducirlo."
     },
     {
-      "question": "¿Debo indicar los requisitos y plazos del Registro Civil?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "question": "¿Qué es el certificado de capacidad matrimonial (Ehefähigkeitszeugnis)?",
+      "answer": "Es el documento que acredita que una persona puede contraer matrimonio. Si un ciudadano español se casa en Alemania, el Standesamt le pedirá un certificado de capacidad matrimonial expedido por el Registro Civil español tras tramitar un expediente. El Standesamt le indicará si acepta el formato plurilingüe o necesita traducción; si la pide, puedo hacerla como traductora habilitada en Alemania."
     },
     {
-      "question": "¿Qué debo comprobar si el certificado procede de otro país?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "question": "¿El certificado plurilingüe evita la traducción?",
+      "answer": "En muchos casos sí. España y Alemania expiden extractos plurilingües de matrimonio y el Reglamento (UE) 2016/1191 prevé formularios multilingües que el organismo de destino debe aceptar sin traducción. Pero no recogen todos los datos (por ejemplo, el régimen económico o las anotaciones marginales), así que algunos trámites siguen exigiendo el certificado literal traducido. Pregunte primero al organismo."
     },
     {
       "question": "¿Traducís el libro de familia alemán (Stammbuch)?",

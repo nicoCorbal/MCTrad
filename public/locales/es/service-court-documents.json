@@ -33,11 +33,11 @@
   "faqs": [
     {
       "question": "¿La traducción jurada de una sentencia es válida ante tribunales?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "Sí: ante los tribunales españoles se presentan traducciones juradas del MAEC y ante los alemanes, traducciones de traductores habilitados por un tribunal alemán (en mi caso, el OLG Köln). El juzgado puede pedir la traducción completa de la resolución o solo de las partes relevantes; su abogado le indicará cuál necesita."
     },
     {
       "question": "¿Ofrecéis servicio urgente para plazos procesales?",
-      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+      "answer": "Sí, cuando el plazo procesal lo permite. Indique la fecha de vencimiento al enviar el documento y confirmaré en el presupuesto si es viable. Si el plazo es muy corto, envíe primero las páginas imprescindibles (fallo y fundamentos principales) y el resto después."
     },
     {
       "question": "¿Traducís documentos para extradición?",
@@ -49,11 +49,11 @@
     },
     {
       "question": "¿Cómo se ejecuta una sentencia alemana en España?",
-      "answer": "La traducción jurada puede formar parte de un procedimiento judicial. Su abogado o el órgano competente debe confirmar el procedimiento aplicable, los certificados y los documentos que necesita traducir; una traducción no sustituye el reconocimiento o la ejecución de una resolución."
+      "answer": "En asuntos civiles y mercantiles, el Reglamento (UE) 1215/2012 permite ejecutar en España una sentencia alemana sin procedimiento de exequátur: se presenta la sentencia junto con el certificado previsto en el reglamento. El juzgado español puede exigir la traducción de la sentencia, por lo que conviene tenerla preparada con el resto de la documentación."
     },
     {
       "question": "¿Traducís sentencias de divorcio para inscribir en el Registro Civil?",
-      "answer": "La traducción jurada puede formar parte de un procedimiento judicial. Su abogado o el órgano competente debe confirmar el procedimiento aplicable, los certificados y los documentos que necesita traducir; una traducción no sustituye el reconocimiento o la ejecución de una resolución."
+      "answer": "Sí. Para inscribir en el Registro Civil español un divorcio dictado en Alemania se aporta la sentencia firme y el certificado del Reglamento (UE) 2019/1111, y el registro puede pedir su traducción jurada. Traduzco la sentencia, el certificado y, si los hay, el convenio regulador y la anotación de firmeza (Rechtskraftvermerk)."
     },
     {
       "question": "¿Qué es un exhorto internacional y cómo se traduce?",
@@ -61,7 +61,7 @@
     },
     {
       "question": "¿Puedo usar la traducción para recurrir una sentencia?",
-      "answer": "La traducción jurada puede formar parte de un procedimiento judicial. Su abogado o el órgano competente debe confirmar el procedimiento aplicable, los certificados y los documentos que necesita traducir; una traducción no sustituye el reconocimiento o la ejecución de una resolución."
+      "answer": "Sí: para preparar un recurso, el abogado necesita entender exactamente lo que dice la resolución, y si el recurso se presenta en el otro país, la traducción suele tener que adjuntarse. Avise del plazo para recurrir en cuanto reciba la sentencia, ya que estos plazos son cortos y no se amplían por la traducción."
     }
   ]
 }

@@ -33,23 +33,23 @@
   "faqs": [
     {
       "question": "¿Qué validez tiene la traducción jurada de un certificado de nacimiento?",
-      "answer": "Puede utilizarse cuando el organismo destinatario solicita una traducción jurada. Para determinados documentos públicos entre países de la UE, el Reglamento (UE) 2016/1191 simplifica la autenticación y puede evitar la traducción mediante un impreso multilingüe. Confirme el requisito de su trámite antes de encargarla."
+      "answer": "La traducción jurada lleva la firma y el sello de una traductora nombrada por el Ministerio de Asuntos Exteriores (MAEC), por lo que tiene carácter oficial ante registros civiles, consulados y administraciones españolas. Para autoridades alemanas puedo emitirla además como traductora habilitada por el OLG Köln, que es el formato que reconocen los Standesämter."
     },
     {
       "question": "¿Cuánto tiempo tarda la traducción de un certificado de nacimiento?",
-      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+      "answer": "Un certificado de nacimiento suele tener una o dos páginas, así que es de los encargos más rápidos. El plazo exacto se fija en el presupuesto según el volumen de trabajo del momento y si necesita el original en papel por correo o le basta la versión firmada digitalmente."
     },
     {
       "question": "¿Necesito apostillar mi certificado de nacimiento antes de traducirlo?",
-      "answer": "No se exige siempre. Los documentos públicos incluidos en el Reglamento (UE) 2016/1191, como determinados certificados de nacimiento y matrimonio, están exentos de apostilla cuando se presentan entre países de la UE. Otros documentos o destinos pueden tener requisitos distintos. Consulte la información oficial y el organismo destinatario."
+      "answer": "Entre España y Alemania normalmente no: el Reglamento (UE) 2016/1191 exime de apostilla a los certificados de nacimiento expedidos en un país de la UE y presentados en otro. Si el certificado viene de fuera de la UE, la apostilla se pone primero sobre el original y después se traduce junto con él, para que la traducción la incluya."
     },
     {
       "question": "¿Cuánto cuesta traducir un certificado de nacimiento?",
       "answer": "El precio depende de los idiomas, la extensión y los anexos. Envíe el certificado completo y recibirá un presupuesto adaptado a su documento, normalmente en un plazo de 24 horas."
     },
     {
-      "question": "¿Qué debo indicar si la traducción es para un trámite de nacionalidad?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "question": "¿Qué certificado de nacimiento necesito para un trámite de nacionalidad?",
+      "answer": "Para la nacionalidad española se suele pedir un certificado literal (no un extracto) y reciente; para la Einbürgerung alemana, la Geburtsurkunde completa con los datos de los padres. Indique a qué organismo va dirigido, porque un extracto plurilingüe a veces no basta y conviene traducir el documento correcto desde el principio."
     },
     {
       "question": "¿Qué diferencia hay entre partida y certificado de nacimiento?",
@@ -57,7 +57,7 @@
     },
     {
       "question": "¿Aceptan la traducción jurada en la embajada alemana?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "Las representaciones alemanas en España suelen admitir traducciones de traductores jurados nombrados por el MAEC para visados, pasaportes y trámites de nacionalidad. Si el documento acabará en un Standesamt o una autoridad en Alemania, puedo certificar la traducción también como traductora habilitada en Alemania, de modo que sirva en ambos lados."
     },
     {
       "question": "¿Cómo envío mi certificado de nacimiento para traducir?",

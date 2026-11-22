@@ -37,11 +37,11 @@
     },
     {
       "question": "How long for a complete academic record?",
-      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+      "answer": "It depends on volume: a degree certificate is often one page, a full transcript several, and course descriptions many more. Send the whole file so everything is in one quote, and give the application deadline."
     },
     {
       "question": "Is the translation valid for German universities?",
-      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+      "answer": "Yes. German universities and uni-assist accept translations by authorised translators, and I am authorised by the OLG Köln. Many accept documents in German or English; check your university’s admissions page for the language and documents required."
     },
     {
       "question": "Do you translate the European Diploma Supplement?",
@@ -49,7 +49,7 @@
     },
     {
       "question": "How do I get a German degree recognized in Spain?",
-      "answer": "First identify the recognition, equivalence or other procedure appropriate to your situation. Consult the official information from the competent authority for your profession and destination country. Translation covers the agreed documents and does not replace the administrative procedure."
+      "answer": "You apply to the Spanish Ministry of Science, Innovation and Universities with the German degree certificate and transcript plus their official Spanish translation; documents issued in the EU do not need legalisation. If you want to practise a regulated profession, first check whether you need homologation or professional recognition."
     },
     {
       "question": "What is the difference between equivalence and homologation?",
@@ -57,7 +57,7 @@
     },
     {
       "question": "Can I work in Germany with my Spanish degree?",
-      "answer": "First identify the recognition, equivalence or other procedure appropriate to your situation. Consult the official information from the competent authority for your profession and destination country. Translation covers the agreed documents and does not replace the administrative procedure."
+      "answer": "If the profession is not regulated in Germany, you can work without formal recognition, although a ZAB statement of comparability (Zeugnisbewertung) helps employers understand your degree. Regulated professions (medicine, nursing, teaching, law, some engineering) require recognition by the competent authority. See the Anerkennung in Deutschland portal for your case."
     },
     {
       "question": "Do you translate vocational training and high school diplomas?",

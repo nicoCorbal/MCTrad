@@ -33,7 +33,7 @@
   "faqs": [
     {
       "question": "¿Las traducciones de contratos tienen validez legal?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "Una traducción jurada da fe de que el texto traducido corresponde fielmente al original, pero no convierte la traducción en el contrato vinculante: lo es el original firmado. En contratos bilingües, conviene pactar qué versión prevalece en caso de discrepancia; la traducción jurada se utiliza cuando un juzgado, notario o administración la exige."
     },
     {
       "question": "¿Qué tipo de contratos traducís?",
@@ -41,7 +41,7 @@
     },
     {
       "question": "¿Cuánto tarda la traducción de un contrato extenso?",
-      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+      "answer": "Depende del número de páginas, de los anexos y de lo técnico que sea el clausulado; el plazo se confirma en el presupuesto. Envíe la versión definitiva y la fecha de firma: cualquier cambio posterior en el original obliga a revisar y volver a certificar la traducción jurada."
     },
     {
       "question": "¿Ofrecéis revisión de traducciones?",
@@ -53,7 +53,7 @@
     },
     {
       "question": "¿Necesito traducción jurada para un contrato de trabajo en Alemania?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "Para firmar y trabajar en Alemania normalmente no hace falta. Suele pedirse cuando el contrato se presenta ante una autoridad alemana, por ejemplo la Agentur für Arbeit, la Ausländerbehörde, un tribunal laboral o la Deutsche Rentenversicherung para acreditar periodos trabajados en España. En esos casos sirve una traducción certificada por una traductora habilitada en Alemania."
     },
     {
       "question": "¿Traducís contratos con cláusulas técnicas especializadas?",

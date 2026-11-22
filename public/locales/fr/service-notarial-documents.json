@@ -33,7 +33,7 @@
   "faqs": [
     {
       "question": "La traduction d'un acte notarié est valable en Allemagne?",
-      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+      "answer": "Oui, à condition d’être accompagnée de l’apostille de l’acte. Les actes notariés espagnols ne bénéficient pas de la dispense d’apostille du règlement (UE) 2016/1191 : l’apostille est délivrée par le Colegio Notarial compétent. Faites apostiller avant de traduire, afin que l’apostille soit incluse dans la traduction."
     },
     {
       "question": "Traduisez-vous des procurations pour l'étranger?",
@@ -41,23 +41,23 @@
     },
     {
       "question": "Quels documents pour une succession internationale?",
-      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+      "answer": "En général : acte de décès, certificat des dernières volontés (en Espagne), testament ou acte de notoriété et justificatifs des biens. Si la succession concerne plusieurs pays de l’UE, le certificat successoral européen du règlement (UE) 650/2012, avec son formulaire multilingue, réduit les traductions nécessaires ; le notaire ou le Nachlassgericht vous dira précisément ce qu’il faut."
     },
     {
       "question": "Délai pour un acte de vente?",
-      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+      "answer": "Un acte de vente compte souvent de nombreuses pages, avec descriptions cadastrales, charges et annexes. Le délai est confirmé dans le devis selon le volume. Si la traduction est nécessaire pour une signature ou une inscription à date fixe, indiquez-la à l’envoi."
     },
     {
       "question": "Que transmettre pour un devis de traduction lié à un achat immobilier en Allemagne?",
-      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+      "answer": "Envoyez le projet d’acte (Kaufvertrag), la procuration si un mandataire signe pour vous et les pièces d’identité ou d’état civil demandées par le notaire allemand. Le notaire doit s’assurer que l’acheteur comprend l’acte : s’il ne maîtrise pas l’allemand, il peut exiger un interprète ou une traduction. Vérifiez avec lui avant la date de signature."
     },
     {
       "question": "Comment traduire un testament pour l'utiliser à l'étranger?",
-      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+      "answer": "Le testament est traduit intégralement, mentions du notaire comprises. Pour l’utiliser à l’étranger, il faut souvent une copie authentique, une apostille (en Espagne, du Colegio Notarial) et le certificat des dernières volontés. Si le défunt résidait dans l’UE, le certificat successoral européen peut réduire les traductions."
     },
     {
       "question": "Comment demander un devis pour traduire une Vollmacht?",
-      "answer": "Les pièces dépendent de l’acte et des pays concernés. Demandez au notaire ou au professionnel chargé du dossier la liste des documents nécessaires, puis envoyez-les pour le devis. Une apostille ou une légalisation ne doit pas être considérée comme obligatoire pour chaque document."
+      "answer": "Envoyez un scan complet de la Vollmacht, avec la légalisation de signature et l’apostille si vous l’avez déjà, en précisant où elle sera utilisée (notaire, banque, registre foncier). Les procurations sont généralement courtes et le devis est établi dès l’examen du document."
     },
     {
       "question": "Traduisez-vous les contrats de mariage?",

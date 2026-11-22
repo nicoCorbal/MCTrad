@@ -33,7 +33,7 @@
   "faqs": [
     {
       "question": "¿La traducción de una escritura pública tiene validez en Alemania?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "Sí, siempre que vaya acompañada de la apostilla de la escritura. Las escrituras españolas no entran en la exención de apostilla del Reglamento (UE) 2016/1191: la apostilla la pone el Colegio Notarial correspondiente. Conviene apostillar antes de traducir, para que la traducción incluya también la apostilla."
     },
     {
       "question": "¿Traducís poderes para usar en el extranjero?",
@@ -41,23 +41,23 @@
     },
     {
       "question": "¿Qué documentos necesito para una herencia internacional?",
-      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+      "answer": "Normalmente: certificado de defunción, certificado de últimas voluntades (en España), testamento o declaración de herederos y documentos de los bienes. Si la herencia afecta a varios países de la UE, el Certificado Sucesorio Europeo del Reglamento (UE) 650/2012 usa un formulario multilingüe que reduce lo que hay que traducir; el notario o el Nachlassgericht le dirá exactamente qué pide."
     },
     {
       "question": "¿Cuánto tarda traducir una escritura de compraventa?",
-      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+      "answer": "Una escritura de compraventa suele ocupar bastantes páginas, con descripciones registrales, cargas y anexos. El plazo se confirma en el presupuesto según su extensión. Si la traducción se necesita para una firma o una inscripción con fecha, indíquela al enviar el escaneo."
     },
     {
       "question": "¿Qué debo enviar para presupuestar traducciones de una compraventa en Alemania?",
-      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+      "answer": "Envíe el borrador o la escritura (Kaufvertrag), el poder si va a firmar un representante y los documentos de identidad o estado civil que le pida el notario alemán. El notario debe asegurarse de que el comprador entiende la escritura, por lo que si no domina el alemán puede exigir intérprete o traducción; consulte con él qué necesita antes de la fecha de firma."
     },
     {
       "question": "¿Cómo se traduce un testamento para usarlo en otro país?",
-      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+      "answer": "El testamento se traduce completo, incluidas las diligencias del notario. Para usarlo en otro país suele necesitarse copia autorizada, apostilla (en España, del Colegio Notarial) y certificado de últimas voluntades. Si el causante residía en la UE, el Certificado Sucesorio Europeo puede reducir las traducciones necesarias."
     },
     {
       "question": "¿Cómo solicito presupuesto para traducir una Vollmacht?",
-      "answer": "La documentación depende del acto y de los países implicados. Pida al notario o al profesional que tramita el expediente una relación de las piezas que necesita y envíelas para presupuestar su traducción. La apostilla o legalización no debe darse por obligatoria para todos los documentos."
+      "answer": "Envíe un escaneo completo de la Vollmacht, incluida la legalización de firmas y la apostilla si ya la tiene, e indique dónde se va a usar (notaría, banco, Registro de la Propiedad). Los poderes suelen ser breves y el presupuesto se prepara en cuanto se revisa el documento."
     },
     {
       "question": "¿Traducís capitulaciones matrimoniales?",

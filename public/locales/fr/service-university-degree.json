@@ -37,11 +37,11 @@
     },
     {
       "question": "Combien de temps pour un dossier académique complet?",
-      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+      "answer": "Cela dépend du volume : un diplôme tient souvent sur une page, un relevé de notes complet sur plusieurs, et les programmes de cours sur beaucoup plus. Envoyez l’ensemble du dossier pour un devis unique et indiquez la date limite de candidature."
     },
     {
       "question": "La traduction est valable pour les universités allemandes?",
-      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+      "answer": "Oui. Les universités allemandes et uni-assist acceptent les traductions de traducteurs habilités, et je suis habilitée par l’OLG de Cologne. Beaucoup acceptent des documents en allemand ou en anglais : vérifiez sur la page d’admission de votre université la langue et les pièces demandées."
     },
     {
       "question": "Traduisez-vous le Supplément au Diplôme?",
@@ -49,7 +49,7 @@
     },
     {
       "question": "Comment faire homologuer un diplôme allemand en Espagne?",
-      "answer": "Identifiez d’abord le type de reconnaissance ou d’équivalence correspondant à votre situation. Consultez les informations officielles de l’autorité compétente pour votre profession et votre pays de destination. La traduction couvre les pièces commandées et ne remplace pas la procédure administrative."
+      "answer": "La demande se fait auprès du ministère espagnol des Sciences, de l’Innovation et des Universités, avec le diplôme et le relevé de notes allemands accompagnés de leur traduction officielle en espagnol ; les documents délivrés dans l’UE n’ont pas besoin de légalisation. Pour exercer une profession réglementée, vérifiez d’abord s’il vous faut une homologation ou une reconnaissance professionnelle."
     },
     {
       "question": "Quelle différence entre équivalence et homologation?",
@@ -57,7 +57,7 @@
     },
     {
       "question": "Puis-je travailler en Allemagne avec mon diplôme espagnol?",
-      "answer": "Identifiez d’abord le type de reconnaissance ou d’équivalence correspondant à votre situation. Consultez les informations officielles de l’autorité compétente pour votre profession et votre pays de destination. La traduction couvre les pièces commandées et ne remplace pas la procédure administrative."
+      "answer": "Si la profession n’est pas réglementée en Allemagne, vous pouvez travailler sans reconnaissance formelle ; l’évaluation de diplôme (Zeugnisbewertung) de la ZAB aide toutefois l’employeur à situer votre diplôme. Pour les professions réglementées (médecine, soins infirmiers, enseignement, droit, certaines ingénieries), la reconnaissance par l’autorité compétente est obligatoire. Consultez le portail Anerkennung in Deutschland."
     },
     {
       "question": "Traduisez-vous les diplômes de formation professionnelle?",

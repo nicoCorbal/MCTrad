@@ -33,11 +33,11 @@
   "faqs": [
     {
       "question": "Is a certified translation valid in court?",
-      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+      "answer": "Yes: Spanish courts accept MAEC sworn translations and German courts accept translations by translators authorised by a German court (in my case, the OLG Köln). The court may require the full judgment or only the relevant parts; your lawyer will tell you which."
     },
     {
       "question": "Do you offer rush service?",
-      "answer": "The delivery date is confirmed in the quote after reviewing the documents. State your deadline when sending the scan. Rush assignments depend on document length and availability."
+      "answer": "Yes, when the procedural deadline allows. State the deadline when sending the document and I will confirm in the quote whether it is feasible. If time is very short, send the essential pages first (operative part and main reasoning) and the rest afterwards."
     },
     {
       "question": "Do you translate extradition proceedings?",
@@ -49,11 +49,11 @@
     },
     {
       "question": "How is a Spanish judgment enforced in Germany?",
-      "answer": "A sworn translation may form part of court proceedings. Your lawyer or the competent court must confirm the applicable procedure, certificates and documents to translate. Translation does not replace recognition or enforcement of a decision."
+      "answer": "In civil and commercial matters, Regulation (EU) 1215/2012 lets a Spanish judgment be enforced in Germany without exequatur proceedings: you present the judgment and the certificate provided for in the regulation. The German enforcement authority may require a German translation, so have it ready with the rest of the documents."
     },
     {
       "question": "Do you translate divorce judgments for civil registry?",
-      "answer": "A sworn translation may form part of court proceedings. Your lawyer or the competent court must confirm the applicable procedure, certificates and documents to translate. Translation does not replace recognition or enforcement of a decision."
+      "answer": "Yes. To register a divorce granted in Germany with the Spanish civil registry, you submit the final judgment and the certificate under Regulation (EU) 2019/1111, and the registry may ask for a sworn translation. I translate the judgment, the certificate and, where applicable, the settlement agreement and the finality endorsement (Rechtskraftvermerk)."
     },
     {
       "question": "What is a letter rogatory and how is it translated?",
@@ -61,7 +61,7 @@
     },
     {
       "question": "Can I use the translation for an appeal?",
-      "answer": "A sworn translation may form part of court proceedings. Your lawyer or the competent court must confirm the applicable procedure, certificates and documents to translate. Translation does not replace recognition or enforcement of a decision."
+      "answer": "Yes: to prepare an appeal your lawyer needs to understand the decision exactly, and if the appeal is filed in the other country the translation often has to be attached. Get in touch as soon as you receive the judgment, because appeal deadlines are short and are not extended for translation."
     }
   ]
 }

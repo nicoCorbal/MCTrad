@@ -33,11 +33,11 @@
   "faqs": [
     {
       "question": "Ist die beglaubigte Übersetzung vor Gericht gültig?",
-      "answer": "Nennen Sie Zielland, empfangende Stelle und Verwendungszweck. Die Übersetzung wird für den vereinbarten Auftrag erstellt. Welche Unterlagen und Formate das Verfahren verlangt, legt die empfangende Stelle fest."
+      "answer": "Ja: Deutsche Gerichte akzeptieren Übersetzungen von Übersetzern, die bei einem deutschen Gericht ermächtigt sind (in meinem Fall beim OLG Köln), spanische Gerichte Übersetzungen von traductores jurados des MAEC. Ob das ganze Urteil oder nur Teile übersetzt werden müssen, entscheidet das Gericht; Ihre Anwältin oder Ihr Anwalt weiß, was benötigt wird."
     },
     {
       "question": "Bieten Sie Eilservice für Prozessfristen?",
-      "answer": "Der Liefertermin wird nach Prüfung der Unterlagen im Angebot bestätigt. Nennen Sie Ihre Frist bereits beim Versand des Scans. Eilaufträge hängen von Umfang und Verfügbarkeit ab."
+      "answer": "Ja, wenn die Frist es zulässt. Nennen Sie das Fristende bei der Anfrage, dann bestätige ich im Angebot, ob es machbar ist. Bei sehr knappen Fristen senden Sie zuerst die unverzichtbaren Seiten (Tenor und wesentliche Gründe) und den Rest danach."
     },
     {
       "question": "Übersetzen Sie Auslieferungsverfahren?",
@@ -49,11 +49,11 @@
     },
     {
       "question": "Wie wird ein spanisches Urteil in Deutschland vollstreckt?",
-      "answer": "Eine beglaubigte Übersetzung kann Bestandteil eines Gerichtsverfahrens sein. Ihre anwaltliche Vertretung oder das zuständige Gericht muss das anwendbare Verfahren sowie die benötigten Bescheinigungen und Unterlagen bestätigen. Die Übersetzung ersetzt weder Anerkennung noch Vollstreckung einer Entscheidung."
+      "answer": "In Zivil- und Handelssachen kann ein spanisches Urteil nach der Verordnung (EU) 1215/2012 in Deutschland ohne Exequaturverfahren vollstreckt werden: Vorgelegt werden das Urteil und die Bescheinigung nach der Verordnung. Das deutsche Vollstreckungsorgan kann eine Übersetzung ins Deutsche verlangen, daher sollte sie mit den übrigen Unterlagen bereitliegen."
     },
     {
       "question": "Übersetzen Sie Scheidungsurteile für das Standesamt?",
-      "answer": "Eine beglaubigte Übersetzung kann Bestandteil eines Gerichtsverfahrens sein. Ihre anwaltliche Vertretung oder das zuständige Gericht muss das anwendbare Verfahren sowie die benötigten Bescheinigungen und Unterlagen bestätigen. Die Übersetzung ersetzt weder Anerkennung noch Vollstreckung einer Entscheidung."
+      "answer": "Ja. Damit eine in Spanien geschiedene Ehe im deutschen Personenstandsregister berücksichtigt wird, legen Sie das rechtskräftige Scheidungsurteil (sentencia firme) mit der Bescheinigung nach der Verordnung (EU) 2019/1111 vor; das Standesamt kann eine Übersetzung verlangen. Ich übersetze Urteil, Bescheinigung und gegebenenfalls die Scheidungsvereinbarung (convenio regulador)."
     },
     {
       "question": "Was ist ein Rechtshilfeersuchen und wie wird es übersetzt?",
@@ -61,7 +61,7 @@
     },
     {
       "question": "Kann ich die Übersetzung für ein Rechtsmittel verwenden?",
-      "answer": "Eine beglaubigte Übersetzung kann Bestandteil eines Gerichtsverfahrens sein. Ihre anwaltliche Vertretung oder das zuständige Gericht muss das anwendbare Verfahren sowie die benötigten Bescheinigungen und Unterlagen bestätigen. Die Übersetzung ersetzt weder Anerkennung noch Vollstreckung einer Entscheidung."
+      "answer": "Ja: Für ein Rechtsmittel muss Ihre Anwältin oder Ihr Anwalt genau verstehen, was in der Entscheidung steht, und wird das Rechtsmittel im anderen Land eingelegt, ist die Übersetzung oft beizufügen. Melden Sie sich sofort nach Zustellung, denn Rechtsmittelfristen sind kurz und verlängern sich durch die Übersetzung nicht."
     }
   ]
 }

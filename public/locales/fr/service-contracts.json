@@ -33,7 +33,7 @@
   "faqs": [
     {
       "question": "Les traductions de contrats ont valeur juridique?",
-      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+      "answer": "La traduction assermentée atteste que le texte traduit correspond fidèlement à l’original, mais c’est l’original signé qui engage les parties. Dans un contrat bilingue, il convient de prévoir quelle version prévaut en cas de divergence ; la traduction assermentée est utilisée lorsqu’un tribunal, un notaire ou une administration l’exige."
     },
     {
       "question": "Quels contrats traduisez-vous?",
@@ -41,7 +41,7 @@
     },
     {
       "question": "Délai pour un contrat volumineux?",
-      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+      "answer": "Cela dépend du nombre de pages, des annexes et de la technicité des clauses ; le délai est confirmé dans le devis. Envoyez la version définitive et la date de signature : toute modification ultérieure de l’original oblige à revoir et recertifier la traduction."
     },
     {
       "question": "Proposez-vous la révision?",
@@ -53,7 +53,7 @@
     },
     {
       "question": "Faut-il une traduction assermentée pour un contrat de travail espagnol en Allemagne?",
-      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+      "answer": "Pour signer et travailler en Allemagne, en général non. Elle est demandée lorsque le contrat est présenté à une autorité allemande : Agentur für Arbeit, Ausländerbehörde, tribunal du travail ou Deutsche Rentenversicherung pour justifier des périodes travaillées en Espagne. Une traduction certifiée par une traductrice habilitée en Allemagne suffit alors."
     },
     {
       "question": "Traduisez-vous des contrats avec des clauses techniques?",

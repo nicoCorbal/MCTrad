@@ -33,15 +33,15 @@
   "faqs": [
     {
       "question": "Can I use the certified translation to register my marriage in Spain?",
-      "answer": "A sworn translation can be used when requested by the receiving organisation. For certain public documents exchanged between EU countries, Regulation (EU) 2016/1191 simplifies authentication and a multilingual form may replace a translation. Check the requirement before ordering."
+      "answer": "Yes. A marriage celebrated in Germany is registered with the Spanish consular civil registry if you live there, or with the Central Civil Registry if you live in Spain. You submit the German Heiratsurkunde and, unless the registry accepts a multilingual extract, its sworn translation into Spanish."
     },
     {
       "question": "Can I use the same translation in Germany and Spain?",
-      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+      "answer": "Not always: each country requires certification under its own system. Spanish authorities accept translations by MAEC sworn translators and German authorities those by translators authorised by a German court. As I hold both qualifications, I can certify the same translation for both countries and save you a second order."
     },
     {
       "question": "What information is needed to translate family reunification documents?",
-      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+      "answer": "For family reunification, the consulate or immigration office usually asks for the marriage certificate and often the birth certificates. Send all the documents together and name the receiving authority: they are quoted at once and names and dates are rendered identically across all translations."
     },
     {
       "question": "Do you translate divorce decrees?",
@@ -49,15 +49,15 @@
     },
     {
       "question": "Does the German marriage certificate need an apostille?",
-      "answer": "An apostille is not always required. Public documents covered by Regulation (EU) 2016/1191, including certain birth and marriage certificates, are exempt when presented in another EU country. Other documents or destinations may have different requirements. Consult the official guidance and the receiving organisation."
+      "answer": "For use in Spain, usually not: Regulation (EU) 2016/1191 exempts marriage certificates issued in an EU country from the apostille. That regulation and the multilingual extract can even make a translation unnecessary for some procedures. A certificate from outside the EU, however, usually needs an apostille or legalisation before translation."
     },
     {
-      "question": "Should I provide the civil registry’s requirements and deadline?",
-      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+      "question": "What is a certificate of capacity to marry (Ehefähigkeitszeugnis)?",
+      "answer": "It certifies that a person is free to marry. A Spanish national marrying in Germany will be asked by the Standesamt for a certificate of capacity to marry issued by the Spanish civil registry after a short procedure. The Standesamt will tell you whether it accepts the multilingual format or needs a translation; if so, I can provide it as a translator authorised in Germany."
     },
     {
-      "question": "What should I check if the certificate comes from another country?",
-      "answer": "Specify the destination country, receiving organisation and intended use. The translation is prepared for the agreed assignment; the recipient determines the required documents, accepted formats and procedural requirements."
+      "question": "Does a multilingual extract make translation unnecessary?",
+      "answer": "Often, yes. Spain and Germany issue multilingual marriage extracts, and Regulation (EU) 2016/1191 provides multilingual forms that must be accepted without translation. However, they do not contain every detail (such as the matrimonial property regime or marginal notes), so some procedures still require the full certificate with a translation. Check with the receiving authority first."
     },
     {
       "question": "Do you translate the German Stammbuch?",

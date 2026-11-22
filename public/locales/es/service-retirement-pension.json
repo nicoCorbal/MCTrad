@@ -35,7 +35,7 @@
   "faqs": [
     {
       "question": "¿Necesito traducir mi resolución de pensión alemana para cobrarla en España?",
-      "answer": "La necesidad de traducción depende del trámite y de la entidad que solicita los documentos. Confirme los requisitos con la Seguridad Social, la Deutsche Rentenversicherung o la administración destinataria y envíe las comunicaciones concretas que quiera traducir."
+      "answer": "Para cobrarla, no: la Deutsche Rentenversicherung puede pagar la pensión directamente en una cuenta española. La traducción se necesita cuando otro organismo pide la resolución (Rentenbescheid): el INSS para coordinar las pensiones, la Agencia Tributaria para la declaración, un banco o un juzgado."
     },
     {
       "question": "¿Qué es el certificado de vida y para qué sirve?",
@@ -43,7 +43,7 @@
     },
     {
       "question": "¿Qué necesito indicar para traducir documentos de cotización de España y Alemania?",
-      "answer": "La necesidad de traducción depende del trámite y de la entidad que solicita los documentos. Confirme los requisitos con la Seguridad Social, la Deutsche Rentenversicherung o la administración destinataria y envíe las comunicaciones concretas que quiera traducir."
+      "answer": "Indique para qué organismo es y aporte el informe de vida laboral español y el historial de cotización alemán (Versicherungsverlauf). Según el Reglamento (CE) 883/2004, los periodos cotizados en ambos países se suman y cada país paga su parte. Los organismos intercambian datos entre sí, pero suelen pedir traducción de los documentos que aporta usted."
     },
     {
       "question": "¿Traducís documentos de la Deutsche Rentenversicherung?",
@@ -51,11 +51,11 @@
     },
     {
       "question": "¿Cuánto tarda la traducción de una resolución de pensión?",
-      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+      "answer": "Una resolución de pensión alemana suele incluir varias páginas de cálculo (Anlagen) además de la resolución en sí. Indique si necesita la resolución completa o solo algunas partes: muchos organismos se conforman con las páginas principales y eso reduce el plazo y el coste. El plazo se confirma en el presupuesto."
     },
     {
       "question": "¿La traducción sirve para Hacienda?",
-      "answer": "La necesidad de traducción depende del trámite y de la entidad que solicita los documentos. Confirme los requisitos con la Seguridad Social, la Deutsche Rentenversicherung o la administración destinataria y envíe las comunicaciones concretas que quiera traducir."
+      "answer": "Sí. Si percibe una pensión alemana y es residente fiscal en España, debe declararla en el IRPF, y la Agencia Tributaria puede pedirle que aporte la resolución o el certificado anual de la DRV traducidos. El convenio de doble imposición entre España y Alemania determina dónde tributa; consulte a un asesor fiscal sobre su caso."
     }
   ]
 }

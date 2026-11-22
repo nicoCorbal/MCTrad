@@ -37,11 +37,11 @@
     },
     {
       "question": "¿Cuánto tarda la traducción de un expediente académico?",
-      "answer": "El plazo se confirma al revisar el documento y aceptar el presupuesto. Si tiene una fecha límite, indíquela al enviar el escaneo; los encargos urgentes dependen de la extensión y de la disponibilidad."
+      "answer": "Depende del número de páginas: un título suele ocupar una página, pero una certificación académica con todas las asignaturas puede ocupar varias, y los programas de asignaturas, muchas más. Envíe todo el expediente para presupuestar a la vez e indique la fecha límite de la solicitud."
     },
     {
       "question": "¿La traducción sirve para universidades alemanas?",
-      "answer": "Indique el país, el organismo destinatario y el trámite. La traducción se prepara conforme al encargo, pero la lista de documentos, el formato admitido y los requisitos del procedimiento los establece el destinatario."
+      "answer": "Sí. Las universidades alemanas y uni-assist aceptan traducciones hechas por traductores habilitados, y soy traductora habilitada por el OLG Köln. Muchas admiten documentos en alemán o inglés; compruebe en la página de admisión de su universidad qué idioma y qué documentos pide."
     },
     {
       "question": "¿Traducís el Suplemento Europeo al Título?",
@@ -49,7 +49,7 @@
     },
     {
       "question": "¿Cómo se homologa un título alemán en España?",
-      "answer": "Identifique primero si su caso requiere homologación, equivalencia u otro procedimiento de reconocimiento. Consulte el portal oficial y la autoridad competente para su profesión y país de destino. El servicio de traducción cubre los documentos del encargo; no sustituye la tramitación administrativa."
+      "answer": "Se solicita ante el Ministerio de Ciencia, Innovación y Universidades. Se aportan el título y la certificación académica alemanes con su traducción oficial al español; los documentos expedidos en la UE no necesitan legalización. Si su objetivo es ejercer una profesión regulada, compruebe antes si le corresponde homologación o reconocimiento profesional."
     },
     {
       "question": "¿Qué es la equivalencia de títulos y en qué se diferencia de la homologación?",
@@ -57,7 +57,7 @@
     },
     {
       "question": "¿Puedo trabajar en Alemania con mi título español?",
-      "answer": "Identifique primero si su caso requiere homologación, equivalencia u otro procedimiento de reconocimiento. Consulte el portal oficial y la autoridad competente para su profesión y país de destino. El servicio de traducción cubre los documentos del encargo; no sustituye la tramitación administrativa."
+      "answer": "Si la profesión no está regulada en Alemania, puede trabajar sin reconocimiento formal; aun así, la Zeugnisbewertung de la ZAB ayuda a que el empleador entienda su título. Para profesiones reguladas (medicina, enfermería, docencia, abogacía, algunas ingenierías) necesita el reconocimiento de la autoridad competente. Consulte el portal Anerkennung in Deutschland para su caso."
     },
     {
       "question": "¿Traducís títulos de FP y Bachillerato?",

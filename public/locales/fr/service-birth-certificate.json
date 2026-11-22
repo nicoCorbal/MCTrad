@@ -33,23 +33,23 @@
   "faqs": [
     {
       "question": "Quelle validité a la traduction assermentée d'un acte de naissance?",
-      "answer": "La traduction assermentée peut être utilisée lorsque le destinataire la demande. Pour certains documents publics entre pays de l’UE, le règlement (UE) 2016/1191 simplifie l’authentification ; un formulaire multilingue peut remplacer la traduction. Vérifiez le besoin avant de passer commande."
+      "answer": "La traduction assermentée porte la signature et le cachet d’une traductrice nommée par le ministère espagnol des Affaires étrangères (MAEC) : elle a donc un caractère officiel auprès de l’état civil, des consulats et des administrations espagnoles. Pour les autorités allemandes, je peux aussi la certifier en tant que traductrice habilitée par l’OLG de Cologne, le format reconnu par les Standesämter."
     },
     {
       "question": "Combien de temps prend la traduction d'un acte de naissance?",
-      "answer": "Le délai est confirmé après examen des documents dans le devis. Indiquez votre échéance dès l’envoi du scan. Les demandes urgentes dépendent du volume et de la disponibilité."
+      "answer": "Un acte de naissance compte généralement une ou deux pages : c’est l’une des commandes les plus rapides. Le délai exact figure dans le devis, selon la charge de travail du moment et selon que vous avez besoin de l’original papier par courrier."
     },
     {
       "question": "Dois-je apostiller mon acte de naissance avant de le faire traduire?",
-      "answer": "L’apostille n’est pas toujours requise. Les documents publics couverts par le règlement (UE) 2016/1191, notamment certains actes de naissance et de mariage, en sont dispensés lorsqu’ils sont présentés dans un autre pays de l’UE. D’autres documents ou destinations peuvent suivre des règles différentes. Consultez les informations officielles et le destinataire."
+      "answer": "Entre l’Espagne et l’Allemagne, en général non : le règlement (UE) 2016/1191 dispense d’apostille les actes de naissance délivrés dans un pays de l’UE et présentés dans un autre. Si l’acte provient d’un pays hors UE, l’apostille est apposée d’abord sur l’original, puis traduite avec lui."
     },
     {
       "question": "Combien coûte la traduction d'un acte de naissance?",
       "answer": "Le prix dépend des langues, du volume et des annexes. Envoyez l’acte complet pour recevoir un devis adapté, généralement sous 24 heures."
     },
     {
-      "question": "Quelles informations fournir pour une traduction destinée à une démarche de nationalité?",
-      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+      "question": "Quel acte de naissance faut-il pour une démarche de nationalité ?",
+      "answer": "Pour la nationalité espagnole, on demande en général une copie intégrale (certificado literal) récente ; pour la naturalisation allemande, la Geburtsurkunde complète avec la filiation. Indiquez l’organisme destinataire : un extrait plurilingue ne suffit pas toujours, et il vaut mieux traduire d’emblée le bon document."
     },
     {
       "question": "Quelle est la différence entre extrait et copie intégrale?",
@@ -57,7 +57,7 @@
     },
     {
       "question": "La traduction est-elle acceptée par l'ambassade allemande?",
-      "answer": "Précisez le pays, l’organisme destinataire et la démarche. La traduction est préparée pour la commande convenue ; les pièces nécessaires, les formats acceptés et les conditions de la procédure sont fixés par le destinataire."
+      "answer": "Les représentations allemandes en Espagne acceptent généralement les traductions de traducteurs assermentés nommés par le MAEC pour les visas, passeports et démarches de nationalité. Si le document doit ensuite servir en Allemagne, je peux aussi certifier la traduction en tant que traductrice habilitée en Allemagne, afin qu’elle soit valable des deux côtés."
     },
     {
       "question": "Comment envoyer mon acte de naissance pour traduction?",
